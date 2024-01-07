@@ -1,4 +1,4 @@
-# Software Project Management (SOFE3700)
+# Software Project Management (SOFE3490)
 (template taken from jasonmzx)
 
 | Category                     | Mark   |
