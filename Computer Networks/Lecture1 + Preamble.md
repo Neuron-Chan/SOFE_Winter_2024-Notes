@@ -18,3 +18,15 @@
 ## <ins>Course Overview</ins>
 
 Network history and architectures; reference Model for Open Systems Interconnection (OSI): descriptions, examples, and applications; bridges, routers, gateways; routing, multicast deliver; TCP/IP protocol suite; network topologies (ring, bus, tree, star, mesh); local area networks, Ethernet, Token passing, wireless LAN, personal LAN, WAN
+
+---
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Computer Networks</summary>
+
+  **Intro:**
+  - Information gathering, processing, and distribution are the key technologies in these days
+  - As the ability to gather, process, and distribute information grows, the demand for sophisticated information processing grows even faster.
+  - The merging of computers and communications has had a profound influence on the way computer systems are organized;
+    - From computer center to computer networks
+
+---
