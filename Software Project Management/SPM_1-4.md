@@ -6,7 +6,7 @@
 | 5 Lab Assignments            | 15%    |
 | Tutorials                    | 10%    |
 | In-Class Activities/Quizzes  | 10%    |
-| Midterm (Feb. 26th)           | 30%    |
+| Midterm (Feb. 26th)          | 30%    |
 | Final                        | 35%    |
 
 
