@@ -128,4 +128,33 @@ Networks can be classified by:
   
 - An **“internetwork”** is any larger network made up of smaller component networks. The **“Internet”** (with a capital I) is the set of all connected networks.
 
+### Personal Area Network (PAN)
+Connect devices **over the range of a person**
+- Example of a Bluetooth (wireless) PAN:
+
+### Local Area Networks (LAN)
+Connect devices **in a home or office building**
+- If it is used in a company, it is called enterprise network
+
+### Metropolitan Area Networks (MAN)
+Connect devices **over a metropolitan area (city)**
+Example: MAN based on cable TV network:
+- Also delivers Internet
+
+### Wide Area Networks (one images for each)
+Connect devices **over a country**
+Example:
+- WAN connecting three branch offices by using leased lines
+- An ISP (Internet Service Provider) network is also a WAN. Customers buy connectivity from the ISP to use it.
+- A VPN (Virtual Private Network) is a WAN built from virtual links that run on top of the Internet.
+
+**Internetworks**
+
+Internetwork (internet): a collection of interconnected networks
+- Networks are connected through devices (called gateways) that provide the necessary translation, both in terms of hardware and software
+- Gateways are distinguished by the layer at which they operate in the protocol hierarchy:
+  - Using too low-level gateway, will prevent from making connections between different kinds of networks
+  - Using too high-level gateway, then the connection will only work for particular applications.
+  - The level in the middle that is ‘‘just right’’ is often called the network layer, and a router is a gateway that switches packets at the network layer.
+
 ---
