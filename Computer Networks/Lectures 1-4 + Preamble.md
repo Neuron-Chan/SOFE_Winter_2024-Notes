@@ -117,13 +117,13 @@ Networks can be classified by:
   - Point-to-point: connect individual pairs of machines (unicast)
   - Broadcast: the communication channel is shared by all machines on the network
 - Network scale:
-|Scale | Type|
-|-|-|
-|Vicinity | PAN (Personal Area Network) |
-|Building | LAN (Local Area Network) |
-|City     |   MAN (Metropolitan Area Network) |
-|Country  | WAN (Wide Area Network) |
-|Planet   | The Internet (network of all networks) |
+| Scale    | Type                                   |
+|----------|----------------------------------------|
+| Vicinity | PAN (Personal Area Network)            |
+| Building | LAN (Local Area Network)               |
+| City     | MAN (Metropolitan Area Network)        |
+| Country  | WAN (Wide Area Network)                |
+| Planet   | The Internet (network of all networks) |
   
 - An “internetwork” is any larger network made up of smaller component
 networks. The “Internet” (with a capital I) is the set of all connected
