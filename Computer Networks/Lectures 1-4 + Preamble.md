@@ -188,6 +188,16 @@ Packet switches:
 - forward packets (chunks of data)
 - routers and switches
 
+Internet: “network of networks”
+- Interconnected ISPs
+
+Protocols:
+- Control sending, receiving of messages
+- e.g., TCP, IP, HTTP, Skype, 802.11
+
+Internet standards:
+- RFC: Request for comments
+- IETF: Internet Engineering Task Force
 
 </details>
 
@@ -200,4 +210,5 @@ Packet switches:
 
 
 </details>
+
 ---
