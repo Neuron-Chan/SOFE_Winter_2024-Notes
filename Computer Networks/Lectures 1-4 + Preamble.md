@@ -222,6 +222,31 @@ At center: small number of well-connected large networks
 
 ## Cloud (Infrastructure as a Service)
 
+# Network Scurity
+## Malware
+Malware exists in hosts via the internet. Malware can get into host machines from:
+- virus: self-replicating infection by receiving/executing object (e.g., e-mail attachment)
+- worm: self-replicating infection by passively receiving object that gets itself executed
+
+Spyware: malware that can record keystrokes, web sites visited, upload info to collection site
+
+Infected host can be enrolled in *botnet*, used for spam, or DDoS attacks
+
+## Server Attacks, Network infrastructure
+
+Denial of Service (DoS): attackers make resources (server, bandwidth) unavailable to legitimate traffic by overwhelming resource with bogus traffic
+1. select target
+2. break into hosts around the network
+3. send packets to target from compromised hosts\
+
+
+## Packet sniffing
+- broadcast media (shared Ethernet, wireless)
+- promiscuous network interface reads/records all packets (e.g., including passwords!) passing by
+- wireshark software is a (free) packet-sniffer
+
+## Fake addresses
+*IP spoofing*: send packet with false source address
 
 </details>
 
