@@ -46,13 +46,13 @@ Lectures 1-4
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Computer Networks</summary>
 
 
-  **Intro:**
+  # **Intro:**
   - Information gathering, processing, and distribution are the key technologies in these days
   - As the ability to gather, process, and distribute information grows, the demand for sophisticated information processing grows even faster.
   - The merging of computers and communications has had a profound influence on the way computer systems are organized;
     - From computer center to computer networks
 
-  **Uses of Computer Networks:**
+#  **Uses of Computer Networks:**
 
   Computer networks are collections of autonomous computers interconnected by a single technology, e.g., the Internet
   
@@ -109,7 +109,7 @@ Other popular uses are communication, e.g., email, VoIP, and e-commerce
   - Botnets: pool of compromised machines used to send spams
   - Phishing: messages masquerade as originating from a trustworthy party (e.g. your bank), to trick you into revealing sensitive information
 
-**Network Hardware:**
+# **Network Hardware:**
 
 Networks can be classified by:
 
@@ -148,7 +148,7 @@ Example:
 - An ISP (Internet Service Provider) network is also a WAN. Customers buy connectivity from the ISP to use it.
 - A VPN (Virtual Private Network) is a WAN built from virtual links that run on top of the Internet.
 
-**Internetworks**
+# **Internetworks**
 
 Internetwork (internet): a collection of interconnected networks
 - Networks are connected through devices (called gateways) that provide the necessary translation, both in terms of hardware and software
