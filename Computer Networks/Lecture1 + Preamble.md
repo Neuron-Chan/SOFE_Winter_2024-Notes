@@ -15,6 +15,25 @@
 |74021 | ERC3052  | Thr 11am-2pm | 18/1, 1/2, 15/2, 7/3, 21/3, 4/4   | Amin Avan         |
 |74283 | ERC3052  | Thr 11am-2pm | 11/1, 25/1, 8/2, 29/2, 14/3, 28/3 | Amin Avan         |
 
+**Quizzes:**
+- Lockdown browser will be used in quizzes and must be done in class.
+- Expect a quiz every week. *(I will drop the lowest quiz mark)*
+
+| Category                     | Mark   |
+|------------------------------|--------|
+| In-Class Activities/Quizzes  | 10%    |
+| Labs                         | 15%    |
+| Project                      | 15%    |
+| Midterm (Feb. 26th)          | 20%    |
+| Final                        | 40%    |
+
+**Project:**
+TBD
+
+**Midterm:**
+- The exam will be on Feb. 215h during the class time.
+- No midterm deferral, marks will be added to the final exam
+
 ## <ins>Course Overview</ins>
 
 Network history and architectures; reference Model for Open Systems Interconnection (OSI): descriptions, examples, and applications; bridges, routers, gateways; routing, multicast deliver; TCP/IP protocol suite; network topologies (ring, bus, tree, star, mesh); local area networks, Ethernet, Token passing, wireless LAN, personal LAN, WAN
