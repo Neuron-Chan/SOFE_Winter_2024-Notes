@@ -126,8 +126,6 @@ Networks can be classified by:
 | Country  | WAN (Wide Area Network)                |
 | Planet   | The Internet (network of all networks) |
   
-- An “internetwork” is any larger network made up of smaller component
-networks. The “Internet” (with a capital I) is the set of all connected
-networks.
+- An **“internetwork”** is any larger network made up of smaller component networks. The **“Internet”** (with a capital I) is the set of all connected networks.
 
 ---
