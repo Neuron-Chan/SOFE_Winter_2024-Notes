@@ -175,27 +175,27 @@ The modern Internet is more complex:
 
 ## What’s the Internet?
 
-Millions of connected computing devices:
+### Millions of connected computing devices:
 - hosts = end systems
 - running network apps
 - Eg. PC, smartphone, ...
 
-Communication links
+### Communication links
 - fiber, copper, radio, satellite
 - transmission rate: bandwidth
 
-Packet switches:
+### Packet switches:
 - forward packets (chunks of data)
 - routers and switches
 
-Internet: “network of networks”
+### Internet: “network of networks”
 - Interconnected ISPs
 
-Protocols:
+### Protocols:
 - Control sending, receiving of messages
 - e.g., TCP, IP, HTTP, Skype, 802.11
 
-Internet standards:
+### Internet standards:
 - RFC: Request for comments
 - IETF: Internet Engineering Task Force
 
