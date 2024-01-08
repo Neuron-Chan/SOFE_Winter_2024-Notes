@@ -23,6 +23,7 @@ Network history and architectures; reference Model for Open Systems Interconnect
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Computer Networks</summary>
 
+
   **Intro:**
   - Information gathering, processing, and distribution are the key technologies in these days
   - As the ability to gather, process, and distribute information grows, the demand for sophisticated information processing grows even faster.
