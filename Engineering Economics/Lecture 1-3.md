@@ -1,8 +1,8 @@
-Subjects covered:
+Subjects to be covered:
 
-- ***Introduction to Engineering Economics: Macro & Micro Economics***
-- ***Supply and Demand / Estimating models***
-- ***Role of the Bank of Canada***
+- ***<ins>Introduction to Engineering Economics: Macro & Micro Economics</ins>***
+- ***<ins>Supply and Demand / Estimating models</ins>***
+- ***<ins>Role of the Bank of Canada</ins>***
 - Balance Sheet Accounting
 - Financial Ratios
 - Time value of money
