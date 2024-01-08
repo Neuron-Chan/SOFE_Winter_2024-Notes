@@ -248,6 +248,17 @@ Denial of Service (DoS): attackers make resources (server, bandwidth) unavailabl
 ## Fake addresses
 *IP spoofing*: send packet with false source address
 
+# Wireless LANS
+In 802.11, clients communicate via an AP (Access Point) that is wired to the rest of the network.
+Uses the ISM (Industrial, Scientific, and Medical) bands defined by ITU-R
+- 902-928 MHz
+- 2.4-2.5 GHz
+- 5.725-5.825 GHz
+
+## IEEE802.11 (WiFi)
+Signals in the ISM band vary in strength due to many effects, such as multipath fading due to reflections
+- requires complex transmission schemes, e.g., OFDM (Orthogonal Frequency Division Multiplexing)
+
 </details>
 
 ---
