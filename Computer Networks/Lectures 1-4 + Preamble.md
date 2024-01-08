@@ -97,4 +97,16 @@ Other popular uses are communication, e.g., email, VoIP, and e-commerce
 | Yes | No  | Networks in unwired buildings|
 | Yes | Yes | Store inventory with a handheld computer|
 
+## Social Issues
+- Network neutrality – no network restrictions
+  - Communications that are not differentiated by their content or source or who is providing the content
+- Content ownership,
+  - Pirated music and movies
+- Anonymity and censorship
+  - Web browsers store cookies (small files) on users’ computers to allow companies to track users’ activities
+- Privacy, e.g., Web tracking and profiling
+- Theft of information, e.g.,
+  - Botnets: pool of compromised machines used to send spams
+  - Phishing: messages masquerade as originating from a trustworthy party (e.g. your bank), to trick you into revealing sensitive information
+
 ---
