@@ -39,6 +39,7 @@ TBD
 Network history and architectures; reference Model for Open Systems Interconnection (OSI): descriptions, examples, and applications; bridges, routers, gateways; routing, multicast deliver; TCP/IP protocol suite; network topologies (ring, bus, tree, star, mesh); local area networks, Ethernet, Token passing, wireless LAN, personal LAN, WAN
 
 Todo: Upload images
+Lectures 1-4
 ---
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Computer Networks</summary>
@@ -84,5 +85,15 @@ Other popular uses are communication, e.g., email, VoIP, and e-commerce
 
 ### Mobile Users
 
+- Tablets, laptops, and smart phones are popular devices; WiFi hotspots and 4G LTE cellular provide wireless connectivity.
+- Mobile users communicate, e.g., voice and texts, consume content, e.g., video and Web, and use sensors, e.g., GPS.
+- Wireless and mobile are related but different:
+
+| Wireless  | Mobile | Typical applications|
+|-|-|-|
+|  No | No  | Desktop computers in offices|
+|  No | Yes | A notebook computer used in a hotel room|
+| Yes | No  | Networks in unwired buildings|
+| Yes | Yes | Store inventory with a handheld computer|
 
 ---
