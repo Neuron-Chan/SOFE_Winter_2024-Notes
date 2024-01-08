@@ -211,6 +211,18 @@ Access ISPs in turn must be interconnected.
 Resulting network of networks is very complex
 - Evolution was driven by economics and national policies
 
+At center: small number of well-connected large networks
+- “tier-1” commercial ISPs (e.g., Level 3, Sprint, AT&T, NTT), national & international coverage
+- content provider network (e.g, Google): private network that connects its data centers to Internet, often bypassing tier-1, regional ISPs
+
+**TODO: GET IMAGES FOR THIS SECTION (from slide 30)**
+
+# Types Of Networks
+## Network Virtualization
+
+## Cloud (Infrastructure as a Service)
+
+
 </details>
 
 ---
