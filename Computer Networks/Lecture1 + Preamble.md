@@ -38,6 +38,7 @@ TBD
 
 Network history and architectures; reference Model for Open Systems Interconnection (OSI): descriptions, examples, and applications; bridges, routers, gateways; routing, multicast deliver; TCP/IP protocol suite; network topologies (ring, bus, tree, star, mesh); local area networks, Ethernet, Token passing, wireless LAN, personal LAN, WAN
 
+Todo: Upload images
 ---
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Computer Networks</summary>
@@ -75,6 +76,11 @@ Other popular uses are communication, e.g., email, VoIP, and e-commerce
 | G2C | Government-to-consumer | Government distributing tax forms electronically |
 | C2C | Consumer-to-consumer |Auctioning second-hand products online |
 | P2P | Peer-to-peer | Music sharing |
+
+### Home Applications
+- Homes contain many networked devices, e.g., computers, TVs, connected to the Internet by cable, DSL, wireless, etc.
+- Home users communicate, e.g., social networks, consume content, e.g., video, and transact, e.g., auctions
+- Some application use the peer-to-peer model in which there are no fixed clients and servers:
 
 ### Mobile Users
 
