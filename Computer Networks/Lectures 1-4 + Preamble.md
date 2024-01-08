@@ -259,6 +259,43 @@ Uses the ISM (Industrial, Scientific, and Medical) bands defined by ITU-R
 Signals in the ISM band vary in strength due to many effects, such as multipath fading due to reflections
 - requires complex transmission schemes, e.g., OFDM (Orthogonal Frequency Division Multiplexing)
 
+Radio broadcasts interfere with each other, and radio ranges may incompletely overlap
+- CSMA (Carrier Sense Multiple Access) designs are used
+
+# RFID & Sensor Networks
+
+## RFID (Radio Frequency Identification)
+Passive UHF RFID networks everyday objects:
+- Tags (stickers with not even a battery) are placed on objects
+- Readers send signals that the tags reflect to communicate
+
+## Sensor networks
+They spread small devices over an area:
+- Devices send sensed data to collector via wireless hops
+
+# Standardization
+Standards define what is needed for interoperability
+Some of the many standards bodies:
+Body Area Examples
+ITU
+International Telecommunication Union
+Telecommunications G.992, ADSL
+H.264, MPEG4
+IEEE
+Institute of Electrical and Electronics Engineers
+Communications 802.3, Ethernet
+802.11, WiFi
+IETF
+Internet Engineering Task Force
+Internet RFC 2616, HTTP/1.1
+RFC 1034/1035,
+DNS
+W3C
+World Wide Web Consortium
+Web HTML5 standard
+CSS standard
+53
+
 </details>
 
 ---
