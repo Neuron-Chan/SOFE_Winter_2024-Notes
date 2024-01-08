@@ -199,6 +199,18 @@ The modern Internet is more complex:
 - RFC: Request for comments
 - IETF: Internet Engineering Task Force
 
+
+# Internet Architecture
+## Internet structure: network of networks
+End systems connect to Internet via access ISPs (Internet Service Providers)
+- Residential, company and university ISPs
+
+Access ISPs in turn must be interconnected.
+- So that any two hosts can send packets to each other
+
+Resulting network of networks is very complex
+- Evolution was driven by economics and national policies
+
 </details>
 
 ---
