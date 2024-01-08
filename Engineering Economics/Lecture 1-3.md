@@ -1,24 +1,24 @@
 Subjects covered:
 
-**Introduction to Engineering Economics: Macro & Micro Economics**
-**Supply and Demand / Estimating models**
-**Role of the Bank of Canada**
-Balance Sheet Accounting
-Financial Ratios
-Time value of money
-Interest rates / Cash flow diagrams / C.F. Analysis
-Compounding & Series
-MARR & IRR / ERR & Comparisons
-Benefit Analysis A.W. / Payback Period
-Uncertainty & Risk
-Probability Analysis & Decision Trees
-Depreciation
-Taxes & Cash Flow
-Replacement Analysis & Decisions
-Inflation & Price CHange
-Public Decision Making
-Market Failures & Remedies
-FINAL EXAM
+- **Introduction to Engineering Economics: Macro & Micro Economics**
+- **Supply and Demand / Estimating models**
+- **Role of the Bank of Canada**
+- Balance Sheet Accounting
+- Financial Ratios
+- Time value of money
+- Interest rates / Cash flow diagrams / C.F. Analysis
+- Compounding & Series
+- MARR & IRR / ERR & Comparisons
+- Benefit Analysis A.W. / Payback Period
+- Uncertainty & Risk
+- Probability Analysis & Decision Trees
+- Depreciation
+- Taxes & Cash Flow
+- Replacement Analysis & Decisions
+- Inflation & Price CHange
+- Public Decision Making
+- Market Failures & Remedies
+- FINAL EXAM
 
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Engineering Economics: Macro & Micro Economics</summary>
