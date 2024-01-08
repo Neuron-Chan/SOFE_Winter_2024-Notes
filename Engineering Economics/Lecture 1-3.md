@@ -20,6 +20,7 @@ Subjects covered:
 - Market Failures & Remedies
 - FINAL EXAM
 
+---
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Engineering Economics: Macro & Micro Economics</summary>
 
@@ -56,3 +57,4 @@ Subjects covered:
 
 
 # Network Hardware:
+---
