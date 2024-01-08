@@ -188,6 +188,7 @@ Packet switches:
 - forward packets (chunks of data)
 - routers and switches
 
+---
 </details>
 ---
 
