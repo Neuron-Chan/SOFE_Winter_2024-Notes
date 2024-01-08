@@ -173,4 +173,29 @@ The modern Internet is more complex:
 - **ISP** = Internet Service Provider,
 - **IXP** = Internet eXchange Point, where ISPs connect their networks to exchange traffic
 
+## What’s the Internet?
+
+Millions of connected computing devices:
+- hosts = end systems
+- running network apps
+- Eg. PC, smartphone, ...
+
+Communication links
+- fiber, copper, radio, satellite
+- transmission rate: bandwidth
+
+Packet switches:
+- forward packets (chunks of data)
+- routers and switches
+
+
+
+
+
+
+
+
+
+
+
 ---
