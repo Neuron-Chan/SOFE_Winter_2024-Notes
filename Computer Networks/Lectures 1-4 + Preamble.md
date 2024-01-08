@@ -42,6 +42,7 @@ Network history and architectures; reference Model for Open Systems Interconnect
 
 Lectures 1-4
 ---
+
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Computer Networks</summary>
 
@@ -188,8 +189,9 @@ Packet switches:
 - forward packets (chunks of data)
 - routers and switches
 
----
+
 </details>
+
 ---
 
 <details>
