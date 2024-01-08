@@ -97,7 +97,7 @@ Other popular uses are communication, e.g., email, VoIP, and e-commerce
 | Yes | No  | Networks in unwired buildings|
 | Yes | Yes | Store inventory with a handheld computer|
 
-## Social Issues
+### Social Issues
 - Network neutrality – no network restrictions
   - Communications that are not differentiated by their content or source or who is providing the content
 - Content ownership,
@@ -108,5 +108,24 @@ Other popular uses are communication, e.g., email, VoIP, and e-commerce
 - Theft of information, e.g.,
   - Botnets: pool of compromised machines used to send spams
   - Phishing: messages masquerade as originating from a trustworthy party (e.g. your bank), to trick you into revealing sensitive information
+
+**Network Hardware:**
+
+Networks can be classified by:
+
+- Transmission technology:
+  - Point-to-point: connect individual pairs of machines (unicast)
+  - Broadcast: the communication channel is shared by all machines on the network
+- Network scale:
+|Scale | Type|
+|Vicinity | PAN (Personal Area Network) |
+|Building | LAN (Local Area Network) |
+|City     |   MAN (Metropolitan Area Network) |
+|Country  | WAN (Wide Area Network) |
+|Planet   | The Internet (network of all networks) |
+  
+- An “internetwork” is any larger network made up of smaller component
+networks. The “Internet” (with a capital I) is the set of all connected
+networks.
 
 ---
