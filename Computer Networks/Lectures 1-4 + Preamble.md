@@ -188,13 +188,14 @@ Packet switches:
 - forward packets (chunks of data)
 - routers and switches
 
-
+</details>
 ---
+
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Network Software</summary>
 
 
 
 
-
+</details>
 ---
