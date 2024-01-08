@@ -49,4 +49,34 @@ Network history and architectures; reference Model for Open Systems Interconnect
   - The merging of computers and communications has had a profound influence on the way computer systems are organized;
     - From computer center to computer networks
 
+  **Uses of Computer Networks:**
+
+  Computer networks are collections of autonomous computers interconnected by a single technology, e.g., the Internet
+  
+  They have many uses:
+  - Business Applications
+    - Resource sharing
+    - Information sharing
+    - VoIP: Voice over Internet Protocol
+  - Home Applications
+  - Mobile Users
+
+These uses raise social issues.
+
+### Business Applications
+
+Companies  use networks and computers for resource sharing with the client-server model:
+Other popular uses are communication, e.g., email, VoIP, and e-commerce
+
+|Tag| Full name| Example|
+|---|---|---|
+| B2C | Business-to-consumer | Ordering books online |
+| B2B | Business-to-business | Car manufacturer ordering tires from supplier |
+| G2C | Government-to-consumer | Government distributing tax forms electronically |
+| C2C | Consumer-to-consumer |Auctioning second-hand products online |
+| P2P | Peer-to-peer | Music sharing |
+
+### Mobile Users
+
+
 ---
