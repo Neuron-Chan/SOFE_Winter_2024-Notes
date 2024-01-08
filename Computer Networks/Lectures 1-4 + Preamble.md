@@ -117,6 +117,7 @@ Networks can be classified by:
   - Point-to-point: connect individual pairs of machines (unicast)
   - Broadcast: the communication channel is shared by all machines on the network
 - Network scale:
+
 | Scale    | Type                                   |
 |----------|----------------------------------------|
 | Vicinity | PAN (Personal Area Network)            |
