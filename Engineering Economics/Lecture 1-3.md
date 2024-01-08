@@ -62,3 +62,19 @@ Subjects covered:
 </details>
 
 ---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Supply & Demand / Estimating Models</summary>
+
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Role of the BANK of Canada</summary>
+
+
+</details>
+
+---
