@@ -1,3 +1,5 @@
+Todo: Upload images
+
 ## <ins>Office hours</ins>:
 - Tues. 6-7 pm
 - Thurs. 2-3 pm
@@ -38,7 +40,6 @@ TBD
 
 Network history and architectures; reference Model for Open Systems Interconnection (OSI): descriptions, examples, and applications; bridges, routers, gateways; routing, multicast deliver; TCP/IP protocol suite; network topologies (ring, bus, tree, star, mesh); local area networks, Ethernet, Token passing, wireless LAN, personal LAN, WAN
 
-Todo: Upload images
 Lectures 1-4
 ---
 <details>
