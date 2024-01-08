@@ -157,4 +157,20 @@ Internetwork (internet): a collection of interconnected networks
   - Using too high-level gateway, then the connection will only work for particular applications.
   - The level in the middle that is ‘‘just right’’ is often called the network layer, and a router is a gateway that switches packets at the network layer.
 
+# **Internet**
+Before the Internet was the ARPANET (Advanced Research Projects Agency Network ), a decentralized, packet-switched network based on Baran’s ideas. The early Internet used NSFNET (National Science Foundation Network) (1985-1995) as its backbone; universities connected to get on the Internet NSFNET topology in 1988.
+
+The modern Internet is more complex:
+- ISP networks serve as the Internet backbone
+  - ISPs connect or peer to exchange traffic at IXPs
+  - Within each network routers switch packets
+  - Between networks, traffic exchange is set by business agreements
+  - Customers connect at the edge by many means
+    - Cable, DSL, Fiber-to-the-Home, 3G/4G wireless, dialup
+- Data centers concentrate many servers (“the cloud”)
+- Most traffic is content from data centers (esp. video)
+- The architecture continues to evolve
+- **ISP** = Internet Service Provider,
+- **IXP** = Internet eXchange Point, where ISPs connect their networks to exchange traffic
+
 ---
