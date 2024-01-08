@@ -189,10 +189,11 @@ Packet switches:
 - routers and switches
 
 
+---
 
-
-
-
+---
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Network Software</summary>
 
 
 
