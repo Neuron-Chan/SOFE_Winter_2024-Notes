@@ -118,6 +118,7 @@ Networks can be classified by:
   - Broadcast: the communication channel is shared by all machines on the network
 - Network scale:
 |Scale | Type|
+|-|-|
 |Vicinity | PAN (Personal Area Network) |
 |Building | LAN (Local Area Network) |
 |City     |   MAN (Metropolitan Area Network) |
