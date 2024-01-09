@@ -60,6 +60,7 @@ A task is more 'project-like' if it is:
 
 ## Exercise 1.1
 Which of the following is a project, a routine, or an exploration:
+<details>
 <summary>Producing an edition of a newspaper</summary>
 routine
 <summary>Building the channel tunnel.</summary>
@@ -76,7 +77,7 @@ project
 exploration
 <summary>Installing a new version of a word processing application in an organization</summary>
 routine
-
+</details>
 </details>
 
 ---
