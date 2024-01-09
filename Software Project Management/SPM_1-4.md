@@ -99,6 +99,10 @@ exploration
 routine
 </details>
 
+Invisibility, Complexity, Conformity (compliance w/ standards, rules, or laws), and Flexibility make software more problematic to build than other engineered artefacts.
+
+
+
 </details>
 
 ---
