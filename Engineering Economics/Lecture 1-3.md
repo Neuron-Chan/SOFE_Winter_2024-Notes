@@ -10,6 +10,30 @@
 | Midterm 2 (Mar. 14th)        | 25%    |
 | Final                        | 35%    |
 
+Missed midterms are deferred to Final exam.
+
+Final is comprehensive
+
+Project stuff:
+
+- Project will look t estimating economics connected to different possible industrial applications
+  - Multiple Hybrid electric energy systems
+  - These are some of the alternatives that will be proposed. However the group in the proposal can put something it retains interesting forward.
+ 
+3 PARTS
+A) Initial Investigation (By Week 6)
+B) COST Estimation (DATA / Week 10)
+C) Final Reoirt w/ Presentation (recorded)
+
+Energy project will primarily look at estimating the economics connected to different electrical power plants alternatives (example:)
+a) Nuclear SMR Reactor (Nuscale)
+b) a PV solar power plant
+c) a Wind Farm w/ Battery Storage
+d) a Turbogas
+e) Geothermal P.P
+
+Each group will be composed by 5 people each of whom responsible for 1 part. [S.A.M. Software will be used](https://sam.nrel.gov/)
+
 Subjects to be covered:
 
 - ***<ins>Introduction to Engineering Economics: Macro & Micro Economics</ins>***
