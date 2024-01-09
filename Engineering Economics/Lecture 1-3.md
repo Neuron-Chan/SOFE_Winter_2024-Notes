@@ -1,3 +1,15 @@
+# Preamble:
+
+"Open door" policy and "1% policy" in grading.
+
+| Category                     | Mark   |
+|------------------------------|--------|
+| Term Group Project           | 20%    |
+| Drop Quiz                    | 5%     |
+| Midterm 1 (Feb. 8th)         | 15%    |
+| Midterm 2 (Mar. 14th)        | 25%    |
+| Final                        | 35%    |
+
 Subjects to be covered:
 
 - ***<ins>Introduction to Engineering Economics: Macro & Micro Economics</ins>***
@@ -25,9 +37,13 @@ Subjects to be covered:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Engineering Economics: Macro & Micro Economics</summary>
 
+What is Engineering Economics?
 
-# Intro:
-  
+- Base for Engineering Economy Decisions
+- Time Value of Money / Cash Flows / Financial Accounting / Replacement Decisions
+- Taxes / Capital Costs
+- Public Sector Decision Making
+
 
 #  Uses of Computer Networks:
 
