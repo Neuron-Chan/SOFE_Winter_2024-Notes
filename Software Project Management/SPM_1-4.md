@@ -1,5 +1,4 @@
 # Software Project Management (SOFE3490)
-(template taken from jasonmzx)
 
 | Category                     | Mark   |
 |------------------------------|--------|
@@ -8,6 +7,9 @@
 | In-Class Activities/Quizzes  | 10%    |
 | Midterm (Feb. 26th)          | 30%    |
 | Final                        | 35%    |
+
+Office Hours: Mondays 7-8 PM
+3386
 
 
 **Quizzes:**
@@ -23,7 +25,9 @@
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to SPM</summary>
   
-  **Intro:**
+  # Intro:
+
+  
 
 ---
 
