@@ -63,27 +63,40 @@ Which of the following is a project, a routine, or an exploration:
 <details>
 <summary>Producing an edition of a newspaper</summary>
 routine
-  
+</details>
+
+<details>
 <summary>Building the channel tunnel.</summary>
 project
+</details>
 
-<summary>Getting Married</summary>
-project
+<details><summary>Getting Married</summary>
+project</details>
 
+<details>
 <summary>A research project into what makes a good human-computer interface.</summary>
 exploration
+</details>
 
+<details>
 <summary>An investigation into the reason why a user has a problem with a computer system.</summary>
 routine
+</details>
 
+<details>
 <summary>A programming assignment for a second year computing student.</summary>
 project
+</details>
 
+<details>
 <summary>Writing an operating system for a new computer</summary>
 exploration
+</details>
 
+<details>
 <summary>Installing a new version of a word processing application in an organization</summary>
 routine
+</details>
 
 </details>
 
