@@ -48,15 +48,15 @@ Exploration – e.g. finding a cure for cancer: the outcome is very uncertain
 Projects lie in the middle between a job and exploration.
 
 A task is more 'project-like' if it is:
-• Non-routine
-• Planned
-• Aiming at a specific target
-• Carried out for a customer
-• Carried out by a temporary work group
-• Involving several specialisms
-• Made up of several different phases
-• Constrained by time and resources
-• Large and/or complex
+- Non-routine
+- Planned
+- Aiming at a specific target
+- Carried out for a customer
+- Carried out by a temporary work group
+- Involving several specialisms
+- Made up of several different phases
+- Constrained by time and resources
+- Large and/or complex
 
 ## Exercise 1.1
 Which of the following is a project, a routine, or an exploration:
@@ -121,7 +121,7 @@ Execution
 - Implement plan, but plan may be changed as we go along
 
 ## The software development life-cycle
-(todo: insert slide 11)
+![spm1](../static/SPM_1.png)
 
 </details>
 
