@@ -117,15 +117,12 @@ While economics is the sole criterion for selecting best alternatives, real-worl
 - Will the project pay back? Will we run a loss or make a profit? (profitability)
 
 
-### Business Applications
+### How do we determine which project is worth spending X amount of money?
+In building a nuclear-powered, gas-fired, or coal-fired power plant compared to a wind farm;
 
-|Tag| Full name| Example|
-|---|---|---|
-| B2C | Business-to-consumer | Ordering books online |
-| B2B | Business-to-business | Car manufacturer ordering tires from supplier |
-| G2C | Government-to-consumer | Government distributing tax forms electronically |
-| C2C | Consumer-to-consumer |Auctioning second-hand products online |
-| P2P | Peer-to-peer | Music sharing |
+Factors include safety, air pollution, public acceptance, water demand, waste disposal, global warming, etc. are considered in identifying the best alternative.
+
+Many techniques exist (VIKOR, AHP, TOPSIS) that evaluate different aspects and use optimization techniques.
 
 ### Home Applications
 
