@@ -33,7 +33,7 @@ Todo: Upload images
 TBD
 
 **Midterm:**
-- The exam will be on Feb. 215h during the class time.
+- The exam will be on Feb. 21st during the class time.
 - No midterm deferral, marks will be added to the final exam
 
 ## <ins>Course Overview</ins>
