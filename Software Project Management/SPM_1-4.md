@@ -24,9 +24,51 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to SPM</summary>
   
-  # Intro:
+  # Outline:
+*What is software project management?* Is it really different from *ordinary* project management?
 
-  
+*How do you know when a project has been successful?* E.g., do the expectations of the customer/client match those of the developers?
+
+# Why is project management important?
+
+Large amounts of money are spent on Info & Comms. Technology (ICT).
+
+- Projects often fail; Standish Group claim only a third of ICT projects are successful. 82% were late and 43% exceeded their budget.
+- Poor project management is a major factor in these failures.
+
+# What is a project?
+
+The definition can vary, but its most important aspects are its *planning* and *size*.
+
+To compare:
+
+Jobs – repetition of very well-defined and well understood tasks with very little uncertainty
+Exploration – e.g. finding a cure for cancer: the outcome is very uncertain
+
+Projects lie in the middle between a job and exploration.
+
+A task is more 'project-like' if it is:
+• Non-routine
+• Planned
+• Aiming at a specific target
+• Carried out for a customer
+• Carried out by a temporary work group
+• Involving several specialisms
+• Made up of several different phases
+• Constrained by time and resources
+• Large and/or complex
+
+## Exercise 1.1
+Which of the following is a project, a routine, or an exploration:
+- Producing an edition of a newspaper -- routine
+- Building the channel tunnel. -- project
+- Getting Married -- exploration
+- A research project into what makes a good human-computer interface. -- project
+- An investigation into the reason why a user has a problem with a computer system. -- routine
+- A programming assignment for a second year computing student. -- project
+- Writing an operating system for a new computer -- project
+- Installing a new version of a world processing application in an organization -- exploration
+
 
 ---
 
