@@ -101,7 +101,27 @@ routine
 
 Invisibility, Complexity, Conformity (compliance w/ standards, rules, or laws), and Flexibility make software more problematic to build than other engineered artefacts.
 
+Projects can be
 
+- **In-house:** clients & employers are employed by same organization
+- **Out-sourced:** clients & employers are employed by different organizations
+
+"Project manager" could be:
+- a ‘contract manager’ in the client organization
+- a technical project manager in the supplier/services organization
+
+### Activities covered by project management
+Feasibility study
+- Is project technically feasible and worthwhile from a business point of view?
+
+Planning
+- Only done if project is feasible
+
+Execution
+- Implement plan, but plan may be changed as we go along
+
+## The software development life-cycle
+(todo: insert slide 11)
 
 </details>
 
