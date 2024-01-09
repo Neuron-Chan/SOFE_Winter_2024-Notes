@@ -8,13 +8,12 @@
 | Midterm (Feb. 26th)          | 30%    |
 | Final                        | 35%    |
 
-Office Hours: Mondays 7-8 PM
-3386
+Office Hours: Mondays 7-8 PM, SIRC 3386
 
 
 **Quizzes:**
-- Lockdown browser will be used in quizzes and must be done in class.
-- Expect a quiz every week. *(I will drop the lowest quiz mark)*
+- Lockdown browser will be used in quizzes and must be done in class. 
+- Expect a quiz bi-weekly. *(Lowest quiz mark dropped)*
 
 **Midterm:**
 - The exam will be on Feb. 26th during the class time. (**yes that means it's at 8pm**)
