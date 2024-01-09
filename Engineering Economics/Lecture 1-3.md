@@ -23,7 +23,7 @@ Project stuff:
 3 PARTS
 A) Initial Investigation (By Week 6)
 B) COST Estimation (DATA / Week 10)
-C) Final Reoirt w/ Presentation (recorded)
+C) Final Report w/ Presentation (recorded)
 
 Energy project will primarily look at estimating the economics connected to different electrical power plants alternatives (example:)
 a) Nuclear SMR Reactor (Nuscale)
@@ -48,7 +48,7 @@ e) Land
 
 f) Final disposal
 
-Each group will be expected to conduct proper literature review. A proposal of Hybrid A vs Hybrid B is expected (later on *compared for Economics* Considerations). A fina Presentation w/ pre-recorded video will be uploaded as part of the deliverables.
+Each group will be expected to conduct proper literature review. A proposal of Hybrid A vs Hybrid B is expected (later on *compared for Economics* Considerations). A final Presentation w/ pre-recorded video will be uploaded as part of the deliverables.
 
 All work & conclusions presented / written in reports / quizzes must be fully justified and explained.
 
@@ -93,6 +93,8 @@ Subjects to be covered:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Engineering Economics: Macro & Micro Economics</summary>
 
+# Intro to Engineering Economics
+
 What is Engineering Economics?
 
 - Base for Engineering Economy Decisions
@@ -100,8 +102,19 @@ What is Engineering Economics?
 - Taxes / Capital Costs
 - Public Sector Decision Making
 
+Selected levelized costs of electricity and levelized avoided costs of electricity... double bar graph of some kind, measures costs divided by production (todo: include images)
 
-#  Uses of Computer Networks:
+Engineering economy is a collection of techniques simplifying comparisons of alternatives on an economic basis. it is NOT a method or process for determining what the alternatives are, engineering economics only begins *after the alternatives have been identified*.
+
+Engineering economic analysis is able to answer financial questions of varying caliber.
+While economics is the sole criterion for selecting best alternatives, real-world decisions usually include other factors in the decision-making process.
+
+# Frequent Engineering Economics (E.E.) Questions
+
+- Why do the project at all? Is there a need for the project? (necessity)
+- Why do it now? Can it be delayed? Can we afford it now? (urgency/affordability)
+- Why do it this way? Is this the best alternative? Is there a better solution? (optimality/methodology)
+- Will the project pay back? Will we run a loss or make a profit? (profitability)
 
 
 ### Business Applications
