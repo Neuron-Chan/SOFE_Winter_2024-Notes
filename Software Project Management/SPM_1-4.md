@@ -60,14 +60,14 @@ A task is more 'project-like' if it is:
 
 ## Exercise 1.1
 Which of the following is a project, a routine, or an exploration:
-- Producing an edition of a newspaper -- routine
-- Building the channel tunnel. -- project
-- Getting Married -- exploration
-- A research project into what makes a good human-computer interface. -- project
-- An investigation into the reason why a user has a problem with a computer system. -- routine
-- A programming assignment for a second year computing student. -- project
-- Writing an operating system for a new computer -- project
-- Installing a new version of a world processing application in an organization -- exploration
+<summary>Producing an edition of a newspaper</summary> -- routine
+<summary>Building the channel tunnel.</summary> -- project
+<summary>Getting Married</summary> -- project
+<summary>A research project into what makes a good human-computer interface.</summary> -- exploration
+<summary>An investigation into the reason why a user has a problem with a computer system.</summary> -- routine
+<summary>A programming assignment for a second year computing student.</summary> -- project
+<summary>Writing an operating system for a new computer</summary> -- exploration
+<summary>Installing a new version of a word processing application in an organization</summary> -- routine
 
 </details>
 
