@@ -34,6 +34,38 @@ e) Geothermal P.P
 
 Each group will be composed by 5 people each of whom responsible for 1 part. [S.A.M. Software will be used](https://sam.nrel.gov/)
 
+<ins>Costs will have to include:</ins>
+
+a) Installation
+
+b) operations & maintenance
+
+c) Fuel
+
+d) Personnel
+
+e) Land
+
+f) Final disposal
+
+Each group will be expected to conduct proper literature review. A proposal of Hybrid A vs Hybrid B is expected (later on *compared for Economics* Considerations). A fina Presentation w/ pre-recorded video will be uploaded as part of the deliverables.
+
+All work & conclusions presented / written in reports / quizzes must be fully justified and explained.
+
+All exams are closed books, closed notes, unless stated differently. Exams might be on Canvas or on Paper. All quizzes are considered pop quizzes unless previously announced / or stated.
+
+Always have
+
+a) your Calculator
+b) Eng. Economics Formula Sheet
+
+Assignments, Mini Quizzes need to have the following characteristics:
+
+a) be legible
+b) have a cover page
+c) sent via elec
+d) might be scanned in Microsoft Word
+
 Subjects to be covered:
 
 - ***<ins>Introduction to Engineering Economics: Macro & Micro Economics</ins>***
