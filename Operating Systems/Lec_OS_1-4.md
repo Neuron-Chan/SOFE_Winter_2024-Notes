@@ -1,28 +1,29 @@
-# Software Project Management (SOFE3490)
+# Operating Systems (SOFE3950)
 
 | Category                     | Mark   |
 |------------------------------|--------|
-| 5 Lab Assignments            | 15%    |
-| Tutorials                    | 10%    |
 | In-Class Activities/Quizzes  | 10%    |
-| Midterm (Feb. 26th)          | 30%    |
-| Final                        | 35%    |
+| Tutorials                    | 10%    |
+| Labs                         | 15%    |
+| Midterm (Feb. 13th)          | 20%    |
+| Final                        | 45%    |
 
-Office Hours: Mondays 7-8 PM, SIRC 3386
+Office Hours: Mondays 7-8 PM, SIRC 3387
 
 
 **Quizzes:**
 - Lockdown browser will be used in quizzes and must be done in class. 
-- Expect a quiz bi-weekly. *(Lowest quiz mark dropped)*
+- Expect a quiz every week. *(Lowest quiz mark dropped)*
 
 **Midterm:**
-- The exam will be on Feb. 26th during the class time. (**yes that means it's at 8pm**)
+- The exam will be on Feb. 13th during the class time. (**yes that means it's at 8pm**)
 - No midterm deferral, marks will be added to the final exam
+- Must pass final.
 
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to SPM</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to OS</summary>
   
   # Outline:
 *What is software project management?* Is it really different from *ordinary* project management?
