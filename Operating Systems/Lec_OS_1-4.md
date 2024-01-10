@@ -125,7 +125,7 @@ Interrupt architecture must save the address of the interrupted instruction.
 
 A trap or exception is a software-generated interrupt caused either by an error or a user request.
 
-![os3](../static/OS_1.png)
+![os3](../static/OS_3.png)
 
 ### Interrupt Handling
 OS preserves state of CPU by storing registers and program counter, and determines which kind of interrupt has occurred:
@@ -150,7 +150,7 @@ Separate segments of code determine what happens for each interrupt type.
 
 ### Storage Hierarchy
 
-![os3](../static/OS_1.png)
+![os4](../static/OS_4.png)
 
 ### Caching
 Copying information into faster storage system; main memory can be viewed as a cache for secondary storage
@@ -175,11 +175,27 @@ It is an important principle, that is performed at many levels in a computer (in
 | megabyte (MB) | 1,024<sup>2</sup> bytes (2<sup>20</sup>) |
 | gigabyte (GB) | 1,024<sup>3</sup> bytes (2<sup>30</sup>) |
 | terabyte (TB) | 1,024<sup>4</sup> bytes (2<sup>40</sup>) |
-| petabyte (PB) | 1,024<sup>5</sup> bytes (2<sup>50</sup>)  |
+| petabyte (PB) | 1,024<sup>5</sup> bytes (2<sup>50</sup>) |
 
+## I/O Structure
 
+A general-purpose computer system consists of CPUs and multiple device controllers that are connected through a common bus. 
 
+Each device controller is in charge of a specific type of devices. Operating systems have a device driver for each device controller to manage I/O.
 
+Interrupt-driven I/O is good for moving small amounts of data:
+
+1. The device driver loads the appropriate registers within the device controller.
+2. The device controller determines what action to take (such as “read a character from the keyboard”).
+3. The controller transfers the data from the device to its local buffer.
+4. Then the device controller informs the device driver via an interrupt that it has finished its operation.
+5. The device driver then returns control to the operating system
+
+Produces <ins>high overhead</ins> when moving bulk data; DMA is used to solve this.
+
+## Direct Memory Access (DMA) Structure
+
+![os5](../static/OS_5.png)
 
 
 
