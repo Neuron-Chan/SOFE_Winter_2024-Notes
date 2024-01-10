@@ -1,4 +1,4 @@
-# Software Project Management (SOFE3980)
+# Software Quality (SOFE3980)
 
 | Category                             | Mark   |
 |--------------------------------------|--------|
