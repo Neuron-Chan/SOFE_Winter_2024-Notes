@@ -127,10 +127,30 @@ A trap or exception is a software-generated interrupt caused either by an error 
 
 ![os3](../static/OS_1.png)
 
+### Interrupt Handling
+OS preserves state of CPU by storing registers and program counter, and determines which kind of interrupt has occurred:
 
+- **polling**
+- **vectored** interrupt system
 
+Separate segments of code determine what happens for each interrupt type.
 
+### Storage Structure
+**Main memory**: only large storage media that the CPU can access directly
+- Random access
+- Typically, volatile
 
+**Secondary storage**: extension of main memory that provides large nonvolatile storage capacity
+
+**Hard disks**: rigid metal or glass platters covered with magnetic recording material
+- Disk surface is logically divided into tracks, which are subdivided into sectors
+- The disk controller determines the logical interaction between the device and the computer
+
+**Solid-state disks**: faster than hard disks, nonvolatile
+
+### Storage Hierarchy
+
+![os3](../static/OS_1.png)
 
 
 
