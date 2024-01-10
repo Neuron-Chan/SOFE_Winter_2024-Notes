@@ -44,8 +44,22 @@ Operating System Goals:
 - Make computer system convenient to use
 - Use computer hardware in an efficient manner.
 
-
+# Computer System Hardware
 ![os1](../static/OS_1.png)
+
+Computer system can be divided into four components:
+
+**Hardware** – provides basic computing resources
+- CPU, memory, I/O devices
+
+**Operating system**
+- Controls and coordinates the use of hardware among various applications and users
+
+**Application programs** – define the ways in which the system resources are used to solve the computing problems of the users
+- Word processors, compilers, web browsers, database systems, video games
+
+**Users**
+- People, machines, other computers
 
 </details>
 
