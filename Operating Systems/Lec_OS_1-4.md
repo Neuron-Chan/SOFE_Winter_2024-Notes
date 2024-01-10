@@ -125,6 +125,8 @@ Interrupt architecture must save the address of the interrupted instruction.
 
 A trap or exception is a software-generated interrupt caused either by an error or a user request.
 
+![os3](../static/OS_1.png)
+
 
 
 
