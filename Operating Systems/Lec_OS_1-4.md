@@ -119,7 +119,11 @@ The **hardware,** triggering an interrupt by sending a signal to the CPU, or,
 
 the **software,** triggering an interrupt by executing a **system call.**
 
+Interrupt transfers control to the interrupt service routine generally, through the **interrupt vector**, which contains the addresses of all the service routines.
 
+Interrupt architecture must save the address of the interrupted instruction. 
+
+A trap or exception is a software-generated interrupt caused either by an error or a user request.
 
 
 
