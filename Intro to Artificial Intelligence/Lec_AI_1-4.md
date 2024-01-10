@@ -12,7 +12,7 @@ Office Hours: Fridays 9-10 AM, SIRC 3385
 
 
 **Quizzes:**
-
+Pop-up. None dropped.
 
 **Midterm:**
 - The first exam will be on Feb. 9th during the class time.
@@ -24,10 +24,9 @@ Office Hours: Fridays 9-10 AM, SIRC 3385
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Chapter 1: Artificial Intelligence</summary>
   
-  # Outline:
-*What is software project management?* Is it really different from *ordinary* project management?
+# What is AI?
+AI operates in its own "universe", 
 
-*How do you know when a project has been successful?* E.g., do the expectations of the customer/client match those of the developers?
 
 # Why is project management important?
 
