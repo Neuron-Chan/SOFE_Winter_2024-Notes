@@ -25,7 +25,12 @@ Pop-up. None dropped.
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Chapter 1: Artificial Intelligence</summary>
   
 # What is AI?
-AI operates in its own "universe", systems that attempt to replicate human intelligence at a limited scale and scope.
+AI operates in its own "universe", systems that attempt to replicate human intelligence at a limited scale and scope. It is an attempt to reach two goals:
+
+1. To know how "natural intelligence" works.
+2. To build an intelligent "agent" or "entity".
+
+Of these goals, only the second goal has seen significant and visible progress.
 
 
 # Why is project management important?
