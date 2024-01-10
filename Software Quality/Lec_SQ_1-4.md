@@ -1,4 +1,4 @@
-# Software Project Management (SOFE3490)
+# Software Project Management (SOFE3980)
 
 | Category                             | Mark   |
 |--------------------------------------|--------|
@@ -8,7 +8,7 @@
 | Homework (In-Lecture Activities)     | 10%    |
 | Final                                | 35%    |
 
-Office Hours: Mondays 7-8 PM, SIRC 3010
+Office Hours: HAHAHA NO ONE KNOWS
 
 ## Group Work
 
