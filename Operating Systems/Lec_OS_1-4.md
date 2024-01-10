@@ -22,8 +22,8 @@ Office hours:
 - No midterm deferral, marks will be added to the final exam
 - Must pass final.
 
-|Course | Type | Location | Day | Time | Start Date |
-|-|-|-|-|-|-|
+|Course Type | Location | Day | Time | Start Date |
+|-|-|-|-|-|
 |74025 |UA3130 |Thu |11:10am - 02:00 pm| 26/1, 9/2, 1/3, 15/3, 29/3|
 |74026 |UA3130 |Thu| 11:10am - 02:00 pm |19/1, 2/2, 16/2, 8/3, 22/3,|
 
