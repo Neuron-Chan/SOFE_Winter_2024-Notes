@@ -1,6 +1,6 @@
 # Operating Systems (SOFE3950)
 
-todo: fix this
+todo: fix this, catch up on lecture 1 notes.
 
 | Category                     | Mark   |
 |------------------------------|--------|
@@ -109,12 +109,28 @@ The bootstrap program is typically stored in **ROM** or **EEPROM**, generally kn
 4. Some services are provided outside of the kernel, by system programs that are loaded into memory at boot time to become system processes, or system daemons that run the entire time the kernel is running.
 5. The system is now running and waiting for an event to occur.
 
+## Common Function Interrupts
+
 </details>
 
 ---
 
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Operating System Structures</summary>
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | ???</summary>
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | ???</summary>
 
 </details>
 
