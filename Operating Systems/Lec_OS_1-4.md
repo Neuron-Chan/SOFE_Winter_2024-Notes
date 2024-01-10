@@ -61,7 +61,7 @@ Computer system can be divided into four components:
 **Users**
 - People, machines, other computers
 
-# What do Operating Systems Do?
+# What do Operating Systems do?
 
 ***Exploring the OSes from two viewpoints***:
 
@@ -72,6 +72,16 @@ Users prefer <ins>convenience, ease of use, and good performance.</ins> Not reso
 Users of delicate systems such as workstations have dedicated resources but frequently use shared resources from servers
 
 Handheld computers (smartphones) are resource poor, optimized for usability and battery life, and some computers have little or no user interface, such as embedded computers in devices and automobiles.
+
+**System view:**
+
+The OS is the program that most intimately involved with the hardware. We can view the OS as a:
+- Resource allocator
+  - Manages all resources
+  - Decides between conflicting requests for efficient and fair
+resource use
+- Control program
+  - Controls the execution of user programs to prevent errors and improper use of the computer
 
 </details>
 
