@@ -25,7 +25,7 @@ Pop-up. None dropped.
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Chapter 1: Artificial Intelligence</summary>
   
 # What is AI?
-AI operates in its own "universe", 
+AI operates in its own "universe", systems that attempt to replicate human intelligence at a limited scale and scope.
 
 
 # Why is project management important?
