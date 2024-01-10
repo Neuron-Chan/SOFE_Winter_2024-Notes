@@ -111,6 +111,53 @@ The bootstrap program is typically stored in **ROM** or **EEPROM**, generally kn
 
 ## Common Function Interrupts
 
+OSes are **interrupt driven.**
+
+Occurrences of events are usually signaled via interrupts by either:
+
+The **hardware,** triggering an interrupt by sending a signal to the CPU, or, 
+
+the **software,** triggering an interrupt by executing a **system call.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 ---
