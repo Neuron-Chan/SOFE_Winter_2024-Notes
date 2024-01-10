@@ -152,7 +152,30 @@ Separate segments of code determine what happens for each interrupt type.
 
 ![os3](../static/OS_1.png)
 
+### Caching
+Copying information into faster storage system; main memory can be viewed as a cache for secondary storage
 
+It is an important principle, that is performed at many levels in a computer (in hardware, operating system, software). Information in use copied from slower to faster storage temporarily. Faster storage (cache) checked first to determine if information is there
+- If it is, information used directly from the cache (fast)
+- If not, data copied to cache and used there
+
+- Cache smaller than storage being cached
+- Cache management is an important design problem
+- Cache size and replacement policy
+
+### Storage Definitions and Notation Review:
+- The basic unit of computer storage is the bit.
+- A byte is 8 bits, and on most computers, it is the smallest convenient chunk of storage.
+- A word, which is a given computer architecture’s native unit of data. A word is made up of one or more bytes.
+- Computer storage, along with most computer throughput, is generally measured and manipulated in bytes and collections of bytes.
+
+|Name|Amount|
+|-|-|
+| kilobyte (KB) | 1,024 bytes (2<sup>10</sup>) |
+| megabyte (MB) | 1,024<sup>2</sup> bytes (2<sup>20</sup>) |
+| gigabyte (GB) | 1,024<sup>3</sup> bytes (2<sup>30</sup>) |
+| terabyte (TB) | 1,024<sup>4</sup> bytes (2<sup>40</sup>) |
+| petabyte (PB) | 1,024<sup>5</sup> bytes (2<sup>50</sup>)  |
 
 
 
