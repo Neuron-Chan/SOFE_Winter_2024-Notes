@@ -101,6 +101,20 @@ I/O devices and the CPU can execute concurrently. Each device controller is **in
 
 CPU moves data from/to main memory to/from local buffers, I/O moves data from the device to local buffer of controller, of which the controller informs the CPU that it has finished its operation by causing an interrupt.
 
+The bootstrap program is typically stored in **ROM** or **EEPROM**, generally known as firmware. 
+
+1. It initializes all aspects of the system,
+2. Loads operating system kernel and starts execution
+3. The kernel then starts providing services to the system and its users.
+4. Some services are provided outside of the kernel, by system programs that are loaded into memory at boot time to become system processes, or system daemons that run the entire time the kernel is running.
+5. The system is now running and waiting for an event to occur.
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Operating System Structures</summary>
 
 </details>
 
