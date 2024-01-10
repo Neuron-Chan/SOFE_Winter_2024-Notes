@@ -1,28 +1,43 @@
 # Software Project Management (SOFE3490)
 
-| Category                     | Mark   |
-|------------------------------|--------|
-| 5 Lab Assignments            | 15%    |
-| Tutorials                    | 10%    |
-| In-Class Activities/Quizzes  | 10%    |
-| Midterm (Feb. 26th)          | 30%    |
-| Final                        | 35%    |
+| Category                             | Mark   |
+|--------------------------------------|--------|
+| Homework ("test-design" assignments) | 10%    |
+| Pop-up quizzes                       | 30%    |
+| Course Project Reports               | 15%    |
+| Homework (In-Lecture Activities)     | 10%    |
+| Final                                | 35%    |
 
-Office Hours: Mondays 7-8 PM, SIRC 3386
+Office Hours: Mondays 7-8 PM, SIRC 3010
 
+## Group Work
+
+Some of the assessment will be done as  Group work; some will be done individually. For group work, every group member need to know the content so that you can answer the quiz.
+
+You will be divided into groups of 5. You sign-up for your grop using CANVAS. 
+
+As a group member, you will be expected to meet all of the following group requirements:
+
+- contribute a significant amount to the analysis, design, implementation, and testing of your  assignment…
+- meet frequently with your group at a scheduled time
+- communicate with your group partners as needed by email, in person, by phone, or otherwise
+- hold your group partners accountable for their work, and report to group members/ TA/instructor if they fail to do so.
+
+EACH group submission should include a table that identifies who did/ contributed  what to the submitted work and an estimate of time spent.  Group members are expected to carry out equal amounts of work.  Each group member is expected to be familiar with all parts of each assignment.  The assignments are a major part of the class.  The Content of each assignment will be in the final exam.
 
 **Quizzes:**
 - Lockdown browser will be used in quizzes and must be done in class. 
-- Expect a quiz bi-weekly. *(Lowest quiz mark dropped)*
+- Expect a quiz every week.
 
 **Midterm:**
-- The exam will be on Feb. 26th during the class time. (**yes that means it's at 8pm**)
-- No midterm deferral, marks will be added to the final exam
+None.
+
+Author's note: This course is a mess.
 
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to SPM</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to SQ</summary>
   
   # Outline:
 *What is software project management?* Is it really different from *ordinary* project management?
