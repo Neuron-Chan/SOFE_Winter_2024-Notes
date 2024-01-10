@@ -82,6 +82,25 @@ The OS is the program that most intimately involved with the hardware. We can vi
 resource use
 - Control program
   - Controls the execution of user programs to prevent errors and improper use of the computer
+ 
+
+# Computer System Organization
+
+Common definition:
+Kernel: The one program running at all times on the computer.
+
+And two other types of programs:
+- a system program (ships with the operating system)
+- an application program.
+
+## Computer System Operation
+
+![os2](../static/OS_2.png)
+
+I/O devices and the CPU can execute concurrently. Each device controller is **in charge of a particular device type** and has a **local buffer**.
+
+CPU moves data from/to main memory to/from local buffers, I/O moves data from the device to local buffer of controller, of which the controller informs the CPU that it has finished its operation by causing an interrupt.
+
 
 </details>
 
