@@ -44,7 +44,7 @@ Operating System Goals:
 - Make computer system convenient to use
 - Use computer hardware in an efficient manner.
 
-# Computer System Hardware
+## Computer System Hardware
 ![os1](../static/OS_1.png)
 
 Computer system can be divided into four components:
@@ -60,6 +60,18 @@ Computer system can be divided into four components:
 
 **Users**
 - People, machines, other computers
+
+# What do Operating Systems Do?
+
+***Exploring the OSes from two viewpoints***:
+
+**User view:**
+
+Users prefer <ins>convenience, ease of use, and good performance.</ins> Not resource utilization.
+
+Users of delicate systems such as workstations have dedicated resources but frequently use shared resources from servers
+
+Handheld computers (smartphones) are resource poor, optimized for usability and battery life, and some computers have little or no user interface, such as embedded computers in devices and automobiles.
 
 </details>
 
