@@ -375,6 +375,14 @@ A hypothetical example of service primitives that may provide a reliable byte st
 
 # Relationship of Services to Primitives
 
+A service is a set of primitives (operations) that a layer provides to the layer
+above it:
+- A layer provides a _service_ to the one above it [**vertical**]
+
+A protocol, in contrast, is a set of rules governing the format and meaning of the packets, or messages that are exchanged by the peer entities within a layer.
+- A layer talks to its peer using a _protocol_ [**horizontal**]
+
+![PROTOCOL](../static/CN_2_5.png)
 
 
 
