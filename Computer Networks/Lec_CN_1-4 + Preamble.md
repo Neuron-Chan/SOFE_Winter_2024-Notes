@@ -370,3 +370,14 @@ Each kind of service can further be characterized by its reliability. Reliabilit
 
 ---
 
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | ???</summary>
+
+
+
+
+</details>
+
+---
+
+
