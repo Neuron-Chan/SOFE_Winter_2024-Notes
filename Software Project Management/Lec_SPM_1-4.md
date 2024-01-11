@@ -187,11 +187,11 @@ Focus on **what** will be put in place, **rather than how** activities will be c
 
 ### S.M.A.R.T.
 
-S – **_S_**pecific: project is concrete and well-defined
-M – **_M_**easurable: satisfaction of the objective can be objectively judged
-A – **_A_**chievable: it is within the power of the individual or group concerned to meet the target
-R – **_R_**elevant: the objective must be relevant to the true purpose of the project
-T – **_T_**ime-constrained: there is a defined point in time by which the objective should be achieved
+S – **_S_** pecific: project is concrete and well-defined
+M – **_M_** easurable: satisfaction of the objective can be objectively judged
+A – **_A_** chievable: it is within the power of the individual or group concerned to meet the target
+R – **_R_** elevant: the objective must be relevant to the true purpose of the project
+T – **_T_** ime-constrained: there is a defined point in time by which the objective should be achieved
 
 </details>
 
