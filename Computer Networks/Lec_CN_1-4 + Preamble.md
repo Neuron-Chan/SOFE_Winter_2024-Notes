@@ -446,7 +446,17 @@ What are the Physical Layer components on computer?
   - Can detect some transmission errors using a Cyclic Redundancy Check (CRC).
     - If the packet is bad the LLC will request the sender to resend it.
 
+---
 
+#### Network Layer:
+- Controls the operation of the subnet
+  - Provides network-wide addressing and a mechanism to move packets between networks (routing)
+    - routing of datagrams (packets) from source to destination
+- Responsibilities:
+  - Network addressing, Routing
+  - Handling congestion in conjunction with higher layers
+
+Examples: IP, routing protocols
 
 </details>
 
