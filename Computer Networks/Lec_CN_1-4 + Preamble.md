@@ -406,6 +406,48 @@ A principled, international standard, seven layer model to connect different sys
 | 2 | Data Link | Sends frames of information |
 | 1 | Physical | Sends bits as signals over the channel |
 
+#### Physical Layer:
+- bits “on the wire”.
+- Determines the specs for all physical components
+  - Cabling: Twisted Pair, Fiber Optic, Coax Cable
+  - Interconnect methods (topology / devices)
+  - Data encoding (bits to signals)
+  - Electrical properties
+
+Examples:
+- Ethernet (IEEE 802.3)
+- Token Ring (IEEE 802.5)
+- Wireless (IEEE 802.11n, ac)
+
+
+What are the Physical Layer components on computer?
+- NIC: Network Interface Card
+- It has a MAC Address/Physical address of a computer
+
+---
+
+#### Link Layer:
+- Data transfer between neighboring network elements
+  - Moving frames from one hop (node) to another
+- Provides error detection/correction capability
+  - Using acknowledgement
+  - FEC (Forward Error Correction)
+- Control access to the shared channel.
+  - MAC: Medium Access Control sublayer
+ 
+##### Sub-layers of the Data Link Layer
+- MAC (Media Access Control)
+  - Gives data to the NIC
+  - Controls access to the media through:
+    - CSMA/CD Carrier Sense Multiple Access/Collision Detection
+    - Token passing
+- LLC (Logical Link Layer)
+  - Manages the data link interface (or Service Access Points (SAPs))
+  - Can detect some transmission errors using a Cyclic Redundancy Check (CRC).
+    - If the packet is bad the LLC will request the sender to resend it.
+
+
+
 </details>
 
 ---
