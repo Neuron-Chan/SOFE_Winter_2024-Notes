@@ -309,8 +309,31 @@ Some of the many standards bodies:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Network Software</summary>
 
+## Layer Architecture
+- Networking requires the co-operation of many different tasks
+- Raw data transfer over a physical channel
+- Error and flow control
+- Switching
+- Routing
+- Traffic control
+- Network Security
 
+# Protocol Layers
+Protocol layering is the main structuring method used to divide up network functionality.
+- Each protocol instance talks virtually to its peer
+- Each layer communicates only by using the one below
+- Lower layer services are accessed by an interface
+- At bottom, messages are carried by the medium
 
+![pl](../static/CN_2_1.png)
+
+# Design Issues for the Layers
+
+# Connection-oriented vs. connectionless service
+
+# Service Primitives
+
+# Relationship of Services to Primitives
 
 </details>
 
