@@ -266,10 +266,17 @@ This involves the following activities:
   
 **Implementation** – carrying out the remedial actions that have been decided upon
 
+# Post-lecture Key Points
 
+Projects - Non-routine, uncertain in nature
 
+Projects have particular problems - e.g., lack of visibility
 
+Clear objectives which can be objectively assessed is essential.
 
+Projects are prone to external forces outside of human control; usually impossible to plan for.
+
+**_Communication is key._**
 
 
 
