@@ -336,7 +336,7 @@ Each layer solves a particular problem but must include mechanisms to address a 
 | Issue | Example mechanisms at different layers |
 |-|-|
 | Reliability | despite failures Codes for error detection/correction (Ch 3.2, 3.3), Routing around failures (Ch 5.2) |
-| Network growth and evolution Addressing (Ch 5.6) and naming (Ch 7.1), Protocol layering (Ch 1.3) |
+| Network growth and evolution | Addressing (Ch 5.6) and naming (Ch 7.1), Protocol layering (Ch 1.3) |
 | Allocation of resources like bandwidth | Multiple access (Ch 4.2), Congestion control (Ch 5.3, 6.3) |
 | Security against various threats | Confidentiality of messages (Ch 8.2, 8.6), Authentication of communicating parties (Ch 8.7) |
 
