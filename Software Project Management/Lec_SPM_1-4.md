@@ -230,12 +230,37 @@ e.g. for user satisfaction with software product:
 
 ![spm7](../static/SPM_7.png)
 
-# Other success criteria
+## Other success criteria
+
+These can relate to longer term, less directly tangible assets
+- Improved skill and knowledge
+- Creation of assets that can be used on future projects e.g. software libraries
+- Improved customer relationships that lead to repeat business
+
+# What is management?
+
+This involves the following activities:
+- **Planning** – deciding what is to be done
+- **Organizing** – making arrangements
+- **Staffing** – selecting the right people for the job
+- **Directing** – giving instructions
+- **Monitoring** – checking on progress
+- **Controlling** – taking action to remedy hold-ups
+- **Innovating** – coming up with solutions when problems emerge
+- **Representing** – liaising with clients, users,developers and other stakeholders
+
+![spm8](../static/SPM_8.png)
+
+
+
+
+
+
+
+
 
 
 </details>
-
-
 
 ---
 
