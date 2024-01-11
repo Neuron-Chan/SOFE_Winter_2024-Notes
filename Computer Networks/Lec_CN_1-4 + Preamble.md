@@ -238,7 +238,7 @@ At center: small number of well-connected large networks
 
 ![cloud](../static/CN_1_3.png)
 
-# Network Scurity
+# Network Security
 ## Malware
 Malware exists in hosts via the internet. Malware can get into host machines from:
 - virus: self-replicating infection by receiving/executing object (e.g., e-mail attachment)
