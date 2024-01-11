@@ -228,6 +228,9 @@ e.g. for user satisfaction with software product:
 
 ![spm6](../static/SPM_6.png)
 
+![spm7](../static/SPM_7.png)
+
+# Other success criteria
 
 
 </details>
