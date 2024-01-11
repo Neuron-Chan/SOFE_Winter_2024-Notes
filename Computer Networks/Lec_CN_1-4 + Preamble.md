@@ -371,6 +371,8 @@ A hypothetical example of service primitives that may provide a reliable byte st
 | DISCONNECT | Terminate a connection |
 
 
+![primitives](../static/CN_2_4.png)
+
 # Relationship of Services to Primitives
 
 
