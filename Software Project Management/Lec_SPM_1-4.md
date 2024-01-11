@@ -199,17 +199,36 @@ T – Time-constrained: there is a defined point in time by which the objective 
 
 ![spm5](../static/SPM_5.png)
 
-# Goals/Sub-objectives
+### Goals/Sub-objectives
 
 Steps along the way to reach an objective. Informally, the following statement can be used to define a goal:
 
-To reach objective X, the following must be in place
+"To reach objective X, the following must be in place:
 
 Goal A,
 
 Goal B,
 
-Goal C, etc...
+Goal C, etc..."
+
+A goal is often attributed to an individual, who may have the power to complete the goal, but not the objective itself necessarily. For example:
+
+- _Overall objective_ – user satisfaction with software product
+- _Analyst goal_ – accurate requirements
+- _Developer goal_ – reliable software
+
+# Measures of effectiveness
+
+**How do we know that the goal or objective has been achieved?**
+
+By a practical test, that can be objectively assessed.
+e.g. for user satisfaction with software product:
+- Repeat business – they buy further products from us
+- Number of complaints – if low, etc.
+
+![spm6](../static/SPM_6.png)
+
+
 
 </details>
 
