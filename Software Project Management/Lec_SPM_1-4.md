@@ -197,6 +197,8 @@ R – Relevant: the objective must be relevant to the true purpose of the projec
 
 T – Time-constrained: there is a defined point in time by which the objective should be achieved
 
+![spm5](../static/SPM_5.png)
+
 </details>
 
 
