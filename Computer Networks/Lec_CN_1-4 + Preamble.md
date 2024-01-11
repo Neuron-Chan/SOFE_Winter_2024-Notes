@@ -342,6 +342,9 @@ Each layer solves a particular problem but must include mechanisms to address a 
 | Allocation of resources like bandwidth | Multiple access (Ch 4.2), Congestion control (Ch 5.3, 6.3) |
 | Security against various threats | Confidentiality of messages (Ch 8.2, 8.6), Authentication of communicating parties (Ch 8.7) |
 
+
+# Connection-oriented vs. connectionless service
+
 Layers can offer two types of service to the layers above them:
 - **Connection-oriented**: a connection must be set up for ongoing use (and torn down after use), e.g., phone call
 - **Connectionless**: messages are handled separately, e.g., postal delivery (each message (letter) carries the full destination address and routed independently)
@@ -350,11 +353,16 @@ Each kind of service can further be characterized by its reliability. Reliabilit
 
 ![connect](../static/CN_2_3.png)
 
-# Connection-oriented vs. connectionless service
 
 # Service Primitives
 
+- A service is provided to the layer above as primitives (operations). If the protocol stack is located in the _operating system,_ the primitives are normally **system calls.**
+  - These calls cause a trap to kernel mode, which then turns control of the machine over to the operating system to send the necessary packets. 
+
 # Relationship of Services to Primitives
+
+
+
 
 </details>
 
