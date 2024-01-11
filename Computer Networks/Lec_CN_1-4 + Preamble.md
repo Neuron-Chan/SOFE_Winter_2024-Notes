@@ -279,25 +279,12 @@ They spread small devices over an area:
 # Standardization
 Standards define what is needed for interoperability
 Some of the many standards bodies:
-Body Area Examples
-ITU
-International Telecommunication Union
-Telecommunications G.992, ADSL
-H.264, MPEG4
-IEEE
-Institute of Electrical and Electronics Engineers
-Communications 802.3, Ethernet
-802.11, WiFi
-IETF
-Internet Engineering Task Force
-Internet RFC 2616, HTTP/1.1
-RFC 1034/1035,
-DNS
-W3C
-World Wide Web Consortium
-Web HTML5 standard
-CSS standard
-53
+| Body | Area | Examples |
+|-|-|-|
+| ITU (International Telecommunication Union) | Telecommunications | G.992, ADSL, H.264, MPEG4 |
+| IEEE (Institute of Electrical and Electronics Engineers) | Communications | 802.3, Ethernet, 802.11, WiFi |
+| IETF (Internet Engineering Task Force) | Internet | RFC 2616, HTTP/1.1, RFC 1034/1035, DNS |
+| W3C (World Wide Web Consortium) | Web | HTML5 standard, CSS standard |
 
 </details>
 
@@ -312,3 +299,14 @@ CSS standard
 </details>
 
 ---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | The Physical Layer</summary>
+
+
+
+
+</details>
+
+---
+
