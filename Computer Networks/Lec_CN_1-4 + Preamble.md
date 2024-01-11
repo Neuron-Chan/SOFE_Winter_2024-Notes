@@ -135,6 +135,9 @@ Networks can be classified by:
 Connect devices **over the range of a person**
 - Example of a Bluetooth (wireless) PAN:
 
+![bluetooth](../static/CN_0.png)
+
+
 ### Local Area Networks (LAN)
 Connect devices **in a home or office building**
 - If it is used in a company, it is called enterprise network
