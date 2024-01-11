@@ -123,6 +123,45 @@ Execution
 ## The software development life-cycle
 ![spm1](../static/SPM_1.png)
 
+# Plans, methods & methodologies
+![spm2](../static/SPM_2.png)
+
+### Some ways of categorizing projects
+Distinguishing different types of project is important, as different types of task need different project approaches e.g.
+
+- **Voluntary** systems (such as computer games) versus **compulsory** systems e.g. the order processing system in an organization
+- **Information** systems versus **embedded** systems
+- **Objective-based** versus **product-based**
+
+
+## Objective vs. Product-Driven
+
+Consider the following scenarios:
+- Is implementing a new pay-roll system an objective or product-driven project?
+- Implementing a new iPhone app?
+- Switching a database from DB2 to Oracle?
+
+
+## Embedded Systems
+
+It includes:
+- ATM software
+- Car climate control
+- Car airbag, ABS, and cruise control systems
+
+
+# Stakeholders
+
+The people who have a stake or interest in the project, and can include _clients_ or _developers._ These include:
+
+- Internal project members
+- Organization members unrelated to project
+- Outside of organization
+
+Different stakeholders may have different objectives; must define common project objectives.
+
+![spm3](../static/SPM_3.png)
+
 </details>
 
 ---
