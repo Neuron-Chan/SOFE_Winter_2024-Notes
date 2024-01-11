@@ -235,6 +235,9 @@ At center: small number of well-connected large networks
 
 ## Cloud (Infrastructure as a Service)
 
+
+![cloud](../static/CN_1_3.png)
+
 # Network Scurity
 ## Malware
 Malware exists in hosts via the internet. Malware can get into host machines from:
