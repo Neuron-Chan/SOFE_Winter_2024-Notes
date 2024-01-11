@@ -199,6 +199,18 @@ T – Time-constrained: there is a defined point in time by which the objective 
 
 ![spm5](../static/SPM_5.png)
 
+# Goals/Sub-objectives
+
+Steps along the way to reach an objective. Informally, the following statement can be used to define a goal:
+
+To reach objective X, the following must be in place
+
+Goal A,
+
+Goal B,
+
+Goal C, etc...
+
 </details>
 
 
