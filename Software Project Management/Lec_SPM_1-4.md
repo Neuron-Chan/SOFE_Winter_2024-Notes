@@ -164,5 +164,27 @@ Different stakeholders may have different objectives; must define common project
 
 </details>
 
+
+
 ---
 
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Software Project Evaluation, Program Management</summary>
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Project Planning</summary>
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | Project Approach Selection</summary>
+
+</details>
+
+---
