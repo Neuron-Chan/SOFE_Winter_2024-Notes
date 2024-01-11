@@ -162,6 +162,37 @@ Different stakeholders may have different objectives; must define common project
 
 ![spm3](../static/SPM_3.png)
 
+![spm4](../static/SPM_4.png)
+
+# Setting Objectives
+
+Answering the question: "What do we have to do to have a success?"
+- Need for a **project authority**
+  - Sets the project scope
+  - Allocates/approves costs
+- Could be one person - _**or**_ a group
+  - Project Board
+  - Project Management Board
+  - Steering committee
+ 
+## Objectives
+
+Informally, the objective of a project can be defined by completing the following statement:
+
+_"The project will be regarded as a success if..."_
+
+Rather like _post-conditions_ for the project
+
+Focus on **what** will be put in place, **rather than how** activities will be carried out
+
+### S.M.A.R.T.
+
+S – **_S_**pecific: project is concrete and well-defined
+M – **_M_**easurable: satisfaction of the objective can be objectively judged
+A – **_A_**chievable: it is within the power of the individual or group concerned to meet the target
+R – **_R_**elevant: the objective must be relevant to the true purpose of the project
+T – **_T_**ime-constrained: there is a defined point in time by which the objective should be achieved
+
 </details>
 
 
