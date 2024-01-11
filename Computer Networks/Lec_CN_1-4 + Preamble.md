@@ -349,7 +349,7 @@ Layers can offer two types of service to the layers above them:
 - **Connection-oriented**: a connection must be set up for ongoing use (and torn down after use), e.g., phone call
 - **Connectionless**: messages are handled separately, e.g., postal delivery (each message (letter) carries the full destination address and routed independently)
 
-Each kind of service can further be characterized by its reliability. Reliability in this context means the message is acknowledged.
+Each kind of service can further be characterized by its reliability. Reliability in this context means the message is acknowledged. (i.e. whether or not a service receives a data packet)
 
 ![connect](../static/CN_2_3.png)
 
@@ -357,7 +357,19 @@ Each kind of service can further be characterized by its reliability. Reliabilit
 # Service Primitives
 
 - A service is provided to the layer above as primitives (operations). If the protocol stack is located in the _operating system,_ the primitives are normally **system calls.**
-  - These calls cause a trap to kernel mode, which then turns control of the machine over to the operating system to send the necessary packets. 
+  - These calls cause a trap to kernel mode, which then turns control of the machine over to the operating system to send the necessary packets.
+ 
+A hypothetical example of service primitives that may provide a reliable byte stream (connection-oriented) service:
+
+| Primitive | Meaning |
+|-|-|
+| LISTEN | Block waiting for an incoming connection |
+| CONNECT | Establish connection with a waiting peer |
+| ACCEPT | Accept an incoming connection from a peer |
+| RECEIVE | Block waiting for an incoming message |
+| SEND | Send a message to the peer |
+| DISCONNECT | Terminate a connection |
+
 
 # Relationship of Services to Primitives
 
