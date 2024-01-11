@@ -324,8 +324,21 @@ Protocol layering is the main structuring method used to divide up network funct
 - Each layer communicates only by using the one below
 - Lower layer services are accessed by an interface
 - At bottom, messages are carried by the medium
+- Each protocol at different layers serves a different purpose
+- Each lower layer adds its own header (with control information) to the message to transmit and removes it on receive
+- Layers may also split and join messages, etc.
 
 ![pl](../static/CN_2_1.png)
+
+![pl](../static/CN_2_2.png)
+
+Each layer solves a particular problem but must include mechanisms to address a set of recurring design issues.
+| Issue | Example mechanisms at different layers |
+|-|-|
+| Reliability | despite failures Codes for error detection/correction (Ch 3.2, 3.3), Routing around failures (Ch 5.2) |
+| Network growth and evolution Addressing (Ch 5.6) and naming (Ch 7.1), Protocol layering (Ch 1.3) |
+| Allocation of resources like bandwidth | Multiple access (Ch 4.2), Congestion control (Ch 5.3, 6.3) |
+| Security against various threats | Confidentiality of messages (Ch 8.2, 8.6), Authentication of communicating parties (Ch 8.7) |
 
 # Design Issues for the Layers
 
