@@ -147,7 +147,7 @@ Connect devices **over a metropolitan area (city)**
 Example: MAN based on cable TV network:
 - Also delivers Internet
 
-### Wide Area Networks (one images for each)
+### Wide Area Networks 
 Connect devices **over a country**
 Example:
 - WAN connecting three branch offices by using leased lines
@@ -292,6 +292,9 @@ Some of the many standards bodies:
 | IEEE (Institute of Electrical and Electronics Engineers) | Communications | 802.3, Ethernet, 802.11, WiFi |
 | IETF (Internet Engineering Task Force) | Internet | RFC 2616, HTTP/1.1, RFC 1034/1035, DNS |
 | W3C (World Wide Web Consortium) | Web | HTML5 standard, CSS standard |
+
+# Metric Unit review
+![units](../static/CN_1_99_1.png)
 
 </details>
 
