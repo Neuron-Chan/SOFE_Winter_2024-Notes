@@ -332,6 +332,8 @@ Protocol layering is the main structuring method used to divide up network funct
 
 ![pl](../static/CN_2_2.png)
 
+# Design Issues for the Layers
+
 Each layer solves a particular problem but must include mechanisms to address a set of recurring design issues.
 | Issue | Example mechanisms at different layers |
 |-|-|
@@ -340,7 +342,13 @@ Each layer solves a particular problem but must include mechanisms to address a 
 | Allocation of resources like bandwidth | Multiple access (Ch 4.2), Congestion control (Ch 5.3, 6.3) |
 | Security against various threats | Confidentiality of messages (Ch 8.2, 8.6), Authentication of communicating parties (Ch 8.7) |
 
-# Design Issues for the Layers
+Layers can offer two types of service to the layers above them:
+- **Connection-oriented**: a connection must be set up for ongoing use (and torn down after use), e.g., phone call
+- **Connectionless**: messages are handled separately, e.g., postal delivery (each message (letter) carries the full destination address and routed independently)
+
+Each kind of service can further be characterized by its reliability. Reliability in this context means the message is acknowledged.
+
+![connect](../static/CN_2_3.png)
 
 # Connection-oriented vs. connectionless service
 
