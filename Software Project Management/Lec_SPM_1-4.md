@@ -249,9 +249,22 @@ This involves the following activities:
 - **Innovating** – coming up with solutions when problems emerge
 - **Representing** – liaising with clients, users,developers and other stakeholders
 
+## Management Control
 ![spm8](../static/SPM_8.png)
 
+**Data** – the raw details
+  - _e.g. "6,000 documents processed at location X"_
 
+**Information** – the data is processed to produce something that is meaningful and useful
+  - _e.g. "productivity is 100 documents a day"_
+    
+**Comparison** with objectives/goals
+  - _e.g. we will not meet target of processing all documents by 31st March_
+
+**Modelling** – working out the probable outcomes of various decisions
+  - _e.g. if we employ two more staff at location X how quickly can we get the documents processed?_
+  
+**Implementation** – carrying out the remedial actions that have been decided upon
 
 
 
