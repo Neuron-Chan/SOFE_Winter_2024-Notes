@@ -384,7 +384,27 @@ A protocol, in contrast, is a set of rules governing the format and meaning of t
 
 ![PROTOCOL](../static/CN_2_5.png)
 
+## Reference Models
 
+Reference models describe the layers in a network architecture
+- **OSI** (Open Systems Interconnection) reference model (Developed by the International Standard Organization (ISO))
+- **TCP/IP** reference model
+- Model used for this text
+- Critique of OSI and TCP/IP
+
+### OSI Reference Model
+
+A principled, international standard, seven layer model to connect different systems
+
+| Layer | Name | Protocol |
+|-|-|-|
+| 7 | Application | Provides functions needed by users |
+| 6 | Presentation | Converts different representations |
+| 5 | Session | Manages task dialogs |
+| 4 | Transport | Provides end-to-end delivery |
+| 3 | Network | Sends packets over multiple links |
+| 2 | Data Link | Sends frames of information |
+| 1 | Physical | Sends bits as signals over the channel |
 
 </details>
 
