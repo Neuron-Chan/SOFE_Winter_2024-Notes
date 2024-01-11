@@ -229,6 +229,9 @@ At center: small number of well-connected large networks
 
 # Types Of Networks
 ## Network Virtualization
+![network virtualization](../static/CN_1_2_1.png)
+![network virtualization](../static/CN_1_2_2.png)
+
 
 ## Cloud (Infrastructure as a Service)
 
