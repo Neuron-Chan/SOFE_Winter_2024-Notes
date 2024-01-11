@@ -204,6 +204,10 @@ The modern Internet is more complex:
 
 
 # Internet Architecture
+
+![cn1](../static/CN_1.png)
+![cn1_1](../static/CN_1_1.png)
+
 ## Internet structure: network of networks
 End systems connect to Internet via access ISPs (Internet Service Providers)
 - Residential, company and university ISPs
