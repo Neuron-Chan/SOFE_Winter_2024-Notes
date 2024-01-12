@@ -273,6 +273,9 @@ They are like multiprocessor systems, but multiple systems working together, usu
     - _System call_ changes mode to kernel, return from call resets it to user
 
 
+
+![os7](../static/OS_1_7.png)
+
 The concept of modes can be extended beyond two modes:
 - Increasingly CPUs support multi-mode operations
 - CPU uses more than one bit to set and test the mode.
