@@ -344,6 +344,27 @@ OS activities include:
 - Mapping files onto secondary storage
 - Backup files onto stable (non-volatile) storage media
 
+### Mass-Storage Management:
+- Usually, disks used to store data that does not fit in main memory or data that must be kept for a “long” period of time
+- Proper management is of central importance
+- Entire speed of computer operation hinges on disk subsystem and its algorithms
+- OS is responsible for the following activities:
+  - Free-space management
+  - Storage allocation
+  - Disk scheduling
+  - Some storage need not be fast
+  - Tertiary storage includes optical storage (CD, DVD), magnetic tape
+  - Still must be managed – by OS or applications
+  - Varies between WORM (write-once, read-many-times) and RW (read-write) formats
+
+### Caching
+- Information is normally kept in main memory, when it is used, it is copied into a faster storage system (the cache) on a temporary basis.
+- _Cache management_ is an important design problem.
+  - Cache size and the replacement policy can result in greatly increased performance
+- Main memory can be viewed as a fast cache for secondary storage
+- Performance of Various Levels of Storage
+
+![os18](../static/OS_1_8.png)
 
 </details>
 
