@@ -45,7 +45,7 @@ Operating System Goals:
 - Use computer hardware in an efficient manner.
 
 ## Computer System Hardware
-![os1](../static/OS_1.png)
+![os1](../static/OS_1_1.png)
 
 Computer system can be divided into four components:
 
@@ -95,7 +95,7 @@ And two other types of programs:
 
 ## Computer System Operation
 
-![os2](../static/OS_2.png)
+![os2](../static/OS_1_2.png)
 
 I/O devices and the CPU can execute concurrently. Each device controller is **in charge of a particular device type** and has a **local buffer**.
 
@@ -125,7 +125,7 @@ Interrupt architecture must save the address of the interrupted instruction.
 
 A trap or exception is a software-generated interrupt caused either by an error or a user request.
 
-![os3](../static/OS_3.png)
+![os3](../static/OS_1_3.png)
 
 ### Interrupt Handling
 OS preserves state of CPU by storing registers and program counter, and determines which kind of interrupt has occurred:
@@ -150,7 +150,7 @@ Separate segments of code determine what happens for each interrupt type.
 
 ### Storage Hierarchy
 
-![os4](../static/OS_4.png)
+![os4](../static/OS_1_4.png)
 
 ### Caching
 Copying information into faster storage system; main memory can be viewed as a cache for secondary storage
@@ -195,7 +195,7 @@ Produces <ins>high overhead</ins> when moving bulk data; DMA is used to solve th
 
 ## Direct Memory Access (DMA) Structure
 
-![os5](../static/OS_5.png)
+![os5](../static/OS_1_5.png)
 
 
 
