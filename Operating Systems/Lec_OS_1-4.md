@@ -369,6 +369,19 @@ OS activities include:
 
 ![os18](../static/OS_1_8.png)
 
+### Cache Coherency
+- In a hierarchical storage structure, the same data may appear in different levels of the storage system.
+- For example,
+  - Migration of integer “A” from Disk to Register
+
+![os181](../static/OS_1_8_1.png)
+
+  - Multitasking environments must be careful to use most recent value, no matter where it is stored in the storage hierarchy
+  - Multiprocessor environment must provide cache coherency in hardware such that all CPUs have the most recent value in their cache
+  - Distributed environment situation even more complex
+  - Several copies of a datum can be kept in different computers
+  - Distributed systems must ensure that, when a replica is updated in one place, all other replicas are brought up to date on time
+
 </details>
 
 ---
