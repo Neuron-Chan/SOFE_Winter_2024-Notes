@@ -197,6 +197,17 @@ Produces <ins>high overhead</ins> when moving bulk data; DMA is used to solve th
 
 ![os5](../static/OS_1_5.png)
 
+## Single-Processor Systems:
+- Most systems use a single general-purpose processor
+  - Most systems have special-purpose processors as well for keyboard, disks, etc.
+- Multiprocessors systems growing in use and importance
+  - Also known as parallel systems, or multicore systems
+  - They have two or more processors in close communication, sharing the computer resources
+  - Advantages include:
+    1. Increased throughput: more work done in less time
+    2. Economy of scale: cost less than equivalent multiple single-processor systems
+    3. Increased reliability: graceful degradation or fault tolerance
+
 
 
 
