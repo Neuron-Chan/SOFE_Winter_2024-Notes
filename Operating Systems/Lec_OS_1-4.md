@@ -382,6 +382,27 @@ OS activities include:
   - Several copies of a datum can be kept in different computers
   - Distributed systems must ensure that, when a replica is updated in one place, all other replicas are brought up to date on time
 
+## I/O Systems:
+- One purpose of OS is to hide peculiarities of hardware devices from the user
+- The I/O subsystem consists of several components:
+- Memory management of I/O including buffering (storing data temporarily while it is being transferred), caching (storing parts of data in faster storage for performance), spooling (the overlapping of output of one job with input of other jobs)
+- General device-driver interface
+- Drivers for specific hardware devices
+- Only the device driver knows the peculiarities of the specific device to which it is assigned.
+
+# Protection & Security
+
+**Protection**: any mechanism for controlling access of processes or users to resources defined by the OS
+
+**Security**: defense of the system against internal and external attacks
+
+Huge range, including denial-of-service, worms, viruses, identity theft, theft of service
+- Systems generally first distinguish among users, to determine who can do what
+  - User identities (**user IDs**, security IDs) include name and associated number, one per user
+  - User ID then associated with all files, processes of that user to determine access control
+  - Group identifier (**group ID**) allows set of users to be defined and controls managed, then also associated with each process and file
+  - **Privilege escalation** allows user to change to effective ID with more rights
+  
 </details>
 
 ---
