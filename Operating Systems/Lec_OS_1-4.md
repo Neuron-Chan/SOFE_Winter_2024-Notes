@@ -218,6 +218,8 @@ The multiple-processor systems in use today are of two types:
   - All processors are peers: each processor performs all tasks
   - Symmetric Multiprocessing Architecture:
  
+![os161](../static/OS_1_6_1.png)
+ 
 ### Multi-Core CPUs
 
 They are more efficient than multiple chips with single cores because on-chip communication is faster than between-chip communication.
@@ -226,7 +228,19 @@ They are more efficient than multiple chips with single cores because on-chip co
 - These multicore CPUs appear to the operating system as N standard processors.
 - dual-core design with two cores on the same chip
 
+![os162](../static/OS_1_6_2.png)
 
+### Clustered Systems
+
+They are like multiprocessor systems, but multiple systems working together, usually sharing storage via a storage-area network (SAN)
+- Provides a high-availability service which survives failures
+- Asymmetric clustering has one machine in hot-standby mode
+- Symmetric clustering has multiple nodes running applications, monitoring each other
+- Some clusters are for high-performance computing (HPC)
+- Applications must be written to use parallelization
+- Some have distributed lock manager (DLM) to avoid conflicting operations
+
+![os163](../static/OS_1_6_3.png)
 
 
 
