@@ -402,7 +402,67 @@ Huge range, including denial-of-service, worms, viruses, identity theft, theft o
   - User ID then associated with all files, processes of that user to determine access control
   - Group identifier (**group ID**) allows set of users to be defined and controls managed, then also associated with each process and file
   - **Privilege escalation** allows user to change to effective ID with more rights
-  
+
+# Kernel Data Structures
+## Lists, Stacks, and Queues:
+- An array is a simple data structure in which each element can be accessed directly.
+  - For example, main memory is constructed as an array.
+- A list is the most fundamental data structures in computer science.
+  - The items in a list must be accessed in a particular order.
+  - Linked list is the most common method for implementing the list,
+  - Lists are used for constructing more powerful data structures, such as stacks and queues
+
+![os19](../static/OS_1_9.png)
+
+**Stack:**
+- It is a sequentially ordered data structure that uses the last in, first out **(LIFO)** principle for adding and removing items
+
+**Queue:**
+- It is a sequentially ordered data structure that uses the first in, first out (FIFO) principle
+
+## Trees:
+- A _tree_ is a data structure that can be used to represent data hierarchically.
+- Data values in a tree structure are linked through parent–child relationships
+- In a _binary tree_, a parent may have at most two children (left child and the right child).
+- A _binary search tree_ additionally requires an ordering between the parent’stwo children in which left_child <= right_child.
+  - Search performance is O(n)
+- An algorithm can be used to create a balanced binary search tree.
+  - A tree containing **n** items has at most log<sub>2</sub>(n) levels,
+  - Search performance is O(log<sub>2</sub>(n))
+
+## Hash Functions and Maps:
+
+A hash function takes data as its input, performs a numeric operation on this data, and returns a numeric value, of which, can then be used as an index into a table (typically an array) to quickly retrieve the data.
+
+- Performance can be as good as O(1)
+- Hash functions are used extensively in operating systems.
+- Hash collision can be accommodated by having a linked list at that table location that contains all of the items with the same hash value
+- A hash map, which associates (or maps) [key:value] pairs using a hash function
+
+![os110](../static/OS_1_10.png)
+
+## Bitmaps:
+- A bitmap is a string of n binary digits that can be used to represent the status of n items.
+- Example,
+  - Consider the bitmap 001011101
+- Resources 2, 4, 5, 6, and 8 are unavailable; resources 0, 1, 3, and 7 are available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 ---
