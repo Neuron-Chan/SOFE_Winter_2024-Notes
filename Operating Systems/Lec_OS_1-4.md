@@ -193,14 +193,16 @@ Interrupt-driven I/O is good for moving small amounts of data:
 
 Produces <ins>high overhead</ins> when moving bulk data; DMA is used to solve this.
 
-## Direct Memory Access (DMA) Structure
+### Direct Memory Access (DMA) Structure
 
 ![os5](../static/OS_1_5.png)
 
-## Single-Processor Systems:
+### Single-Processor Systems:
 - Most systems use a single general-purpose processor
   - Most systems have special-purpose processors as well for keyboard, disks, etc.
-- Multiprocessors systems growing in use and importance
+
+### Multiprocessors Systems
+- Growing in use and importance
   - Also known as parallel systems, or multicore systems
   - They have two or more processors in close communication, sharing the computer resources
   - Advantages include:
@@ -208,9 +210,21 @@ Produces <ins>high overhead</ins> when moving bulk data; DMA is used to solve th
     2. Economy of scale: cost less than equivalent multiple single-processor systems
     3. Increased reliability: graceful degradation or fault tolerance
 
+The multiple-processor systems in use today are of two types:
+- Asymmetric Multiprocessing: each processor is assigned a specific task.
+  - This scheme defines a boss–worker relationship. The boss processor schedules and allocates work to the worker processors.
+- Symmetric Multiprocessing (SMP):
+  - It is the most common
+  - All processors are peers: each processor performs all tasks
+  - Symmetric Multiprocessing Architecture:
+ 
+### Multi-Core CPUs
 
+They are more efficient than multiple chips with single cores because on-chip communication is faster than between-chip communication.
 
-
+- Uses significantly less power than multiple single-core chips
+- These multicore CPUs appear to the operating system as N standard processors.
+- dual-core design with two cores on the same chip
 
 
 
