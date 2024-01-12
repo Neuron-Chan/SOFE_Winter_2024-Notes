@@ -242,24 +242,107 @@ They are like multiprocessor systems, but multiple systems working together, usu
 
 ![os163](../static/OS_1_6_3.png)
 
+# Operating System Structure
+
+### Important Aspects of Operating Systems
+- _**Multiprogramming (Batch system)**_ is needed for efficiency:
+  - Single user cannot keep CPU and I/O devices busy at all times
+  - Multiprogramming organizes jobs (code and data), so CPU always has one to execute
+  - A subset of total jobs in system is kept in memory
+  - One job selected and run via **job scheduling**
+  - When it must wait (for I/O for example), OS switches to another job
+ 
+- _**Timesharing (multitasking)**_ is a logical extension to multiprogramming in which CPU switches jobs so frequently that users can interact with each job while it is running, creating interactive computing
+  - Response time should be < 1 second
+  - Each user has at least one program executing in memory -> process
+  - If several jobs ready to run at the same time -> CPU scheduling
+  - If processes don't fit in memory, swapping moves them in and out to run
+  - Virtual memory allows execution of processes that are larger than actual physical memory
+
+## Operating System Operations
+
+### Dual-Mode and Multi-Mode Operation
+- To ensure the proper execution of the OS, we must be able to distinguish between the execution of operating-system code and user-defined code.
+- Therefore, computer systems provide hardware bit to differentiate among various modes of execution.
+- **Dual-mode** operation allows OS to protect itself and other system components
+  - **User** mode and **kernel** mode (called _supervisor_, _system_, or _privileged_ mode)
+  - **Mode bit** provided by hardware (kernel (0), user (1))
+    - Provides ability to distinguish when system is running user code or kernel code
+    - Some instructions designated as **privileged**, only executable in kernel mode (such as: switch mode, I/O control, timer management, and interrupt management instructions)
+  - Transition from user to kernel mode:
+    - _System call_ changes mode to kernel, return from call resets it to user
 
 
+The concept of modes can be extended beyond two modes:
+- Increasingly CPUs support multi-mode operations
+- CPU uses more than one bit to set and test the mode.
 
+Example:
 
+CPUs that support virtualization frequently, have a separate mode to indicate when the virtual machine manager (VMM) and the virtualization management software is in control of the system. In this mode, the VMM has more privileges than user processes but fewer than the kernel
 
+### Transition from User to Kernel Mode
+To ensure that the OS maintains control over the CPU, we use timers, which are used to prevent a user program from getting stuck in an infinite loop / process hogging resources
+- Timer is set to interrupt the computer after some time period
+- Keep a counter that is decremented by the physical clock.
+- Operating system set the counter (it is a privileged instruction)
+- When counter reaches zero, it generates an interrupt
+- Set up before scheduling process to regain control or terminate program that exceeds allotted time
 
+# Process Management
 
+A process is a program in execution. It is a unit of work within the system.
 
+**Program** is a _passive_ entity.
 
+**Process** is an _active_ entity.
 
+Process needs resources to accomplish its task
+- CPU, memory, I/O, files
+- Initialization data
 
+Process termination requires reclaim of any reusable resources
 
+Single-threaded process has one program counter specifying location of next instruction to execute
+- Process executes instructions sequentially, one at a time, until completion
 
+Multi-threaded process has one program counter per thread
+- Typically, a system has many processes, some user, some operating system running concurrently on one or more CPUs
+  - Concurrency by multiplexing the CPUs among the processes / threads
 
+## Process Management Activities
 
+The operating system is responsible for the following activities in
+connection with process management:
+- Scheduling processes and threads on the CPUs
+- Creating and deleting both user and system processes
+- Suspending and resuming processes
+- Providing mechanisms for process synchronization, process communication, and deadlock handling
 
+## Memory Management
 
+To execute a program all (or part) of the instructions _and_ all (or part) of the data that is needed by the program must be in memory. Memory management determines what is in memory and when.
+- Optimizing CPU utilization and computer response to users
 
+This creates the need for memory management which has the following activities:
+- Keeping track of which parts of memory are currently being used and by whom
+- Deciding which processes (or parts of processes) and data to move into and out of memory
+- Allocating and deallocating memory space as needed
+
+## Storage Management
+
+### Storage Management
+
+OS provides uniform, logical view of information storage. It abstracts physical properties to a logical storage unit - file. Each medium is controlled by device (i.e., disk drive, tape drive)and varying properties include access speed, capacity, data-transfer rate, access method (sequential or random).
+
+### File-System management
+It is one of the most visible components of an operating system, and files are usually organized into directories. Access control on most systems to determine who can access what.
+
+OS activities include:
+- Creating and deleting files and directories
+- Support primitives to manipulate files and directories
+- Mapping files onto secondary storage
+- Backup files onto stable (non-volatile) storage media
 
 
 </details>
@@ -268,6 +351,62 @@ They are like multiprocessor systems, but multiple systems working together, usu
 
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Operating System Structures</summary>
+
+# Operating System Services
+
+
+
+
+
+
+# User Operating System Interface
+
+
+
+
+# System Calls
+
+
+
+
+
+# Types of System Calls
+
+
+
+
+# System Programs
+
+
+
+
+# Operating System Design and Implementation
+
+
+
+# Operating System Structure
+
+
+
+
+# Operating System Debugging
+
+
+
+
+# Operating System Generation
+
+
+
+
+
+
+# System Boot
+
+
+
+
+
 
 </details>
 
