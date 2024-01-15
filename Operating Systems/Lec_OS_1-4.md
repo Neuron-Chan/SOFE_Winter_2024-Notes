@@ -515,9 +515,32 @@ A hash function takes data as its input, performs a numeric operation on this da
 
 ![os111](../static/OS_1_11.png)
 
+## Cloud Computing
+- Delivers computing, storage, even apps as a service across a network
+- It is logical extension of virtualization because it uses virtualization as the base for its functionality.
+  - Amazon Elastic Compute Cloud (EC2) has thousands of servers, millions of virtual machines, petabytes of storage available across the Internet, pay based on usage
+- Many types of cloud computing:
+  - Public cloud – available via Internet to anyone willing to pay
+  - Private cloud – run by a company for the company’s own use
+  - Hybrid cloud – includes both public and private cloud components
+  - Software as a Service (SaaS) – one or more applications available via the Internet (i.e., word processor)
+  - Platform as a Service (PaaS) – software stack ready for application use via the Internet (i.e., a database server)
+  - Infrastructure as a Service (IaaS) – servers or storage available over Internet (i.e., storage available for backup use)
 
+- Cloud computing environments composed of traditional OSes, plus VMMs, plus cloud management tools
+  - Internet connectivity requires security like firewalls
+  - Load balancers spread traffic across multiple applications
+ 
+![os112](../static/OS_1_12.png)
 
+# Open-Source Operating Systems
 
+- Operating systems made available in source-code format rather than just binary closed-source
+- Counter to the copy protection and Digital Rights Management (DRM) movement
+- Started by Free Software Foundation (FSF), which has “copyleft” GNU Public License (GPL)
+- Examples include GNU/Linux and BSD UNIX (including core of Mac OS X), and many more
+- Can use VMM like VMware Player (Free on Windows), Virtualbox (open source and free on many platforms - http://www.virtualbox.com)
+  - Used to run guest operating systems for exploration
 
 
 
