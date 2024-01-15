@@ -569,13 +569,33 @@ protocol: Protocol value for Internet Protocol(IP), which is 0 */
 
 ```
 
+2. Bind: binds the socket to the address and port number specified in addr. You can use INADDR_ANY to use any IP address on the server to receive new clients.
 
+```java
+int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
+```
 
+3. Listen: It puts the server socket in a passive mode, where it waits for the client to approach the server to make a connection.
 
+```java
+int listen(int sockfd, int backlog);
+```
+backlog: is the maximum length to which the queue of pending connections
 
+4. Accept
 
+```java
+int new_socket= accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
+```
+It extracts the first connection request on the queue of pending connections for the listening socket, sockfd, creates a new connected socket, and returns a new file descriptor referring to that socket.
 
+At this point, the connection is _established_ between client and server, and they are ready to transfer data.
 
+You can send and receive data, when done, close the connection:
+
+```java
+close(sockfd);
+```
 
 
 
