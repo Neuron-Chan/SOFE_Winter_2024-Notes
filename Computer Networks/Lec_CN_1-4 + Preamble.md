@@ -510,7 +510,7 @@ todo: add images (3)
 
 # TCP/IP Reference Model
 
-The link layer describes what links such as **serial lines** and **classic Ethernet** must do to meet the needs of the connectionless internet layer.
+The **link layer** describes what links such as **serial lines** and **classic Ethernet** must do to meet the needs of the connectionless internet layer.
 
 
 
@@ -518,15 +518,48 @@ The internet layer defines two protocols:
 - IP (Internet Protocol),
 - ICMP (Internet Control Message Protocol) to help the IP.
 
-The job of the internet layer is to deliver IP packets where they are supposed to go.
+The job of the **internet layer** is to deliver IP packets where they are supposed to go.
 
+The **transport layer** allows peer entities on the source and destination hosts to carry on a conversation. It defines two protocols:
+- **TCP** (Transmission Control Protocol)
+  - It is a reliable connection-oriented protocol
+  - It handles flow control to make sure a fast sender cannot swamp a slow receiver
+- **UDP** (User Datagram Protocol)
+  - It is an unreliable, connectionless protocol
+  - It is also widely used for one-shot, client-server-type request-reply queries and applications in which prompt delivery is more important than accurate delivery, such as transmitting speech or video.
 
+todo: add images(2)
 
+## Socket Programming: TCP
 
+todo: add images (5)
 
+The **application layer** contains all the higher-level protocols:
+- **TELNET**, to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection
+- **FTP** (File Transfer Protocol)
+- **SMTP** (Simple Mail Transfer Protocol), for electronic mail
+- **DNS** (Domain Name System), for mapping host names onto their network addresses
+- **HTTP** (Hyper Text Transferee Protocol), for fetching pages on the World Wide Web
+- **RTP** (Real Time Protocol), for delivering real-time media such as voice or movies
 
+todo: add images
 
+# Physical media
 
+- bit: propagates between transmitter/receiver pairs
+- physical link: what lies between transmitter & receiver
+- guided media:
+  - signals propagate in solid media: copper, fiber, coax
+- unguided media:
+  - signals propagate freely, e.g., radio
+
+- Host: sends packets of data
+  - takes application message
+  - breaks into smaller chunks, known as packets, of length **L** bits
+  - transmits packet into access network at transmission rate **R**
+    - link transmission rate, aka link **capacity**, aka _**link bandwidth**_
+
+todo: add images
 
 
 </details>
