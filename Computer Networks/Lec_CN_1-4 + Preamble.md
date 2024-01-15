@@ -510,9 +510,15 @@ Each layer contains a Protocol Data Unit (PDU), which are used for peer-to-peer 
 - Physical layer converts it to bits and sends it out over the media.
 - The receiving computer reverses the process using the information contained in the PDU
 
-todo: add images (3)
+
+![work together](../static/CN_2_7_1.png)
+![work together](../static/CN_2_7_2.png)
+![work together](../static/CN_2_7_3.png)
+
 
 # TCP/IP Reference Model
+
+![work together](../static/CN_2_7_4.png)
 
 The **link layer** describes what links such as **serial lines** and **classic Ethernet** must do to meet the needs of the connectionless internet layer.
 
@@ -531,8 +537,8 @@ The **transport layer** allows peer entities on the source and destination hosts
 - **UDP** (User Datagram Protocol)
   - It is an unreliable, connectionless protocol
   - It is also widely used for one-shot, client-server-type request-reply queries and applications in which prompt delivery is more important than accurate delivery, such as transmitting speech or video.
-
-todo: add images(2)
+  - 
+![work together](../static/CN_2_8_1.png)
 
 ## Socket Programming: TCP
 
