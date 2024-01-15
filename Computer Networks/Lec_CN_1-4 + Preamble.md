@@ -552,7 +552,7 @@ The **transport layer** allows peer entities on the source and destination hosts
 
 int sockfd = socket(domain, type, protocol)
 
-sockfd: socket descriptor, an integer (like a file handle)
+/* sockfd: socket descriptor, an integer (like a file handle)
 
 domain: integer, specifies communication domain
 
@@ -565,7 +565,7 @@ type: communication type
 SOCK_STREAM: TCP(reliable, connection-oriented)
 SOCK_DGRAM: UDP(unreliable, connectionless)
 
-protocol: Protocol value for Internet Protocol(IP), which is 0
+protocol: Protocol value for Internet Protocol(IP), which is 0 */
 
 ```
 
