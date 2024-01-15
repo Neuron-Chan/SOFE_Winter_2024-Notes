@@ -392,7 +392,7 @@ Reference models describe the layers in a network architecture
 - Model used for this text
 - Critique of OSI and TCP/IP
 
-### OSI Reference Model
+# OSI Reference Model
 
 A principled, international standard, seven layer model to connect different systems
 
@@ -406,7 +406,7 @@ A principled, international standard, seven layer model to connect different sys
 | 2 | Data Link | Sends frames of information |
 | 1 | Physical | Sends bits as signals over the channel |
 
-#### Physical Layer:
+### Physical Layer:
 - bits “on the wire”.
 - Determines the specs for all physical components
   - Cabling: Twisted Pair, Fiber Optic, Coax Cable
@@ -426,7 +426,7 @@ What are the Physical Layer components on computer?
 
 ---
 
-#### Link Layer:
+### Link Layer:
 - Data transfer between neighboring network elements
   - Moving frames from one hop (node) to another
 - Provides error detection/correction capability
@@ -435,7 +435,7 @@ What are the Physical Layer components on computer?
 - Control access to the shared channel.
   - MAC: Medium Access Control sublayer
  
-##### Sub-layers of the Data Link Layer
+#### Sub-layers of the Data Link Layer
 - MAC (Media Access Control)
   - Gives data to the NIC
   - Controls access to the media through:
@@ -448,7 +448,7 @@ What are the Physical Layer components on computer?
 
 ---
 
-#### Network Layer:
+### Network Layer:
 - Controls the operation of the subnet
   - Provides network-wide addressing and a mechanism to move packets between networks (routing)
     - routing of datagrams (packets) from source to destination
@@ -457,6 +457,77 @@ What are the Physical Layer components on computer?
   - Handling congestion in conjunction with higher layers
 
 Examples: IP, routing protocols
+
+todo: add images
+
+### Transport Layer:
+- Process-process data transfer
+- Provides reliable data delivery
+- Receives info from upper layers and segments it into packets
+- Provides end-to-end error control and flow control
+  - Examples:
+  - TCP, UDP
+
+Differences between Data-Link and Transport layers in terms of Error Control
+
+todo: add images
+
+### Session Layer:
+- Allows applications to maintain an ongoing session
+- Synchronization, checkpointing to allow users to pick up from where they left off in the event of a crash and subsequent recovery
+  - Examples:
+  - Operating systems, Scheduling
+  - Remote Procedure Call (RPC)
+
+### Presentation Layer: Data representation
+- Allow applications to interpret meaning of data, e.g., encryption, compression, machine-specific conventions
+  - Examples:
+  - ASCII/EBCDIC, JPEG, MP3
+- Why presentation layer?
+  - Example: what is the value of 10010001 ?
+    - Answer: It depends on how you want to interpret it.
+      - If it is interpreted as unsigned integer: 145
+      - If it is interpreted as signed integer: -111
+      - If it is interpreted as ASCII (odd parity): H
+
+### Application Layer: supporting network applications
+- Network Processes to applications
+- Gives end-user applications access to network resources
+- Where is it on my computer?
+  - Workstation or Server Service in MS (Microsoft) Windows
+    - Examples:
+    - FTP, SMTP, HTTP, Telnet, VoIP, Secure Shell
+
+## How do all layers work together?
+
+Each layer contains a Protocol Data Unit (PDU), which are used for peer-to-peer contact between corresponding layers.
+- Data is handled by the **top three layers,** then _Segmented_ by the _Transport_ layer.
+- The Network layer places it into packets and the Data Link frames the packets for transmission.\
+- Physical layer converts it to bits and sends it out over the media.
+- The receiving computer reverses the process using the information contained in the PDU
+
+todo: add images (3)
+
+# TCP/IP Reference Model
+
+The link layer describes what links such as **serial lines** and **classic Ethernet** must do to meet the needs of the connectionless internet layer.
+
+
+
+The internet layer defines two protocols:
+- IP (Internet Protocol),
+- ICMP (Internet Control Message Protocol) to help the IP.
+
+The job of the internet layer is to deliver IP packets where they are supposed to go.
+
+
+
+
+
+
+
+
+
 
 </details>
 
