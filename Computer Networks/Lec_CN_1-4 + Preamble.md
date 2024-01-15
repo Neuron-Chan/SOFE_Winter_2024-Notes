@@ -544,7 +544,56 @@ The **transport layer** allows peer entities on the source and destination hosts
 
 ![UDP](../static/CN_2_8_3.png)
 
-## Socket Programming: TCP
+# Socket Programming: TCP
+
+## Server Programming:
+1. Socket Creation
+```java
+
+int sockfd = socket(domain, type, protocol)
+
+sockfd: socket descriptor, an integer (like a file handle)
+
+domain: integer, specifies communication domain
+
+AF_ LOCAL: used for communication between processes on the same host
+AF_INET: used for communication between processes on different hosts connected by IPV4
+AF_INET6: used for communication between processes on different hosts connected by IPV6
+
+type: communication type
+
+SOCK_STREAM: TCP(reliable, connection-oriented)
+SOCK_DGRAM: UDP(unreliable, connectionless)
+
+protocol: Protocol value for Internet Protocol(IP), which is 0
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 todo: add images (5)
 
