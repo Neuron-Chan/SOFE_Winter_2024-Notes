@@ -597,9 +597,26 @@ You can send and receive data, when done, close the connection:
 close(sockfd);
 ```
 
+## Client Programming:
 
+1. Socket Creation
+- The same as that of server’s socket creation
 
+```java
+int sockfd = socket(domain, type, protocol)
+```
 
+1. Connect
+```python
+int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
+```
+- The connect() system call connects the socket referred to by the file descriptor sockfd to the address specified by addr.
+- Server’s address and port is specified in addr.
+
+You can send and receive data; When done, close the connection:
+```python
+close(sockfd);
+```
 
 
 
