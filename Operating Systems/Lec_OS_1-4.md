@@ -513,6 +513,8 @@ A hash function takes data as its input, performs a numeric operation on this da
   - There is no general-purpose host them like (VMware ESX and CitrixXenServer) but rather they are the host
 
 
+![os111](../static/OS_1_11.png)
+
 
 
 
