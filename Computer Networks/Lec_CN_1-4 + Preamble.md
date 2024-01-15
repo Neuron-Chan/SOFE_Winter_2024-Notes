@@ -538,7 +538,9 @@ The **transport layer** allows peer entities on the source and destination hosts
   - It is an unreliable, connectionless protocol
   - It is also widely used for one-shot, client-server-type request-reply queries and applications in which prompt delivery is more important than accurate delivery, such as transmitting speech or video.
   - 
-![work together](../static/CN_2_8_1.png)
+![TCP](../static/CN_2_8_1.png)
+
+![IP](../static/CN_2_8_2.png)
 
 ## Socket Programming: TCP
 
