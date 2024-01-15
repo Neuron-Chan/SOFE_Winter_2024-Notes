@@ -458,7 +458,7 @@ What are the Physical Layer components on computer?
 
 Examples: IP, routing protocols
 
-todo: add images
+![network layer](../static/CN_2_6_1.png)
 
 ### Transport Layer:
 - Process-process data transfer
@@ -467,10 +467,14 @@ todo: add images
 - Provides end-to-end error control and flow control
   - Examples:
   - TCP, UDP
+ 
+
+![transport layer](../static/CN_2_6_2.png)
 
 Differences between Data-Link and Transport layers in terms of Error Control
 
-todo: add images
+
+![transport layer](../static/CN_2_6_3.png)
 
 ### Session Layer:
 - Allows applications to maintain an ongoing session
