@@ -623,10 +623,48 @@ close(sockfd);
 ![stuff](../static/CN_2_9_4.png)
 ![stuff](../static/CN_2_9_5.png)
 
+# Socket Programming: UDP
 
+UDP is a connection-less protocol. It does not require any handshaking prior to sending or receiving data
 
+## Server Side
+1. Create a socket:
+```java
+int socket_desc = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
+```
+2. Bind socket descriptor to the server address:
+```java
+bind(socket_desc, (struct sockaddr*)&server_addr, sizeof(server_addr);
+```
+- Unlike TCP, the server-side does not wait for a client to connect and, therefore, does not receive the client’s address prior to sending and receiving data. Instead, the server receives information about the client when it receives data using the recvfrom() method:
 
+3. Send/receive data
+```java
+recvfrom(socket_desc, client_message, sizeof(client_message), 0, (struct sockaddr*)&client_addr, &client_struct_length);
+```
+- The client’s information, stored in the variable client_addr
+```java
+sendto(socket_desc, server_message, strlen(server_message), 0, (struct sockaddr*)&client_addr, client_struct_length);
+```
+4. Close the socket to end the communication:
+```java
+close(socket_desc);
+```
 
+## Client Side
+1. Create a socket, and initialize the server’s address information in a variable of type sockaddr_in
+```java  
+int socket_desc = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
+```
+2. Send and receive data:
+
+- Unlike TCP, when the client sends and receives data using sendto() and recvfrom(), the server’s information has to be given every time:
+```java
+sendto(socket_desc, client_message, strlen(client_message), 0, (struct sockaddr*)&server_addr, server_struct_length);
+```
+```java
+recvfrom(socket_desc, server_message, sizeof(server_message), 0, (struct sockaddr*)&server_addr, &server_struct_length);
+```
 
 
 
@@ -640,6 +678,16 @@ The **application layer** contains all the higher-level protocols:
 - **RTP** (Real Time Protocol), for delivering real-time media such as voice or movies
 
 todo: add images
+
+
+
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | The Physical Layer</summary>
 
 # Physical media
 
@@ -657,16 +705,6 @@ todo: add images
     - link transmission rate, aka link **capacity**, aka _**link bandwidth**_
 
 todo: add images
-
-
-</details>
-
----
-
-<details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | The Physical Layer</summary>
-
-
 
 
 </details>
