@@ -617,6 +617,11 @@ You can send and receive data; When done, close the connection:
 ```python
 close(sockfd);
 ```
+![stuff](../static/CN_2_9_1.png)
+![stuff](../static/CN_2_9_2.png)
+![stuff](../static/CN_2_9_3.png)
+![stuff](../static/CN_2_9_4.png)
+![stuff](../static/CN_2_9_5.png)
 
 
 
@@ -625,14 +630,6 @@ close(sockfd);
 
 
 
-
-
-
-
-
-
-
-todo: add images (5)
 
 The **application layer** contains all the higher-level protocols:
 - **TELNET**, to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection
