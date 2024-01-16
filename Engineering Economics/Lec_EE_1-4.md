@@ -115,14 +115,43 @@ Engineering economic analysis is most suitable for intermediate problems and the
 ![decision making](../static/EE_1_1.png)
 
 1) Recognize the Problem - Once we are aware of the problem, we solve it as best we can
+
 2) Define the goal or objective - The goal can be a grand, overall goal of a person or a firm, or it may be narrow and specific
+
 3) Assemble Relevant Data - Obtaining information through market research or other data gathering is required. The time horizon of the problem (i.e. how long would it take to solve) must be assembled. A firm’s own accounting system is recognized as valuable data. Must also include financial consequences (costs and benefits):
 
 - Market consequences
 - Extra-market consequences
 - Intangible consequences
 
-### Mobile Users
+4) Identify Feasible Alternatives
+- Unless the best alternative is considered, the result will *always* be less than ideal
+- Two types of alternatives are sometimes ignored:
+  - Do-nothing” alternative
+  - Unglamorous alternatives
+- Ensure that all alternatives have been listed
+- Impractical alternatives may lead to a better possibility
+
+5) Select the Criteria for Determining the Best Alternative
+- Define what we mean by “best” (i.e. term is variable and STC depending on problem)
+- There must be at least one criterion, or a set of criteria, to evaluate which alternative is best
+  - Ex. Maximum profit, certain quota met, etc.
+
+6) Construct a Model
+
+The objective, relative data, feasible alternatives, and selection standards of the problem must be merged. In Economics, this model is usually **mathematical.**
+
+
+
+
+
+
+
+
+
+
+
+# Mobile Users
 
 | Wireless  | Mobile | Typical applications|
 |-|-|-|
