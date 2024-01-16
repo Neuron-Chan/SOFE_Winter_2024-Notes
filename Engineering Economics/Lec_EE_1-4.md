@@ -1,3 +1,5 @@
+|Todo: work on Lecture 1
+
 # Preamble:
 
 "Open door" policy and "1% policy" in grading.
