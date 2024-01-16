@@ -122,10 +122,10 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
   - Implement plan, but plan may be changed as we go along
 
   ## The software development life-cycle
-  ![spm1](../static/SPM_1.png)
+  ![spm1](../static/SPM_1_1.png)
 
   # Plans, methods & methodologies
-  ![spm2](../static/SPM_2.png)
+  ![spm2](../static/SPM_1_2.png)
 
   ### Some ways of categorizing projects
   Distinguishing different types of project is important, as different types of task need different project approaches e.g.
@@ -161,9 +161,9 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 
   Different stakeholders may have different objectives; must define common project objectives.
 
-  ![spm3](../static/SPM_3.png)
+  ![spm3](../static/SPM_1_3.png)
 
-  ![spm4](../static/SPM_4.png)
+  ![spm4](../static/SPM_1_4.png)
 
   # Setting Objectives
 
@@ -198,7 +198,7 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 
   T – Time-constrained: there is a defined point in time by which the objective should be achieved
 
-  ![spm5](../static/SPM_5.png)
+  ![spm5](../static/SPM_1_5.png)
 
   ### Goals/Sub-objectives
 
@@ -227,9 +227,9 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
   - Repeat business – they buy further products from us
   - Number of complaints – if low, etc.
 
-  ![spm6](../static/SPM_6.png)
+  ![spm6](../static/SPM_1_6.png)
 
-  ![spm7](../static/SPM_7.png)
+  ![spm7](../static/SPM_1_7.png)
 
   ## Other success criteria
 
@@ -251,7 +251,7 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
   - **Representing** – liaising with clients, users,developers and other stakeholders
 
   ## Management Control
-  ![spm8](../static/SPM_8.png)
+  ![spm8](../static/SPM_1_8.png)
 
   **Data** – the raw details
     - _e.g. "6,000 documents processed at location X"_
@@ -331,6 +331,47 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 
 
 ![ex](../static/SPM_2_1.png)
+
+# Project portfolio management
+
+The concerns of project portfolio management include:
+- Evaluating proposals for projects
+- Assessing the risk involved with projects
+- Deciding how to share resources between projects
+- Taking account of dependencies between projects
+- Removing duplication between projects
+- Checking for gaps
+
+## Three Elements to PPM:
+
+1. Project portfolio definition
+  a. Create a central record of all projects within an organization
+  b. Must decide whether to have ALL projects in the repository or, say, only ICT projects
+  c. Note difference between new product development (NPD) projects and renewal projects e.g. for process improvement
+
+2. Project portfolio management
+  Actual costing and performance of projects can be recorded and assessed
+
+3. Project portfolio optimization
+  Information gathered above can be used to achieve better balance of projects e.g. some that are risky but potentially very valuable balanced by less risky but less valuable projects
+
+You may want to allow some work to be done outside the portfolio e.g. quick fixes
+
+# Cost-benefit analysis (CBA)
+
+This relates to an individual project. One must identify all the costs, which could be:
+- Development costs
+- Set-up
+- Operational costs
+
+One should also identify the value of benefits, and check if the benefits are greater than the costs
+
+# Product/system life cycle cash flows
+
+![life cycle cash flow](../static/SPM_2_2.png)
+
+
+
 
 </details>
 
