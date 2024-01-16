@@ -541,19 +541,7 @@ A hash function takes data as its input, performs a numeric operation on this da
 - Examples include GNU/Linux and BSD UNIX (including core of Mac OS X), and many more
 - Can use VMM like VMware Player (Free on Windows), Virtualbox (open source and free on many platforms - http://www.virtualbox.com)
   - Used to run guest operating systems for exploration
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 </details>
 
 ---
