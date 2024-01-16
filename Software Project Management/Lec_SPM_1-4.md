@@ -345,15 +345,15 @@ The concerns of project portfolio management include:
 ## Three Elements to PPM:
 
 1. Project portfolio definition
-  a. Create a central record of all projects within an organization
-  b. Must decide whether to have ALL projects in the repository or, say, only ICT projects
-  c. Note difference between new product development (NPD) projects and renewal projects e.g. for process improvement
+  - Create a central record of all projects within an organization
+  - Must decide whether to have ALL projects in the repository or, say, only ICT projects
+  - Note difference between new product development (NPD) projects and renewal projects e.g. for process improvement
 
 2. Project portfolio management
-  Actual costing and performance of projects can be recorded and assessed
+  - Actual costing and performance of projects can be recorded and assessed
 
 3. Project portfolio optimization
-  Information gathered above can be used to achieve better balance of projects e.g. some that are risky but potentially very valuable balanced by less risky but less valuable projects
+  - Information gathered above can be used to achieve better balance of projects e.g. some that are risky but potentially very valuable balanced by less risky but less valuable projects
 
 You may want to allow some work to be done outside the portfolio e.g. quick fixes
 
