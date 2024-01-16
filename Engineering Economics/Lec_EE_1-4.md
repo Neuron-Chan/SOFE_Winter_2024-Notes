@@ -165,10 +165,19 @@ Audits help *keep a project on track*, help *future estimates and assumptions*, 
 
 # Ethics
 
+Ethics can be described as **distinguishing right and wrong when making decisions**
+- Establishing beliefs and moral obligations
+- Defining values and fairness
+- Determining duties and guidelines for conduct
 
+Ethical decision-making requires:
+- an understanding of the “context” of the problem,
+- the possible choices, and
+- the outcomes of each choice
 
 ## Ethical Dimensions in Decision-Making
 
+In Canada, provincial and territorial associations of professional engineers are responsible for the regulation of the practice of engineering (Engineers Canada). For all engineers, difficulties arise when their actions are contrary to these written or internal codes.
 
 # Mobile Users
 
