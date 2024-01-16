@@ -551,8 +551,38 @@ A hash function takes data as its input, performs a numeric operation on this da
 
 # Operating System Services
 
+Operating systems provide an environment for execution of programs and services to programs and users. The OS can be studied from three different angles:
+- The services the OS provides
+- The interface that the OS makes available to users and programmers
+- The OS components and their interconnections.
 
+1) User interface: Almost all operating systems have a user interface (UI). It has several forms:
+- Command-Line (CLI)
+- Graphics User Interface (GUI)
+- Batch interface: commands entered into files, to be executed.
 
+2) Program execution: The system must be able to load a program into memory and to run that program, end execution, either normally or abnormally (indicating error)
+
+3) I/O operations: A running program may require I/O, which may involve a file or an I/O device
+
+4) 4. File-system manipulation: The file system is of particular interest. Programs need to read and write files and directories, create and delete them, search them, list file information, permission management.
+
+5) Communications: Processes may exchange information, on the same computer or between computers over a network
+- Communications may be via shared memory or through message passing (packets moved by the OS)
+
+6) Error detection: OS needs to be constantly aware of possible errors
+- May occur in the CPU and memory hardware, in I/O devices, in user program
+- For each type of error, OS should take the appropriate action to ensure correct and consistent computing
+- Debugging facilities can greatly enhance the user's and programmer's abilities to efficiently use the system
+
+7) Resource allocation: When multiple users or multiple jobs running concurrently, resources must be allocated to each one of them
+- Many types of resources: CPU cycles, main memory, file storage, I/O devices.
+
+8) Accounting: To keep track of which users use how much and what kinds of computer resources
+
+9) Protection and security: The owners of information stored in a multiuser or networked computer system may want to control use of that information, concurrent processes should not interfere with each other
+- Protection controlling the access to system resources
+- Security securing the system from outsiders requires user authentication, and defending external I/O devices from invalid access attempts
 
 
 
