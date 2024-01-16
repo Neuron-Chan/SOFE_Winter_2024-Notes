@@ -197,7 +197,7 @@ Globalization is an area of increasing importance within ethical considerations
 
 # Importance of Ethics In Engineering and Engineering Economy
 
-
+Mistakes can still be made even while acting ethically. The engineers' duty to speak out, within, and beyond their company is neccessary to protect the public.
 
 
 
