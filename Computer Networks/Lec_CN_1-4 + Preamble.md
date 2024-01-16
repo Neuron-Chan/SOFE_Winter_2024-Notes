@@ -677,7 +677,7 @@ The **application layer** contains all the higher-level protocols:
 - **HTTP** (Hyper Text Transferee Protocol), for fetching pages on the World Wide Web
 - **RTP** (Real Time Protocol), for delivering real-time media such as voice or movies
 
-todo: add images
+![stuff](../static/CN_2_10.png)
 
 
 
