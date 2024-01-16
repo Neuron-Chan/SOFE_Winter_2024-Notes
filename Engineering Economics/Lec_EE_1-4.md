@@ -161,7 +161,7 @@ The right choice is the one that best meets the criteria after we have considere
 
 An audit of the results is a comparison of what happened against the predictions.
 
-Audits *help keep a project on track*, help *future estimates and assumptions*, and *provide an incentive* to give accurate estimates
+Audits help *keep a project on track*, help *future estimates and assumptions*, and *provide an incentive* to give accurate estimates
 
 # Ethics
 
