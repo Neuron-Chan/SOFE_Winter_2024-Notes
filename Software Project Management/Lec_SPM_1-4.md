@@ -370,7 +370,12 @@ One should also identify the value of benefits, and check if the benefits are gr
 
 ![life cycle cash flow](../static/SPM_2_2.png)
 
+- The timing of costs and income for a product of system needs to be estimated.
+- The development of the project will incur costs.
+- When the system or product is released it will generate income that gradually pays off costs
+- Some costs may relate to decommissioning – think of demolishing a nuclear power station.
 
+![net profit](../static/SPM_2_3_1.png)
 
 
 </details>
