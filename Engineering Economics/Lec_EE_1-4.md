@@ -95,39 +95,32 @@ Subjects to be covered:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Economic Decisions, Engineering Costs, and Cost Estimating</summary>
 
-# Intro to Engineering Economics
+# A Sea of Problems
 
-What is Engineering Economics?
+Problems can be classified by levels of difficulty
+- Simple (do not require much time or effort)
+- Intermediate (primarily economic)
+- Complex (mix of economic, political, and social/ethical)
 
-- Base for Engineering Economy Decisions
-- Time Value of Money / Cash Flows / Financial Accounting / Replacement Decisions
-- Taxes / Capital Costs
-- Public Sector Decision Making
+# The Role of Engineering Economic Analysis
 
-Selected levelized costs of electricity and levelized avoided costs of electricity... double bar graph of some kind, measures costs divided by production (todo: include images)
+Engineering economic analysis is most suitable for intermediate problems and the economic aspects of complex problems. Such problems have the following characteristics:
 
-Engineering economy is a collection of techniques simplifying comparisons of alternatives on an economic basis. it is NOT a method or process for determining what the alternatives are, engineering economics only begins *after the alternatives have been identified*.
+1. The problem is *important* enough to justify serious thought and effort.
+2. The problem can't be worked out in one's head-that is, a careful analysis *requires that we organize* the problem and all the various consequences.
+3. The problem has economic aspects that are important in reaching a decision.
 
-Engineering economic analysis is able to answer financial questions of varying caliber.
-While economics is the sole criterion for selecting best alternatives, real-world decisions usually include other factors in the decision-making process.
+# The Decision-Making Process
 
-# Frequent Engineering Economics (E.E.) Questions
+![decision making](../static/EE_1_1.png)
 
-- Why do the project at all? Is there a need for the project? (necessity)
-- Why do it now? Can it be delayed? Can we afford it now? (urgency/affordability)
-- Why do it this way? Is this the best alternative? Is there a better solution? (optimality/methodology)
-- Will the project pay back? Will we run a loss or make a profit? (profitability)
+1) Recognize the Problem - Once we are aware of the problem, we solve it as best we can
+2) Define the goal or objective - The goal can be a grand, overall goal of a person or a firm, or it may be narrow and specific
+3) Assemble Relevant Data - Obtaining information through market research or other data gathering is required. The time horizon of the problem (i.e. how long would it take to solve) must be assembled. A firm’s own accounting system is recognized as valuable data. Must also include financial consequences (costs and benefits):
 
-
-### How do we determine which project is worth spending X amount of money?
-In building a nuclear-powered, gas-fired, or coal-fired power plant compared to a wind farm;
-
-Factors include safety, air pollution, public acceptance, water demand, waste disposal, global warming, etc. are considered in identifying the best alternative.
-
-Many techniques exist (VIKOR, AHP, TOPSIS) that evaluate different aspects and use optimization techniques.
-
-### Home Applications
-
+- Market consequences
+- Extra-market consequences
+- Intangible consequences
 
 ### Mobile Users
 
