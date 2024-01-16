@@ -295,6 +295,43 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
   - Programme management
   - Benefits management
 
+  # Business Case
+
+  Provides a justification for starting a project. Should show that the benefits of the project's outcome exceed development, implementation, and operational costs. Needs to take into account business risks.
+
+  1. Introduction/ background
+  2. The proposed project
+  3. The market
+  4. Organizational and operational infrastructure
+  5. The benefits
+  6. Outline implementation plan
+  7. Costs
+  8. The financial case
+  9. Risks
+  10. Management plan
+
+  ## Content of the business case
+
+  **Introduction/background:** describes problem to be solved/opportunity to be exploited
+
+  **The proposed project:** a brief outline of the project scope
+
+  **The market:** the project could be to develop a new product (e.g. a new computer game). The likely demand for the product would need to be assessed.
+
+  **Organizational and operational infrastructure**: How the organization would need to change. This would be important where a new information system application was being introduced
+  
+  **Benefits**: These should be expressed in financial terms where possible. In the end it is up to the client to assess these – as they are going to pay for the project.
+
+  **Outline implementation plan:** how the project is going to be implemented. This should consider the disruption to an organization that a project might cause.
+  
+  **Costs:** the implementation plan will supply information to establish these
+  
+  **Financial analysis:** combines costs and benefit data to establish value of project
+
+
+
+![ex](../static/SPM_2_1.png)
+
 </details>
 
 ---
