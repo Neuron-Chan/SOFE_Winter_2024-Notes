@@ -179,26 +179,43 @@ Ethical decision-making requires:
 
 In Canada, provincial and territorial associations of professional engineers are responsible for the regulation of the practice of engineering (Engineers Canada). For all engineers, difficulties arise when their actions are contrary to these written or internal codes.
 
-# Mobile Users
+## The Environment We Live In
+The decision maker must ask who incurs the costs for the project and who receives the benefits. Ethical issues can be particularly difficult because there are often stakeholders with opposing viewpoints, and some of the data may be uncertain and hard to quantify.
 
-| Wireless  | Mobile | Typical applications|
-|-|-|-|
-|  No | No  | Desktop computers in offices|
-|  No | Yes | A notebook computer used in a hotel room|
-| Yes | No  | Networks in unwired buildings|
-| Yes | Yes | Store inventory with a handheld computer|
+(E.g., protecting the habitat of an endangered species versus flood-control projects that protect people, animals, and structures)
 
-### Social Issues
+## Safety & Cost
+Some of the most common and most difficult ethical dilemmas involve trade-offs between safety and cost. If a product is "too safe," it will be too expensive and it will not be used. And sometimes the cost is borne by one party and the risk by another. A balance must be struck between safety and cost.
+
+## Emerging Issues and "Solutions"
+
+Governments have prevented, limited, and exposed financial wrongdoing within corporations as a result of the latter breaching laws.
+
+Globalization is an area of increasing importance within ethical considerations
+
+# Importance of Ethics In Engineering and Engineering Economy
 
 
-# Network Hardware:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </details>
 
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Supply & Demand / Estimating Models</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Accounting & Engineering Economy</summary>
 
 
 </details>
@@ -206,7 +223,15 @@ In Canada, provincial and territorial associations of professional engineers are
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Role of the BANK of Canada</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Interest & Equivalence</summary>
+
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | Equivalence for Repeated Cash Flows</summary>
 
 
 </details>
