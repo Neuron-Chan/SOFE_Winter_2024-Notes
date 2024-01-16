@@ -5,10 +5,12 @@
 | Category                     | Mark   |
 |------------------------------|--------|
 | Term Group Project           | 20%    |
-| Drop Quiz                    | 5%     |
+| Drop Quiz (TBA)              | 5%     |
 | Midterm 1 (Feb. 8th)         | 15%    |
 | Midterm 2 (Mar. 14th)        | 25%    |
 | Final                        | 35%    |
+
+Office hours: Mon
 
 Missed midterms are deferred to Final exam.
 
@@ -16,14 +18,14 @@ Final is comprehensive
 
 Project stuff:
 
-- Project will look t estimating economics connected to different possible industrial applications
+- Project will look at estimating economics connected to different possible industrial applications. Five people. Deliverables are a written report and recorded video presentation.
   - Multiple Hybrid electric energy systems
   - These are some of the alternatives that will be proposed. However the group in the proposal can put something it retains interesting forward.
  
 3 PARTS
-A) Initial Investigation (By Week 6)
-B) COST Estimation (DATA / Week 10)
-C) Final Report w/ Presentation (recorded)
+A) Initial Investigation Feb. 19 2024
+B) COST Estimation Mar. 22 2024
+C) Final Report w/ Presentation Apr. 1 2024
 
 Energy project will primarily look at estimating the economics connected to different electrical power plants alternatives (example:)
 a) Nuclear SMR Reactor (Nuscale)
@@ -68,9 +70,9 @@ d) might be scanned in Microsoft Word
 
 Subjects to be covered:
 
-- ***<ins>Introduction to Engineering Economics: Macro & Micro Economics</ins>***
-- ***<ins>Supply and Demand / Estimating models</ins>***
-- ***<ins>Role of the Bank of Canada</ins>***
+- Introduction to Engineering Economics: Macro & Micro Economics
+- Supply and Demand / Estimating models
+- Role of the Bank of Canada
 - Balance Sheet Accounting
 - Financial Ratios
 - Time value of money
@@ -91,7 +93,7 @@ Subjects to be covered:
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to Engineering Economics: Macro & Micro Economics</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Economic Decisions, Engineering Costs, and Cost Estimating</summary>
 
 # Intro to Engineering Economics
 
