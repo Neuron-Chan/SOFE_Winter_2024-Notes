@@ -601,7 +601,7 @@ In UNIX and Linux systems, there are different shells to choose from:
 - Bourne-Again shell,
 - Korn shell,
 
-
+![interface](../static/OS_2_2.png)
 
 # System Calls
 
@@ -652,7 +652,53 @@ In UNIX and Linux systems, there are different shells to choose from:
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | ???</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Processes</summary>
+
+# Process Concept
+
+
+
+
+
+
+
+
+# Process Scheduling
+
+
+
+
+
+
+
+
+
+# Operations on Processes
+
+
+
+
+
+
+
+
+# Interprocess Communication
+
+
+
+
+
+
+
+# Examples of IPC Systems
+
+
+
+
+
+
+
+# Communication in Client-Server Systems
 
 </details>
 
