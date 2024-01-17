@@ -648,7 +648,75 @@ Typically, a number is associated with each system call, and the system-call int
   - Most details of OS interface hidden from programmer by API
   - Managed by run-time support library (set of functions built into libraries included with compiler)
 
+  ![le figure](../static/OS_2_5.png)
+
+## System Call Parameter Passing
+More information is usually required than simply the identity of the desired system call.
+- Exact type and amount of information vary according to OS and call
+- Three general methods used to pass parameters to the OS
+  - **Passing the parameters in registers**
+    - It is the simplest, but it may be more parameters than registers
+  - **Parameters stored in a *block*, or *table***, in memory, and address of block passed as a parameter in a register
+    - Such as in Linux and Solaris
+  - **Parameters placed, or pushed, onto the stack** by the program and popped off the stack by the operating system
+  
+- Block and stack methods do not limit the number or length of parameters being passed
+
+![le figure](../static/OS_2_6.png)
+
 # Types of System Calls
+
+System calls can be grouped into six major categories:
+1. Process control
+2. File manipulation
+3. Device manipulation
+4. Information maintenance
+5. Communications
+6. Protection
+
+## Process Control
+
+- create process, terminate process
+- end, abort
+- load, execute
+- get process attributes, set process attributes
+- wait for time
+- wait event, signal event
+- allocate and free memory
+- Dump memory if error
+- Debugger for determining bugs, single step execution
+- Locks for managing access to shared data between processes
+- Such as acquire_lock() and release_lock()
+
+### Example: MS-DOS
+- It is a single-tasking system
+- Shell (command interpreter) invoked when system booted
+- It uses a simple method to run program and does not create a new process
+- It uses a single memory space
+
+- Loads program into memory, overwriting itself but not the kernel
+- When program exit, the remaining from the shell reloads back the rest from the hard disk and then ready to run new program
+
+![le figure](../static/OS_2_7.png)
+
+## File Manipulation
+
+
+
+
+## Device Manipulation
+
+
+
+
+## Information Maintenance
+
+
+
+## Communications
+
+
+## Protection
 
 
 
