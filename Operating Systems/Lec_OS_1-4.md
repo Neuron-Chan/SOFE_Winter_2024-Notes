@@ -697,7 +697,7 @@ System calls can be grouped into six major categories:
 - Loads program into memory, overwriting itself but not the kernel
 - When program exit, the remaining from the shell reloads back the rest from the hard disk and then ready to run new program
 
-![le figure](../static/OS_2_7.png)
+![le figure](../static/OS_2_7_1.png)
 
 ### Example: FreeBSD (Berkeley Software Distribution)
 
@@ -712,7 +712,7 @@ System calls can be grouped into six major categories:
 code = 0 → no error
 code > 0 → error code
 
-![le figure](../static/OS_2_8.png)
+![le figure](../static/OS_2_7_2.png)
 
 ## 2. File Manipulation
 
@@ -727,28 +727,56 @@ code > 0 → error code
 
 ## 3. Device Manipulation
 
-- A process may need several resources to execute such as main memory, disk drives, access to files, etc.
-- request device, release device
-- read, write, reposition
-- get device attributes, set device attributes
-- logically attach or detach devices
+A process may need several resources to execute such as main memory, disk drives, access to files, etc.
+  - request device, release device
+  - read, write, reposition
+  - get device attributes, set device attributes
+  - logically attach or detach devices
 
 
 
-## Information Maintenance
+## 4. Information Maintenance
 
+They are needed for transferring information between the user program and the operating system
+- get time or date, set time or date
+- get system data, set system data
+- get and set process, file, or device attribute
 
+## 5. Communications
 
-## Communications
+- create, delete communication connection
+- transfer status information
+- attach and detach remote devices
+- There are two common models of interprocess communication:
+  - The message-passing model: for exchanging smaller amounts of data
+    - send, receive messages to host name or process name
+      - From client to server
 
+## 6. Protection
 
-## Protection
+- To control access to the resources
+- Get and set permissions
+- Allow and deny user access
 
+![le figure](../static/OS_2_7_3.png)
 
-
+![le figure](../static/OS_2_7_4.png)
 
 # System Programs
 
+System programs (system utilities) provide a convenient environment for program development and execution. Some  system programs are user interfaces for system calls while others are more complex programs.
+
+They can be divided into:
+- File management
+- Status information
+- File modification
+- Programming language support
+- Program loading and execution
+- Communications
+- Background services
+- Application programs
+
+Most users’ view of the operating system is defined by the application and system programs, rather than by the actual system calls.
 
 
 
