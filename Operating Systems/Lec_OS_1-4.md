@@ -674,7 +674,7 @@ System calls can be grouped into six major categories:
 5. Communications
 6. Protection
 
-## Process Control
+## 1. Process Control
 
 - create process, terminate process
 - end, abort
@@ -699,13 +699,39 @@ System calls can be grouped into six major categories:
 
 ![le figure](../static/OS_2_7.png)
 
-## File Manipulation
+### Example: FreeBSD (Berkeley Software Distribution)
+
+- It is Unix variant
+- It is a multitasking system
+- When user login, the system invokes user's choice of shell (many shells to choose from)
+- To start a new process, the shell executes a fork() system call
+- Then it loads the selected program into memory by executing the exec() system call, and the program is executed
+- Then Shell waits for process to terminate or continues with other user commands
+- When a process is done, it executes exit() system call to terminate and returns either:
+
+code = 0 → no error
+code > 0 → error code
+
+![le figure](../static/OS_2_8.png)
+
+## 2. File Manipulation
+
+- create file, delete file
+- open, close file
+- read, write, reposition, move, copy
+- get and set file attributes
+  - File name, file type, protection codes, accounting information
+- Operations for directories
 
 
 
+## 3. Device Manipulation
 
-## Device Manipulation
-
+- A process may need several resources to execute such as main memory, disk drives, access to files, etc.
+- request device, release device
+- read, write, reposition
+- get device attributes, set device attributes
+- logically attach or detach devices
 
 
 
