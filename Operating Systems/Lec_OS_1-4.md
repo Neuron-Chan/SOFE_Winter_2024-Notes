@@ -603,11 +603,50 @@ In UNIX and Linux systems, there are different shells to choose from:
 
 ![interface](../static/OS_2_2.png)
 
+## Graphical User Interfaces (GUI)
+- User-friendly desktop metaphor interface
+- Usually mouse, keyboard, and monitor
+- Icons represent files, programs, actions, etc
+- Various mouse buttons over objects in the interface cause various actions (provide information, options, execute function, open directory (known as a folder)
+- Invented at Xerox PARC in 1973
+
+Many systems now include both CLI and GUI interfaces
+- Microsoft Windows is GUI with CLI “command” shell
+- Apple Mac OS X is “Aqua” GUI interface with UNIX kernel underneath and shells available
+- Unix and Linux have CLI with optional GUI interfaces (CDE, KDE, GNOME)
+
+## Touchscreen Interfaces
+- Touchscreen devices require new interfaces
+  - Mouse not possible or not desired
+  - Actions and selection based on gestures
+  - Virtual keyboard for text entry
+- Voice commands.
+
+- The Mac OS X (which is in part implemented using a UNIX kernel), provides both an Aqua interface and a command-line interface.
+
 # System Calls
 
+They provide an interface to the services made available by an operating system. Typically written in a high-level language (C or C++), some by assembly. They are mostly accessed by programmers (or programs) via a high-level Application Programming Interface (API) rather than direct system call use. Programmers access the API through a library (called libc in UNIX/Linux)
+ 
+The three most common APIs are:
+- Win32 API for Windows,
+- POSIX API for POSIX-based systems (includes most versions of UNIX, Linux, and Mac OS X)
+- Java API for the Java virtual machine (JVM)
 
+Note that the system-call names used throughout this course are *generic.*
 
+![example](../static/OS_2_3.png)
 
+![also api](../static/OS_2_4.png)
+
+## System Call Implementation
+
+Typically, a number is associated with each system call, and the system-call interface maintains a table indexed according to these numbers. The system call interface invokes the intended system call in OS kernel and returns status of the system call and any return values.
+- Example: the Windows function CreateProcess() actually invokes the NTCreateProcess() system call in the Windows kernel.
+  - The caller need to know nothing about how the system call is implemented
+  - Just needs to obey API and understand what OS will do as a result call
+  - Most details of OS interface hidden from programmer by API
+  - Managed by run-time support library (set of functions built into libraries included with compiler)
 
 # Types of System Calls
 
