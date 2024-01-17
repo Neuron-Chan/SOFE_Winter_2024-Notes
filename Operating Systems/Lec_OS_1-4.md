@@ -584,11 +584,23 @@ Operating systems provide an environment for execution of programs and services 
 - Protection controlling the access to system resources
 - Security securing the system from outsiders requires user authentication, and defending external I/O devices from invalid access attempts
 
-
-
-# User Operating System Interface
 todo: add images
 ![os services](../static/OS_2_1.png)
+
+# User Operating System Interface
+
+## Command interpreters
+CLI or command interpreter allows direct command entry. Sometimes implemented in kernel, sometimes by system program, and can have multiple flavors implemented called shells
+- Primarily fetches a command from user and executes it
+- Sometimes commands built-in, sometimes just names of programs
+-  If the latter, adding new commands doesn’t require shell modification
+
+In UNIX and Linux systems, there are different shells to choose from:
+- Bourne shell,
+- C shell,
+- Bourne-Again shell,
+- Korn shell,
+
 
 
 # System Calls
