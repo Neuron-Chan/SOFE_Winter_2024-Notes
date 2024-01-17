@@ -587,8 +587,8 @@ Operating systems provide an environment for execution of programs and services 
 
 
 # User Operating System Interface
-
-
+todo: add images
+![os services](../static/OS_2_1.png)
 
 
 # System Calls
