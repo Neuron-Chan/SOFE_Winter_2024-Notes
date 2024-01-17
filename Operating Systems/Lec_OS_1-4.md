@@ -778,10 +778,67 @@ They can be divided into:
 
 Most users’ view of the operating system is defined by the application and system programs, rather than by the actual system calls.
 
+<ins>File management</ins>
 
+- Create, delete, copy, rename, print, dump, list, and generally manipulate files and directories
+
+<ins>Status information</ins>
+
+- Some programs that ask the system for info about date, time, amount of available memory, disk space, number of users
+- Others provide detailed performance, logging, and debugging information
+- These programs are typically format and print the output to the terminal or other output devices
+- Some systems implement a registry which is used to store and retrieve configuration information
+
+<ins>File modification</ins>
+
+- Text editors to create and modify files
+- Special commands to search contents of files or perform transformations of the text
+
+<ins>Programming-language support</ins>
+
+- Compilers, assemblers, debuggers and interpreters sometimes provided for common programming languages (such as C, C++, Java, and PERL)
+
+<ins>Program loading and execution</ins>
+
+- The system may provide absolute loaders, relocatable loaders, linkage editors, and overlay-loaders, debugging systems for higher-level and machine language
+
+<ins>Communications</ins>
+
+- Provide the mechanism for creating virtual connections among processes, users, and computer systems
+  - Allow users to send messages to one another's screens, browse web pages, send electronic-mail messages, log in remotely, transfer files from one machine to another
+
+<ins>Background Services</ins>
+
+- Launched at boot time
+  - Some form system startup, then terminate
+  - Some from system boot to shutdown (called daemons or services)
+    - Provide facilities like disk checking, process scheduling, error logging, printing, etc.
+    - Run in user context not in kernel context
+    - Known as **services, subsystems, daemons**
+
+<ins>Application programs</ins>
+
+- Don’t pertain to system, and not typically considered part of OS
+- Run by users by command line, mouse click, finger poke
+- Such as Web browsers, word processors and text formatters, spreadsheets, database systems, compilers, plotting and statistical-analysis packages, and games.
 
 # Operating System Design and Implementation
 
+Specifying and designing an OS is a highly creative task of software engineering. The principles for designing an OS are:
+
+1. Design goals:
+- Internal structure of different Operating Systems can vary widely
+• Start the design by defining the goals and specifications
+• Which are affected by choice of hardware, and type of system: batch,
+time sharing, single user, multiuser, distributed, real time, or general
+purpose
+• The requirements are hard to define but they can be divided into:
+• User goals:
+• The OS should be convenient to use, easy to learn, reliable, safe,
+and fast
+• Designers goals:
+• The OS should be easy to design, implement, and maintain, as
+well as flexible, reliable, error-free, and efficient
 
 
 # Operating System Structure
