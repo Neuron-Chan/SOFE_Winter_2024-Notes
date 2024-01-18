@@ -971,20 +971,36 @@ General-purpose OS is a very large program that must be engineered carefully. A 
 Kernighan's Law:
 - "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."
 
+## Performance Tuning
+- Improve performance by removing the bottlenecks
+- OS provides means of computing and displaying measures of system behavior
+- For example,
+
+- "top" is a unix command to display the resources used on the system, as well as a sorted list of the “top” resource-using processes.
+- Windows Task Manager includes information about current applications and processes, CPU and memory usage, and networking statistics.
 
 # Operating System Generation
-
-
-
-
+- Operating systems are designed to run on any class of machines;
+- Therefore, the system must be configured for each specific computer site
+- System generation SYSGEN is a program that obtains information concerning the specific configuration of the hardware system
+  - This SYSGEN program determines what components are in the computer either (reads from a file, or asks the operator about the hardware system, or probes the hardware directly).
+  - The following kinds of information must be determined:
+    - What CPU is to be used?
+    - How will the boot disk be formatted?
+    - How much memory is available?
+    - What devices are available?
+    - What operating-system options are desired, or what parameter values are to be used? how many buffers, what CPU-scheduling algorithm, what the maximum number of processes to be supported is, etc.
 
 
 # System Boot
 
-
-
-
-
+- When power initialized on system, execution starts at a fixed memory location
+  - Firmware ROM used to hold initial boot code
+- Operating system must be made available to hardware so hardware can start it
+  - Small piece of code – bootstrap loader, stored in ROM or EEPROM locates the kernel, loads it into memory, and starts it
+  - Sometimes two-step process where boot block at fixed location loaded by ROM code, which loads bootstrap loader from disk, which will load the kernel
+- Common bootstrap loader for Linux, GRUB (GNU Grand Unified Bootloader), allows selection of kernel from multiple disks, versions, kernel options
+- When the Kernel is loaded, the system is said to be running
 
 </details>
 
