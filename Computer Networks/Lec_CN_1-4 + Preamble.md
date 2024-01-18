@@ -346,7 +346,7 @@ Each layer solves a particular problem but must include mechanisms to address a 
 # Connection-oriented vs. connectionless service
 
 Layers can offer two types of service to the layers above them:
-- **Connection-oriented**: a connection must be set up for ongoing use (and torn down after use), e.g., phone call
+- **Connection-oriented**: a connection must be set up for ongoing use (and torn down after use), e.g., phone call. A connection should be established before sending data and every packet should be acknowledged
 - **Connectionless**: messages are handled separately, e.g., postal delivery (each message (letter) carries the full destination address and routed independently)
 
 Each kind of service can further be characterized by its reliability. Reliability in this context means the message is acknowledged. (i.e. whether or not a service receives a data packet)
