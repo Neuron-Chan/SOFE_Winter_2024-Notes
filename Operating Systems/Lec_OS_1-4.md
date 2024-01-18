@@ -828,18 +828,37 @@ Specifying and designing an OS is a highly creative task of software engineering
 
 1. Design goals:
 - Internal structure of different Operating Systems can vary widely
-• Start the design by defining the goals and specifications
-• Which are affected by choice of hardware, and type of system: batch,
-time sharing, single user, multiuser, distributed, real time, or general
-purpose
-• The requirements are hard to define but they can be divided into:
-• User goals:
-• The OS should be convenient to use, easy to learn, reliable, safe,
-and fast
-• Designers goals:
-• The OS should be easy to design, implement, and maintain, as
-well as flexible, reliable, error-free, and efficient
+- Start the design by defining the goals and specifications
+- Which are affected by choice of hardware, and type of system: batch, time sharing, single user, multiuser, distributed, real time, or general purpose
+- The requirements are hard to define but they can be divided into:
+  - User goals:
+    - The OS should be convenient to use, easy to learn, reliable, safe, and fast
+  - Designers goals:
+    - The OS should be easy to design, implement, and maintain, as well as flexible, reliable, error-free, and efficient
+   
 
+  
+2. Separation of mechanisms and policies
+- Policy: What will be done?
+- Mechanism: How to do it?
+
+The separation of policy from mechanism is a very important principle, since it allows maximum flexibility if policy decisions are to be changed later
+
+Example:
+- The timer construct is a mechanism for ensuring CPU protection, but deciding how long the timer is to be set for a particular user is a policy decision.
+
+3. Implementation
+- Much variation
+  - Early OSes are implemented in assembly language
+  - Then system programming languages like Algol, PL/1
+  - Now C, C++
+- A mix of languages is actually used
+  - Lowest levels are written in assembly
+  - Main body is written in C
+  - Systems programs are implemented in C, C++, scripting languages like PERL, Python, shell scripts
+- More high-level language is easier to port to other hardware
+  - But it is slower and increases the storage requirements
+- After the OS been implemented correctly, bottleneck routines can be identified and replaced with assembly-language equivalents.
 
 # Operating System Structure
 
