@@ -862,8 +862,28 @@ Example:
 
 # Operating System Structure
 
+General-purpose OS is a very large program that must be engineered carefully. A common approach is to partition the task into small modules, rather than have one monolithic system.
+- There are various ways to structure the OS:
+- Simple structure – MS-DOS
+- More complex -- UNIX
+- Layered – an abstraction
+- Microkernel -Mach
 
+## Simple Structure -- MS-DOS
+- MS-DOS – written to provide the most functionality in the least space
+  - Not divided into modules
+  - Although MS-DOS has some structure, its interfaces and levels of functionality are not well separated
+    - Application programs are able to access the basic I/O routines to write directly to the display and disk drives
+      - This makes the system more vulnerable to malicious programs, and crashes
 
+## Traditional UNIX
+- Not a simple structure and not fully layered
+  - The original UNIX is limited by hardware functionality, the original UNIX operating system had limited structuring.
+  - The UNIX OS consists of two separable parts:
+    - System programs
+    - The kernel
+      - Consists of everything below the system-call interface and above the physical hardware
+      - Provides the file system, CPU scheduling, memory management, and other operating-system functions; a large number of functions for one level
 
 # Operating System Debugging
 
