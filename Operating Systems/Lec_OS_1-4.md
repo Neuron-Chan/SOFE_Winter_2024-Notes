@@ -876,6 +876,8 @@ General-purpose OS is a very large program that must be engineered carefully. A 
     - Application programs are able to access the basic I/O routines to write directly to the display and disk drives
       - This makes the system more vulnerable to malicious programs, and crashes
 
+![](../static/OS_2_8_1.png)
+
 ## Traditional UNIX
 - Not a simple structure and not fully layered
   - The original UNIX is limited by hardware functionality, the original UNIX operating system had limited structuring.
@@ -884,6 +886,32 @@ General-purpose OS is a very large program that must be engineered carefully. A 
     - The kernel
       - Consists of everything below the system-call interface and above the physical hardware
       - Provides the file system, CPU scheduling, memory management, and other operating-system functions; a large number of functions for one level
+     
+![](../static/OS_2_8_2.png)
+
+## Layered Approach
+- The operating system is divided into a number of layers (levels), each built on top of lower layers.
+  - The bottom layer (layer 0), is the hardware;
+  - The highest (layer N) is the user interface.
+- With modularity, layers are selected such that each uses functions (operations) and services of only the lower-level layers
+
+![](../static/OS_2_8_3.png)
+
+## Microkernel System Structure
+- Moves all nonessential components from the kernel and implementing them as system and user-level programs.
+- Mach is an example of microkernel developed by Carnegie Mellon Univ.
+  - Mac OS X kernel (Darwin) is partly based on Mach
+- Communication takes place between user modules using message passing
+- Benefits:
+  - Easier to extend a microkernel by adding new features to the user space
+  - Easier to port the operating system to new architectures
+  - More reliable (less code is running in kernel mode)
+  - More secure and reliable
+- Disadvantage:
+  - Performance overhead of user space to kernel space communication
+
+![](../static/OS_2_8_4.png)
+
 
 # Operating System Debugging
 
