@@ -505,10 +505,8 @@ Differences between Data-Link and Transport layers in terms of Error Control
 ## How do all layers work together?
 
 Each layer contains a Protocol Data Unit (PDU), which are used for peer-to-peer contact between corresponding layers.
-- Data is handled by the **top three layers,** then _Segmented_ by the _Transport_ layer.
-- The Network layer places it into packets and the Data Link frames the packets for transmission.\
-- Physical layer converts it to bits and sends it out over the media.
-- The receiving computer reverses the process using the information contained in the PDU
+
+**Data** is handled by the _top three layers_, then **Segmented** by the _Transport_ layer. The _Network_ layer places it into **packets** and the _Data Link_ **frames** the packets for transmission. _Physical_ layer converts it to **bits** and sends it out over the media. The _receiving computer_ **reverses** the process using the information contained in the PDU.
 
 
 ![work together](../static/CN_2_7_1.png)
