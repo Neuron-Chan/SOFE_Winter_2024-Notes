@@ -912,10 +912,64 @@ General-purpose OS is a very large program that must be engineered carefully. A 
 
 ![](../static/OS_2_8_4.png)
 
+## Modules
+- Many modern operating systems implement loadable kernel modules
+  - Uses object-oriented approach
+  - Each core component is separate
+  - Each talks to the others over known interfaces
+  - Each is loadable as needed within the kernel
+- Overall, similar to layers but with more flexibility
+  - Linux, Solaris, Mac OS X, Windows, etc
+- Solaris Modular Approach
+  - It is organized around a core kernel with seven types of loadable kernel modules:
+
+![](../static/OS_2_8_5.png)
+
+## Hybrid Systems
+- Most modern operating systems are actually not one pure model
+- But they are hybrid combines multiple approaches to address performance, security, and usability needs
+- Examples:
+  - Linux and Solaris kernels are monolithic, plus modular for dynamic loading of functionality
+  - Windows mostly monolithic, plus microkernel for different subsystem known as personalities
+
+- Apple Mac OS X is hybrid, layered, uses Aqua UI plus Cocoa programming environment
+  - The kernel consisting of Mach microkernel and BSD Unix parts, plus I/O kit and dynamically loadable modules (called kernel extensions)
+  - Mac OS X Structure
+
+![](../static/OS_2_8_6.png)
+
+- iOS: Apple mobile OS for iPhone, iPad
+  - Structured on Mac OS X, with added functionality for mobile devices
+    - But it does not run OS X applications natively
+    - Also runs on different CPU architecture (ARM vs. Intel
+  - Cocoa Touch it is an API for Objective-C for developing apps that suits the mobile devices with touch screen
+  - Media services layer for graphics, audio, video
+  - Core services provides support for cloud computing, databases
+  - Core operating system, is based on Mac OS X kernel
+ 
+- Android: Developed by Open Handset Alliance (led primarily by Google)
+  - It is an open Source
+  - It is similar to iOS in its layered structure
+  - It is based on Linux kernel which is modified by Google to provide process, memory, device-driver management, and power management
+  - The Android runtime environment includes core set of libraries and Dalvik virtual machine
+    - Apps developed in Java plus Android API
+      - Java class files compiled to Java bytecode then translated to executable then runs in Dalvik VM
+  - Libraries include frameworks for web browser (webkit), database support (SQLite), multimedia
+
+![](../static/OS_2_8_7.png)
 
 # Operating System Debugging
 
+- Debugging is finding and fixing errors, or bugs
+- OS generate log files containing error information
+- Failure of an application can generate core dump file capturing memory of the process
+- Operating system failure can generate crash dump file containing kernel memory
+- Beyond crashes, performance tuning can optimize system performance
+  - Sometimes using trace listings of activities, recorded for analysis
+  - Profiling is periodic sampling of instruction pointer to look for statistical trends
 
+Kernighan's Law:
+- "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."
 
 
 # Operating System Generation
