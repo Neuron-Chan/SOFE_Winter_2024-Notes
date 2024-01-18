@@ -689,6 +689,42 @@ The **application layer** contains all the higher-level protocols:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | The Physical Layer</summary>
 
+The physical layer is the foundation on which other layers are built. The properties of wires, fiber, and wireless limit what the network can do. It determines _**throughput, latency, and error rate**_ of a network communication link.
+The key problem is to send (digital) bits using only (analog) signals; This is called _**modulation**._
+
+# Theoretical Basis for Data Communications
+
+Information can be transmitted on wires by varying some physical property such as **voltage or current, frequency, or phase.**
+
+Communication rates have fundamental limits:
+- Fourier analysis
+- Bandwidth-limited signals
+- Maximum data rate of a channel
+
+
+Bandwidth:
+
+To electrical engineers, (analog) bandwidth is a quantity measured in Hz.
+To computer scientists, (digital) bandwidth is the maximum data rate of a channel, in **bps**.
+
+## Fourier Analysis
+A time-varying signal can be equivalently represented as a series of frequency components (harmonics) or infinite number of sines and cosines:
+
+The signal period is T, so its fundamental frequency is f=1/T
+
+![](../static/CN_3_1.png)
+
+# Guided Transmission Media
+
+# Wireless Transmission
+# Communication Satellites
+# Digital Modulation and Multiplexing
+# Public Switched Telephone Network
+# Mobile Telephone System
+# Cable Television
+
+
+
 # Physical media
 
 - bit: propagates between transmitter/receiver pairs
