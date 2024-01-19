@@ -1011,10 +1011,42 @@ Kernighan's Law:
 
 # Process Concept
 
+An operating system executes a variety of programs, what we should call all of the CPU activities:
+- Batch system: executes jobs (programs ) on a computer without manual intervention
+- Time-shared systems: executes user programs or tasks at the same time
+  - the terms job and process are used interchangeably
+- Process: it is a program in execution;
+  - process execution must progress in sequential fashion
 
+- The process has multiple parts other than the code:
+  - The program code, also called text section
+  - Current activity including program counter, processor registers
+  - Stack containing temporary data
+  - Function parameters, return addresses, local variables
+  - Data section containing global variables
+  - Heap containing memory dynamically allocated during run time
 
+![](../static/OS_3_1_1.png)
 
+Program is a _**passive**_ entity stored on disk (executable file), but the process is an _**active**_ entity with program counter (PC) pointing to the next instruction to be executed. Program becomes process when its executable file is loaded into memory
 
+Execution of program can be started via:
+- GUI mouse clicks, or
+-  command line entry of its name, etc
+
+One program can be of several processes
+- Consider multiple users executing the same program
+- Or a user invoking many copies of the web browser
+
+## Process State
+As a process executes, it changes state. A process may be in one of the following states:
+- **New**: The process is being created
+- **Running**: Instructions are being executed
+- **Waiting**: The process is waiting for some event to occur (such as an I/O completion or reception of a signal).
+- **Ready**: The process is waiting to be assigned to a processor
+- **Terminated**: The process has finished execution
+
+![](../static/OS_3_1_1.png)
 
 
 
