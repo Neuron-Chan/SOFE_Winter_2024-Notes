@@ -1,6 +1,6 @@
 # Operating Systems (SOFE3950)
 
-todo: fix this, catch up on lecture 1 notes.
+todo: add images
 
 | Category                     | Mark   |
 |------------------------------|--------|
@@ -1046,14 +1046,46 @@ As a process executes, it changes state. A process may be in one of the followin
 - **Ready**: The process is waiting to be assigned to a processor
 - **Terminated**: The process has finished execution
 
-![](../static/OS_3_1_1.png)
+![](../static/OS_3_1_2.png)
 
+## Process Control Block (PCB)
+Each process is represented in the OS by a process control block (PCB), that contains:
+- Process state: ready, running, waiting, etc
+- Program counter: location of next instruction to be executed
+- CPU registers: contents of all process-centric registers
+- CPU scheduling information: priorities, scheduling queue pointers
+- Memory-management information: memory allocated to the process
+- Accounting information: amount of CPU used, clock time elapsed since start, time limits, process numbers
+- I/O status information: list of I/O devices allocated to the process, list of open files
 
+![](../static/OS_3_1_3.png)
+
+## Threads
+- So far, a process is a program that performs a single thread of execution.
+- Most OSes allow a process to have multiple threads of execution and thus to perform more than one task at a time.
+  - It is beneficial on multicore systems, where multiple threads can run in parallel.
+  - Consider having multiple program counters per process
+    - Then multiple locations can execute at once
+      - Multiple threads of control -> threads
+  - The PCB is expanded to include information for each thread, such as multiple program counters
+
+## Process Representation in Linux
+![](../static/OS_3_1_4.png)
 
 # Process Scheduling
 
+The objective of multiprogramming is to have some process running at all times, to maximize CPU utilization. The objective of time sharing is to switch the CPU among processes.
 
+- For a single-processor system, there will never be more than one running process.
+- Process scheduler selects among available processes for next execution on CPU
+- Maintains scheduling queues of processes
+- Job queue; set of all processes in the system
+- Ready queue: set of all processes residing in main memory, ready and waiting to execute
+- Device queues: set of processes waiting for an I/O device
+- Each device has its own device queue
+- Processes migrate among the various queues
 
+![](../static/OS_3_2_1.png)
 
 
 
