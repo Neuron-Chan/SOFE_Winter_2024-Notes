@@ -710,7 +710,13 @@ A time-varying signal can be equivalently represented as a series of frequency c
 
 The signal period is T, so its fundamental frequency is f=1/T
 
-![](../static/CN_3_1.png)
+![](../static/CN_3_1_1.png)
+
+## Bandwidth-Limited Signals
+Consider the transmission of the ASCII character "b" = "01100010". Having less bandwidth, we loose some of the harmonics.
+- This degrades the received signal
+
+![](../static/CN_3_1_2.png)
 
 # Guided Transmission Media
 
