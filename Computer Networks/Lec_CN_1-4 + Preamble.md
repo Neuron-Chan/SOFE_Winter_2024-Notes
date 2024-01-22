@@ -700,7 +700,7 @@ Communication rates have fundamental limits:
 - Maximum data rate of a channel
 
 
-Bandwidth:
+**Bandwidth:**
 
 To electrical engineers, (analog) bandwidth is a quantity measured in Hz.
 To computer scientists, (digital) bandwidth is the maximum data rate of a channel, in **bps**.
@@ -719,6 +719,95 @@ Consider the transmission of the ASCII character "b" = "01100010". Having less b
 ![](../static/CN_3_1_2.png)
 
 # Guided Transmission Media
+
+Media have different properties, hence performance in terms of bandwidth, delay, cost, and ease of installation and maintenance. They are divided into two groups:
+
+**Guided media**,
+- Copper wire
+  - Twisted pairs
+  - Coaxial cable
+  - Power lines
+- Fiber optics
+  - Single mode
+  - Multimode
+
+**Unguided media**,
+- Terrestrial wireless
+- Satellite
+- Lasers through the air
+
+## Wires – Twisted Pair
+Two insulated copper wires; used in LANs and telephone lines. The twists reduce radiated signal (interference), and the signal is carried as the difference in voltage between the two wires. The bandwidth depends on wire thickness and the distance traveled. Twisted-pair cabling comes in several categories:
+- Category 5 (Cat 5) has 4-twisted pairs grouped together:
+  - 100-Mbps Ethernet uses two (out of the four) pairs, one pair for each direction
+  - 1-Gbps Ethernet uses all four pairs in both directions simultaneously
+- Category 6 (compatible with cat 5): 10Gbps, has more stringent specifications for crosstalk and system noise, up to 100m.
+  - UTP (unshielded twisted pair).
+- Category 7: it is STP (shielded twisted pair)
+
+![](../static/CN_3_2_1.png)
+
+## Wires – Coaxial Cable (“Co-ax”)
+Two concentric copper conductors, also common but more expensive than twisted pair. It has better shielding and more bandwidth for longer distances and higher rates than twisted pair. This is commonly used for video, (cable TV), because it needs larger bandwidth. It is bidirectional, broadband (multiple channels on cable)
+
+Two types:
+- 50-ohm: mainly used for digital transmission
+- 75-ohm: mainly used for analog transmission (TV cable)
+  -  Now it is used for both digital and analog.
+
+![](../static/CN_3_2_2.png)
+
+## Wires – Power Lines
+Household electrical wiring is another example of wires
+- Convenient to use, but horrible for sending data
+- Electricity is at 50-60Hz
+- Data is at much higher frequencies
+
+![](../static/CN_3_2_3.png)
+
+Wires – Fiber Optics Cables
+- Glass fiber carrying light pulses, each pulse a bit (pulse of light indicates a 1 bit and absence of light indicates a 0 bit)
+- Used for high-speed point-to-point transmission (e.g., 10’s-100’s Gpbs)
+- It has a low error rate, therefore repeaters spaced far apart (Light is immune to electromagnetic noise)
+- Common for high data rates and long distances (backbone)
+  - Long distance ISP links, and Fiber-to-the-Home (FttH)
+  - Light carried in very long, thin strand of glass
+- It has three key components: the light source, the transmission medium, and the detector (generates an electrical pulse when light falls on it.).
+
+![](../static/CN_3_2_4.png)
+
+**Single-mode**
+- Core so narrow (10μm) light can’t even bounce around
+- Used with lasers for long distances, e.g., 100km
+
+**Multi-mode**
+- Core diameter is 50 μm
+- So light can bounce; each ray above the critical incident is said to have a different mode
+- Used with LEDs for cheaper, shorter distance links
+
+![](../static/CN_3_2_5.png)
+
+# Network Topology / Hardware
+
+How so many computers are connected together? Three various configurations, called **topologies**, have been used to administer LANs:
+- Bus topology: All nodes are connected to a single communication line that carries messages in both directions
+  - Simple and low-cost
+  - A single cable called a trunk (backbone, segment)
+  - Only one computer can send messages at a time
+  - Passive topology - computer only listen for, not regenerate data
+
+![](../static/CN_3_3_1.png)
+
+ Star topology: A configuration that centers around one node to which all others are connected and through which all messages are sent
+- Each computer has a cable connected to a single point
+- More cabling, hence higher cost
+- All transmission through the hub (switch); if down, entire network down
+- Depending on the intelligence of hub, two or more computers may send message at the same time
+
+
+
+
+
 
 # Wireless Transmission
 # Communication Satellites
