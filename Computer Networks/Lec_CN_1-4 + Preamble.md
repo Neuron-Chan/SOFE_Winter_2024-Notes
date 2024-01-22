@@ -870,11 +870,42 @@ Types:
 - The number of oscillations per second of a wave is called its frequency (f) and is measured in Hz
 - The time between two consecutive maxima (or minima) is called the period, T in seconds (T=1/f).
 - The distance between two consecutive maxima (or minima) is called the wavelength, λ (lambda) in meters.
-- Electromagnetic waves travel at the speed of light c (where c = 3 × 10<sup>8<sup> m/sec)
+- Electromagnetic waves travel at the speed of light c (where c = 3 × 10<sup>8</sup> m/sec)
 - The fundamental relation between f, λ, and c (in a vacuum) is: λ = c/f
 
 ![](../static/CN_3_5_1.png)
 
+![](../static/CN_3_5_2.png)
+
+![](../static/CN_3_5_3.png)
+
+## Wireless access networks
+- Shared wireless access network connects end system to router
+  - via base station aka “access point” (AP)
+
+Wireless LANs:
+- within building (100 ft)
+- 802.11g/n/ac (WiFi): 54/300/1000 Mbps transmission rate
+
+Wide-area wireless access:
+- Provided by telecom (cellular) operator, 10’s km
+- between 1 and 100 Mbps and more
+- 3G, 4G: LTE
+
+### Wireless vs. Wires/Fiber
+
+**Wireless**:
++ Easy and inexpensive to deploy
++ Naturally supports mobility
++ Naturally supports broadcast
+− Transmissions interfere and must be managed
+− Signal strengths hence data rates vary greatly
+
+
+**Wires/Fiber**:
++ Easy to engineer a fixed data rate over point-to-point links
+− Can be expensive to deploy, especially over distances
+− Doesn’t readily support mobility or broadcast
 
 
 # Communication Satellites
