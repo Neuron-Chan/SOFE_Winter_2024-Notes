@@ -789,7 +789,10 @@ Wires – Fiber Optics Cables
 
 # Network Topology / Hardware
 
-How so many computers are connected together? Three various configurations, called **topologies**, have been used to administer LANs:
+## How so many computers are connected together? 
+
+Three various configurations, called **topologies**, have been used to administer LANs:
+
 - Bus topology: All nodes are connected to a single communication line that carries messages in both directions
   - Simple and low-cost
   - A single cable called a trunk (backbone, segment)
@@ -798,18 +801,82 @@ How so many computers are connected together? Three various configurations, call
 
 ![](../static/CN_3_3_1.png)
 
- Star topology: A configuration that centers around one node to which all others are connected and through which all messages are sent
-- Each computer has a cable connected to a single point
-- More cabling, hence higher cost
-- All transmission through the hub (switch); if down, entire network down
-- Depending on the intelligence of hub, two or more computers may send message at the same time
+- Star topology: A configuration that centers around one node to which all others are connected and through which all messages are sent
+  - Each computer has a cable connected to a single point
+  - More cabling, hence higher cost
+  - All transmission through the hub (switch); if down, entire network down
+  - Depending on the intelligence of hub, two or more computers may send message at the same time
+
+![](../static/CN_3_3_2.png)
+
+- Ring topology: A configuration that connects all nodes in a closed loop on which messages travel in one direction
+  - Every computer serves as a repeater to boost signals
+  - Typical way to send data by Token passing:
+    - only the computer who gets the token can send data
+   
+![](../static/CN_3_3_3.png)
 
 
+Disadvantages:
+- If one computer fails, whole network fails
+- Difficult to add computers
+- More expensive
+
+## Network interface cards
+- Network adapter
+- Connects node to the media
+- Unique Machine Access Code (MAC address)
+  - It is a 6 bytes long
+ 
+![](../static/CN_3_4_1.png)
 
 
+## Network linking devices
+- Connect nodes in the network
+- Cable runs from node to device
+- Crossover cable connects two computers together
 
+### Switches
+- Replacement for hubs
+- Only intended node receives the transmission
+- Fast and secure
+
+![](../static/CN_3_4_2.png)
+
+### Router
+- Connects two or more LANs together
+- Packets sent to the remote LAN will cross
+- Network is segmented by the IP addresses
+- Connect internal networks to the Internet
+- Need to be configured before installation
+
+![](../static/CN_3_4_3.png)
+
+## Gateway
+- Connects two dissimilar networks
+- Connects coax to twisted pair
+- Most gateways contained in other device
 
 # Wireless Transmission
+Types:
+- Electromagnetic Spectrum
+- Radio Transmission
+- Microwave Transmission
+- Light Transmission
+- Wireless vs. Wires/Fiber
+
+## Electromagnetic Spectrum
+- Signal carried in electromagnetic spectrum
+- The number of oscillations per second of a wave is called its frequency (f) and is measured in Hz
+- The time between two consecutive maxima (or minima) is called the period, T in seconds (T=1/f).
+- The distance between two consecutive maxima (or minima) is called the wavelength, λ (lambda) in meters.
+- Electromagnetic waves travel at the speed of light c (where c = 3 × 10<sup>8<sup> m/sec)
+- The fundamental relation between f, λ, and c (in a vacuum) is: λ = c/f
+
+![](../static/CN_3_5_1.png)
+
+
+
 # Communication Satellites
 # Digital Modulation and Multiplexing
 # Public Switched Telephone Network
