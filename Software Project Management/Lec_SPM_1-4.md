@@ -431,9 +431,84 @@ The figure of $618 means that $618 more would be made than if the money were sim
 
 ![decision trees](../static/SPM_2_7.png)
 
+## Decision trees
+We extend. Why?
+- Extend branch:
+  - 0.2*(-100,000)+0.8*75,000=40,000
+- Replace branch:
+  - 0.2*250,000+0.8*(-50,000)=10,000
 
+## Programme management
+- Program: a group of co-managed projects
+- One definition: "a group of projects that are managed in a co-ordinated way to gain benefits that would not be possible were the projects to be managed independently"
 
+### Programmes may be
 
+**Strategic**:
+- Several projects together can implement a single strategy: merging IS of two organizations
+
+**Business cycle programmes**:
+- A portfolio of project that are to take place within a certain time frame e.g. the next financial year
+
+**Infrastructure programmes**:
+- In an organization there may be many different ICT-based applications which share the same hardware/software infrastructure
+
+**Research and development programmes**:
+- In a very innovative environment where new products are being developed, a range of products could be developed some of which are very speculative and high-risk but potentially very profitable and some will have a lower risk but will return a lower profit. Getting the right balance would be key to the organization’s long term success.
+
+**Innovative partnerships**:
+- Pre-competitive co-operation to develop new technologies that could be exploited by a whole range of companies
+
+![programme vs project](../static/SPM_2_8.png)
+
+### Strategic programmes 
+- Based on OGC approach
+- Initial planning document is the Programme Mandate describing
+  - The new services/capabilities that the programme should deliver
+  - How an organization will be improved
+  – Fit with existing organizational goals
+- A programme director appointed a champion for the scheme
+
+### Next stages/documents
+- **The programme brief** – equivalent of a feasibility study: emphasis on costs and benefits
+- **The vision statement** – explains the new capability that the organization will have
+- **The blueprint** – explains the changes to be made to obtain the new capability
+
+# Benefits management
+![benefits management](../static/SPM_2_9.png)
+
+To carry this out, you must:
+- Define expected benefits
+- Analyse balance between costs and benefits
+- Plan how benefits will be achieved
+- Allocate responsibilities for their achievement
+- Monitor achievement of benefits
+
+## Benefits
+
+These might include:
+- Mandatory requirement
+- Improved quality of service
+- Increased productivity
+- More motivated workforce
+- Internal management benefits
+- Risk reduction
+- Economies
+- Revenue enhancement/acceleration
+- Strategic fit
+
+## Quantifying benefits
+
+Benefits can be:
+- Quantified and valued e.g. a reduction of x staff saving £y
+- Quantified but not valued e.g. a decrease in customer complaints by x%
+- Identified but not easily quantified – e.g. public approval for a organization in the locality where it is based
+
+# Closing remarks
+- A project may fail not through poor management but because it should never have been started
+- A project may make a profit, but it may be possible to do something else that makes even more profit
+- A real problem is that it is often not possible to express benefits in accurate financial terms
+- Projects with the highest potential returns are often the most risky
 </details>
 
 ---
