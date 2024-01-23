@@ -551,10 +551,22 @@ Benefits can be:
 - 1.5 Establish methods of communication with all parties
   - 'how do we keep in contact?'
 
+## Scenario review
+- Project authority
+  - Brigette finds she has **two different clients** for the new system: the **finance department** and the **personnel** (HR) office. A vice principal agrees to be official client, and monthly meetings are chaired by the VP and attended by Brigette and the heads of finance and personnel
+  - These meetings would also help overcome communication barriers
 
+- Stakeholders
+  - For example, personnel office (HR) would supply details of new staff, leavers and changes (e.g. promotions)
+  - To motivate co-operation, Brigette might ensure new payroll system produces reports that are useful to personnel staff
 
-
-
+# Step 2: Establish project infrastructure
+- 2.1. Establish link between project and any strategic plan (such as enterprise architecture)
+  - 'why did they want the project?'
+- 2.2. Identify installation standards and procedures
+  - 'what standards do we have to follow?'
+- 2.3. Identify project team organization
+  - 'where do I fit in?'
 
 
 
