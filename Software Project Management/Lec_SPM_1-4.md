@@ -514,7 +514,132 @@ Benefits can be:
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Project Planning</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Step Wise: An approach to planning software projects</summary>
+
+# 'Step Wise' - aspirations
+
+- Practicality
+  - tries to answer the question ‘what do I do now?’
+- Scalability
+  - useful for small project as well as large
+- Range of application
+- Accepted techniques
+  - e.g. borrowed from PRINCE etc.
+  - (PRINCE: Project in Controlled Environment)
+
+![step wise diagram](../static/SPM_3_1.png)
+
+
+# Project scenario 
+- Brightmouth College currently has payroll processing carried out by a service company
+- This is very expensive and does not allow detailed analysis of personnel data to be carried out
+- Decision made to bring payroll ‘in-house’ by acquiring an ‘off-the-shelf’ application
+- The use of the off-the-shelf system will require a new, internal, payroll office to be setup
+- There will be a need to develop some software ‘add-ons’: one will take payroll data and combine it with time-table data to calculate the staff costs for each course run in the college
+- The project manager is Brigette.
+
+# Step 1: Establish project scope and objectives
+
+- 1.1 Identify objectives and measures of effectiveness
+  - 'how do we know if we have succeeded?'
+- 1.2 Establish a project authority
+  - 'who is the boss?'
+- 1.3 Identify all stakeholders in the project and their interests
+  - 'who will be affected/involved in the project?'
+- 1.4 Modify objectives in the light of stakeholder analysis
+  - 'do we need to do things to win over stakeholders?' Why?
+- 1.5 Establish methods of communication with all parties
+  - 'how do we keep in contact?'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </details>
 
