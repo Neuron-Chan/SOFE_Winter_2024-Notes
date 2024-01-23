@@ -195,10 +195,23 @@ Governments have prevented, limited, and exposed financial wrongdoing within cor
 
 Globalization is an area of increasing importance within ethical considerations
 
-# Importance of Ethics In Engineering and Engineering Economy
+## Importance of Ethics In Engineering and Engineering Economy
 
 Mistakes can still be made even while acting ethically. The engineers' duty to speak out, within, and beyond their company is neccessary to protect the public.
 
+# Engineering Decision Making for Current Costs
+- If a decision is one where the results are known in a short period of time, it can be determined by:
+  - Adding up costs and benefits between alternatives
+  - Thereby, one can determine the best alternative
+
+Example: (Tile for Plant Floor—fixed output)
+- 1000 m<sup>2</sup>
+- Tile A costs:
+  - Purchase: $52/m<sup>2</sup>; Installation: $37,000
+- Tile B costs:
+  - Purchase: $63/m<sup>2</sup>; Installation: $28,000
+
+Select Tile A to minimize cost for fixed output
 
 
 
