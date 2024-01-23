@@ -215,20 +215,132 @@ Select Tile A to minimize cost for fixed output
 
 ![costs](../static/EE_1_2.png)
 
+# Engineering Costs
+
 ## Fixed, Variable, Marginal, and Average Costs
 - **Fixed**: Constant, unchanging costs
 - **Variable**: Depends on the level of output or activity
 - **Marginal**: Variable cost for one more unit
 - **Average**: Total cost divided by the number of units
+- **Break-even point**: The level of activity at which the total cost of providing the product, good, or service is equal to the revenue generated
+- **Profit region**: Values of the variable x greater than the break-even point, where total revenue is greater than total costs
+- **Loss region**: Values of the variable x less than the break-even point, where total cost is greater than total revenue
 
+![costs](../static/EE_1_3.png)
 
+### Problem
+- A company operates a summer camp. The following cost data for a 12-week summer camp is as follows:
+  - Charge per camper =$400/week
+  - Variable cost per camper = $220/week
+  - Fixed costs = $240,000 per summer season
+  - Capacity per week = 200 campers
 
+Determine the following:
+- The total number of campers to breakeven for the season
+- The profit if the camp is operated at 90% capacity
+- The additional profit that can be made if a discount of $100 per week is given for another 10 campers
 
+**a)** To break-even,
 
+Total costs = Total revenue
 
+240,000 + 220 (12)x = 400 (12)x
 
+x = 240,000/ {(400 – 220)(12)} = 111 campers
 
+**b)** 90% capacity
 
+Number of campers = 0.90 (200) = 180
+
+Profit = 180 (400) 12 – {240,000 + 180(12)(220) = $188,800
+
+**c)** Additional profit = 10(12)(400 – 100) – 10(12)(220) = $9,600
+
+- **Sunk Costs**
+  - Money already spent due to a past decision
+  - Should be disregarded in engineering economic analysis
+- **Opportunity Costs**
+  - The costs associated with a resource being used for an alternate task
+  - Sometimes referred to as "forgone opportunity costs"
+  - "An opportunity cost is the benefit that is forgone by engaging a business resource in a chosen activity instead of engaging that same resource in a forgone activity."
+- **Recurring and Non-Recurring Costs**
+  - Recurring: A cost that reoccurs at regular intervals
+  - Non-recurring : One-of-a-kind cost recurring at irregular intervals
+- **Incremental Costs**
+  - Incremental: Cost differences between alternatives
+- **Cash Costs versus Book Costs**
+  - Cash costs: require a cash transaction out of one person’s pocket into the pocket of someone else
+  - Book costs are recorded but are not transactions
+    - Do not represent cash flows, thus are not included in engineering economic analysis
+- **Life-Cycle Costs**
+  - Designing products, goods, and services with a full and explicit recognition of the associated costs over their life cycles
+  - Two key concepts:
+    - The later a design change is made, the higher the cost
+    - Decisions made early in the life cycle tend to “lock in” costs that will be incurred later
+
+![life-cycle costs](../static/EE_1_4.png)
+
+# Cost Estimating
+
+**Types of Estimates**
+
+- Rough Estimates
+  - Quick/easy, high-level estimates where accuracy varies widely (accuracy of −30% to +60%)
+- Budget Estimates
+  - Used for budgeting projects where the accuracy is better than a rough estimate due to the extra effort used to make a determination (accuracy of −15% to +20%)
+- Detailed Estimates
+  - Estimates made from detailed designs using quantitative models and vendor quotes. High level of accuracy (accuracy of −3% to +5%)
+
+**Difficulties in Estimation**
+
+- One-of-a-Kind Estimates
+  - First-run projects and projects that have never been done before
+- Time and Effort Available
+  - Human resources and time available for making estimates
+ 
+## Estimating Models
+
+- Per-Unit Model
+  - Uses a per-unit factor (e.g., cost per square ft)
+- Segmenting Model
+  - “Divide and conquer” approach
+  - Individual and component estimates are added together
+- Cost Indexes
+  - Historical change in costs as a ration relationship
+
+![equations](../static/EE_1_5.png)
+
+- Power-Sizing Model
+  - Used to “scale up” or “scale down” known costs
+
+![equations](../static/EE_1_6.png)
+
+Where x is the power-sizing component
+- x = 1.0 shows a linear power sizing component
+- x < 1.0 shows the “economies” of scale
+  - i.e., the more you buy, the cheaper per unit
+- x > 1.0 shows a “diseconomies” of scale
+
+- Triangulation
+  - Approaching the estimate using different sources of data or different quantitative models to confirm the value initially calculated
+- Improvement and the Learning Curve
+  - A percentage or rate at which output is increased due to repetition
+  
+𝑇<sub>𝑁</sub> = 𝑇<sub>𝑖𝑛𝑖𝑡𝑖𝑎𝑙</sub> × 𝑁<sup>𝑏</sup>
+
+- 𝑇<sub>𝑁</sub> = time required for Nth unit of production
+- 𝑇<sub>𝑖𝑛𝑖𝑡𝑖𝑎𝑙</sub> = time required for the first unit of production
+- 𝑁 = number of completed units
+- 𝑏 = learning curve exponent
+
+![equations](../static/EE_1_7.png)
+
+• The Learning Curve: Problem
+• In a complex assembly operation, it is found the learning curve rate is
+70%. The standard time of 3 minutes per assembly is reached after the
+110th unit.
+• Calculate the time required for the very first unit.
+• Calculate the time required for the 200th unit.
 
 </details>
 
