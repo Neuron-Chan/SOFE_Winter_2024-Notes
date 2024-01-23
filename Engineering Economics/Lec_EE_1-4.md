@@ -213,8 +213,13 @@ Example: (Tile for Plant Floor—fixed output)
 
 Select Tile A to minimize cost for fixed output
 
+![costs](../static/EE_1_2.png)
 
-
+## Fixed, Variable, Marginal, and Average Costs
+- **Fixed**: Constant, unchanging costs
+- **Variable**: Depends on the level of output or activity
+- **Marginal**: Variable cost for one more unit
+- **Average**: Total cost divided by the number of units
 
 
 
