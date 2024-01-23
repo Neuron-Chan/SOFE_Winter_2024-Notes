@@ -907,13 +907,65 @@ Wide-area wireless access:
 − Can be expensive to deploy, especially over distances
 − Doesn’t readily support mobility or broadcast
 
-
-# Communication Satellites
 # Digital Modulation and Multiplexing
+
+## Digital Modulation
+- It is the process of converting the data bits into signals
+
+**Baseband transmission**
+- The signal occupies frequencies from zero up to a maximum
+- It is common for wires.
+
+**Passband transmission**
+- Schemes that regulate the amplitude, phase, or frequency of a carrier signal to convey bits
+- The signal occupies a band of frequencies around the frequency of the carrier signal.
+- It is common for wireless and optical channels 
+
+![digital mod](../static/CN_3_6_1.png)
+
+## Baseband transmission
+- NRZ (Non-Return-to-Zero)
+  - Use a positive voltage to represent a 1 and a negative voltage to represent a 0
+  - We can use more levels of voltages, then the symbol carry more bits (symbol rate = baud rate)
+- Manchester encoding
+  - It mixes the clock signal with the data signal by XORing them together
+  - When the clock is XORed with the 0 level it makes a low-to-high transition → a logical 0.
+  - When it is XORed with the 1 level it is inverted and makes a high-to-low transition → a logical 1.
+- NRZI (Non-Return-to-Zero Inverted)
+  - It is the same as NRZ but code the one as a transition and a zero as no transition (or the other way around)
+
+![baseband trans](../static/CN_3_6_2.png)
+
+![chart](../static/CN_3_6_3.png)
+
 # Public Switched Telephone Network
-# Mobile Telephone System
+
+## Local loop: Digital Subscriber Lines
+- DSL broadband sends data over the local loop to the local office using frequencies that are not used for POTS
+- It uses existing telephone line to central office DSLAM (DSL Access Multiplexer)
+  - Data over DSL phone line goes to Internet and voice goes to telephone network
+  - < 2.5 Mbps upstream transmission rate (typically < 1 Mbps)
+  - < 24 Mbps downstream transmission rate (typically < 10 Mbps)
+  - OFDM is used up to 1.1 MHz for ADSL2
+
+![dig sub](../static/CN_3_7_1.png)
+
+## Local loop: Fiber-To-The-Home (FTTH)
+- FTTH broadband relies on deployment of fiber optic cables to provide high data rates to customers
+  - One wavelength can be shared among many houses
+  - Fiber is passive (no amplifiers, etc.)
+  - Up to 100Mbps
+
+![dig sub](../static/CN_3_7_2.png)
+
 # Cable Television
 
+## Internet over Cable
+- Internet over cable reuses the cable television plant
+- Data is sent on the shared cable tree from the head-end, not on a dedicated line per subscriber (like DSL)
+- Frequency Division Multiplexing (FDM): different channels transmitted in different frequency bands
+
+![IoC](../static/CN_3_7_3.png)
 
 
 # Physical media
