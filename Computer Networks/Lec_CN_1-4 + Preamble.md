@@ -991,7 +991,7 @@ todo: add images
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | ???</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | The Data Link Layer</summary>
 
 
 
