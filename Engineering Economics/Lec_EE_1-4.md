@@ -421,7 +421,51 @@ Economic analysis often requires considering the benefits as well as the costs.
   - “How much?” is a decision at the margin.
   - People usually take advantage of opportunities to make themselves better off.
 
+# Supply, Demand and Equilibrium
+- The law of demand states that quantity purchased varies inversely with price. In other words, the higher the price, the lower the quantity demanded.
+- The law of supply says that as the price of an item goes up, suppliers will attempt to maximize their profits by increasing the number of items for sale.
+- Focuses on supply and demand as the driving forces behind the production, pricing, and consumption of goods and services.
+- Consumers and producers of a good vary the price and quantity of the good traded between them until price hits an
+- **equilibrium point**: total quantity of the goods demanded = total quantity of the goods supplied
 
+![s&d](../static/EE_2_1_1.png)
+
+![s&d](../static/EE_2_1_2.png)
+
+![s&d](../static/EE_2_1_3.png)
+
+## Price Elasticity of Demand
+- An economic measure of the change in the quantity demanded or purchased of a product in relation to its price change.
+
+Price Elasticity of Demand = % Change in Quantity Demanded / % Change in Price
+
+- Price Elasticity of Demand < 1  => inelastic
+  - e.g. oil, cigarettes
+- Price Elasticity of Demand > 1  => elastic
+  -  e.g. restaurant meals
+
+![price elasticity demand](../static/EE_2_2_1.png)
+
+## Price Elasticity of Supply
+- An economic measure of the responsiveness to the supply of a good or service after a change in its market price. The supply of a good will increase when its price rises and will decrease when its price decreases.
+
+Price Elasticity of Demand = % Change in Quantity Demanded / % Change in Price
+
+- Price Elasticity of Supply < 1  => inelastic
+- Price Elasticity of Supply > 1  => elastic
+
+![price elasticity supply](../static/EE_2_2_2.png)
+
+Incentives and Behaviors
+• Focuses on situations that motivate individuals or firms to behave in a
+certain way. Has two types:
+• Positive incentives
+• E.g., rewards and payments, social status, etc.
+• Disincentives or negative incentive
+• Fines and taxes
+• Incentives could backfire.
+• Paying people to donate blood.
+• Fining people if they are late to pick up their children from day-care.
 
 
 </details>
