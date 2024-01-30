@@ -342,6 +342,26 @@ Where x is the power-sizing component
 • Calculate the time required for the very first unit.
 • Calculate the time required for the 200th unit.
 
+![solution](../static/EE_1_8.png)
+
+## Estimating Benefits
+
+Economic analysis often requires considering the benefits as well as the costs.
+
+- Many of the same methods used to calculate costs can be used to calculate benefits
+- Benefits are typically in the future, which sometimes makes them more difficult to estimate
+
+# Cash Flow Diagrams
+- Drawing a Cash Flow Diagram
+- The Cash Flow Diagram (CFD) shows when all cash flows occur
+- Look at Figure 1-7 and the $100 positive cash flow at the end of Period 2
+- In a CFD, the end of Period N is always the same time as the beginning of Period N+1
+
+![cashflowdiagram](../static/EE_1_9.png)
+
+
+
+
 </details>
 
 ---
