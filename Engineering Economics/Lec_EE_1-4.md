@@ -357,10 +357,16 @@ Economic analysis often requires considering the benefits as well as the costs.
 - Look at Figure 1-7 and the $100 positive cash flow at the end of Period 2
 - In a CFD, the end of Period N is always the same time as the beginning of Period N+1
 
-![cashflowdiagram](../static/EE_1_9.png)
+![cashflowdiagram](../static/EE_1_9_1.png)
 
+![cashflowdiagram](../static/EE_1_9_2.png)
 
-
+## Categories of Cash Flow
+- First cost: Expense of building or of buying and installing
+- Operations and maintenance (O&M): Annual expense, such as electricity, labor, and minor repairs
+- Salvage value: Receipt at project termination for sale or transfer of the equipment (can be a salvage cost)
+- Revenues: Annual receipts due to sale of products or services
+- Overhaul: Major capital expenditure that occurs during the life of the asset
 
 </details>
 
