@@ -382,7 +382,7 @@ Economic analysis often requires considering the benefits as well as the costs.
 - Understand the role of Bank of Canada
 
 # Macroeconomics vs. Microeconomics
-| MICROECONOMIC QUESTIONS | MACROECONOMIC QUESTIONS |
+| **MICROECONOMIC QUESTIONS** | **MACROECONOMIC QUESTIONS** |
 |-------------------------|-------------------------|
 | Go to business school or take a job? | How many people are employed in the economy as a whole? |
 | What determines the salary offered by Citibank to John Smith, a new Columbia MBA? | What determines the overall salary levels paid to workers in a given year? |
@@ -390,11 +390,36 @@ Economic analysis often requires considering the benefits as well as the costs.
 | What government policies should be adopted to make it easier for low-income students to attend college? | What government policies should be adopted to promote full employment and growth in the economy as a whole? |
 | What determines whether Citibank opens a new office in Shanghai? | What determines the overall trade in goods, services and financial assets between the U.S. and the rest of the world? |
 
+- Microeconomics focuses on how decisions are made by individuals and firms and the consequences of those decisions.
+  - Example: How much it would cost for a university or college to offer a new course ─ the cost of the instructor’s salary, the classroom facilities, the class materials, and so on. Having determined the cost, the school can then decide whether or not to offer the course by weighing the costs and benefits.
+- Macroeconomics examines the aggregate behavior of the economy (i.e. how the actions of all the individuals and firms in the economy interact to produce a particular level of economic performance as a whole).
+  - Example: Overall level of prices in the economy (how high or how low they are relative to prices last year) rather than the price of a particular good or service.
 
+## Microeconomics – Main Concepts
+- Scarcity and rivalry
+- Supply, demand and equilibrium
+- Price elasticity
+- Incentives and behaviors
+- Utility theory
+- Production theory
+- Law of diminishing returns
+- Law of increasing returns to scale
+- Economic shortage and surplus
+- Principle of comparative advantage
+- Production possibilities
+- Profit
 
-
-
-
+## Individual Choice: The Core of Economics
+- A resource is anything that can be used to produce something else.
+  - Ex.: Land, labor, physical capital, human capital
+- Resources are scarce—the quantity available isn’t large enough to satisfy all productive uses.
+  - Ex.: Petroleum, lumber, intelligence
+- Individual choice is the decision by an individual about what to do, which necessarily involves a decision about what not to do.
+- Principles behind the individual choices include the following:
+  - Resources are scarce.
+  - The real cost of something is what you must give up to get it.
+  - “How much?” is a decision at the margin.
+  - People usually take advantage of opportunities to make themselves better off.
 
 
 
