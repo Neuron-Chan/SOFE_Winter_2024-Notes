@@ -373,7 +373,30 @@ Economic analysis often requires considering the benefits as well as the costs.
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Accounting & Engineering Economy</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Microeconomics, Macroeconomics, and Bank of Canada</summary>
+
+# Outline
+- Differentiate between Microeconomics and Macroeconomics
+- Learn the main principles of Microeconomics and Macroeconomics
+- Understand the laws of supply and demand, price elasticity, utility theory
+- Understand the role of Bank of Canada
+
+# Macroeconomics vs. Microeconomics
+| MICROECONOMIC QUESTIONS | MACROECONOMIC QUESTIONS |
+|-------------------------|-------------------------|
+| Go to business school or take a job? | How many people are employed in the economy as a whole? |
+| What determines the salary offered by Citibank to John Smith, a new Columbia MBA? | What determines the overall salary levels paid to workers in a given year? |
+| What determines the cost to a university or college of offering a new course? | What determines the overall level of prices in the economy as a whole? |
+| What government policies should be adopted to make it easier for low-income students to attend college? | What government policies should be adopted to promote full employment and growth in the economy as a whole? |
+| What determines whether Citibank opens a new office in Shanghai? | What determines the overall trade in goods, services and financial assets between the U.S. and the rest of the world? |
+
+
+
+
+
+
+
+
 
 
 </details>
