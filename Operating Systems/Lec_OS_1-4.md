@@ -1124,7 +1124,7 @@ The objective of multiprogramming is to have some process running at all times, 
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | ???</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | Threads</summary>
 
 </details>
 
