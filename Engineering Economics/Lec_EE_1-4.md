@@ -116,17 +116,17 @@ Engineering economic analysis is most suitable for intermediate problems and the
 
 ![decision making](../static/EE_1_1.png)
 
-1) Recognize the Problem - Once we are aware of the problem, we solve it as best we can
+## 1) Recognize the Problem - Once we are aware of the problem, we solve it as best we can
 
-2) Define the goal or objective - The goal can be a grand, overall goal of a person or a firm, or it may be narrow and specific
+## 2) Define the goal or objective - The goal can be a grand, overall goal of a person or a firm, or it may be narrow and specific
 
-3) Assemble Relevant Data - Obtaining information through market research or other data gathering is required. The time horizon of the problem (i.e. how long would it take to solve) must be assembled. A firm’s own accounting system is recognized as valuable data. Must also include financial consequences (costs and benefits):
+## 3) Assemble Relevant Data - Obtaining information through market research or other data gathering is required. The time horizon of the problem (i.e. how long would it take to solve) must be assembled. A firm’s own accounting system is recognized as valuable data. Must also include financial consequences (costs and benefits):
 
 - Market consequences
 - Extra-market consequences
 - Intangible consequences
 
-4) Identify Feasible Alternatives
+## 4) Identify Feasible Alternatives
 - Unless the best alternative is considered, the result will *always* be less than ideal
 - Two types of alternatives are sometimes ignored:
   - Do-nothing” alternative
@@ -134,16 +134,16 @@ Engineering economic analysis is most suitable for intermediate problems and the
 - Ensure that all alternatives have been listed
 - Impractical alternatives may lead to a better possibility
 
-5) Select the Criteria for Determining the Best Alternative
+## 5) Select the Criteria for Determining the Best Alternative
 - Define what we mean by “best” (i.e. term is variable and STC depending on problem)
 - There must be at least one criterion, or a set of criteria, to evaluate which alternative is best
   - Ex. Maximum profit, minimize unemployment, create minimal disturbance to the environment, etc.
 
-6) Construct a Model
+## 6) Construct a Model
 
 The objective, relative data, feasible alternatives, and selection standards of the problem must be merged. In economic decision-making, this model is usually **mathematical.**
 
-7) Predict the Outcomes for Each Alternative
+## 7) Predict the Outcomes for Each Alternative
 
 To choose the best alternative, the outcomes for each alternative must be stated in a *comparable* way. 
 
@@ -155,11 +155,11 @@ The consequences of each alternative are usually evaluated in monetary terms, ca
 
 In the short-term, costs and benefits can be considered to occur at the same time. A cash flow diagram is used to represent the timing of various costs and benefits. For longer-term problems, a common mistake is to assume that the current situation will be unchanged if the do-nothing alternative is chosen. *For example*, current profits may shrink or vanish as a result of the actions of competitors and the expectations of customers
 
-8) Choose the Best Alternative
+## 8) Choose the Best Alternative
 
 The right choice is the one that best meets the criteria after we have considered both the numerical and intangible consequences. Since intangible consequences are left out of the numerical calculations, they should be introduced into the decision-making at this point.
 
-9) Audit the Results
+## 9) Audit the Results
 
 An audit of the results is a comparison of what happened against the predictions.
 
