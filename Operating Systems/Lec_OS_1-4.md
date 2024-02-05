@@ -1148,18 +1148,40 @@ Operating system must provide mechanisms for:
 
 The processes in most systems can execute concurrently, and they may be created and deleted dynamically
 
-• Process Creation
-• Parent process create children processes, which, in turn create other
-processes, forming a tree of processes
-• Generally, process identified and managed via a process identifier (pid)
-• A Tree of Processes in Linux
-• The init process (which always has a pid = 1) serves as the root parent
-process for all user processes
-• Use command ps –el to list all active processes in the system
-Operations on Processes
+## Process Creation
+- Parent process create children processes, which, in turn create other processes, forming a tree of processes
+- Generally, process identified and managed via a **process identifier (pid)**
+- A Tree of Processes in Linux
+  - The init process (which always has a pid = 1) serves as the root parent process for all user processes
+  - Use command _**ps –el**_ to list all active processes in the system
 
+![](../static/OS_3_3_1.png)
 
+- Resource sharing options
+  - A child process may obtain its resources directly from the OS,
+  - A child process may share subset of parent’s resources
+    - This prevents any process from overloading the system by creating too many child processes
 
+When a process creates a new process, two possibilities for execution exist
+1. The parent continues to execute concurrently with its children.
+2. The parent waits until some or all of its children have terminated.
+
+There are also two address-space possibilities for the new process:
+1. The child process is a duplicate of the parent process (it has the same program and data as the parent).
+2. The child process has a new program loaded into it.
+
+### UNIX Examples
+
+**fork():** system call is for creating a new process
+- The new process consists of a copy of the address space of the original process.
+- Both processes (the parent and the child) continue execution at the instruction after the fork(), with one difference:
+  - the return code for the fork() is pid=0 for the new (child) process, whereas the (pid >0) of the child is returned to the parent.
+
+**exec():** system call which is used after a fork() to replace the process’s memory space with a new program
+- So the two processes are able to communicate and then go their separate ways.
+- The parent can then create more children; or, if it may issue a **wait()** system call to move itself off the ready queue until the termination of the child
+
+![c program](../static/OS_3_3_2.png)
 
 
 
