@@ -1111,8 +1111,52 @@ A new process is initially put in the ready queue. It waits there until it is se
   - **CPU-bound process:** spends more time doing computations; few very long CPU bursts
 - The long-term scheduler should select a good process mix of I/O-bound and CPU-bound processes.
 
+Some operating systems, such as time-sharing systems, may introduce an additional, intermediate level of scheduling
+
+- Medium-term scheduler can be added if degree of multiple programming needs to decrease
+  - Remove process from memory, store it on disk, bring it back in from disk to continue execution: this is called swapping
+    - Swapping may be necessary to improve the process mix, or the memory is been overused
+
+![](../static/OS_3_2_3.png)
+
+## Context Switch
+- When CPU switches to another process, the system must save the state of the old process and load the saved state for the new process via a context switch
+- Context of a process is represented in its PCB
+- Context-switch time is an overhead; the system does no useful work while switching
+  - The more complex the OS and the PCB ➔ the longer the context switch
+- Time dependent on hardware support
+  - Some hardware provides multiple sets of registers per CPU ➔ context switch requires changing the pointer to the current register set
+ 
+![](../static/OS_3_2_4.png)
+
+## Multitasking in Mobile Systems
+- Some mobile systems (e.g., early version of iOS) allow only one process to run, others are suspended
+- Apple now provides a limited form of multitasking for user applications:
+  - Single foreground process- controlled via user interface
+  - Multiple background processes– in memory, running, but not on the display, and with limits
+    - Limits include single, short task, receiving notification of events, specific long-running tasks like audio playback
+- Android runs foreground and background, with fewer limits
+  - Background process uses a service to perform tasks
+  - Service can keep running even if background process is suspended
+  - Service has no user interface, hence small memory use
+
 # Operations on Processes
 
+Operating system must provide mechanisms for:
+- process creation,
+- process termination,
+
+The processes in most systems can execute concurrently, and they may be created and deleted dynamically
+
+• Process Creation
+• Parent process create children processes, which, in turn create other
+processes, forming a tree of processes
+• Generally, process identified and managed via a process identifier (pid)
+• A Tree of Processes in Linux
+• The init process (which always has a pid = 1) serves as the root parent
+process for all user processes
+• Use command ps –el to list all active processes in the system
+Operations on Processes
 
 
 
