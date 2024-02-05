@@ -8,7 +8,7 @@
 | Homework (In-Lecture Activities)     | 10%    |
 | Final                                | 35%    |
 
-Office Hours: HAHAHA NO ONE KNOWS
+Office Hours: ERC 3031, Tues. 4-5pm
 
 ## Group Work
 
