@@ -1228,19 +1228,330 @@ Processes within a system may be **independent** or **cooperating**
     - Convenience: a user may work on many tasks at the same time
       - may be editing, listening to music, and compiling in parallel.
 
+## Communications Models
+- Two interprocess communication (IPC) mechanisms are available to the cooperating processes to allow them exchange data and information:
+  - Shared memory
+    - System calls only needed for creating the shared memory → fast
+  - Message passing
+    - System calls are needed for every exchanged message → slow
 
+## Shared-Memory Systems
+- An area of memory shared among the processes that wish to communicate
+  - Typically, a shared-memory region resides in the address space of the process creating it.
+    - Other processes must attach it to their address space
+  - The communication is under the control of the users processes not the operating system.
+    - System calls are required only to establish shared memory regions
+  - Major issues is to provide a mechanism that will allow the user processes to synchronize their actions when they access the shared memory.
 
+### Producer-Consumer Problem
+- It is a common paradigm for cooperating processes,
+  - producer process produces information that is consumed by a consumer process
+  - For example, a compiler may produce assembly code that is consumed by an assembler
+  - To allow producer and consumer processes to run concurrently, we must have available a buffer of items that can be filled by the producer and emptied by the consumer.
+  - Two types of buffers can be used:
+    - **unbounded-buffer** places no practical limit on the size of the buffer
+      - The consumer may have to wait for new items, but the producer can always produce new items
+    - bounded-buffer assumes that there is a fixed buffer size
+      - The consumer must wait if the buffer is empty, and the producer must wait if the buffer is full.
 
+### Shared-Memory Problem
+- The shared buffer is implemented as a circular array with two logical pointers: in and out.
+- The following variables reside in a region of memory shared by the producer and consumer processes:
+  - The variable in points to the next free position in the buffer; out points to the first full position in the buffer.
+  - The buffer is empty when in ==out;
+  - The buffer is full when **((in + 1) % BUFFER SIZE) == out**.
+- Solution is correct, but can only use **BUFFER_SIZE-1** elements
+
+![interprocess comms](../static/OS_3_4_1.png)
+
+![code](../static/OS_3_4_2.png)
 
 # Examples of IPC Systems
 
+## POSIX
+- Several IPC mechanisms are available for POSIX systems,
+  - shared memory and message passing
+- POSIX shared memory is organized using memory-mapped files, which associate the region of shared memory with a file
 
+- POSIX Shared Memory
+  - Process first creates shared memory segment shm_fd = shm_open(name, O_CREAT | O_RDWR, 0666);
+    - Also used to open an existing segment to share it
 
+  - Set the size of the object to 4K
+    - ftruncate(shm_fd, 4096);
+  
+  - Now the process could write to the shared memory
+    - sprintf(shared_memory, "Writing to shared memory");
 
+![producer](../static/OS_3_5_1.png)
 
+![consumer](../static/OS_3_5_2.png)
 
+## Message-Passing Systems
+- Mechanism provided by the OS for processes to communicate and to synchronize their actions without sharing the same address space
+- It is useful in a distributed environment, where the communicating processes may reside on different computers connected by a network.
+  - For example, an Internet chat program
+- Message system: processes communicate with each other without resorting to shared variables
+  - Problem: slow since all messages should go through the kernel
+  - It is preferable in multicore systems since it does not suffer from cache coherency problem
+- Message-passing facility provides at least two operations:
+  - send(message)
+  - receive(message)
+  
+- The message size is either fixed or variable
+
+- If processes P and Q wish to communicate, they need to:
+  - Establish a communication link between them
+  - Exchange messages via send/receive operations
+
+- Implementation issues:
+  - How are links established?
+  - Can a link be associated with more than two processes?
+  - How many links can there be between every pair of communicating processes?
+  - What is the capacity of a link?
+  - Is the size of a message that the link can accommodate fixed or variable?
+  - Is a link unidirectional or bi-directional?
+
+![queue](../static/OS_3_5_3.png)
+
+## Implementation of communication link
+- Physical implementation:
+  - Shared memory
+  - Hardware bus
+  - Network
+- Logical implementation issues:
+  - Direct or indirect communication
+  - Synchronous or asynchronous communication
+  - Automatic or explicit buffering
+  - To solve these issues, the OS should provide mechanisms for naming process, synchronizing their actions, and buffering
+
+- Naming: Processes that want to communicate must have a way to refer to each other. They can use either direct or indirect communication
+  - In direct communication
+    - Processes must name each other explicitly:
+      - send (P, message) – send a message to process P
+      - receive(Q, message) – receive a message from process Q
+    - Properties of the communication link in this scheme:
+      - Links are established automatically: each process need to know only each other identity to communicate
+      - A link is associated with exactly one pair of communicating processes
+      - Between each pair there exists exactly one link
+      - The link may be unidirectional, but it is usually bi-directional
+
+- A mailbox that is owned by the operating system is independent and is not attached to any particular process.
+- The operating system then must provide a mechanism that allows a process to do the following:
+  - Create a new mailbox (port)
+  - Send and receive messages through mailbox
+  - Delete a mailbox
+- The process that creates a new mailbox is its owner and is the only one that can receive messages through this mailbox.
+  - However, the ownership and receiving privilege may be passed to other processes through appropriate system calls.
+
+- Mailbox sharing
+  - Suppose that processes P<sub>1</sub>, P<sub>2</sub>, and P<sub>3</sub> share mailbox A
+  - P<sub>1</sub>, sends; and P<sub>2</sub>, and P<sub>3</sub> receive
+  - Who will get the message?
+    - It depends on which of the following solutions is implemented:
+      - Allow a link to be associated with at most two processes
+      - Allow only one process at a time to execute a receive operation
+      - Allow the system to select arbitrarily the receiver (e.g. round robin). Sender is notified who the receiver was.
+
+### Synchronization
+- There are many design options for implementing send() and receive() primitives:
+  - Message passing may be either blocking or non-blocking
+    - **Blocking** is considered **synchronous**
+      - Blocking send: sender is blocked until the message is received
+      - Blocking receive: receiver is blocked until a message is available
+    - **Non-blocking** is considered **asynchronous**
+      - Non-blocking send: sender sends the message and resumes operation
+      - Non-blocking receive: the receiver receives either a valid message, or null message
+  - Different combinations from blocking and non-blocking are possible
+     - If both send and receive are blocking, we have a rendezvous between the sender and the receiver.
+   
+- The solution to producer-consumer problem becomes trivial when using blocking send() and receive()
+  - The producer process using message passing.
+```
+message next_produced;
+while (true) {
+/* produce an item in next produced */
+send(next_produced);
+}
+```
+  - The consumer process using message passing.
+```
+message next_consumed;
+while (true) {
+receive(next_consumed);
+/* consume the item in next consumed */
+}
+```
+
+### Buffering
+Whether communication is direct or indirect, messages exchanged by communicating processes reside in a temporary queue. Which can be implemented in three ways:
+1. **Zero capacity:** no messages are queued on a link. Sender **must wait** (block) for receiver to **receive** (rendezvous)
+2. **Bounded capacity:** queue has finite length of n messages. Sender **must wait if link is full**, otherwise can resume operation
+3. **Unbounded capacity:** queue with infinite length. Sender **never waits** (blocks)
+
+Two processes communicate using message queues. The first, kirk.c adds messages to the message queue, and spock.c retrieves them.
+
+```c
+/* kirk.c -- writes to a message queue */
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/msg.h>
+
+struct my_msgbuf {
+  long mtype;
+  char mtext[200];
+};
+
+int main(void) {
+  struct my_msgbuf buf;
+  int msqid;
+  key_t key;
+  if ((key = ftok("kirk.c", 'B')) == -1) {
+    perror("ftok");
+    exit(1);
+    }
+  if ((msqid = msgget(key, 0644 | IPC_CREAT)) == -1) {
+    perror("msgget");
+    exit(1);
+    }
+  printf("Enter lines of text, ^D to quit:\n");
+  buf.mtype = 1; /* we don't really care in this case */
+
+  while (fgets(buf.mtext, sizeof buf.mtext, stdin) != NULL) {
+    int len = strlen(buf.mtext);
+
+    /* ditch newline at end, if it exists */
+    if (buf.mtext[len - 1] == '\n')
+    buf.mtext[len - 1] = '\0';
+      if (msgsnd(msqid, &buf, len + 1, 0) == -1) /* +1 for '\0' */ {
+      perror("msgsnd");
+      }
+    }
+  if (msgctl(msqid, IPC_RMID, NULL) == -1) {
+    perror("msgctl");
+    exit(1);
+  }
+  return 0;
+}
+```
+
+```c
+/* spock.c -- reads from a message queue */
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/msg.h>
+
+struct my_msgbuf {
+  long mtype;
+  char mtext[200];
+};
+
+int main(void) {
+  struct my_msgbuf buf;
+  int msqid;
+  key_t key;
+  if ((key = ftok("kirk.c", 'B')) == -1) {/* same key as kirk.c */
+    perror("ftok");
+    exit(1);
+    }
+  if ((msqid = msgget(key, 0644)) == -1) {/* connect to the queue */
+    perror("msgget");
+    exit(1);
+    }
+  printf("spock: ready to receive messages, captain.\n");
+  for (;;) { /* Spock never quits! */
+    if (msgrcv(msqid, &buf, sizeof buf.mtext, 0, 0) == -1) {
+      perror("msgrcv");
+      exit(1);
+      }
+    printf("spock: \"%s\"\n", buf.mtext);
+    }
+  return 0;
+  }
+```
 
 # Communication in Client-Server Systems
+
+- The shared memory and message passing can be used for communication in client–server systems
+- There are other strategies for communication in client–server systems
+  - Sockets
+  - Remote Procedure Calls
+  - Pipes
+  - Remote Method Invocation (Java)
+
+## Sockets
+- A socket is defined as an endpoint for communication
+- A pair of processes communicating over a network employs a pair of sockets
+- It is identified by the concatenation of IP address and port which is a number included at start of message packet to differentiate network services on a host
+  - The socket 161.25.19.8:1625 refers to port 1625 on host 161.25.19.8
+
+- Communication consists between a pair of sockets
+  - All connections must be unique
+- All ports below 1024 are well known, used for standard services
+  - FTP server listens to port 21; a web, or HTTP, server listens to port 80
+- Special IP address 127.0.0.1 (loopback) to refer to system on which the process is running
+- Sockets use a client–server architecture: The server waits for incoming client requests by listening to a specified port
+- When a client process initiates a request for a connection, it is assigned a port (>1024) by its host computer.
+
+**Example:**
+- If a client on host X with IP address 146.86.5.20 wishes to establish a connection with a web server (which is listening on port 80) at address 161.25.19.8, host X may be assigned port 1625.
+- The connection consists of a pair of sockets: (146.86.5.20:1625) on host X and (161.25.19.8:80) on the web server.
+
+![socket](../static/OS_3_6_1.png)
+
+## Sockets in Java
+- Three types of sockets
+  - Connection-oriented (TCP): implemented with the Socket class
+  - Connectionless (UDP): use the DatagramSocket class
+    - MulticastSocket class: is a subclass of the DatagramSocket class.
+      - It allows data to be sent to multiple recipients
+
+  - Example:
+    - Date server that uses connection-oriented TCP sockets.
+      - The operation allows clients to request the current date and time from the server.
+
+- Consider this “Date” server:
+- The operation allows clients to request the current date and time from the server.
+- The server creates a ServerSocket that specifies that it will listen to port 6013. The server then begins listening to the port with the accept() method. The server blocks on the accept() method waiting for a client to request a connection. When a connection request is received, accept() returns a socket that the server can use to communicate with the client.
+
+![serv](../static/OS_3_6_2.png)
+
+- Consider this “Date” client:
+- A client communicates with the server by creating a socket and connecting to the port on which the server is listening.
+- The client creates a Socket and requests a connection with the server at IP address 127.0.0.1 on port 6013.
+- Once the connection is made, the client can read from the socket using normal stream I/O statements.
+- Close the connection
+
+![clie](../static/OS_3_6_3.png)
+
+## Remote Procedure Calls (RPC)
+- RPC abstracts procedure calls between processes on networked systems
+  - It uses ports for service differentiation
+  - Each message is addressed to an RPC daemon listening to a port
+- A port is a number included at the start of a message packet
+  - The system has one IP address and many ports
+- RPC allows a client to invoke a procedure on a remote host as it would invoke a procedure locally
+- The RPC system hides the details that allow communication to take place by providing a stub on the client side.
+  - When the client invokes a remote procedure, the RPC system calls the appropriate stub
+  - The client-side stub locates the server and marshalls the parameters so they can be transmitted over a network
+  - The server-side stub receives this message, unpacks the marshalled parameters, and performs the procedure on the server
+  - If needed, result will be returned to the client using the same technique
+- There could be differences in data representation on the client and server machines, such as Big-endian and little-endian
+- Therefore, parameter marshalling will represent the data as External Data Representation (XDL) format to account for different architectures
+  - On the other side the parameters will be unmarshalled from XDL to machine dependent format for the server
+- Remote communication has more failure scenarios than local (due to network errors)
+  - Messages should be acted upon exactly once rather than at most once
+    - Implement a timestamp and an acknowledgement
+- Another issue: is how the client knows the port at the server:
+  - OS typically provides a rendezvous (or matchmaker) service to connect client and server
+  - A client then sends a message containing the name of the RPC to the rendezvous daemon requesting the port address of the RPC it needs to execute.
 
 </details>
 
