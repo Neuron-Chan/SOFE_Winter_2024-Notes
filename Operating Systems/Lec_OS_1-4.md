@@ -1183,12 +1183,50 @@ There are also two address-space possibilities for the new process:
 
 ![c program](../static/OS_3_3_2.png)
 
+## Process Termination
+- Process executes last statement and then asks the operating system to delete it using the _exit()_ system call.
+  - Returns status data from child to parent (via _**wait()**_)
+  - Process’ resources are deallocated by the operating system
+- Parent may terminate the execution of children processes using the _abort()_ system call.
+  - Some reasons for doing so:
+    - Child has exceeded allocated resources
+    - Task assigned to child is no longer required
+    - The parent is exiting and the operating systems does not allow a child to continue if its parent terminates
+ 
+- Some OSes do not allow a child to exists if its parent has terminated. If a process terminates, then all its children must also be terminated.
+  - This termination is initiated by the operating system and called cascading termination
+- The parent process may wait for termination of a child process by using the wait() system call. The call returns status information and the pid of the terminated process
 
+**pid = wait(&status);**
 
+- When a process terminates, its resources are deallocated by the OS.
+- But, its entry in the process table must remain there until the parent calls wait().
+  - If the parent did not invoke wait(), the process is called a zombie
+  - If parent terminated without invoking wait(), process is an orphan
+    - The init process becomes the parent and issues wait() periodically to clear the orphans
+
+## Multiprocess Architecture – Chrome Browser
+- Many web browsers run as a single process (some still do)
+  - If one web site causes trouble, entire browser will hang or crash
+- Google Chrome Browser is a multiprocess with 3 types of processes:
+  - **Browser** process manages user interface, disk and network I/O
+    - Only one browser process is created when Chrome is started
+  - **Renderer** process renders web pages, deals with HTML, Javascript. A new renderer process is created for each website opened in a new tab
+    - Runs in sandbox restricting access to disk and network I/O, minimizing the effect of any security exploits
+  - **Plug-in** process is created for each type of plug-in (Flash, or QuickTime) in use.
+- Advantage: websites run in isolation from one another. If one website crashes, only its renderer process is affected
 
 # Interprocess Communication
 
-
+Processes within a system may be **independent** or **cooperating**
+- Independent process cannot affect or be affected by the execution of another
+- Cooperating process (sharing data with other processes) can affect or be affected by other processes
+  - Reasons for cooperating processes:
+    - Information sharing (e.g. shared file)
+    - Computation speedup: break the task into multiple tasks, but you need a multicore processor.
+    - Modularity: divide the system functions into separate processes or threads
+    - Convenience: a user may work on many tasks at the same time
+      - may be editing, listening to music, and compiling in parallel.
 
 
 
