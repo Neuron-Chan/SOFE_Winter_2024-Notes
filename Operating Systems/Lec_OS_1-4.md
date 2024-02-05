@@ -1616,6 +1616,41 @@ On **Windows**:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | Threads</summary>
 
+# Overview
+- A process (heavyweight) has a single thread of control (one PC)
+- A thread is a basic unit of CPU utilization;
+- It consists of:
+  - Thread ID,
+  - Program counter (PC),
+  - Register set,
+  - Stack.
+- It shares with other threads belonging to the same process
+  - Its code section,
+  - Its data section,
+  - Other operating-system resources, such as open files and signals
+
+![singlemultithreaded](../static/OS_4_1_1.png)
+
+Difference between Process and Thread
+
+| Process | Thread |
+|---------|--------|
+| Process is heavy weight or resource intensive. | Thread is light weight taking lesser resources than a process. |
+| Generally, more than one process cannot share the same memory. Sharing memory among processes requires additional memory management schemes. | Threads of the same process can share the same memory unless they are specially allotted separate memory locations. |
+| Process creation, process execution, and process switch are time consuming. | Thread creation, thread execution, and thread switch are much faster in comparison. |
+| Processes are generally loosely coupled and so a lesser amount of resource sharing is possible. | As the threads of a process are tightly coupled; a greater amount of resource sharing is possible. |
+| Communication between processes is difficult and requires system calls. | Communication between threads is much easier and more efficient. |
+
+
+
+
+# Multicore Programming
+# Multithreading Models
+# Thread Libraries
+# Implicit Threading
+# Threading Issues
+# Operating System Examples
+
 </details>
 
 ---
