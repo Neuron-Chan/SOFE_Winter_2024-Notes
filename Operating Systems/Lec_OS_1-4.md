@@ -1078,19 +1078,38 @@ The objective of multiprogramming is to have some process running at all times, 
 
 - For a single-processor system, there will never be more than one running process.
 - Process scheduler selects among available processes for next execution on CPU
-- Maintains scheduling queues of processes
-- Job queue; set of all processes in the system
-- Ready queue: set of all processes residing in main memory, ready and waiting to execute
-- Device queues: set of processes waiting for an I/O device
-- Each device has its own device queue
-- Processes migrate among the various queues
+  - Maintains scheduling queues of processes
+    - Job queue; set of all processes in the system
+    - Ready queue: set of all processes residing in main memory, ready and waiting to execute
+    - Device queues: set of processes waiting for an I/O device
+      - Each device has its own device queue
+  - Processes migrate among the various queues
 
 ![](../static/OS_3_2_1.png)
 
+Queueing diagram: is a common representation of process scheduling
+- Each rectangular box represents a queue
+- The circles represent the resources that serve the queues,
+- The arrows indicate the flow of processes in the system.
 
+A new process is initially put in the ready queue. It waits there until it is selected for execution, one of several events could occur while executing:
+- The process issues an I/O request, then placed in an I/O queue.
+- The process creates a new child process, wait for the child’s termination.
+- The process is removed from the CPU, as a result of an interrupt
 
+![](../static/OS_3_2_2.png)
 
-
+## Schedulers
+- **Short-term scheduler** (or **CPU scheduler**): selects which process from ready processes should be executed next and allocates CPU
+  - Sometimes it is the only scheduler in a system
+  - Short-term scheduler is invoked frequently (milliseconds) -> (must be fast)
+- **Long-term scheduler** (or **job scheduler**): selects which processes should be brought into the ready queue
+  - Long-term scheduler is invoked infrequently (seconds, minutes) -> (may be slow)
+  - The long-term scheduler controls the degree of multiprogramming (the number of processes in memory)
+- Processes can be described as either:
+  - **I/O-bound process:** spends more time doing I/O than computations, many short CPU bursts
+  - **CPU-bound process:** spends more time doing computations; few very long CPU bursts
+- The long-term scheduler should select a good process mix of I/O-bound and CPU-bound processes.
 
 # Operations on Processes
 
