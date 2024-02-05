@@ -1553,6 +1553,62 @@ int main(void) {
   - OS typically provides a rendezvous (or matchmaker) service to connect client and server
   - A client then sends a message containing the name of the RPC to the rendezvous daemon requesting the port address of the RPC it needs to execute.
 
+![execution of rpc](../static/OS_3_6_4.png)
+
+## Pipes
+- Acts as a conduit allowing two processes to communicate
+- In implementing a pipe, four issues must be considered:
+  - Is communication unidirectional or bidirectional?
+  - In the case of two-way communication, is it half or full-duplex?
+  - Must there exist a relationship (such as, parent-child) between the communicating processes?
+  - Can the pipes be used over a network?
+
+- Two common types of pipes used on both UNIX and Windows systems:
+  - Ordinary pipes: cannot be accessed from outside the process that created it. Typically, a parent process creates a pipe and uses it to communicate with a child process that it created.
+  - Named pipes: can be accessed without a parent-child relationship.
+
+- Ordinary Pipes allow communication in standard producer-consumer style
+  - Producer writes to one end (the write-end of the pipe)
+  - Consumer reads from the other end (the read-end of the pipe)
+- Ordinary pipes are therefore unidirectional
+- If two-way communication is required, two pipes must be used, with each pipe sending data in a different direction.
+- They require parent-child relationship between communicating processes
+  - Therefore, these pipes can be used only between processes on the same machine
+  - Pipes will be deleted from the system if their processes are terminated
+- Windows calls these anonymous pipes
+
+![pipe](../static/OS_3_6_5.png)
+
+- On UNIX systems, ordinary pipes are constructed using the function: pipe(int fd[])
+  - It creates a pipe that is accessed through the int fd[] file descriptors: fd[0] is the read-end of the pipe, and fd[1] is the write-end.
+  - pipes can be accessed by read() and write() system calls just like files
+
+![ordinary](../static/OS_3_6_6.png)
+
+## Named Pipes
+- Named Pipes are more powerful than ordinary pipes
+- Communication is bidirectional
+- No parent-child relationship is necessary between the communicating processes
+- Several processes can use the named pipe for communication
+- Provided on both UNIX and Windows systems
+
+On **UNIX**:
+- Referred to as FIFOs.
+- Once created, they appear as typical files in the file system.
+  - They will continue to exist even if the processes have terminated until they are explicitly deleted from the file system
+- A FIFO is created with the mkfifo() system call and manipulated with the ordinary open(), read(), write(), and close() system calls.
+- They are half-duplex. For full duplex use two FIFOs
+- Can be used in the same machine only, otherwise use sockets for intermachine communication
+- Example: ls | more
+  - Setting up a pipe ( | ) between the ls and more commands (which are running as individual processes)
+  - The ls command serves as the producer, and its output is consumed by the more command
+
+On **Windows**:
+- Full-duplex communication is allowed, and the communicating processes may reside on either the same or different machines.
+- created with the CreateNamedPipe() function, and a client can connect to a named pipe using ConnectNamedPipe().
+- Communication over the named pipe can be accomplished using the ReadFile() and WriteFile() functions.
+- Example: dir | more
+
 </details>
 
 ---
