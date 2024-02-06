@@ -557,6 +557,57 @@ Main areas of responsibility
     - Summarizes and analyzes financial data
     - Provides data for general accounting and cost accounting
 
+# Primary Accounting Statements
+- Balance sheet:
+  - A firm’s financial condition at a specific time
+  - Lists a firm’s assets, liabilities, and equity
+- Income statement:
+  - A firm’s performance over a period of time
+
+## Balance Sheet
+
+![balance sheet](../static/EE_3_1.png)
+
+- Assets: Owned by the firm and have monetary value
+- Liabilities: Dollar claims against the firm
+  - Short-term (current): Due within one year
+  - Long-term: Longer due dates (mortgages, bonds, loans, etc.)
+- Equity (or net worth): represents funding from the firm and its owners (the shareholders)
+  - At any point in time the difference between the total worth minus what is owed
+- Fundamental accounting equation:
+  - Assets = Liabilities + Equity
+
+- For Engineered Industries
+  - Total assets are $13,815,000
+  - Total current and long-term liabilities are $2,180,000 and $1,200,000, respectively
+  - Total equity is $10,435,000
+
+- Fundamental accounting equation:
+  - Assets = Liabilities + Equity
+  - $13,815,000 = $3,380,000 + $10,435,000
+
+- Working Capital
+  - Working capital = Current assets – Current liabilities
+  - For Engineered Industries, there would be $8,770,000 − $2,180,000 = $6,590,000 available in working capital
+
+
+
+## Income statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 ---
