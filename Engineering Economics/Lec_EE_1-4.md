@@ -1,4 +1,4 @@
-|Todo: work on Lecture 1
+Note: Covers modules 1 through 4.
 
 # Preamble:
 
@@ -395,7 +395,7 @@ Economic analysis often requires considering the benefits as well as the costs.
 - Macroeconomics examines the aggregate behavior of the economy (i.e. how the actions of all the individuals and firms in the economy interact to produce a particular level of economic performance as a whole).
   - Example: Overall level of prices in the economy (how high or how low they are relative to prices last year) rather than the price of a particular good or service.
 
-## Microeconomics – Main Concepts
+# Microeconomics – Main Concepts
 - Scarcity and rivalry
 - Supply, demand and equilibrium
 - Price elasticity
@@ -456,18 +456,86 @@ Price Elasticity of Demand = % Change in Quantity Demanded / % Change in Price
 
 ![price elasticity supply](../static/EE_2_2_2.png)
 
-Incentives and Behaviors
-• Focuses on situations that motivate individuals or firms to behave in a
-certain way. Has two types:
-• Positive incentives
-• E.g., rewards and payments, social status, etc.
-• Disincentives or negative incentive
-• Fines and taxes
-• Incentives could backfire.
-• Paying people to donate blood.
-• Fining people if they are late to pick up their children from day-care.
+# Incentives and Behaviors
+- Focuses on situations that motivate individuals or firms to behave in a certain way. Has two types:
+  - Positive incentives
+    - E.g., rewards and payments, social status, etc.
+  - Disincentives or negative incentive
+    - Fines and taxes
+  - Incentives could backfire.
+    - Paying people to donate blood.
+    - Fining people if they are late to pick up their children from day-care.
+
+## Utility Theory
+Consumers will choose to purchase goods that will maximize their “utility,” depending on how much money they have available to spend.
+- Usefulness, worth, values, benefit, satisfaction or happiness.
+
+![law of increasing/decreasing](../static/EE_2_3.png)
+
+# Macroeconomics – Main Concepts
+- Circular Flow of Income
+- Gross Domestic Product
+- Measuring growth
+- Unemployment
+- Prices and inflation
+- Aggregate demand and supply
+- Labor productivity
+- Recessions and expansions
+- Macroeconomic policies
 
 
+![circular flow model](../static/EE_2_4.png)
+
+
+## Macroeconomics vs. Microeconomics
+In macroeconomics, the behavior of the whole macroeconomy is, indeed, greater than the sum of individual actions and market outcomes.
+- Example: **Paradox of thrift**: when families and businesses are worried about the possibility of economic hard times, they prepare by cutting their spending.
+- This reduction in spending depresses the economy as consumers spend less and businesses react by laying off workers.
+- As a result, families and businesses may end up worse off than if they hadn’t tried to act responsibly by cutting their spending.
+
+Economic activity is measured using Gross Domestic Product (GDP). **Gross Domestic Product** is the market value of the final goods and services produced in a country during a given period.
+
+## Macroeconomics: Theory and Policy
+- In a **self-regulating economy**, problems such as unemployment are **resolved without government intervention**, through the working of the **invisible hand**.
+- According to **Keynesian economics**, economic slumps are caused by inadequate spending and they can be mitigated by government intervention.
+- **Monetary policy** uses changes in the quantity of money to alter interest rates and affect overall spending.
+- **Fiscal policy** uses changes in government spending and taxes to affect overall spending.
+
+# The Business Cycle
+- The **business cycle** is the short-run alternation between economic downturns and economic upturns.
+- A **depression** is a very deep and prolonged downturn.
+- **Recessions** are periods of economic downturns when output and employment are falling.
+- **Expansions**, sometimes called recoveries, are periods of economic upturns when output and employment are rising.
+- The point at which the economy turns from expansion to recession is a **business-cycle peak**.
+- The point at which the economy turns from recession to expansion is a **business-cycle trough**.
+
+![business cycle](../static/EE_2_5_1.png)
+
+![recessions + expansions](../static/EE_2_5_2.png)
+
+![canada unemployment rate](../static/EE_2_5_3.png)
+
+![us unemployment rate](../static/EE_2_5_4.png)
+
+## Taming the Business Cycle
+- Policy efforts undertaken to reduce the severity of recessions are called **stabilization policy**.
+- One type of stabilization policy is **monetary policy**: changes in the quantity of money or the interest rate.
+- The second type of stabilization policy is **fiscal policy**: changes in tax policy or government spending, or both.
+
+## Central Banks
+- A central bank is a financial institution that is responsible for overseeing the monetary system and policy of a nation or group of nations, regulating its money supply, and setting interest rates.
+- Central banks enact monetary policy, by easing or tightening the money supply and availability of credit, central banks seek to keep a nation's economy on an even keel.
+- A central bank sets requirements for the banking industry, such as the amount of cash reserves banks must maintain vis-à-vis their deposits. A central bank can be a lender of last resort to troubled financial institutions and even governments.
+- The critical feature of a central bank—distinguishing it from commercial banks—is its legal monopoly status, which gives it the privilege to issue banknotes and cash. Private commercial banks are only permitted to issue demand liabilities, such as checking deposits.
+
+### The Bank of Canada:
+Main areas of responsibility
+- The Bank of Canada is the nation's central bank. Its principal role is "to promote the economic and financial welfare of Canada"
+- Monetary policy: The Bank influences the supply of money circulating in the economy, using its monetary policy framework to keep inflation low and stable.
+- Financial system: The Bank promotes safe, sound and efficient financial systems, within Canada and internationally, and conducts transactions in financial markets in support of these objectives.
+- Currency: The Bank designs, issues and distributes Canada’s bank notes.
+- Funds management: The Bank is the "fiscal agent" for the Government of Canada, managing its public debt programs and foreign exchange reserves.
+- Retail payments supervision: Under the Retail Payment Activities Act, the Bank will be responsible for supervising payment service providers.
 </details>
 
 ---
@@ -475,6 +543,19 @@ certain way. Has two types:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Interest & Equivalence</summary>
 
+# The Role of Accounting
+- Engineering economy focuses on the financial aspects of projects, whereas accounting focuses on the financial aspects of firms
+- Three functions within businesses:
+    1) Engineering economics: Analyzes economic impact of alternatives and projects over their life cycles
+    2) Accounting: Determines the dollar impact of past decisions, reports on the economic viability of a unit or firm, and evaluates potential funding sources
+    3) Management: Allocates available investment funds to projects, evaluates unit and firm performance, allocates resources, and selects and directs personnel
+ 
+## Accounting for Business Transactions
+- A business transaction involves two parties and the exchange of dollars (or the promise of dollars) for a product or service
+  - Accounting functions:
+    - Records, analyzes, and reports on transactions
+    - Summarizes and analyzes financial data
+    - Provides data for general accounting and cost accounting
 
 </details>
 
