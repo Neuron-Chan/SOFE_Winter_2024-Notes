@@ -664,6 +664,13 @@ Benefits can be:
 
 ![step wise diagram](../static/SPM_4_1.png)
 
+We are concerned with choosing the right approach to a particular project: variously called technical planning, project analysis, methods engineering and methods tailoring
+
+- In-house: often the methods to be used dictated by organizational standards
+  - Developers and clients belong to same organization
+- Suppliers: need for tailoring as different customers have different needs
+
+![build or buy](../static/SPM_4_2.png)
 
 
 # Taking account of the characteristics of the project
