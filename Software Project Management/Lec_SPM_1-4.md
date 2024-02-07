@@ -660,6 +660,20 @@ Benefits can be:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | Project Approach Selection</summary>
 
+# Building versus buying software
+
+![step wise diagram](../static/SPM_4_1.png)
+
+
+
+# Taking account of the characteristics of the project
+# Process models
+# Waterfall
+# Prototyping and iterative approaches
+# Incremental delivery
+# Agile approaches
+
+
 </details>
 
 ---
