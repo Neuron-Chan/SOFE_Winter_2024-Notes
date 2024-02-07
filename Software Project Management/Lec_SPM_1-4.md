@@ -826,6 +826,69 @@ What is being prototyped?
 
 
 # Agile approaches
+Structured development methods have some perceived advantages
+- produce large amounts of documentation which can be largely unread
+  - documentation has to be kept up to date
+  - division into specialist groups and need to follow procedures stifles communication
+  - users can be excluded from decision process
+The answer? 'Agile' methods?
+
+## Atern/Dynamic system development method (DSDM)
+- UK-based consortium
+- arguably DSDM can be seen as replacement for SSADM
+- DSDM is more a project management approach than a development approach
+- Can still use DFDs, LDSs etc!
+- An update of DSDM has been badged as 'Atern'
+
+## Six core Atern/DSDM principles
+1. Focus on business need
+2. Delivery on time – use of time-boxing
+3. Collaborate
+4. Never compromise quality
+5. Deliver iteratively by using prototype
+6. Build incrementally
+
+![Atern/DSDM framework](../static/SPM_4_7.png)
+
+## Atern DSDM: time-boxing
+- time-box fixed deadline by which something has to be delivered
+- typically two to six weeks
+- MoSCoW priorities
+  - Must have - essential
+  - Should have - very important, but system could operate without
+  - Could have
+  - Want - but probably won’t get!
+ 
+## Extreme programming
+- increments of one to three weeks
+- customer can suggest improvement at any point
+- argued that distinction between design and building of software are artificial (face to face Communication)
+- code to be developed to meet current needs only
+- frequent re-factoring to keep code structured
+- developers work in pairs
+- test cases and expected results devised before software design
+- after testing of increment, test cases added to a consolidated set of test cases
+
+## Limitations of extreme programming
+- Reliance on availability of high quality developers
+- Dependence on personal knowledge – after development knowledge of software may decay making future development less easy
+- Rationale for decisions may be lost e.g. which test case checks a particular requirement
+- Reuse of existing code less likely
+
+![macro/micro processes](../static/SPM_4_8.png)
+
+# 'rules of thumb' about approach to be used
+
+- IF uncertainty is high
+  - THEN use evolutionary approach
+- IF complexity is high but uncertainty is not
+  - THEN use incremental approach
+- IF uncertainty and complexity both low
+  - THEN use one-shot
+- IF schedule is tight
+  - THEN use evolutionary or incremental 
+
+![combinations of approach](../static/SPM_4_9.png)
 
 
 </details>
