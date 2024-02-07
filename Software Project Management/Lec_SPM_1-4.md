@@ -722,6 +722,43 @@ We are concerned with choosing the right approach to a particular project: vario
 
 ![life of the unified process](../static/SPM_4_3.png)
 
+## Characteristics of the Unified Process
+- Architecture Centric
+  - architecture sits at the heart of the project team's efforts to shape the system
+- Iterative and Incremental (see below)
+- Consists of 4P’s(People, process, product, and project)
+- Focus on Risk
+  - requires the project team to focus on addressing the most critical risks early in the project life cycle
+
+![iterative](../static/SPM_4_4.png)
+
+## Structured Approach Advantages vs. Disadvantages
+
+| Advantage of Structured approach | Disadvantage of Structured approach |
+|-|-|
+| Resolve the project risks related with the changing requirements | Complex and disorganized development process |
+| Integration requires less time as it is carried out through out the software development life cycle | Reusability is impossible to the project which incorporates new technology |
+| Since the components are reusable, development phase consumes less time | Expect expert time members. |
+| Focuses on accurate documentation, hence can be considered as a complete methodology | High expense can be involved in heavy documentation |
+| | Issues may arise at the testing phase due to too many integrations |
+| | Customers are not interested in this approach |
+
+## Structure versus speed of delivery
+- Agile methods
+  - Emphasis on speed of delivery rather than documentation
+- RAD (Rapid Application Development)
+  - emphasized use of quickly developed prototypes
+- JAD (Joint Application Development).
+  - Requirements are identified and agreed in intensive workshops with users
+  - Hot-houses
+
+## Joint Application Development
+Also known as Joint Application Design
+
+- Used for requirement elicitation
+- Group orientated
+- Facilitated through workshop sessions
+
 
 # Process models
 ## Waterfall
