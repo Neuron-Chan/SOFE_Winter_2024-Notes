@@ -672,12 +672,62 @@ We are concerned with choosing the right approach to a particular project: vario
 
 ![build or buy](../static/SPM_4_2.png)
 
+## Some advantages of off-the-shelf (OTS) software
+- Cheaper as supplier can spread development costs over a large number of customers
+- Software already exists
+  - Can be trialled by potential customer
+  - No delay while software being developed
+- Where there have been existing users, bugs are likely to have been found and eradicated
+
+## Some possible disadvantages of off-the-shelf
+- Customer will have same application as everyone else: no competitive advantage, but competitive advantage may come from the way application is used
+- Customer may need to change the way they work in order to fit in with OTS application
+- Customer does not own the code and cannot change it
+- Danger of over-reliance on a single supplier
+- Chapter 10: managing contracts for more detail
+
+## Choosing Technologies
+- An outcome of project analysis will be the selection of the most appropriate methodologies and technologies.
+  - Methodologies include techniques like OO dev.
+  - Structured systems analysis and design methodology (SSADM) is a set of standards for systems analysis and application design
+- While technologies include mobile apps dev., use knowledge-base system tools, etc.
+
 
 # Taking account of the characteristics of the project
+- Some of the questions to be asked before starting with the project.
+  - Is it data oriented and a control oriented system?
+  - Will the software to be produced be a general package or application specific?
+  - Is the system safety-critical?
+  - What is the nature of the hardware/software environment in which the system will operate?
+  
+## General approach
+- Look at risks and uncertainties e.g.
+  - are requirement well understood?
+  - are technologies to be used well understood?
+    
+- Look at the type of application being built e.g.
+  - information system? embedded system?
+    
+- Clients’ own requirements
+  - need to use a particular method
+
+## Structure versus speed of delivery
+
+### Structured approach
+- Also called ‘heavyweight’ approaches
+- Step-by-step methods where each step and intermediate product is carefully defined
+- Emphasis on getting quality right first time
+- Example: use of UML (Universal Modelling Language) and USDP (Unified Software Development Process)
+- Future vision: Model-Driven Architecture (MDA). UML supplemented with Object Constraint Language, press the button and application code generated from the UML/OCL model
+
+![life of the unified process](../static/SPM_4_3.png)
+
+
 # Process models
-# Waterfall
-# Prototyping and iterative approaches
-# Incremental delivery
+## Waterfall
+## Prototyping and iterative approaches
+## Incremental delivery
+
 # Agile approaches
 
 
