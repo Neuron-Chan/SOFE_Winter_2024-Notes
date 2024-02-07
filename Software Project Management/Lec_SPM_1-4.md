@@ -692,6 +692,7 @@ We are concerned with choosing the right approach to a particular project: vario
   - Structured systems analysis and design methodology (SSADM) is a set of standards for systems analysis and application design
 - While technologies include mobile apps dev., use knowledge-base system tools, etc.
 
+
 # Taking account of the characteristics of the project
 - Some of the questions to be asked before starting with the project.
   - Is it data oriented and a control oriented system?
