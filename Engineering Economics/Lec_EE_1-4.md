@@ -590,10 +590,26 @@ Main areas of responsibility
   - Working capital = Current assets – Current liabilities
   - For Engineered Industries, there would be $8,770,000 − $2,180,000 = $6,590,000 available in working capital
 
-
+- Financial Ratios Derived from Balance Sheet Data
+  - Firm’s health can be evaluated through ratios of quantities on the balance sheet
+  - Current ratio = Current assets/Current liabilities
+    - Shows the ability of a firm to cover current liabilities
+    - Historically, firms have aimed to be at or above a ratio of 2.0
+  - Acid-test ratio (or quick ratio) = Quick assets/Total current liabilities
+    - With ~90 days
+    - Shows the ability of a firm to pay debt quickly
+    - Current inventories are excluded from quick assets due to the time required to sell them
+    - Above 1
+  - The current ratio is above 2 (8,770,000/2,180,000 = 4.02)
+  - The acid-test ratio is well above 1 [(1,940,000 + 950,000 + 4,100,000)/2,180,000 = 3.21]
 
 ## Income statement
-
+- Also known as the profit and loss statement
+- Summarizes the firm’s revenues and expenses over a period of time (month, quarter, year, etc.)
+- Used to evaluate revenue and expenses that occur in the interval between consecutive balance sheet statements
+- The income statement reports the firm’s net income (profit) or loss by subtracting expenses from revenues
+- Revenues − Expenses = Net profit (Loss)
+- If revenues minus expenses is positive, there has been a profit; if it is negative, a loss has occurred
 
 
 
