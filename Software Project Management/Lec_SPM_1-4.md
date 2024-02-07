@@ -587,72 +587,6 @@ Benefits can be:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </details>
 
 ---
@@ -759,11 +693,137 @@ Also known as Joint Application Design
 - Group orientated
 - Facilitated through workshop sessions
 
+## JAD Team Roles
+- Sponsor
+  - One or more individuals
+- Facilitator
+  - There can be only one
+- Participant
+  - Multiple individuals based scope and complexity
+- Scribe
+  - Typically one individual
+
+## What is Agile Methodology?
+- It’s a philosophy that means breaking projects down into small goals and working towards those goals while adding new goals
+  - Individuals and interactions over processes and tools
+  - Working software over comprehensive documentation
+  - Customer collaboration over contract negotiation
+  - Responding to change over following a plan
+
+![agile methods1](../static/SPM_4_5_1.png)
+
+![agile methods2](../static/SPM_4_5_2.png)
+
+![example](../static/SPM_4_5_3.png)
 
 # Process models
+
+## Choice of process models
+- 'Waterfall', also known as 'one-shot', 'once-through'
+- Incremental delivery
+- Evolutionary development
+
+Also use of ‘agile methods’ e.g. extreme programming: mainly a particular way of carrying out incremental and evolutionary development
+
 ## Waterfall
+
+![waterfall](../static/SPM_4_6_1.png)
+
+Waterfall Advantages
+
+- The 'classical' model
+- Easy to understand and use
+- Imposes structure on the project
+- Works effectively once the requirements are well understood.
+- Easy to manage, no overlaps in between phases
+- Every stage needs to be checked and signed off
+- V model approach is an extension of waterfall where different testing phases are identified which check the quality of different development phases (V model will be discussed in Chapter 13)
+
+BUT
+- limited scope for iteration
+
 ## Prototyping and iterative approaches
+
+![prototyping](../static/SPM_4_6_2.png)
+
+### Evolutionary Delivery: Prototyping
+
+Major prototyping approaches:
+- 'Throw away' prototypes
+- Evolutionary prototypes
+
+What is being prototyped?
+- Human-computer interface
+- Functionality 
+
+### Reasons for Prototyping:
+- learning by doing
+- improved communication
+- improved user involvement
+- a feedback loop is established
+- reduces the need for documentation
+- reduces maintenance costs i.e. changes after the application goes live
+- prototype can be used for producing expected results
+
+### Prototyping: Some Dangers
+- users may misunderstand the role of the prototype
+- lack of project control and standards possible
+- additional expense of building prototype
+- focus on user-friendly interface could be at expense of machine efficiency
+
+### Other ways of categorizing prototyping
+- what is being learnt?
+  - organizational prototype
+  - hardware/software prototype ('experimental')
+  - application prototype ('exploratory')
+- to what extent
+  - mock-ups
+  - simulated interaction
+  - partial working models: vertical versus horizontal
+
 ## Incremental delivery
+
+![incremental](../static/SPM_4_6_3.png)
+
+![incremental process](../static/SPM_4_6_4.png)
+
+### Incremental approach: benefits
+- feedback from early stages used in developing latter stages
+- shorter development thresholds: important when requirements are likely to change
+- user gets some benefits earlier: may assist cash flow
+- project may be put aside temporarily: more urgent jobs may emerge
+- reduces ‘gold-plating’: features requested but not used 
+
+### Incremental approach: disadvantages
+- loss of economy of scale: some costs will be repeated
+- 'software breakage': later increments might
+- change earlier increments
+
+### The outline incremental plan
+- steps ideally 1% to 5% of the total project
+- non-computer steps should be included
+- ideal if a step takes one month or less:
+  - not more than three months
+- each step should deliver some benefit to the user
+- some steps will be physically dependent on others
+
+### Which step first?
+- some steps will be pre-requisite because of physical dependencies
+- others may be in any order
+- value to cost ratios may be used
+- V/C where
+  - V is a score 1-10 representing value to customer
+  - C is a score 0-10 representing cost to developers
+
+### V/C ratios: an example
+| step | value | cost | ratio | placement |
+|-|-|-|-|-|
+| profit reports | 9 | 1 | 9 | 2nd |
+| online database | 1 | 9 | 0.11 | 5th |
+| ad hoc enquiry | 5 | 5 | 1 | 4th |
+| purchasing plans | 9 | 4 | 2.25 | 3rd |
+| profit-based pay for managers | 9 | 0 | inf | 1st |
+
 
 # Agile approaches
 
