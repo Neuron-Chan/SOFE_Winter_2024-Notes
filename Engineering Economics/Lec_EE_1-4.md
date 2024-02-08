@@ -449,7 +449,7 @@ Price Elasticity of Demand = % Change in Quantity Demanded / % Change in Price
 ## Price Elasticity of Supply
 - An economic measure of the responsiveness to the supply of a good or service after a change in its market price. The supply of a good will increase when its price rises and will decrease when its price decreases.
 
-Price Elasticity of Demand = % Change in Quantity Demanded / % Change in Price
+Price Elasticity of Supply = % Change in Quantity Supply / % Change in Price
 
 - Price Elasticity of Supply < 1  => inelastic
 - Price Elasticity of Supply > 1  => elastic
