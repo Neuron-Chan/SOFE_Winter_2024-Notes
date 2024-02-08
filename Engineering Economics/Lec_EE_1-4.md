@@ -877,7 +877,7 @@ Effective i / year = (1 + 0.01)<sup>12</sup> − 1 = 12.68% per year
   - m = 525600: hourly (equals 12.749% effective yearly)
 - Note: we are approaching a limit!
 - For infinite compounding periods (continuously compounded):
-  - 𝑖_𝑎=(𝑒𝑟)−1
+  - 𝑖<sub>-𝑎</sub>=(𝑒<sup>𝑟</sup>) − 1
   
 - To find compound amount and present worth for continuous compounding and a single payment, we write:
 - Compound amount F = P(ern) = P[F/P, r, n]
