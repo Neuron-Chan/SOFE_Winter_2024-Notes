@@ -838,12 +838,13 @@ IMPORTANT: **Nominal interest rates** are essentially **simple interest rates**.
 
 Nominal rates are converted into effective annual rates via the equation:
 𝒊<sub>𝒂</sub> = (𝟏 + 𝒓/𝒎)<sup>𝒎</sup> − 𝟏
+
 𝒊<sub>𝒂</sub> = (𝟏 + 𝒊)<sup>𝒎</sup> − 𝟏
 
 where 
 - i<sub>a</sub> = effective annual interest rate
 - i = effective rate for one compounding period
-- m = number times interest is compounded per year
+- m = number of times that interest is compounded per year
   - Example: For a nominal interest rate of 12% per year, determine the nominal and effective rates per year for (a) quarterly, and (b) monthly compounding
   - Solution:
     - (a) Nominal r / year = 12% per year
