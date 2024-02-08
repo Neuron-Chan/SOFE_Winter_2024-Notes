@@ -847,15 +847,22 @@ where
 - m = number of times that interest is compounded per year
   - Example: For a nominal interest rate of 12% per year, determine the nominal and effective rates per year for (a) quarterly, and (b) monthly compounding
   - Solution:
-    - (a) Nominal r / year = 12% per year
 
-          Nominal r / quarter = 12/4 = 3.0% per quarter
+(a)
+```
+Nominal r / year = 12% per year
 
-          Effective i / year = (1 + 0.03)4 − 1 = 12.55% per year
-      
-    - (b) Nominal r /month = 12/12 = 1.0% per month
+Nominal r / quarter = 12/4 = 3.0% per quarter
 
-          Effective i / year = (1 + 0.01)12 − 1 = 12.68% per year
+Effective i / year = (1 + 0.03)4 − 1 = 12.55% per year
+```
+    
+(b) 
+```
+Nominal r /month = 12/12 = 1.0% per month
+
+Effective i / year = (1 + 0.01)12 − 1 = 12.68% per year
+```
 
 # Continuous Compounding
 - The number of compounding periods depends on the number of subdivisions.
