@@ -832,13 +832,13 @@ The terms ‘nominal’ and ‘effective’ enter into consideration when the in
 
 IMPORTANT: **Nominal interest rates** are essentially **simple interest rates**. Therefore, they **can never be used in interest formulas**. **Effective rates** must **always be used hereafter in all interest formulas**.
 
-![More About Interest Rate Technologyx](../static/EE_4.6.png)
+![More About Interest Rate Technology](../static/EE_4.6.png)
 
 ## Effective Annual Interest Rates
 
 Nominal rates are converted into effective annual rates via the equation:
-𝒊𝒂 = 𝟏 + 𝒓/𝒎 𝒎 − 𝟏
-𝒊𝒂 = 𝟏 + 𝒊 𝒎 − 𝟏
+𝒊<sub>𝒂</sub> = (𝟏 + 𝒓/𝒎)<sup>𝒎</sup> − 𝟏
+𝒊<sub>𝒂</sub> = (𝟏 + 𝒊)<sup>𝒎</sup> − 𝟏
 
 where 
 - i<sub>a</sub> = effective annual interest rate
