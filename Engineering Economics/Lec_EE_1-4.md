@@ -685,6 +685,9 @@ Main areas of responsibility
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | Equivalence for Repeated Cash Flows</summary>
 
+# Computing Cash Flows
+- We describe the benefits and costs as receipts (cash flowing in) and disbursements (cash flowing out) at different points in time
+- The foundation of engineering economic analysis are techniques for comparing the value of money at different dates
 
 </details>
 
