@@ -576,6 +576,8 @@ Main areas of responsibility
   - At any point in time the difference between the total worth minus what is owed
 - Fundamental accounting equation:
   - Assets = Liabilities + Equity
+ 
+### Accounting
 
 - For Engineered Industries
   - Total assets are $13,815,000
@@ -595,13 +597,14 @@ Main areas of responsibility
   - Current ratio = Current assets/Current liabilities
     - Shows the ability of a firm to cover current liabilities
     - Historically, firms have aimed to be at or above a ratio of 2.0
+      - The current ratio is above 2 **(8,770,000/2,180,000 = 4.02)**
+
   - Acid-test ratio (or quick ratio) = Quick assets/Total current liabilities
     - With ~90 days
     - Shows the ability of a firm to pay debt quickly
     - Current inventories are excluded from quick assets due to the time required to sell them
     - Above 1
-  - The current ratio is above 2 (8,770,000/2,180,000 = 4.02)
-  - The acid-test ratio is well above 1 [(1,940,000 + 950,000 + 4,100,000)/2,180,000 = 3.21]
+      - The acid-test ratio is well above 1 **[(1,940,000 + 950,000 + 4,100,000)/2,180,000 = 3.21]**
 
 ## Income statement
 - Also known as the profit and loss statement
@@ -611,11 +614,27 @@ Main areas of responsibility
 - Revenues − Expenses = Net profit (Loss)
 - If revenues minus expenses is positive, there has been a profit; if it is negative, a loss has occurred
 
+### Accounting
 
+- For Engineered Industries
+- Total revenues = $18,350,000
+- Total expenses = $17,230,000
+- **Net income = Revenues - Expenses**
+  = $18,350,000 - $17,230,000
+  = $1,120,000 before taxes
+($730,000 after taxes)
 
-
-
-
+- Financial Ratios Derived from Balance Sheet Data
+- **Net Profit Ratio = Net profit/Net sales revenue**
+  - Indicates cost efficiency of operations and firm’s ability to convert sales into profits
+  - Net sales revenue equals sales minus returns and allowances
+    - For Engineered Industries, the net profit ratio is **730,000/18,030,000 = 0.040 = 4.0%**
+      
+- **Interest Coverage Ratio = Total Income/Interest Payments**
+  - Indicates how much revenue must drop to affect the firm’s ability to finance its debt
+  - It should be at least 3.0 for industrial firms
+  - Total income is total revenues minus all expenses except interest payments
+    - Engineered Industries has an interest coverage ratio of **(18,350,000 − 17,110,000)/120,000 = 10.3**
 
 
 
