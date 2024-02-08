@@ -724,6 +724,83 @@ Below, consider a $25,000 loan at 10%/year
 | 3 | $30,250 | $3,025 | $33,275 |
 | 4 | $33,275 | $3,327.50 | $36,602.50 |
 
+## Repaying a Debt
+- There are many ways in which debts are repaid, including the following three plans:
+1. Constant principal
+2. Interest only
+3. Constant payments
+
+# Equivalence
+- Equivalence with respect to the “time value of money” implies that a sum of money in one time period may have the same “value” to a different sum in another time period with respect to an interest rate.
+  - Example:
+    - $1000 now is equivalent to:
+      - $1100 one year from now at 10% per year
+      - $1050 one year from now at 5% per year
+      - $1210 two years from now at 10% per year
+      - $1102 two years from now at 5% per year
+
+- Equivalence is dependent on interest rate.
+- Equivalence is useful when:
+  - There are cash flows (positive and/or negative) over “n” time periods that need to be compared
+  - There are alternative comparisons of multiple cash flows
+    - Alternative projects with cash flows over “n” time periods
+
+
+## Single-Payment Compound Interest
+
+### Formulas
+- Notation:
+- i = interest rate per interest period
+- n = number of interest periods
+- P = a present sum of money
+- F = a future sum of money at the end of the nth interest period, which is equivalent to P at the interest rate i
+
+Assuming interest rate (n) is in years,
+
+  After one year, the future amount at the end of year one would be
+  **F = P(1 + i)**
+
+  After two years, the future amount at the end of year two, including the additional interest from year one, would be
+  **F = P(1 + i) + iP(1 + i)**
+
+  Equivalent to:
+  **F = P(1 + i)(1 + i)** or **P(1 + i)<sup>2</sup>**
+
+  Generalizing:
+  **F = P(1 + i)<sup>n</sup>**
+
+### Simple and Compound Interest: Problem
+
+How much more would you owe at the end of 4 years using:
+- simple interest at 9% per year or
+- compound interest at 9% per year
+
+if you borrowed $150,000 now?
+
+### Solution
+
+_Simple Interest_
+
+F = P + Pin = 150,000 + 150,000(0.09)(4)
+
+F = $204,000
+
+_Compound Interest_
+
+F = P(1 + i)n
+
+F = 150,000(1.09)4
+
+F = $211,737.24
+
+211,737.24 – 204,000 = $7737.24
+
+You would owe **$7737.24** more with a compound interest arrangement.
+
+![simple interest ex](../static/EE_4.2.png)
+
+
+  
 </details>
 
 ---
