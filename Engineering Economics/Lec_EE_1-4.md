@@ -799,8 +799,81 @@ You would owe **$7737.24** more with a compound interest arrangement.
 
 ![simple interest ex](../static/EE_4.2.png)
 
+![simple interest ex](../static/EE_4.3.png)
 
+![simple interest ex](../static/EE_4.4.png)
+
+![simple interest ex](../static/EE_4.5.png)
+
+# Nominal and Effective Interest
+- When specifying an interest rate, we implicitly mention two time periods
+- We pay an interest rate of i per time_period1, compounded every time_period2
+- Effective interest rate: when these time periods are both the same
+- Nominal interest rate: when the two time periods don’t match
+
+## Interest Rate Statements
+The terms ‘nominal’ and ‘effective’ enter into consideration when the interest period is less than one year.
+
+**New time-based definitions to understand and remember:**
+
+- Interest period (t) – period of time over which interest is expressed.
+  - For example, 1% per month.
+- Compounding period (CP) – Shortest time unit over which interest is charged or earned.
+  - For example,10% per year compounded monthly.
+- Compounding frequency (m) – Number of times compounding occurs within the interest period t
+
+## Understanding Interest Rate Terminology
+- A nominal interest rate (r) is obtained by multiplying an interest rate that is expressed over a short time period by the number of compounding periods in a longer time period: That is:
+  - r = interest rate per period x number of compounding periods
+    - Example: If i = 1% per month, nominal rate per year is
+    - r = (1)(12) = 12% per year)
+      
+- Effective interest rates (i) take compounding into account (effective rates can be obtained from nominal rates via a formula to be discussed later).
+
+IMPORTANT: **Nominal interest rates** are essentially **simple interest rates**. Therefore, they **can never be used in interest formulas**. **Effective rates** must **always be used hereafter in all interest formulas**.
+
+![More About Interest Rate Technologyx](../static/EE_4.6.png)
+
+## Effective Annual Interest Rates
+
+Nominal rates are converted into effective annual rates via the equation:
+𝒊𝒂 = 𝟏 + 𝒓/𝒎 𝒎 − 𝟏
+𝒊𝒂 = 𝟏 + 𝒊 𝒎 − 𝟏
+
+where 
+- i<sub>a</sub> = effective annual interest rate
+- i = effective rate for one compounding period
+- m = number times interest is compounded per year
+  - Example: For a nominal interest rate of 12% per year, determine the nominal and effective rates per year for (a) quarterly, and (b) monthly compounding
+  - Solution:
+    - (a) Nominal r / year = 12% per year
+          Nominal r / quarter = 12/4 = 3.0% per quarter
+          Effective i / year = (1 + 0.03)4 − 1 = 12.55% per year
+    - (b) Nominal r /month = 12/12 = 1.0% per month
+          Effective i / year = (1 + 0.01)12 − 1 = 12.68% per year
+
+# Continuous Compounding
+- The number of compounding periods depends on the number of subdivisions.
+- A nominal interest rate of 12%/year compounded:
+  - m = 1: yearly (equals 12% effective yearly)
+  - m = 2: semi-annually (equals 12.360% effective yearly)
+  - m = 4: quarterly (equals 12.551% effective yearly)
+  - m = 52: weekly (equals 12.734% effective yearly)
+  - m = 365: daily (equals 12.747% effective yearly)
+  - m = 525600: hourly (equals 12.749% effective yearly)
+- Note: we are approaching a limit!
+- For infinite compounding periods (continuously compounded):
+  - 𝑖_𝑎=(𝑒𝑟)−1
   
+- To find compound amount and present worth for continuous compounding and a single payment, we write:
+- Compound amount F = P(ern) = P[F/P, r, n]
+- Present worth P = F(e−rn) = F[P/F, r, n]
+- Square brackets around the factors denote continuous compounding.
+
+## Equivalence and Sustainability
+- The formulas and methods we use give reasonable results when applied to time spans of less than a century, but can be misleading when applied to longer time periods
+- Many of the problems humanity currently faces require us to plan on a time scale of centuries or longer
+
 </details>
 
 ---
