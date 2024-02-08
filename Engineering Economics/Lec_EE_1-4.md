@@ -607,6 +607,9 @@ Main areas of responsibility
       - The acid-test ratio is well above 1 **[(1,940,000 + 950,000 + 4,100,000)/2,180,000 = 3.21]**
 
 ## Income statement
+
+![income statement](../static/EE_3_2.png)
+
 - Also known as the profit and loss statement
 - Summarizes the firm’s revenues and expenses over a period of time (month, quarter, year, etc.)
 - Used to evaluate revenue and expenses that occur in the interval between consecutive balance sheet statements
@@ -636,12 +639,29 @@ Main areas of responsibility
   - Total income is total revenues minus all expenses except interest payments
     - Engineered Industries has an interest coverage ratio of **(18,350,000 − 17,110,000)/120,000 = 10.3**
 
+- Linking the Balance Sheet, Income Statement, and Capital Transactions
+  - There are many links between the balance sheet, income statement, and cash flows that make up business transactions
+  - For engineering economic analysis, the following links are the most important:
+    - Overall profit or loss (income statement) and the starting and ending equity (balance sheets)
+    - Acquisition of capital assets
+    - Depreciation of capital assets
 
+- Linking the Balance Sheet, Income Statement, and Capital Transactions, cont’d
+  - The overall profit or loss during the year (shown on the income statement) is reflected in the change in retained earnings (RE) between the balance sheets at the beginning and end of the year
+  - To find the change in retained earnings (RE), one must also subtract any dividends distributed to the owners and add the value of any new capital stock sold
+  - Change in Retained Earnings (RE):
+    - **RE<sub>end</sub> = RE<sub>beg</sub> + Net Income(or Loss) + New Stock – Dividends**
 
+![example](../static/EE_3_3.png)
 
+- Cost accounting: Used to develop product costs, determine the mix of labour, materials, and other costs in a production setting, and to evaluate outsourcing and subcontracting possibilities
 
+![traditional cost accounting](../static/EE_3_4.png)
 
-
+- **Direct and Indirect Costs**
+- Costs incurred to produce a product or service are traditionally classified as either direct or indirect (overhead)
+- **Direct costs**: Activities directly associated with the final product or service produced (e.g., materials, labour, etc.)
+- **Indirect costs**: Costs not easily linked directly to individual products or services (e.g., machine depreciation, management/sales/administration costs, etc.)
 
 </details>
 
