@@ -659,9 +659,24 @@ Main areas of responsibility
 ![traditional cost accounting](../static/EE_3_4.png)
 
 - **Direct and Indirect Costs**
-- Costs incurred to produce a product or service are traditionally classified as either direct or indirect (overhead)
-- **Direct costs**: Activities directly associated with the final product or service produced (e.g., materials, labour, etc.)
-- **Indirect costs**: Costs not easily linked directly to individual products or services (e.g., machine depreciation, management/sales/administration costs, etc.)
+  - Costs incurred to produce a product or service are traditionally classified as either direct or indirect (overhead)
+  - **Direct costs**: Activities directly associated with the final product or service produced (e.g., materials, labour, etc.)
+  - **Indirect costs**: Costs not easily linked directly to individual products or services (e.g., machine depreciation, management/sales/administration costs, etc.)
+
+## Indirect Cost Allocation
+- Indirect costs are sometimes allocated across projects through “absorption costing”
+- Allocating overhead costs based on factors (burden vehicle), such as:
+1. number of direct-labour costs each project has
+2. direct-labour hours
+3. direct-material cost
+4. total direct cost
+
+## Other Problems to Watch For
+- Centralized accounting systems have often been accused by project managers of being too slow or “untimely”
+- If an organization establishes numerous files and systems so that stakeholders have the timely data they need, the level of accuracy in one or all systems may be low
+  - Analysts making cost estimates will have to consider other internal data sources.
+- Inventory or land valued too low because its based on acquisition cost
+- Capital equipment being valued too high or too low depending on the depreciation methods and company policy
 
 </details>
 
