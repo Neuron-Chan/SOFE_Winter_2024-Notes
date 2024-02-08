@@ -689,6 +689,41 @@ Main areas of responsibility
 - We describe the benefits and costs as receipts (cash flowing in) and disbursements (cash flowing out) at different points in time
 - The foundation of engineering economic analysis are techniques for comparing the value of money at different dates
 
+## Time Value of Money
+- When monetary consequences of an alternative occur in a considerable period, we cannot simply add up the various sums of money
+- Money
+  - It has value over time
+  - It is a valuable asset that people are willing to pay to have it available to use
+  - It can be rented in roughly the same way that an apartment is rented
+    - The charge is called interest instead of rent
+    - Our preference for having money now rather than money in the future differs from person to person
+      - The preference for having money now rather than later has nothing to do with inflation
+    - The bank expresses the time value it puts on money by publishing its interest rate
+
+### Simple Interest
+- Interest that is computed only on the original sum and not on accrued interest
+  - **Total interest earned = P × i × n = Pin**
+    - Where: P = present sum, i = interest rate/period, and n = # of time periods (e.g. years)
+  - **Total money after n periods (F) = P + Pin or F = P(1+in)**
+    - Where: F = future sum
+     
+![simple interest ex](../static/EE_4.1.png)
+
+### Compound Interest
+- In practice, interest is determined using the compound interest method.
+- Simple interest is normally not used unless specifically stated otherwise
+- Interest is calculated on the accumulated amount and not simply on the original amount
+  - Interest on top of interest
+
+Below, consider a $25,000 loan at 10%/year
+
+| Year "n" | Total in Year "n" | Interest accumulated at end of year "n" | Amount accumulated at end of year "n" |
+|-|-|-|-|
+| 1 | $25,000 | $2,500 | $27,500 |
+| 2 | $27,500 | $2,750 | $30,250 |
+| 3 | $30,250 | $3,025 | $33,275 |
+| 4 | $33,275 | $3,327.50 | $36,602.50 |
+
 </details>
 
 ---
