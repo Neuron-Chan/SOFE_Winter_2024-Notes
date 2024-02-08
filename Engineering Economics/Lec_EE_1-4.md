@@ -856,6 +856,8 @@ Nominal r / quarter = 12/4 = 3.0% per quarter
 
 Effective i / year = (1 + 0.03)<sup>4</sup> − 1 = 12.55% per year
 
+
+
     
 (b) 
 
