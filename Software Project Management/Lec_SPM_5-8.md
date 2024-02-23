@@ -91,65 +91,8 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 
 - In another country of the same bank with almost the same project scope, they had an estimation of 3 years. They finished 2 months ahead of time and were praised for the achievement.
 
+
  
-  - Carried out for a customer
-  - Carried out by a temporary work group
-  - Involving several specialisms
-  - Made up of several different phases
-  - Constrained by time and resources
-  - Large and/or complex
-
-  ## Exercise 1.1
-  Which of the following is a project, a routine, or an exploration:
-  <details>
-    <summary>Producing an edition of a newspaper</summary>
-  routine
-  </details>
-
-  <details>
-    <summary>Building the channel tunnel.</summary>
-  project
-  </details>
-
-  <details>
-    <summary>Getting Married</summary>
-  project</details>
-
-  <details>
-    <summary>A research project into what makes a good human-computer interface.</summary>
-  exploration
-  </details>
-
-  <details>
-    <summary>An investigation into the reason why a user has a problem with a computer system.</summary>
-  project
-  </details>
-
-  <details>
-    <summary>A programming assignment for a second year computing student.</summary>
-  project
-  </details>
-
-  <details>
-    <summary>Writing an operating system for a new computer</summary>
-  exploration
-  </details>
-
-  <details>
-    <summary>Installing a new version of a word processing application in an organization</summary>
-  routine
-  </details>
-
-  Invisibility, Complexity, Conformity (compliance w/ standards, rules, or laws), and Flexibility make software more problematic to build than other engineered artefacts.
-
-  Projects can be
-
-  - **In-house:** clients & employers are employed by same organization
-  - **Out-sourced:** clients & employers are employed by different organizations
-
-  "Project manager" could be:
-  - a ‘contract manager’ in the client organization
-  - a technical project manager in the supplier/services organization
 
   ### Activities covered by project management
   Feasibility study
