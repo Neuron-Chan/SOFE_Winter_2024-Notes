@@ -638,6 +638,54 @@ What is a product?
 ![product flow diagram](../static/SPM_3_5_1.png)
 ![product flow diagram](../static/SPM_3_5_2.png)
 
+- 4.3 Recognize product instances
+  - The PBS and PFD will probably have identified generic products e.g. ‘software modules’
+  - It might be possible to identify specific instances e.g. ‘module A’, ‘module B’, etc...
+  - But in many cases this will have to be left to later, more detailed, planning
+- 4.4. Produce ideal activity network
+  - Identify the activities needed to create each product in the PFD
+  - More than one activity might be needed to create a single product
+  - Hint: Identify activities by verb + noun but avoid ‘produce…’ (too vague)
+  - Draw up activity network
+
+![ideal activity](../static/SPM_3_6.png)
+
+Why is it called 'ideal'?
+- The activity network is ideal in the sense that no account has been taken of resource constraints.
+
+![checkpoint](../static/SPM_3_7_1.png)
+![checkpoint](../static/SPM_3_7_2.png)
+
+# Step 5: Estimate effort for each activity
+- 5.1 Carry out bottom-up estimates
+  - distinguish carefully between effort and elapsed time
+  - Example: a task requires three developers in two days. Determine the effort and elapsed time in this activity:
+    - Effort: 3 x 2 = 6 days
+    - Elapsed time: 2 days
+- 5.2. Revise plan to create controllable activities
+  - break up very long activities into a series of smaller ones
+  - bundle up very short activities (create check lists?)
+  
+# Step 6: Identify activity risks
+- What is risk?
+- We live, work, and do the projects based on some assumptions (our culture, context, environment, beliefs, knowledge, ignorance, information, emotions, etc.)
+- The possibility that an assumption (upon which a plan is based) is incorrect is risk!
+- The main reason for risk: uncertainty.
+- The usual (any maybe less expensive) effect of risks is to make the task longer and more costly.
+
+- 6.1. Identify and quantify risks for activities
+  - What is the damage if risk occurs (measure in time lost or money)
+  - What is the likelihood if risk occurring
+- 6.2. Plan risk reduction and contingency measures
+  - risk reduction: activity to stop risk occurring
+  - contingency: action if risk does occur
+- 6.3. Adjust overall plans and estimates to take account of risks
+  - e.g. add new activities which reduce risks associated with other activities e.g. training, pilot trials, information gathering
+
+
+
+
+
 
 </details>
 
