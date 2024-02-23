@@ -631,9 +631,12 @@ What is a product?
   - A vehicle consisting of a light frame mounted on two wire-spoked wheels one behind the other and having a seat, handlebars for steering, brakes, and two pedals or a small motor by which it is driven.
 - Format:
   - Street/mountain bike, girls/boys bike, etc.
+- Composition:
+![bike composition](../static/SPM_3_4.png)
 
-
-
+# Step 4 Continued
+![product flow diagram](../static/SPM_3_5_1.png)
+![product flow diagram](../static/SPM_3_5_2.png)
 
 
 </details>
