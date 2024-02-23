@@ -33,28 +33,65 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
   - Estimate the effort needed to implement software using a procedural programming language
   - Understand the COCOMO approach
   
-  # Why is project management important?
+  # What makes a successful project?
+- Delivering
+- agreed functionality
+- on time
+- at the agreed cost
+- with the required quality
+- Stages:
 
-  Large amounts of money are spent on Info & Comms. Technology (ICT).
+1. set targets
+2. Attempt to achieve targets
 
-  - Projects often fail; Standish Group claim only a third of ICT projects are successful. 82% were late and 43% exceeded their budget.
-  - Poor project management is a major factor in these failures.
 
-  # What is a project?
+**BUT what if the targets are not achievable?**
 
-  The definition can vary, but its most important aspects are its *planning* and *size*.
+  # Cost estimation model
+- Cost estimation model is used to calculate the effort and schedule of a project.
+- Cost estimation models give easy ways for reduce project risks and prepare plan for building the project.
+- They are calculated using cost drivers.
+- Cost drivers are critical features that have a direct impact on the project.
 
-  To compare:
+## Some problems with estimating
+- Subjective nature of much of estimating
+  - It may be difficult to produce evidence to support your precise target
+- Political pressures
+  - Managers may wish to reduce estimated costs in order to win support for acceptance of a project proposal
+- Changing technologies
+  - these bring uncertainties, especially in the early days when there is a ‘learning curve’
+- Projects differ
+  - Experience on one project may not be applicable to another
+  
+  
+## Source Line of Code Technique (SLOC)
+- The SLOC technique is an objective method of estimating or calculating the size of the project.
+- The project size helps determine the resources, effort, cost, and duration required to complete the project.
+- It is also used to directly calculate the effort to be spent on a project.
+- We can use it when the programming language and the technology to be used are predefined.
+- This technique includes the calculation of lines of codes (LOC), documentation of pages, inputs, outputs, and components of a software program.
 
-  Jobs – repetition of very well-defined and well understood tasks with very little uncertainty
-  Exploration – e.g. finding a cure for cancer: the outcome is very uncertain
+## Exercise 5-1
+- Calculate the productivity , SLOC per work month, of each of the projects in the following table, and also for the organization as a whole.
+  
+-  If the project leaders for projects “a” and “d” had correctly estimated the source number of lines of code (SLOC) and then used the average productivity of the organization to calculate the effort needed to complete the project, how far out would their estimate have been from the actual effort?
 
-  Projects lie in the middle between a job and exploration.
+![exercise5-1](../static/SPM_5_1_1.png)
+![exercise5-1](../static/SPM_5_1_2.png)
+![exercise5-1](../static/SPM_5_1_3.png)
 
-  A task is more 'project-like' if it is:
-  - Non-routine
-  - Planned
-  - Aiming at a specific target
+# Over and under-estimating
+- Parkinson’s Law: ‘Work expands to fill the time available’
+- Brook’s Law: putting more people on a late job makes is later!
+- An over-estimate is likely to cause project to take longer than it would otherwise (i.e. Introducing and recruiting new people at the middle of the project)
+- Weinberg’s Zeroth Law of reliability: ‘a software project that does not have to meet a reliability requirement can meet any other requirement’ (i.e. Under-estimated projects may not make it in time or budget but at least they are in a shorter time)
+
+## An example of bad Estimate
+- A project responsible to deliver a system for managing a lending process. It had an original estimation to finish in 9 months. Instead, it finished after 2 years. Clearly, in the eyes of the sponsor, stakeholders and steering committee, it was labeled a disaster. The worst part was that every time the team reported a status they asked only for 1 more month deadline extension. This presented, in their view, a realistic plan to finalize the scope. They worked an average of 12 hours a day, but the end result was a disappointment. The project for the next years became the benchmark of what could be done wrong.
+
+- In another country of the same bank with almost the same project scope, they had an estimation of 3 years. They finished 2 months ahead of time and were praised for the achievement.
+
+ 
   - Carried out for a customer
   - Carried out by a temporary work group
   - Involving several specialisms
@@ -287,7 +324,7 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 2 | Software Project Evaluation, Program Management</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 6 | Activity Planning</summary>
 
   # Outline:
   - The business case for a project
