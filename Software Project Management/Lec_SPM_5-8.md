@@ -91,8 +91,29 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 
 - In another country of the same bank with almost the same project scope, they had an estimation of 3 years. They finished 2 months ahead of time and were praised for the achievement.
 
+- Motivation and morale are enhanced where targets are achievable
+- Several unsuccessful attempts and unattainable targets reduce motivation
+- People claim the success but blame the organization for the failure
 
- 
+## Basis for successful estimating
+- Information about past projects
+  - Need to collect performance details about past project: how big were they? How much effort/time did they need?
+- Need to be able to measure the amount of work involved
+  - Traditional size measurement for software is ‘lines of code’ – but this can have problems
+  - Discuss problems with SLOC and KLOC?
+
+## A taxonomy of estimating methods
+- Bottom-up - activity based, analytical
+- Parametric or algorithmic models e.g. function points
+- Expert opinion - just guessing?
+- Analogy - case-based, comparative
+- Parkinson and 'price to win'.
+
+
+
+
+
+
 
   ### Activities covered by project management
   Feasibility study
