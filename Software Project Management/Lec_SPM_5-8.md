@@ -22,14 +22,17 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 1 | Introduction to SPM</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 5 | Software Effort Estimation</summary>
   
     
   # Outline:
-  *What is software project management?* Is it really different from *ordinary* project management?
-
-  *How do you know when a project has been successful?* E.g., do the expectations of the customer/client match those of the developers?
-
+  - Avoid the dangers of unrealistic estimates.
+  - Understand the range of estimating methods that can be used
+  - Estimate projects using a bottom-up approach
+  - Count the function points and object points for a system
+  - Estimate the effort needed to implement software using a procedural programming language
+  - Understand the COCOMO approach
+  
   # Why is project management important?
 
   Large amounts of money are spent on Info & Comms. Technology (ICT).
