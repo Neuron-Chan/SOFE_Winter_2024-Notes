@@ -518,7 +518,7 @@ Benefits can be:
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 3 | Step Wise: An approach to planning software projects</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 7 | Step Wise: An approach to planning software projects</summary>
 
 # 'Step Wise' - aspirations
 
@@ -596,7 +596,7 @@ Benefits can be:
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 4 | Project Approach Selection</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 8 | Project Approach Selection</summary>
 
 # Building versus buying software
 
