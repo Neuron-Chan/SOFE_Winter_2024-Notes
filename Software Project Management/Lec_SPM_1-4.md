@@ -584,17 +584,53 @@ Benefits can be:
 - Review overall resource estimates
   - ‘does all this increase the cost?’
 
+## Scenario review
+- Objectives vs. products
+  - An objective-based approach has been adopted
+- Some risks
+  - There may not be an off-the-shelf package that caters for the way payroll is processed at Brightmouth College
+- Answer?
+  - Brigette decides to obtain details of how main candidate packages work as soon as possible; also agreement that if necessary processes will be changed to fit in with new system.
 
+# Step 4: Identify project products and activities
+- 4.1 Identify and describe project products - ‘what do we have to produce?’ [there is no product without activities]
 
+![product breakdown structure](../static/SPM_3_2.png)
 
+![case study example](../static/SPM_3_3.png)
 
+## Products
+What is a product?
 
+- The result of an activity
+- Could be (among other things)
+  - physical thing (‘installed PC’),
+  - a document (‘logical data structure’)
+  - a person (‘trained user’)
+  - a new version of an old product (‘updated software’)
+- The following are NOT normally products:
+  - activities (e.g. ‘training’)
+  - events (e.g. ‘interviews completed’)
+  - resources and actors (e.g. ‘software developer’) - may be exceptions to this
+- Products CAN BE deliverable or intermediate
 
+### Product description (PD)
 
+- Product identity/name
+- Description - what is it?
+- Derivation - what is it based on? [the predecessor products that are needed from which this particular product is derived.]
+- Composition - what does it contain?
+- Format (form of the product) [for example a4 or letter if the product is a document, or hard cover or paper-back if it is a book]
+- Relevant standards
+-  Quality criteria
 
-
-
-
+-  Create a PD for 'bicycle'
+- Description:
+  - A vehicle consisting of a light frame mounted on two wire-spoked wheels one behind the other and having a seat, handlebars for steering, brakes, and two pedals or a small motor by which it is driven.
+- Description:
+  - A vehicle consisting of a light frame mounted on two wire-spoked wheels one behind the other and having a seat, handlebars for steering, brakes, and two pedals or a small motor by which it is driven.
+- Format:
+  - Street/mountain bike, girls/boys bike, etc.
 
 
 
