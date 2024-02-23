@@ -569,13 +569,20 @@ Benefits can be:
   - 'where do I fit in?'
 
 # Step 3: Analysis of Project Characteristics
-- 2.1. Establish link between project and any strategic plan (such as enterprise architecture)
-  - 'why did they want the project?'
-- 2.2. Identify installation standards and procedures
-  - 'what standards do we have to follow?'
-- 2.3. Identify project team organization
-  - 'where do I fit in?'
-
+- 3.1 Distinguish the project as either objective or product-based.
+  - Is there more than one way of achieving success?
+- 3.2 Analyze other project characteristics (including quality based ones) (is it information system, process control, embedded system, etc)
+  - what is different about this project?
+- Identify high level project risks
+  - Risks: operational, development, nature of project
+  - ‘what could go wrong?’
+  - ‘what can we do to stop it?’
+- Take into account user requirements concerning implementation
+  - Organization may mandate particular methodology or development process
+- Select general life cycle approach → chapter 4
+  - waterfall? Increments (breaking down the big projects)? Prototypes?
+- Review overall resource estimates
+  - ‘does all this increase the cost?’
 
 
 
