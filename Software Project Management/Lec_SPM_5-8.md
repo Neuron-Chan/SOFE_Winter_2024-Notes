@@ -109,7 +109,23 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 - Analogy - case-based, comparative
 - Parkinson and 'price to win'.
 
+# Bottom-up versus top-down
+- Bottom-up
+  - identify all tasks that have to be done – so quite time-consuming
+  - use when you have no data about similar past projects
+  - First top-down (in task level), i.e. work breakdown schedule(WBS) and then bottom-up
+- Top-down
+  - produce overall estimate based on project cost drivers
+  - based on past project data
+  - divide overall estimate between jobs to be done
 
+## Bottom-up estimating
+1. Break project into smaller and smaller components
+2. Stop when you get to what one person can do in one/two weeks
+3. Estimate costs for the lowest level activities
+4. At each higher level calculate estimate by adding estimates for lower levels
+[If you have never done something before you can imagine
+what you could do in about a week.]
 
 
 
@@ -128,160 +144,8 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
   ## The software development life-cycle
   ![spm1](../static/SPM_1_1.png)
 
-  # Plans, methods & methodologies
-  ![spm2](../static/SPM_1_2.png)
-
-  ### Some ways of categorizing projects
-  Distinguishing different types of project is important, as different types of task need different project approaches e.g.
-
-  - **Voluntary** systems (such as computer games) versus **compulsory** systems e.g. the order processing system in an organization
-  - **Information** systems versus **embedded** systems
-  - **Objective-based** versus **product-based**
-
-
-  ## Objective vs. Product-Driven
-
-  Consider the following scenarios:
-  - Is implementing a new pay-roll system an objective or product-driven project?
-  - Implementing a new iPhone app?
-  - Switching a database from DB2 to Oracle?
-
-
-  ## Embedded Systems
-
-  It includes:
-  - ATM software
-  - Car climate control
-  - Car airbag, ABS, and cruise control systems
-
-
-  # Stakeholders
-
-  The people who have a stake or interest in the project, and can include _clients_ or _developers._ These include:
-
-  - Internal project members
-  - Organization members unrelated to project
-  - Outside of organization
-
-  Different stakeholders may have different objectives; must define common project objectives.
-
-  ![spm3](../static/SPM_1_3.png)
-
-  ![spm4](../static/SPM_1_4.png)
-
-  # Setting Objectives
-
-  Answering the question: "What do we have to do to have a success?"
-  - Need for a **project authority**
-    - Sets the project scope
-    - Allocates/approves costs
-  - Could be one person - _**or**_ a group
-    - Project Board
-    - Project Management Board
-    - Steering committee
+ 
   
-  ## Objectives
-
-  Informally, the objective of a project can be defined by completing the following statement:
-
-  _"The project will be regarded as a success if..."_
-
-  Rather like _post-conditions_ for the project
-
-  Focus on **what** will be put in place, **rather than how** activities will be carried out
-
-  ### S.M.A.R.T.
-
-  S – Specific: project is concrete and well-defined
-
-  M – Measurable: satisfaction of the objective can be objectively judged
-
-  A – Achievable: it is within the power of the individual or group concerned to meet the target
-
-  R – Relevant: the objective must be relevant to the true purpose of the project
-
-  T – Time-constrained: there is a defined point in time by which the objective should be achieved
-
-  ![spm5](../static/SPM_1_5.png)
-
-  ### Goals/Sub-objectives
-
-  Steps along the way to reach an objective. Informally, the following statement can be used to define a goal:
-
-  "To reach objective X, the following must be in place:
-
-  Goal A,
-
-  Goal B,
-
-  Goal C, etc..."
-
-  A goal is often attributed to an individual, who may have the power to complete the goal, but not the objective itself necessarily. For example:
-
-  - _Overall objective_ – user satisfaction with software product
-  - _Analyst goal_ – accurate requirements
-  - _Developer goal_ – reliable software
-
-  # Measures of effectiveness
-
-  **How do we know that the goal or objective has been achieved?**
-
-  By a practical test, that can be objectively assessed.
-  e.g. for user satisfaction with software product:
-  - Repeat business – they buy further products from us
-  - Number of complaints – if low, etc.
-
-  ![spm6](../static/SPM_1_6.png)
-
-  ![spm7](../static/SPM_1_7.png)
-
-  ## Other success criteria
-
-  These can relate to longer term, less directly tangible assets
-  - Improved skill and knowledge
-  - Creation of assets that can be used on future projects e.g. software libraries
-  - Improved customer relationships that lead to repeat business
-
-  # What is management?
-
-  This involves the following activities:
-  - **Planning** – deciding what is to be done
-  - **Organizing** – making arrangements
-  - **Staffing** – selecting the right people for the job
-  - **Directing** – giving instructions
-  - **Monitoring** – checking on progress
-  - **Controlling** – taking action to remedy hold-ups
-  - **Innovating** – coming up with solutions when problems emerge
-  - **Representing** – liaising with clients, users,developers and other stakeholders
-
-  ## Management Control
-  ![spm8](../static/SPM_1_8.png)
-
-  **Data** – the raw details
-    - _e.g. "6,000 documents processed at location X"_
-
-  **Information** – the data is processed to produce something that is meaningful and useful
-    - _e.g. "productivity is 100 documents a day"_
-      
-  **Comparison** with objectives/goals
-    - _e.g. we will not meet target of processing all documents by 31st March_
-
-  **Modelling** – working out the probable outcomes of various decisions
-    - _e.g. if we employ two more staff at location X how quickly can we get the documents processed?_
-    
-  **Implementation** – carrying out the remedial actions that have been decided upon
-
-  # Post-lecture Key Points
-
-  Projects - Non-routine, uncertain in nature
-
-  Projects have particular problems - e.g., lack of visibility
-
-  Clear objectives which can be objectively assessed is essential.
-
-  Projects are prone to external forces outside of human control; usually impossible to plan for.
-
-  **_Communication is key._**
   
 </details>
 
