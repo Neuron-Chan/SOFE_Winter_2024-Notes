@@ -682,10 +682,27 @@ Why is it called 'ideal'?
 - 6.3. Adjust overall plans and estimates to take account of risks
   - e.g. add new activities which reduce risks associated with other activities e.g. training, pilot trials, information gathering
 
+# Step 7: Allocate resources
+- 7.1 Identify and allocate resources to activities
+- 7.2 Revise plans and estimates to take into account resource constraints
+  - e.g. staff not being available until a later date
+  - non-project activities
 
+![gantt chart](../static/SPM_3_8.png)
 
+# Step 8: Review/publicise plan
+- 8.1 Review quality aspects of project plan
+- 8.2 Document plan and obtain agreement
 
+**Step 9 and 10: Execute plan and create lower level plans**
 
+# Key points
+- Establish your objectives
+- Think about the characteristics of the project
+- Discover/set up the infrastructure to support the project (including standards)
+- Identify products to be created and the activities that will create them
+- Allocate resources
+- Set up quality processes
 
 </details>
 
