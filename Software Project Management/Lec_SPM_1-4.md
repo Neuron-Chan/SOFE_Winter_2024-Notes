@@ -568,7 +568,13 @@ Benefits can be:
 - 2.3. Identify project team organization
   - 'where do I fit in?'
 
-
+# Step 3: Analysis of Project Characteristics
+- 2.1. Establish link between project and any strategic plan (such as enterprise architecture)
+  - 'why did they want the project?'
+- 2.2. Identify installation standards and procedures
+  - 'what standards do we have to follow?'
+- 2.3. Identify project team organization
+  - 'where do I fit in?'
 
 
 
