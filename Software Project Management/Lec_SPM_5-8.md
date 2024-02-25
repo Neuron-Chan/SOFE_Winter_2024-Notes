@@ -110,11 +110,11 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 - Parkinson and 'price to win'.
 
 # Bottom-up versus top-down
-- Bottom-up
+- **Bottom-up**
   - identify all tasks that have to be done – so quite time-consuming
   - use when you have no data about similar past projects
   - First top-down (in task level), i.e. work breakdown schedule(WBS) and then bottom-up
-- Top-down
+- **Top-down**
   - produce overall estimate based on project cost drivers
   - based on past project data
   - divide overall estimate between jobs to be done
@@ -124,27 +124,65 @@ Office Hours: Mondays 7-8 PM, SIRC 3386
 2. Stop when you get to what one person can do in one/two weeks
 3. Estimate costs for the lowest level activities
 4. At each higher level calculate estimate by adding estimates for lower levels
-[If you have never done something before you can imagine
-what you could do in about a week.]
+[If you have never done something before you can imagine what you could do in about a week.]
 
 ## Top-down estimating
 
 ![topdownestimates](../static/SPM_5_2.png)
 
+# Algorithmic/Parametric models
+- Constructive Cost Model (COCOMO) (lines of code) and function points examples of these
+- In CoCoMo, the model parameters are derived from fitting a regression formula using data from historical projects
+
+guess -> algorithm -> estimate
+
+**but what is desired is**
+
+system characteristic -> algorithm -> estimate
+
+- The problems with COCOMO is that the input parameter for system size is an estimate of lines of code. This is going to have to be an estimate at the beginning of the project.
+- Function points counts various features of the logical design of an information system and produces an index number which reflects the amount of information processing it will have to carry out. This can be crudely equated to the amount of code it will need.
+
+## Parametric models - the need for historical data
+- simplistic model for an estimate
+  - estimated effort = (system size) / productivity
+- For example:
+  - system size = lines of code (estimated) productivity = lines of code per day (measured based on previous projects)
+  - productivity = (system size) / effort
+    - based on past projects
+  - This is analogous to calculating speed from distance and time.
+
+- Some models focus on task or system size e.g. **Function Points**
+- FPs originally used to estimate Lines of Code, rather than effort
+
+![fp](../static/SPM_5_3_1.png)
+
+- Other models focus on productivity: e.g. COCOMO
+- Lines of code (or FPs etc) an input
+
+![cocomo](../static/SPM_5_3_2.png)
+
+## COCOMO
+- COCOMO originally was based on a size parameter of lines of code (actually ‘thousand of delivered source code instructions’ or KDSI).
+- Newer versions recognize the use of functions points as a size measure, but convert them to a number called ‘equivalent lines of code’ (ELOC)
+- Also known as the nominal estimate or nominal effort
+- Based on person-month:
+
+   E<sub>_i_</sub> = _a_ * (KLOC)<sup>_b_</sup>
 
 
 
-  ### Activities covered by project management
-  Feasibility study
-  - Is project technically feasible and worthwhile from a business point of view?
 
-  Planning
-  - Only done if project is feasible
 
-  Execution
-  - Implement plan, but plan may be changed as we go along
 
-  ## The software development life-cycle
+
+
+
+
+
+
+
+
   ![spm1](../static/SPM_1_1.png)
 
  
