@@ -200,11 +200,19 @@ Ex: Software project with an estimated 10000 lines of code (LOC) and is consider
 
 ## Cocomo Duration Estimation
 
+**Formula for duration calculation:** D = _c_ * E<sup>_d_</sup>
+
+- where _c_ and _d_ are constants and depend on the project type, and E is effort (formula above).
+
 |Project Type  | c | d  |
 |--------------|---|----|
 | Organic      |2.5|0.38|
 |Semi-detatched|2.5|0.35|
 | Embedded     |2.5|0.32|
+
+Ex: Software project with an estimated 20000 lines of code (LOC) and is considered organic has a duration calculated to be:
+
+
   
 </details>
 
