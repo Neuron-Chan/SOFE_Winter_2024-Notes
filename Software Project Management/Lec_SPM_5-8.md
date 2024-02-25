@@ -170,7 +170,7 @@ system characteristic -> algorithm -> estimate
 
    E<sub>_i_</sub> = _a_ * (KLOC)<sup>_b_</sup>
 
-  - where _a_ and _b_ are constants and depend on the project type
+  - where _a_ and _b_ are constants and depend on the project type, and KLOC is lines of code (measured in thousands).
 
 ### Project types
 
@@ -186,16 +186,17 @@ COCOMO constants for different types of projects:
 |Semi-detatched|3.0|1.12|
 |Embedded|2.8|1.20|
 
+Ex: Software project with an estimated 8000 lines of code (LOC) and is considered organic has an initial effort calculated to be:
 
+ E<sub>_i_</sub> = 3.2 * (8)<sup>1.05</sup>
 
+ = 28 person-months
 
+Ex: Software project with an estimated 10000 lines of code (LOC) and is considered embedded has an initial effort calculated to be:
 
+ E<sub>_i_</sub> = 2.8 * (10)<sup>1.20</sup>
 
-
-
-  ![spm1](../static/SPM_1_1.png)
-
- 
+ = 44 person-months
   
   
 </details>
