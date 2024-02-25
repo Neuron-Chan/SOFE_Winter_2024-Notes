@@ -178,7 +178,7 @@ system characteristic -> algorithm -> estimate
 - **Semi-detatched projects:** Medium-size, more complex (i.e., OSes or compiler projects)
 - **Embedded projects:** Stringent requirements, fairly complex, organization has little or no experience in the area.
 
-COCOMO constants for different types of projects:
+## COCOMO constants for different types of projects:
 
 |Project Type|a|b|
 |-|-|-|
@@ -197,7 +197,14 @@ Ex: Software project with an estimated 10000 lines of code (LOC) and is consider
  E<sub>_i_</sub> = 2.8 * (10)<sup>1.20</sup>
 
  = 44 person-months
-  
+
+## Cocomo Duration Estimation
+
+|Project Type  | c | d  |
+|--------------|---|----|
+| Organic      |2.5|0.38|
+|Semi-detatched|2.5|0.35|
+| Embedded     |2.5|0.32|
   
 </details>
 
