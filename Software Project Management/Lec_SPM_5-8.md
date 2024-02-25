@@ -170,11 +170,21 @@ system characteristic -> algorithm -> estimate
 
    E<sub>_i_</sub> = _a_ * (KLOC)<sup>_b_</sup>
 
+  - where _a_ and _b_ are constants and depend on the project type
 
+### Project types
 
+- **Organic projects:** Organization has a lot of experience doing such projects; requirements are less stringent (i.e. small, straightforward projects)
+- **Semi-detatched projects:** Medium-size, more complex (i.e., OSes or compiler projects)
+- **Embedded projects:** Stringent requirements, fairly complex, organization has little or no experience in the area.
 
+COCOMO constants for different types of projects:
 
-
+|Project Type|a|b|
+|-|-|-|
+|Organic|3.2|1.05|
+|Semi-detatched|3.0|1.12|
+|Embedded|2.8|1.20|
 
 
 
