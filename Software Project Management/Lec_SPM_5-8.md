@@ -343,6 +343,29 @@ If previous projects delivered 5 FPs a day, implementing the above should take 3
 |TEAM| 5.48| 4.38| 3.29| 2.19| 1.10| 0.00|
 |PMAT| 7.80| 6.24| 4.68| 3.12| 1.56| 0.00|
 
+### Example of scale factor
+-  A software development team is developing an application which is very similar to previous ones it has developed. PREC is very high (score 1.24).
+-  A very precise software engineering document lays down very strict requirements. FLEX is very low (score 5.07).
+-  The good news is that these tight requirements are unlikely to change (RESL is high with a score 2.83).
+-  The team is tightly knit (TEAM has high score of 2.19), but processes are informal (so PMAT is low and scores 6.24)
+
+### Scale factor calculation
+
+The formula for sf is
+
+sf = B + 0.01 × Σ scale factor values
+i.e. sf = 0.91 + 0.01 × (1.24 + 5.07 + 2.83 + 2.19 + 6.24)
+
+= 1.0857
+
+If system contained 10 KLOC then estimate would be 2.94 x 101.0857 = 35.8 person months
+
+Using exponentiation (‘to the power of’) adds disproportionately more to the estimates for larger applications
+
+B: is constant set at 0.91
+
+
+
 
 </details>
 
@@ -360,7 +383,29 @@ If previous projects delivered 5 FPs a day, implementing the above should take 3
   - Programme management
   - Benefits management
 
- 
+## Effort multipliers
+As well as the scale factor effort multipliers are also assessed:
+
+|Abbreviation|Function|
+|-|-|
+|RCPX| Product reliability and complexity|
+|RUSE| Reuse required|
+|PDIF| Platform difficulty|
+|PERS| Personnel capability|
+|PREX| Personal experience|
+|FCIL| Facilities available|
+|SCED| Schedule pressure|
+
+||Extra low| Very low| Low| Nominal| High| Very high| Extra high|
+|-|-|-|-|-|-|-|-|
+|RCPX| 0.49| 0.60| 0.83| 1.00| 1.33| 1.91| 2.72|
+|RUSE|     |     | 0.95| 1.00| 1.07| 1.15| 1.24|
+|PDIF|     |     | 0.87| 1.00| 1.29| 1.81| 2.61|
+|PERS| 2.12| 1.62| 1.26| 1.00| 0.83| 0.63| 0.50|
+|PREX| 1.59| 1.33| 1.12| 1.00| 0.87| 0.74| 0.62|
+|FCIL| 1.43| 1.30| 1.10| 1.00| 0.87| 0.73| 0.62|
+|SCED|     | 1.43| 1.14| 1.00| 1.00| 1.00|     |
+
 
 ---
 
