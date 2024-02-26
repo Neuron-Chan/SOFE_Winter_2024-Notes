@@ -433,6 +433,34 @@ Having:
 - assessed the time needed to do each task
 - need to allocate dates/times for the start and end of each activity
 
+## Activity networks
+
+These help us to:
+- Assess the feasibility of the planned project completion date
+- Identify when resources will need to be deployed to activities
+- Calculate when costs will be incurred
+- This helps the co-ordination and motivation of the project team
+
+## Defining activities
+
+Activity networks are based on some assumptions:
+- A project is:
+  - Composed of a number of activities
+  - May start when at least one of its activities is ready to start
+  - Completed when all its activities are completed
+
+![activity](../static/SPM_6_1.png)
+
+- An activity
+  - Must have clearly defined start and end-points
+  - Must have resource requirements that can be forecast: these are assumed to be constant throughout the project
+  - Must have a duration that can be forecast
+  - May be dependent on other activities being completed first (precedence networks)
+
+![activity](../static/SPM_6_2.png)
+
+![step wise overview](../static/SPM_6_3.png)
+
 
 ---
 
