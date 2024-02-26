@@ -983,8 +983,19 @@ Wide-area wireless access:
   - transmits packet into access network at transmission rate **R**
     - link transmission rate, aka link **capacity**, aka _**link bandwidth**_
 
-todo: add images
+- Packet-switching: store-and-forward
+  - takes L/R seconds to transmit (push out) L-bit packet into link at R bps
+  - store and forward: entire packet must arrive at router before it can be transmitted on next link
+  - end-end delay = 2L/R (assuming zero propagation delay)
+    - one-hop numerical example:
+      - L = 7.5 Mbits
+      - R = 1.5 Mbps
+      - one-hop transmission delay = 5 sec
 
+- Packet-switching: queueing delay, loss
+  - If arrival rate (in bits) to link exceeds transmission rate of link for a period of time:
+    - packets will queue, wait to be transmitted on link
+    - packets can be dropped (lost) if memory (buffer) fills up
 
 </details>
 
