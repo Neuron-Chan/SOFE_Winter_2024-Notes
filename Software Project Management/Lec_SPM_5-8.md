@@ -461,6 +461,98 @@ Activity networks are based on some assumptions:
 
 ![step wise overview](../static/SPM_6_3.png)
 
+1. Work-based: draw-up a Work Breakdown Structure listing the work items needed
+2. Product-based approach
+  - List the deliverable and intermediate products of project – product breakdown structure (PBS)
+  - Identify the order in which products have to be created
+  - Work out the activities needed to create the products
+
+![breakdown structure](../static/SPM_6_4.png)
+
+3. The IBM MITP approach suggested the following 5 levels:
+  - Level 1: Project
+  - Level 2: Deliverables
+  - Level 3: Components – which are key work items needed to produce the deliverables
+  - Level 4: Work packages: groups of tasks needed to produce the components
+  - Level 5: Tasks
+
+MITP: Managing the Implementation of the Total Project is IBM`s project management delivery method and is a key component of IBM`s UK Project
+
+![hybrid approach](../static/SPM_6_5_1.png)
+
+![The final outcome](../static/SPM_6_5_2.png)
+
+We have done two separate things using bar chart:
+1. Sequencing: by considering dependencies between tasks
+2. Scheduling: by considering the availability of developers and staff
+
+The two are combined, but we would like to separate them, it is good especially for larger projects. This is why we introduce network planning models.
+
+# Network Planning Models
+- They model the project’s activities and their relationships as a network.
+- In the network, time flows from left to right.
+- Critical Path Method (CPM)
+- Program Evaluation Review Technique (PERT).
+- In industry, almost all network planning models are called CPM (Critical Path Method).
+
+## PERT
+- Program Evaluation and Review Technique
+- PERT was devised to support the development of the Polaris missile in the late 1950’s.
+- PERT (precedence approach) is an activity-on-node notation – the ‘nodes’ are the boxes which represent activities
+- The original PERT is activity-on-arrow approach (like CPM).
+
+## CPM
+- Critical Path Method
+- CPM was developed by Du Pont Chemical Company who published the method in 1958.
+- CPM uses an activity-on-arrow notation where the arrows are the activities.
+
+![pert vs cpm](../static/SPM_6_6.png)
+
+### Drawing up a PERT diagram
+- No looping back is allowed – deal with iterations by hiding them within single activities
+- milestones – ‘activities’, such as the start and end of the project, which indicate transition points. They have zero duration.
+
+### Lagged activities
+- Where there is a fixed delay between activities (e.g. seven days notice has to be given to users that a new release has been signed off and is to be installed.)
+
+Acceptance testing (20 days) --(7 days)--> Install new release (1 day)
+
+Types of links between activities
+- Finish to start
+
+![finish to start](../static/SPM_6_7_1.png)
+
+
+- Finish to start: The following activity starts when the previous one has been finished
+  - e.g. testing starts when coding has been completed
+
+- Start to start/Finish to finish
+
+![start to start](../static/SPM_6_7_2.png)
+
+- Start to start: When one activity starts another has to start as well
+  - e.g. when prototype testing starts amendment documentation has to start as well
+
+- Finish to finish: when one activity finishes the other must finish too
+  - e.g. when the testing of the prototype is completed so is the documentation of any amendments
+- You could use these with lags e.g. documentation of the changes to the prototype starts 1 day after the testing and finishes 2 days after testing has been completed
+
+- Start to finish
+
+![start to finish](../static/SPM_6_7_3.png)
+
+- Start to finish – in the example when the cutover to the new system takes place, the operation of the temporary system is no longer needed. Although the cutover depends of the acceptance testing to be completed, the implication is that the cutover might not start straight after acceptance testing.
+
+# Adding time to the network model: Start and finish times
+
+- Activity ‘write report software’
+- Earliest Start (ES)
+- Earliest Finish (EF) = ES + duration
+- Latest Finish (LF) = latest task can be completed without affecting project end
+- Latest Start (LS) = LF - duration
+
+![start to finish](../static/SPM_6_8.png)
+
 
 ---
 
