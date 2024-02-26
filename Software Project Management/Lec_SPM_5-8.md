@@ -275,7 +275,14 @@ Note: Recall that function points model system size, while COCOMO focuses on pro
   4. External output (EO) types – transactions which extract and display data from internal computer files. Generally involves creating reports.
   5. External inquiry (EQ) types – user initiated transactions which provide information but do not update computer files. Normally the user inputs some data that guides the system to the information the user needs.
 
-
+### Albrecht complexity multipliers
+|External user types |Low complexity| Medium complexity| High complexity|
+|-|-|-|-|
+|EI| 3| 4| 6|
+|EO| 4| 5| 7|
+|EQ| 3| 4| 6|
+|LIF| 7| 10| 15|
+|EIF| 5| 7| 10|
 
 
 
