@@ -284,6 +284,64 @@ Note: Recall that function points model system size, while COCOMO focuses on pro
 |LIF| 7| 10| 15|
 |EIF| 5| 7| 10|
 
+### Examples
+Payroll application has:
+1. Transaction to input, amend and delete employee details – an EI that is rated of medium complexity
+2. A transaction that calculates pay details from timesheet data that is input – an EI of high complexity
+3. A transaction of medium complexity that prints out pay-to-date details for each employee – EO
+4. A file of payroll details for each employee – assessed as of medium complexity LIF
+5. A personnel file maintained by another system is accessed for name and address details – a simple EIF
+
+What would be the FP counts for these?
+
+FP counts
+1. Medium EI 4 FPs
+2. High complexity EI 6 FPs
+3. Medium complexity EO 5 FPs
+4. Medium complexity LIF 10 FPs
+5. Simple EIF 5 FPs
+
+Total 30 FPs
+
+If previous projects delivered 5 FPs a day, implementing the above should take 30/5 = 6 days
+
+### Development Effort Multipliers (DEM)
+
+- According to COCOMO, the major productivity drivers include:
+  - Product attributes: required reliability, database size, product complexity
+  - Computer attributes: execution time constraints, storage constraints, virtual machine (VM) volatility
+  - Personnel attributes: analyst capability, application experience, VM experience, programming language experience
+  - Project attributes: modern programming practices, software tools, schedule constraints
+    
+## COCOMO II
+
+- An updated version of COCOMO:
+  - There are different COCOMO II models for estimating at the ‘early design’ stage and the ‘post architecture’ stage when the final system is implemented. We’ll look specifically at the first.
+  - The core model is:
+    pm = A(size)<sup>(sf)</sup> × (em<sub>1</sub>) × (em<sub>2</sub>) × (em<sub>3</sub>)...
+    - **pm** = person months
+    - **A** is 2.94
+    - **size** is number of thousands of lines of code
+    - **sf** is the scale factor
+    - **em** is an effort multiplier
+
+### COCOMO II Scale factor
+
+- Based on five factors which appear to be particularly sensitive to system size
+1. Precedentedness (PREC). Degree to which there are past examples that can be consulted
+2. Development flexibility (FLEX). Degree of flexibility that exists when implementing the project
+3. Architecture/risk resolution (RESL). Degree of uncertainty about requirements
+4. Team cohesion (TEAM).
+5. Process maturity (PMAT) could be assessed by CMMI
+
+### COCOMO II Scale factor values
+|Driver| Very low| Low| Nominal| High| Very high| Extra high|
+|-|-|-|-|-|-|-|
+|PREC| 6.20| 4.96| 3.72| 2.48| 1.24| 0.00|
+|FLEX| 5.07| 4.05| 3.04| 2.03| 1.01| 0.00|
+|RESL| 7.07| 5.65| 4.24| 2.83| 1.41| 0.00|
+|TEAM| 5.48| 4.38| 3.29| 2.19| 1.10| 0.00|
+|PMAT| 7.80| 6.24| 4.68| 3.12| 1.56| 0.00|
 
 
 </details>
