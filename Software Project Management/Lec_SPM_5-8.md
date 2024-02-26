@@ -212,7 +212,15 @@ Ex: Software project with an estimated 10000 lines of code (LOC) and is consider
 
 Ex: Software project with an estimated 20000 lines of code (LOC) and is considered organic has a duration calculated to be:
 
+ E<sub>_i_</sub> = 3.2 * (20)<sup>1.05</sup>
 
+ = 74.34
+ = 74-person months
+
+ D = 2.5 * 74<sup>0.38</sup>
+
+ = 12.8
+ = 13 months
   
 </details>
 
