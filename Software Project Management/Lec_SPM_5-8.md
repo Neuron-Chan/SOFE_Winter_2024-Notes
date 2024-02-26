@@ -239,13 +239,46 @@ Ex: Software project with an estimated 20000 lines of code (LOC) and is consider
 
 ![machine assistance](../static/SPM_5_5.png)
 
-Euclidean distance = √((I<sub>t</sub> - I<sub>s</sub>)<sup>2</sup> + (I<sub>t</sub> - O<sub>s</sub>)<sup>2</sup>)
+Euclidean distance = √( (I<sub>t</sub> - I<sub>s</sub>)<sup>2</sup> + (I<sub>t</sub> - O<sub>s</sub>)<sup>2</sup> )
+
+# Function Points (FP)
+- Measure the amount of functionality in a software application
+- The large the number of function points, the more functionality
+- Function points allow for scaling
+- Measure the size of requirements
+
+![function points](../static/SPM_5_6.png)
+
+# Parametric models
+We are now looking more closely at four parametric models:
+
+1. Albrecht/IFPUG function points
+
+2. Symons/Mark II function points
+
+3. COSMIC function points
+
+4. COCOMO81 and COCOMO II
+
+Note: Recall that function points model system size, while COCOMO focuses on productivity factors.
+
+## Albrecht/IFPUG function points
+- Albrecht worked at IBM and needed a way of measuring the relative productivity of different programming languages.
+- Needed some way of measuring the size of an application without counting lines of code.
+- Identified five types of component or functionality in an information system
+- Counted occurrences of each type of functionality in order to get an indication of the size of an information system
+
+### Five function types
+  1. Logical interface file (LIF) types – equates roughly to a data store in systems analysis terms. Created and accessed by the target system
+  2. External interface file types (EIF) – where data is retrieved from a data store which is actually maintained by a different application.
+  3. External input (EI) types – input transactions which update internal computer files
+  4. External output (EO) types – transactions which extract and display data from internal computer files. Generally involves creating reports.
+  5. External inquiry (EQ) types – user initiated transactions which provide information but do not update computer files. Normally the user inputs some data that guides the system to the information the user needs.
 
 
 
 
 
-  
 </details>
 
 ---
