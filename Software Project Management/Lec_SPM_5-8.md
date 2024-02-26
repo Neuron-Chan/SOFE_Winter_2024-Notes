@@ -419,16 +419,19 @@ With effort multipliers this becomes 35.8 x 1.91 x 1.81 x 0.5 = 61.9 person mont
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 6 | Activity Planning</summary>
 
-  # Outline:
-  - The business case for a project
-  - Project portfolios
-  - Project evaluation
-    - cost-benefit analysis
-    - cash flow increasing
-  - Programme management
-  - Benefits management
+  # Objectives:
+  - Produce an activity plan for a project
+  - Estimate the overall duration of a project
+  - Create a critical path and precedence network for a project
 
+# Scheduling
+Time is nature's way of stopping everything happening at once.
 
+Having:
+- worked out a method of doing the project
+- identified the tasks to be carried
+- assessed the time needed to do each task
+- need to allocate dates/times for the start and end of each activity
 
 
 ---
