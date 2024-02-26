@@ -568,6 +568,77 @@ Float = LF - ES - duration
 - The float would be 30 – 5 – 10 = 15 days
 - This also is the same as LF – EF or LS - ES
 
+‘Day 0’
+- Note that in the last example, day numbers used rather than actual dates
+- Makes initial calculations easier – not concerned with week-ends and public holidays
+- For finish date/times Day 10 means at the END of Day 10.
+- For a start date/time Day 1 also means at the END of Day 1.
+- The first activity therefore begin at Day 0 i.e. the end of Day 0 i.e. the start of Day 1.
+
+![notation](../static/SPM_6_9.png)
+
+## 1. Forward pass
+- Is carried out to calculate the earliest dates on which each activity may be started and completed
+- Start at beginning (Day 0) and work forward following chains.
+- Earliest start date for the current activity = earliest finish date for the previous
+- When there is more than one previous activity, take the **latest** earliest finish
+
+![activity network example](../static/SPM_6_10_1.png)
+
+## 2. Backward pass
+- Is to carry out a backward pass to calculate the latest date at which each activity may be started and finished without delaying the end date of the project.
+- Start from the last activity
+- We assume that the latest finish (LF) for the last activity = earliest finish (EF)
+- work backwards
+- Latest finish for current activity = Latest start for the previous activity
+- More than one previous activity - take the earliest LS
+- Latest start (LS) = LF for activity - duration
+
+![activity network example](../static/SPM_6_10_2.png)
+![labelling conventions](../static/SPM_6_10_3.png)
+
+# Float
+- Activity’s float (total float): the difference between activity earliest start and latest start (or earliest finish and latest finish)
+- It is a measure of how much the start or completion of an activity may be delayed without affecting the end date of the project.
+
+Float = Latest finish (LF) - Earliest start (ES) - Duration
+
+![example](../static/SPM_6_11_1.png)
+
+- Free float: the time by which an activity may be delayed without affecting any subsequent activity
+- Free float = EF(current activity) – ES(next activity)
+
+![example](../static/SPM_6_11_2.png)
+
+-  Interfering float: the difference between total float and free float
+-  Interfering float= Total float - free float
+
+![example](../static/SPM_6_11_3.png)
+
+![free and interfering float](../static/SPM_6_11_4.png)
+
+- **Total float** = LF – ES – duration (or LS-ES or LF-EF)
+- **Free float** = ES for following activity – EF for the current
+- **Interfering float** = total float – free float
+
+# Critical path
+- Any delay to any activity in the critical path will delay the completion of the project.
+- Activities in the critical path needs more attention and monitoring
+- If we want to deliver any project earlier we have to work on shortening the duration of activities in the critical path
+- Note the path through network with zero floats
+- Can there be more than one critical path?
+- Yes, there could be more than one critical path if the two longest paths through the network were of equal length.
+- Can there be no critical path?
+
+![critical path](../static/SPM_6_12_1.png)
+![critical path](../static/SPM_6_12_2.png)
+
+
+
+
+
+
+
 ---
 
 <details>
