@@ -377,6 +377,7 @@ As well as the scale factor effort multipliers are also assessed:
 |FCIL| Facilities available|
 |SCED| Schedule pressure|
 
+**Table of effort multipliers**
 ||Extra low| Very low| Low| Nominal| High| Very high| Extra high|
 |-|-|-|-|-|-|-|-|
 |RCPX| 0.49| 0.60| 0.83| 1.00| 1.33| 1.91| 2.72|
@@ -387,6 +388,29 @@ As well as the scale factor effort multipliers are also assessed:
 |FCIL| 1.43| 1.30| 1.10| 1.00| 0.87| 0.73| 0.62|
 |SCED|     | 1.43| 1.14| 1.00| 1.00| 1.00|     |
 
+### Example
+- Say that a new project is similar in most characteristics to those that an organization has been dealing for some time
+- **except**
+  - the software to be produced is exceptionally complex and will be used in a safety critical system.
+  - The software will interface with a new operating system that is currently in beta status.
+  - To deal with this the team allocated to the job are regarded as exceptionally good, but do not have a lot of experience on this type of software.
+    
+- RCPX very high 1.91
+- PDIF very high 1.81
+- PERS extra high 0.50
+- PREX nominal 1.00
+  
+All other factors are nominal
+Say estimate is 35.8 person months
+With effort multipliers this becomes 35.8 x 1.91 x 1.81 x 0.5 = 61.9 person months
+
+# Some conclusions: how to review estimates
+
+**Ask the following questions about an estimate:**
+- What are the task size drivers?
+- What productivity rates have been used?
+- Is there an example of a previous project of about the same size?
+- Are there examples of where the productivity rates used have actually been found?
 
 </details>
 
