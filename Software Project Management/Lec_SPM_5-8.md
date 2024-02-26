@@ -553,6 +553,20 @@ Types of links between activities
 
 ![start to finish](../static/SPM_6_8.png)
 
+## Example
+- earliest start = day 5
+- latest finish = day 30
+- duration = 10 days
+
+- earliest finish = ?
+- latest start = ?
+
+Float = LF - ES - duration
+
+- The **earliest finish (EF)** would be day 5 plus 10 days i.e. day 15.
+- The latest start (LS) would be day 30 – 10 days i.e. day 20
+- The float would be 30 – 5 – 10 = 15 days
+- This also is the same as LF – EF or LS - ES
 
 ---
 
