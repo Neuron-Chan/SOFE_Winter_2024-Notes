@@ -221,6 +221,30 @@ Ex: Software project with an estimated 20000 lines of code (LOC) and is consider
 
  = 12.8
  = 13 months
+
+# Expert judgement
+- Asking someone who is familiar with and knowledgeable about the application area and the technologies to provide an estimate
+- Particularly appropriate where existing code is to be modified
+- Research shows that experts judgement in practice tends to be based on analogy
+
+## Estimating by analogy
+![analogy](../static/SPM_5_4.png)
+
+## Stages: identify
+- Significant features of the current project
+- previous project(s) with similar features
+- differences between the current and previous projects
+- possible reasons for error (risk)
+- measures to reduce uncertainty
+
+![machine assistance](../static/SPM_5_5.png)
+
+Euclidean distance = √((I<sub>t</sub> - I<sub>s</sub>)<sup>2</sup> + (I<sub>t</sub> - O<sub>s</sub>)<sup>2</sup>)
+
+
+
+
+
   
 </details>
 
