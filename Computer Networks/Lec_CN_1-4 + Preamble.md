@@ -997,6 +997,109 @@ Wide-area wireless access:
     - packets will queue, wait to be transmitted on link
     - packets can be dropped (lost) if memory (buffer) fills up
 
+# Network-core functions
+Two key network-core functions
+
+- routing: determines source-destination route taken by packets
+  - routing algorithms
+- forwarding: move packets from router’s input to appropriate router output
+
+## Alternative core: circuit switching
+- end-end resources allocated to, reserved for “call” between source & destination:
+  - In diagram, each link has four circuits.
+    - call gets 2nd circuit in top link and 1st circuit in right link.
+  - dedicated resources: no sharing
+    - circuit-like (guaranteed) performance
+  - circuit segment idle if not used by call (no sharing)
+  - Commonly used in traditional telephone networks
+ 
+![alternative core](../static/CN_3_8_0.png)
+![fdm vs tdm](../static/CN_3_8_1.png)
+
+# Circuit vs Packet Switching
+- Switching
+  - Circuit switching requires call setup (connection) before data flows smoothly
+    - Also teardown at end (not shown)
+  - Packet switching treats messages independently
+    - No setup, but variable queuing delay at routers
+
+![circuit vs packet](../static/CN_3_9.png)
+
+- packet switching allows more users to use network!
+  - example:
+    - 1 Mb/s link
+    - each user:
+      - 100 kb/s when “active”
+      - active 10% of time
+
+- circuit-switching:
+  - 10 users
+ 
+- packet switching:
+  - with 35 users, probability to have more than 10 active users at same time is less than 0.0004
+
+- is packet switching a “slam dunk winner?”
+  - great for bursty data
+    - resource sharing
+    - simpler, no call setup
+  - excessive congestion possible: packet delay and loss
+    - protocols needed for reliable data transfer, congestion control
+
+Q: How to provide circuit-like behavior? Bandwidth guarantees needed for audio/video apps
+
+# Delay, Loss, Throughput in networks
+- How do loss and delay occur?
+  - packets queue in router buffers
+    - packet arrival rate to link (temporarily) exceeds output link capacity
+    - packets queue, wait for turn
+
+![packet delay](../static/CN_3_10_1.png)
+
+d<sub>trans</sub>: transmission delay:
+- L: packet length (bits)
+- R: link bandwidth (bps)
+- d<sub>trans</sub> = L/R
+
+d<sub>prop</sub>: propagation delay:
+- d: length of physical link
+- s: propagation speed in medium (~2x108 m/sec)
+- dsub>prop</sub> = d/s
+
+- Queueing delay
+  - R: link bandwidth (bps)
+  - L: packet length (bits)
+  - a: average packet arrival rate
+
+  - La/R ~ 0: avg. queueing delay small
+  - La/R → 1 (approaches 1): avg. queueing delay increases
+  - La/R > 1: more “work” arriving than can be serviced, average delay infinite!
+
+![queueing delay](../static/CN_3_10_2.png)
+
+- “Real” Internet delays and routes
+  - what do “real” Internet delay & loss look like? traceroute program: provides delay measurement from source to router along end-end Internet path towards destination. For all i:
+    - sends three packets that will reach router i on path towards destination
+    - router i will return packets to sender
+    - sender times interval between transmission and reply
+
+![traceroute](../static/CN_3_10_2.png)
+
+## Packet loss
+- queue (aka buffer) preceding link in buffer has finite capacity
+- packet arriving to a full queue will be dropped (aka lost)
+- lost packet may be retransmitted by the previous node, by source end system, or not at all
+
+## Throughput
+- **_throughput_**: rate (bits/time unit) at which bits transferred between sender/receiver
+  - **_instantaneous_**: rate at given point in time
+  - **_average_**: rate over longer period of time
+
+ ![throughput](../static/CN_3_10_3.png)
+
+## Throughput: Internet scenario
+- per-connection end-end throughput: min(R<sub>c</sub>, R<sub>s</sub>, R/10)
+- in practice: R<sub>c</sub> or R<sub>s</sub> is often bottleneck
+
 </details>
 
 ---
