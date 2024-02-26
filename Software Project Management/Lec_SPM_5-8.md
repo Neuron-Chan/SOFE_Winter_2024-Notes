@@ -364,25 +364,6 @@ Using exponentiation (‘to the power of’) adds disproportionately more to the
 
 B: is constant set at 0.91
 
-
-
-
-</details>
-
----
-
-<details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 6 | Activity Planning</summary>
-
-  # Outline:
-  - The business case for a project
-  - Project portfolios
-  - Project evaluation
-    - cost-benefit analysis
-    - cash flow increasing
-  - Programme management
-  - Benefits management
-
 ## Effort multipliers
 As well as the scale factor effort multipliers are also assessed:
 
@@ -405,6 +386,25 @@ As well as the scale factor effort multipliers are also assessed:
 |PREX| 1.59| 1.33| 1.12| 1.00| 0.87| 0.74| 0.62|
 |FCIL| 1.43| 1.30| 1.10| 1.00| 0.87| 0.73| 0.62|
 |SCED|     | 1.43| 1.14| 1.00| 1.00| 1.00|     |
+
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 6 | Activity Planning</summary>
+
+  # Outline:
+  - The business case for a project
+  - Project portfolios
+  - Project evaluation
+    - cost-benefit analysis
+    - cash flow increasing
+  - Programme management
+  - Benefits management
+
+
 
 
 ---
