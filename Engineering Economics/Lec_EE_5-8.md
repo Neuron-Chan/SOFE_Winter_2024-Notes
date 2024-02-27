@@ -286,7 +286,56 @@ Cash flow diagrams are:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 6 | Present Worth Analysis</summary>
 
-# Outline
+# Learning Objectives
+- Define the _present worth_ and _future worth_ criteria
+- Use these criteria to choose between alternatives
+- Apply the criteria in cases with equal, unequal, and infinite project lives
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 ---
