@@ -97,7 +97,28 @@ Subjects to be covered:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 5 | Equivalence for Repeated Cash Flows</summary>
 
-#
+# Learning Objectives
+- Convert uniform series of cash flows to their equivalent present or future values
+- Use arithmetic and geometric gradients to solve correctly modelled problems
+- Use continuously compounded interest with uniform payment series
+
+# Uniform Series Compound Interest Formulas
+- Uniform series (A) is defined as:
+- An end-of-period cash receipt or disbursement in a uniform series, continuing for n periods
+- The entire series equivalent to P or F at an interest rate i
+
+- In the general case:
+
+F = A(1+i)<sup>n–1</sup> + . . . + A(1+i)<sup>2</sup> +A(1+i) + A [1]
+
+- Multiplying by (1+i):
+
+(1+i)F = A(1+i)<sup>n</sup> + . . . + A(1+i)<sup>3</sup> + A(1+i)<sup>2</sup> + A(1+i) [2]
+
+- Factoring out A and subtracting (1) from (2):
+
+iF = A[(1+i)<sup>n</sup> – 1]
+
 
 ![cashflowdiagram](../static/EE_5_1.png)
 
