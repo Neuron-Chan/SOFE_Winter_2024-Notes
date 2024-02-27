@@ -107,6 +107,8 @@ Subjects to be covered:
 - An end-of-period cash receipt or disbursement in a uniform series, continuing for n periods
 - The entire series equivalent to P or F at an interest rate i
 
+![compound interest factors (slide 4)](../static/EE_5_1.png)
+
 - In the general case:
 
 F = A(1+i)<sup>n–1</sup> + . . . + A(1+i)<sup>2</sup> +A(1+i) + A                         **[1]**
@@ -125,7 +127,12 @@ Rearranging the previous equation
 - The notation is F = A(F/A, i%, n)
 - This is called the uniform series compound amount factor
 
-![compound interest factors (slide 4)](../static/EE_5_1.png)
+
+Solving for A:
+𝐴 = 𝐹 [𝑖 / ((1 + 𝑖)<sup>𝑛</sup> − 1)]
+
+- The notation is A = F(A/F, i%, n)
+- This is called the uniform series sinking fund factor
 
 </details>
 
