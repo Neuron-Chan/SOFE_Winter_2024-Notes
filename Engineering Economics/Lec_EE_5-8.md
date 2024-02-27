@@ -125,23 +125,31 @@ Rearranging the previous equation
 𝐹 = 𝐴 [((1 + 𝑖)<sup>𝑛</sup> − 1) / 𝑖]
 
 - The notation is F = A(F/A, i%, n)
-- This is called the uniform series compound amount factor
+- This is called the **uniform series compound amount factor**
 
 
 Solving for A:
 𝐴 = 𝐹 * [𝑖 / ((1 + 𝑖)<sup>𝑛</sup> − 1)]
 
 - The notation is A = F(A/F, i%, n)
-- This is called the uniform series sinking fund factor
+- This is called the **uniform series sinking fund factor**
 
 Taking the sinking fund formula and substituting the single payment compound formula for F yields:
+
 𝐴 = 𝐹 * [𝑖 / ((1 + 𝑖)<sup>𝑛</sup> − 1)] = 𝑃(1 + 𝑖)<sup>𝑛</sup> * [𝑖 / ((1 + 𝑖)<sup>𝑛</sup> − 1)]
 
 - Therefore:
+
 𝐴 = 𝑃[𝑖(1 + 𝑖)<sup>𝑛</sup> / ((1 + 𝑖)<sup>𝑛</sup> − 1)]
 
 - Notation: A = P(A/P, i%, n)
-- This is called the uniform series capital recovery factor
+- This is called the **uniform series capital recovery factor**
+
+Solving the capital recovery formula for P:
+𝑃 = 𝐴 * [((1 + 𝑖)<sup>𝑛</sup> − 1) / 𝑖(1 + 𝑖)<sup>𝑛</sup>]
+
+- Notation: P = A(P/A, i%, n)
+- This is called the **uniform series present worth** formula
 
 </details>
 
