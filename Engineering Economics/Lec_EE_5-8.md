@@ -243,14 +243,40 @@ Cash flow diagrams are:
 - Arithmetic gradient uniform series factor:
 (𝐴/𝐺, 𝑖, 𝑛) = [(1/i) - (n/(1 + 𝑖)<sup>𝑛</sup> − 1)]
 
+## Reality and the Assumed Uniformity of a, G, and g
+- We define and start with an A (uniform annual cost), a G (uniform annual gradient), and a g (uniform annual rate of increase) for three reasons:
+  1. It is easier to start with simple models
+  2. These model cash flows are convenient for bounding the problems often encountered in engineering economic analysis
+  3. Not enough is known about the future and so it is approximated through uniform series and gradients
 
+# Geometric Gradient
+- Period-by-period change is a uniform rate (g)
+- It can be traced to population levels or other levels of activity where changes over time are best modelled as a percentage of the previous year.
 
+![geometric gradient](../static/EE_5_4.png)
 
+- Two possible cases:
+  **- Where: i ≠ g**
 
+𝑃 = 𝐴<sub>1</sub> [(1 − (1 + 𝑔)<sup>𝑛</sup> * (1 + 𝑖)<sup>-𝑛</sup>) /(𝑖 − 𝑔)]
 
+- Factor Notation: (P/A, g, i, n)
+- This is called the “geometric series present worth factor” where i ≠ g
 
+  **- Where: i = g**
 
+  𝑃 = 𝐴<sub>1</sub> * 𝑛(1 + 𝑖)<sup>–1</sup>
 
+- Factor Notation: (P/A, g, i, n)
+- This is called the “geometric series present worth factor” where i = g
+
+# When Compounding Period and Payment Period Differ
+- When compounding interest periods and payment periods differ, an adjustment is required in order to utilize the formulas.
+- This is usually done by:
+  1. Computing the equivalent payment amounts for each compounding period and applying the interest rate
+  2. Computing an effective interest rate for the payment periods
+
+![continuous compounding](../static/EE_5_5.png)
 
 
 </details>
