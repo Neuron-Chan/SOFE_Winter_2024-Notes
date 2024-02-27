@@ -109,11 +109,11 @@ Subjects to be covered:
 
 - In the general case:
 
-F = A(1+i)<sup>n–1</sup> + . . . + A(1+i)<sup>2</sup> +A(1+i) + A [1]
+F = A(1+i)<sup>n–1</sup> + . . . + A(1+i)<sup>2</sup> +A(1+i) + A                         **[1]**
 
 - Multiplying by (1+i):
 
-(1+i)F = A(1+i)<sup>n</sup> + . . . + A(1+i)<sup>3</sup> + A(1+i)<sup>2</sup> + A(1+i) [2]
+(1+i)F = A(1+i)<sup>n</sup> + . . . + A(1+i)<sup>3</sup> + A(1+i)<sup>2</sup> + A(1+i)    **[2]**
 
 - Factoring out A and subtracting (1) from (2):
 
