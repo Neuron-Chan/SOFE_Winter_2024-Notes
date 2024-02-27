@@ -151,6 +151,79 @@ Solving the capital recovery formula for P:
 - Notation: P = A(P/A, i%, n)
 - This is called the **uniform series present worth** formula
 
+## Uniform Series Formulas: Problem 1
+Joe wants to be able to **purchase a dream car for about $19,000** on **1 January 2004**, just after he graduates from college. Joe has had a part time job and started making deposits of **$275 each month** into an account that pays **9% compounded monthly** beginning with the **first deposit on 1 February 1999.** The **last deposit is to be made on 1 January 2004**. Determine how much money he would have saved to buy the car.
+
+## Solution
+_Monthly deposits_, 
+
+A = $275
+
+n = 2/1999 to 1/2004 = 60 periods. (5 years = 12 * 5 = 60 months)
+
+F = $275 (F/A, 0.75%, 60) = $275 (69.770) = $19,168.75
+
+Joe will have **$19,168.75** available for his purchase.
+
+Therefore, Joe will have enough to purchase a dream car.
+
+## Uniform Series Formulas: Problem 2
+You are repaying a debt of $10,000 with equal payments made at the end of four equal periods. If the interest rate is 10% per period, how much of the original $10,000 principal will be paid in the second payment?
+
+## Solution
+Principal = $10,000
+
+Number of equal payments (n) = 4. i = 10% per period.
+
+A = P(A/P, i, n) = 10,000(A/P, 10%, 4) = 10,000 × 0.3155 = $3155
+
+First payment interest on unpaid balance = 10,000 × 0.10 = $1000.
+
+Principal repaid = A – 1,000 = $2155.00
+
+Second payment Principal due = 10,000 – 2155 = $7845
+
+Interest on unpaid balance = 7,845 × 0.10 = $784.50.
+
+Principal paid in the second payment = 3,155 – 784.50 = $2370.50.
+
+## Relationships Between Compound Interest Factors
+- Single Payment
+  - Compound amount factor = 1/Present Worth Factor
+  - (F/P, i, n) = 1/(P/F, i, n)
+- Uniform Series
+  - Capital recovery factor = 1/Present Worth Factor
+  - (A/P, i, n) = 1/(P/A, i, n)
+    
+  - Compound amount factor = 1/Sinking Fund Factor
+  - (F/A, i, n) = 1/(A/F, i, n)
+    
+  - Capital recovery factor = Sinking Fund Factor plus i
+  - (A/P, i, n) = (A/F, i, n) + i
+    
+# Uniform Series Involving P/A and A/P
+The uniform series factors that involve P and A are derived as follows:
+
+(1) Cash flow occurs in consecutive interest periods
+
+(2) Cash flow amount is same in each interest period
+
+The cash flow diagrams are:
+
+![cash flow diagrams](../static/EE_5_2_1.png)
+
+# Uniform Series Involving F/A and A/F
+The uniform series factors that involve F and A are derived as follows:
+
+(1) Cash flow occurs in consecutive interest periods
+
+(2) Last cash flow occurs in same period as F
+
+Cash flow diagrams are:
+
+![cash flow diagrams](../static/EE_5_2_2.png)
+
+![spreadsheet functions](../static/EE_5_2_3.png)
 </details>
 
 ---
