@@ -224,6 +224,35 @@ Cash flow diagrams are:
 ![cash flow diagrams](../static/EE_5_2_2.png)
 
 ![spreadsheet functions](../static/EE_5_2_3.png)
+
+# Arithmetic Gradient
+- A uniformly increasing series consists of two components:
+  - Series component (A)
+  - Gradient component (G)
+ 
+![arithmetic gradient](../static/EE_5_3.png)
+
+- Therefore:
+- P = A(P/A, i%, n) + G(P/G, i%, n)
+
+- Derivation of Arithmetic Gradient Factors
+  - Arithmetic gradient present worth factor:
+
+(𝑃/𝐺, 𝑖, 𝑛) = [((1 + 𝑖)<sup>𝑛</sup> − 𝑖𝑛 − 1) / 𝑖<sup>2</sup>(1 + 𝑖)<sup>𝑛</sup>
+
+- Arithmetic gradient uniform series factor:
+(𝐴/𝐺, 𝑖, 𝑛) = [(1/i) - (n/(1 + 𝑖)<sup>𝑛</sup> − 1)]
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 ---
