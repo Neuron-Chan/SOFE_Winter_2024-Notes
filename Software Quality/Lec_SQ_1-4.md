@@ -141,3 +141,5 @@ Execution
 </details>
 
 ---
+
+Note: I'm probably not gonna update this for a while. I genuinely have no idea what is going on in this course.
