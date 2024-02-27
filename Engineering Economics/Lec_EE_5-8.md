@@ -119,14 +119,13 @@ F = A(1+i)<sup>n–1</sup> + . . . + A(1+i)<sup>2</sup> +A(1+i) + A             
 
 iF = A[(1+i)<sup>n</sup> – 1]
 
-
-![compound interest factors (slide 4)](../static/EE_5_1.png)
-
 Rearranging the previous equation
 𝐹 = 𝐴 [((1 + 𝑖)<sup>𝑛</sup> − 1) / 𝑖]
 
 - The notation is F = A(F/A, i%, n)
 - This is called the uniform series compound amount factor
+
+![compound interest factors (slide 4)](../static/EE_5_1.png)
 
 </details>
 
