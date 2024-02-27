@@ -120,14 +120,13 @@ F = A(1+i)<sup>n–1</sup> + . . . + A(1+i)<sup>2</sup> +A(1+i) + A             
 iF = A[(1+i)<sup>n</sup> – 1]
 
 
-![cashflowdiagram](../static/EE_5_1.png)
+![compound interest factors (slide 4)](../static/EE_5_1.png)
 
-## Categories of Cash Flow
-- First cost: Expense of building or of buying and installing
-- Operations and maintenance (O&M): Annual expense, such as electricity, labor, and minor repairs
-- Salvage value: Receipt at project termination for sale or transfer of the equipment (can be a salvage cost)
-- Revenues: Annual receipts due to sale of products or services
-- Overhaul: Major capital expenditure that occurs during the life of the asset
+Rearranging the previous equation
+𝐹 = 𝐴 [((1 + 𝑖)<sup>𝑛</sup> − 1) / 𝑖]
+
+- The notation is F = A(F/A, i%, n)
+- This is called the uniform series compound amount factor
 
 </details>
 
