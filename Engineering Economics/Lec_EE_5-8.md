@@ -291,9 +291,45 @@ Cash flow diagrams are:
 - Use these criteria to choose between alternatives
 - Apply the criteria in cases with equal, unequal, and infinite project lives
 
+# Assumptions in Solving Economic Analysis Problems
+- End-of-Year Convention
+  - All cash flow amounts are calculated as amounts at the end of each period:
+    - Now = end of period 0 (beginning of period 1)
+    - Future amounts happen at the end of the period specified
 
+![continuous compounding](../static/EE_6_1.png)
 
+- No Sunk Costs
+  - Only the current situation and the potential future is considered.
 
+- Viewpoint of Economic Analysis Studies
+  - Point of view of a firm vs. point of view of a department
+  - Generally, we will want to take the point of view of a total firm when doing industrial economic analyses.
+- Borrowed Money Viewpoint
+  - Each problem has two monetary aspects:
+    - Financing—the obtaining of money
+    - Investment—the spending of money
+  - Money required to finance projects is obtained at interest rate i.
+- Income Taxes
+  - Income taxes must be considered in order to find the real payoff of a project.
+  - However, taxes will often affect alternatives in the same way, allowing us to compare our choices without considering income taxes.
+- Effect of Inflation and Deflation
+  - Inflation and deflation must be considered in order to find the real payoff of a project.
+
+# Economic Criteria
+- Alternatives are judged based on economic efficiency.
+- To compare cash flows of alternatives, we must first move them to the same moment in time.
+  - Present – present worth analysis
+  - Future – future worth analysis
+  - Series of equal cash flows at regular intervals – annual cash flow analysis
+- Each of these methods will always yield the same recommendation for choosing the best alternative(s).
+
+## Present Worth Techniques
+- Careful consideration must be given to the time period covered by the analysis.
+- Three potential analysis-period situations are possible when comparing alternatives:
+  - Useful life of each alternative equals the analysis period
+  - Useful lives different from the analysis period
+  - There is an infinite analysis period, n = ∞
 
 
 
