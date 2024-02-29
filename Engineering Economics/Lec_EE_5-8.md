@@ -370,9 +370,10 @@ Cash flow diagrams are:
 
 Two outdoor facilities are being considered for an upcoming Olympic baseball event in three years. The ticket price is fixed for the event at $150/person payable in the event year. Facility A requires a non-refundable deposit of $250,000 and will hold 15,000 people for the event. Facility B does not require a deposit but holds only 13,000 people. If the event sells out in either facility, which facility should be chosen based on a present worth analysis, if the interest rate is 10%?
 
+---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Solution</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">**Solution**</summary>
 
   - Present worth of Facility A
   - P = –250,000 + 15,000(150)(P/F, 10%, 3)
@@ -387,35 +388,53 @@ Two outdoor facilities are being considered for an upcoming Olympic baseball eve
   Choose Facility B because the NPW of B is more profitable based on a present worth analysis.
 </details>
 
+---
+
 ### Present Worth Analysis: Problem 2
-A municipal contractor has agreed to construct an electric power plant
-and to deposit sufficient money in a perpetual trust fund to pay a
-$10,000/year operating cost and to perform a major renovation to the
-plant every 15 years at a cost of $200,000. The plant itself will initially
-cost $500,000 to construct. If the trust fund earns 10% interest per
-year (compounded annually), what is his capitalized cost to construct
-the plant, to make the future periodic renovations, and to pay the
-annual operating costs forever?
-Present Worth Analysis: Problem 2, cont’d
-Solution
-A = $10,000 /year
-Renovation cost every 15 years = $200,000
-Initial cost = $500,000. Interest rate = 10%
-Capitalized cost, P0 = 500,000 + (100,000/0.10) + {200,000 (A/P,
-10%, 15)/0.10} = 500,000 + 1,000,000 + {200,000(0.1315)/0.10} =
-$1,763,000
+A municipal contractor has agreed to construct an electric power plant and to deposit sufficient money in a perpetual trust fund to pay a $10,000/year operating cost and to perform a major renovation to the plant every 15 years at a cost of $200,000. The plant itself will initially cost $500,000 to construct. If the trust fund earns 10% interest per year (compounded annually), what is his capitalized cost to construct the plant, to make the future periodic renovations, and to pay the annual operating costs forever?
 
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">**Solution**</summary>
 
+  - A = $10,000 /year
+  - Renovation cost every 15 years = $200,000
 
+  - Initial cost = $500,000. Interest rate = 10%
+  - Capitalized cost, P0 = 500,000 + (100,000/0.10) + {200,000 (A/P, 10%, 15)/0.10} = 500,000 + 1,000,000 + {200,000(0.1315)/0.10}
+  
+  - **= $1,763,000**
+</details>
 
+# Multiple Alternatives
+- Two or more alternatives can be handled by present worth analysis.
+- The NPW can be evaluated for each project.
+- Selection is made based on the criteria for the project (minimizing or maximizing the present worth of the alternatives).
 
+![example4](../static/EE_6_5_1.png)
 
+# Bond Pricing
+- When Bonds are purchased, the fixed items are:
+  - Face Value (e.g., $1000)
+    - Amount paid out when the bond matures
+  - A nominal interest rate (e.g., 8% semi-annually)
+    - Sometimes called “coupon rate”
+    - The amount of interest paid out to the bond holder per compounding period
+- The purchase price can vary depending on the current market interest rate as the present worth of a bond is determined from the fixed values above (the interest paid out per compounding period and the final face value paid out in the future).
 
+![example5](../static/EE_6_6_1.png)
+![example5](../static/EE_6_6_2.png)
 
+## Spreadsheets and Present Worth
+- With spreadsheets, it is easy to use 120 months instead of 10 years, and the cash flows can be estimated for each month.
+  - e.g., Air-conditioning costs for summer vs. winter
+- No interpolation needed for interest rates
+  - Easy to calculate a repayment schedule
 
-
-
-
+# Future Worth Analysis
+- In present worth analysis, alternatives are compared in terms of their present equivalent value.
+- We can also choose between alternatives by finding their equivalent value at some future date. This is called future worth analysis.
+- Future worth analysis is a more natural way of thinking about certain types of problems.
+  - E.g., if we are setting aside money to provide ourselves with a pension on retirement, we’re interested in how much money we’ll have when we retire. We don’t care what that amount of money would be worth now, since we’re not going to be spending it now.
 
 
 
