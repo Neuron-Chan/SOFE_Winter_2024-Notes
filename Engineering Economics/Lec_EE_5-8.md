@@ -377,7 +377,7 @@ Cash flow diagrams are:
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 7 | TBD</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 7 | Annual Cash Flow Analysis</summary>
 
 # The Role of Accounting
 - Engineering economy focuses on the financial aspects of projects, whereas accounting focuses on the financial aspects of firms
