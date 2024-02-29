@@ -316,7 +316,7 @@ Cash flow diagrams are:
 - Effect of Inflation and Deflation
   - Inflation and deflation must be considered in order to find the real payoff of a project.
 
-# Economic Criteria
+## Economic Criteria
 - Alternatives are judged based on economic efficiency.
 - To compare cash flows of alternatives, we must first move them to the same moment in time.
   - Present – present worth analysis
@@ -324,14 +324,14 @@ Cash flow diagrams are:
   - Series of equal cash flows at regular intervals – annual cash flow analysis
 - Each of these methods will always yield the same recommendation for choosing the best alternative(s).
 
-## Present Worth Techniques
+# Present Worth Techniques
 - Careful consideration must be given to the time period covered by the analysis.
 - Three potential analysis-period situations are possible when comparing alternatives:
   - Useful life of each alternative equals the analysis period
   - Useful lives different from the analysis period
   - There is an infinite analysis period, n = ∞
 
-# 1. Useful Lives Equal to the Analysis Period
+## 1. Useful Lives Equal to the Analysis Period
 - When selecting between two alternatives using present worth analysis:
 - Maximize:
   - Net Present Worth = Present worth benefits – Present worth of costs
@@ -339,12 +339,71 @@ Cash flow diagrams are:
 - The alternative with the higher NPW is selected
 - This criterion is called the net present worth criterion and is written simply as NPW
 
+![example1](../static/EE_6_2_1.png)
+![example1](../static/EE_6_2_2.png)
+
+## 2. Useful Lives Different from the Analysis Period
+- It is NOT correct to analyze alternatives using NPW with different lives.
+- Methods to handle this problem:
+  - Examine the alternatives using a “least common multiple” (LCM) of lives.
+  - Decide on an analysis period if the LCM method is too large or doesn’t make sense.
+    - (e.g., 7 and 13 years gives an LCM = 91 years)
+
+![example2](../static/EE_6_3_1.png)
+![example2](../static/EE_6_3_2.png)
+![example2](../static/EE_6_3_3.png)
+![example2](../static/EE_6_3_4.png)
+
+## 3. Infinite Analysis Period: Capitalized Cost
+- The need for large-scale infrastructure projects (bridges, pipelines, etc.) is considered to be permanent.
+- These types of projects are considered to have an infinite analysis period.
+- Capitalized cost is the present sum that is required to provide the service indefinitely.
+- For any initial present sum P, there can be an end-of-period withdrawal of A which is equal to P(i):
+  - These withdrawals will never decrease the original principal
+  - **A = Pi for n = infinity**
+  - **Capitalized Cost = P = A/i**
+    - The money set aside that can provide the funds for the project forever
+ 
+![example3](../static/EE_6_4.png)
+
+### Present Worth Analysis: Problem 1
+
+Two outdoor facilities are being considered for an upcoming Olympic baseball event in three years. The ticket price is fixed for the event at $150/person payable in the event year. Facility A requires a non-refundable deposit of $250,000 and will hold 15,000 people for the event. Facility B does not require a deposit but holds only 13,000 people. If the event sells out in either facility, which facility should be chosen based on a present worth analysis, if the interest rate is 10%?
 
 
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Solution</summary>
 
+  - Present worth of Facility A
+  - P = –250,000 + 15,000(150)(P/F, 10%, 3)
+  - P = –250,000 + 15,000(150)(0.7513)
+  - P = $1,440,425
+    
+  - Present worth of Facility B
+  - P = 13,000(150)(P/F, 10%, 3)
+  - P = 13,000(150)(0.7513)
+  - P = $1,465,035
 
+  Choose Facility B because the NPW of B is more profitable based on a present worth analysis.
+</details>
 
-
+### Present Worth Analysis: Problem 2
+A municipal contractor has agreed to construct an electric power plant
+and to deposit sufficient money in a perpetual trust fund to pay a
+$10,000/year operating cost and to perform a major renovation to the
+plant every 15 years at a cost of $200,000. The plant itself will initially
+cost $500,000 to construct. If the trust fund earns 10% interest per
+year (compounded annually), what is his capitalized cost to construct
+the plant, to make the future periodic renovations, and to pay the
+annual operating costs forever?
+Present Worth Analysis: Problem 2, cont’d
+Solution
+A = $10,000 /year
+Renovation cost every 15 years = $200,000
+Initial cost = $500,000. Interest rate = 10%
+Capitalized cost, P0 = 500,000 + (100,000/0.10) + {200,000 (A/P,
+10%, 15)/0.10} = 500,000 + 1,000,000 + {200,000(0.1315)/0.10} =
+$1,763,000
 
 
 
