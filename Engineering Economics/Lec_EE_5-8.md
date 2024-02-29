@@ -1,4 +1,4 @@
-Note: Covers modules 1 through 4.
+Note: Covers modules 5 through 8.
 
 # Preamble:
 
@@ -331,6 +331,13 @@ Cash flow diagrams are:
   - Useful lives different from the analysis period
   - There is an infinite analysis period, n = ∞
 
+# 1. Useful Lives Equal to the Analysis Period
+- When selecting between two alternatives using present worth analysis:
+- Maximize:
+  - Net Present Worth = Present worth benefits – Present worth of costs
+  - NPW = PW of benefits – PW of costs
+- The alternative with the higher NPW is selected
+- This criterion is called the net present worth criterion and is written simply as NPW
 
 
 
