@@ -49,11 +49,29 @@ Network history and architectures; reference Model for Open Systems Interconnect
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 5 | LAN</summary>
 
 
-  # **Intro:**
-  - Information gathering, processing, and distribution are the key technologies in these days
-  - As the ability to gather, process, and distribute information grows, the demand for sophisticated information processing grows even faster.
-  - The merging of computers and communications has had a profound influence on the way computer systems are organized;
-    - From computer center to computer networks
+  # Overview
+- Introduction
+- Ethernet – CSMA/CD
+- Ethernet Switching
+- Virtual LAN (VLAN)
+- Wireless LAN (WiFi)
+
+# The MAC (Medium Access Control) Sublayer
+Two typees of links:
+
+- Point-to-Point:
+  - PPP for dial-up access
+  - Point-to-point link between Ethernet switch and a host
+- Broadcast
+  - Old-fashioned Ethernet
+  - Cable network
+  - 802.11 wireless LAN
+
+## The MAC Sublayer
+- Responsible for deciding who sends next on a multi-access link
+- An important part of the link layer, especially for LANs
+
+![mac sublayer](../static/CN_5_1.png)
 
 
 
