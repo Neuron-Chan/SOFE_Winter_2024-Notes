@@ -499,7 +499,15 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 
 - If she figures that money is worth 12%, which tires should she choose?
 
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Solution</summary>
+  
+  - EUAC (12 month tire) = $30.95 (A/P, 12%, 1) = $34.66
+  - EUAC (24 month tire) = $44.95 (A/P, 12%, 2) = $26.60
+  - EUAC (36 month tire) = $53.95 (A/P, 12%, 3) = $22.46
+  - EUAC (48 month tire) = $59.95 (A/P, 12%, 4) = $19.74
 
+</details>
 
 
 ## Other Problems to Watch For
