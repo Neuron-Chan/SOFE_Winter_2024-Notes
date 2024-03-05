@@ -641,25 +641,6 @@ Interest rate is expressed as:
 - minus mortgage        -$150,000
 - minus second mortgage  -$25,000
 - equals equity           $35,000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </details>
 
 ---
@@ -667,208 +648,95 @@ Interest rate is expressed as:
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 8 | Rate of Return Analysis</summary>
 
-# Computing Cash Flows
-- We describe the benefits and costs as receipts (cash flowing in) and disbursements (cash flowing out) at different points in time
-- The foundation of engineering economic analysis are techniques for comparing the value of money at different dates
+# Learning Objectives
+- Evaluate project cash flows with the internal rate of return (IRR) measure
+- Use an incremental rate of return analysis to evaluate competing alternatives
+- Conduct a sensitivity analysis by plotting the present worth (PW) of a project against the interest rate
+- Recognize when to calculate the modified internal rate of return (MIRR)
 
-## Time Value of Money
-- When monetary consequences of an alternative occur in a considerable period, we cannot simply add up the various sums of money
-- Money
-  - It has value over time
-  - It is a valuable asset that people are willing to pay to have it available to use
-  - It can be rented in roughly the same way that an apartment is rented
-    - The charge is called interest instead of rent
-    - Our preference for having money now rather than money in the future differs from person to person
-      - The preference for having money now rather than later has nothing to do with inflation
-    - The bank expresses the time value it puts on money by publishing its interest rate
+# Introduction
+- Rate of return analysis is the most frequently used measure in industry.
+- It provides a measure of a project’s desirability in terms that are easily understood.
+- In rate of return analysis, we compute a rate of return (more accurately called _internal rate of return_) from the cash flow.
+- The calculated rate of return is then compared with a pre-selected **Minimum Attractive Rate of Return (MARR).**
 
-### Simple Interest
-- Interest that is computed only on the original sum and not on accrued interest
-  - **Total interest earned = P × i × n = Pin**
-    - Where: P = present sum, i = interest rate/period, and n = # of time periods (e.g. years)
-  - **Total money after n periods (F) = P + Pin or F = P(1+in)**
-    - Where: F = future sum
-     
-![simple interest ex](../static/EE_4.1.png)
+# Minimum Attractive Rate of Return
+- The purpose of rate of return analysis is to allow us to decide between different possible projects.
+- Once we have calculated that the rate of return on a particular project is, for example, 23%, what do we do next?
+- We need some form of benchmark against which we can compare this number.
+- The average rate at which we have to recompense our creditors and investors sets a lower bound on the rate of return at which a proposed project becomes attractive.
+- The highest of these lower bounds is the **Minimum Attractive Rate of Return (MARR).**
 
-### Compound Interest
-- In practice, interest is determined using the compound interest method.
-- Simple interest is normally not used unless specifically stated otherwise
-- Interest is calculated on the accumulated amount and not simply on the original amount
-  - Interest on top of interest
+# Internal Rate of Return (IRR)
+- A project’s rate of return is defined by IRR.
+- Internal Rate of Return (IRR) is the interest rate at which the present worth and equivalent uniform annual worth are equal to zero.
+- The IRR is the interest rate at which the benefits are equivalent to the costs.
 
-Below, consider a $25,000 loan at 10%/year
+## Calculating Rate of Return
+- Given a cash flow, there are five forms of equations that can be used to solve for the unknown interest rate:
+  - Present worth = Net present worth = 0
+  - PW of benefits – PW of costs = 0
+  - PW of benefits/PW of costs = 1
+  - EUAW = EUAB – EUAC = 0
+  - PW of costs = PW of benefits
 
-| Year "n" | Total in Year "n" | Interest accumulated at end of year "n" | Amount accumulated at end of year "n" |
-|-|-|-|-|
-| 1 | $25,000 | $2,500 | $27,500 |
-| 2 | $27,500 | $2,750 | $30,250 |
-| 3 | $30,250 | $3,025 | $33,275 |
-| 4 | $33,275 | $3,327.50 | $36,602.50 |
+- These are the same concepts in five different forms.
 
-## Repaying a Debt
-- There are many ways in which debts are repaid, including the following three plans:
-1. Constant principal
-2. Interest only
-3. Constant payments
-
-# Equivalence
-- Equivalence with respect to the “time value of money” implies that a sum of money in one time period may have the same “value” to a different sum in another time period with respect to an interest rate.
-  - Example:
-    - $1000 now is equivalent to:
-      - $1100 one year from now at 10% per year
-      - $1050 one year from now at 5% per year
-      - $1210 two years from now at 10% per year
-      - $1102 two years from now at 5% per year
-
-- Equivalence is dependent on interest rate.
-- Equivalence is useful when:
-  - There are cash flows (positive and/or negative) over “n” time periods that need to be compared
-  - There are alternative comparisons of multiple cash flows
-    - Alternative projects with cash flows over “n” time periods
-
-
-## Single-Payment Compound Interest
-
-### Formulas
-- Notation:
-- i = interest rate per interest period
-- n = number of interest periods
-- P = a present sum of money
-- F = a future sum of money at the end of the nth interest period, which is equivalent to P at the interest rate i
-
-Assuming interest rate (n) is in years,
-
-  After one year, the future amount at the end of year one would be
-  **F = P(1 + i)**
-
-  After two years, the future amount at the end of year two, including the additional interest from year one, would be
-  **F = P(1 + i) + iP(1 + i)**
-
-  Equivalent to:
-  **F = P(1 + i)(1 + i)** or **P(1 + i)<sup>2</sup>**
-
-  Generalizing:
-  **F = P(1 + i)<sup>n</sup>**
-
-### Simple and Compound Interest: Problem
-
-How much more would you owe at the end of 4 years using:
-- simple interest at 9% per year or
-- compound interest at 9% per year
-
-if you borrowed $150,000 now?
-
-### Solution
-
-_Simple Interest_
-
-F = P + Pin = 150,000 + 150,000(0.09)(4)
-
-F = $204,000
-
-_Compound Interest_
-
-F = P(1 + i)<sup>n</sup>
-
-F = 150,000(1.09)<sup>4</sup>
-
-F = $211,737.24
-
-211,737.24 – 204,000 = $7737.24
-
-You would owe **$7737.24** more with a compound interest arrangement.
-
-![simple interest ex](../static/EE_4.2.png)
-
-![simple interest ex](../static/EE_4.3.png)
-
-![simple interest ex](../static/EE_4.4.png)
-
-![simple interest ex](../static/EE_4.5.png)
-
-# Nominal and Effective Interest
-- When specifying an interest rate, we implicitly mention two time periods
-- We pay an interest rate of i per time_period1, compounded every time_period2
-- Effective interest rate: when these time periods are both the same
-- Nominal interest rate: when the two time periods don’t match
-
-## Interest Rate Statements
-The terms ‘nominal’ and ‘effective’ enter into consideration when the interest period is less than one year.
-
-**New time-based definitions to understand and remember:**
-
-- Interest period (t) – period of time over which interest is expressed.
-  - For example, 1% per month.
-- Compounding period (CP) – Shortest time unit over which interest is charged or earned.
-  - For example,10% per year compounded monthly.
-- Compounding frequency (m) – Number of times compounding occurs within the interest period t
-
-## Understanding Interest Rate Terminology
-- A nominal interest rate (r) is obtained by multiplying an interest rate that is expressed over a short time period by the number of compounding periods in a longer time period: That is:
-  - r = interest rate per period x number of compounding periods
-    - Example: If i = 1% per month, nominal rate per year is
-    - r = (1)(12) = 12% per year)
-      
-- Effective interest rates (i) take compounding into account (effective rates can be obtained from nominal rates via a formula to be discussed later).
-
-IMPORTANT: **Nominal interest rates** are essentially **simple interest rates**. Therefore, they **can never be used in interest formulas**. **Effective rates** must **always be used hereafter in all interest formulas**.
-
-![More About Interest Rate Technology](../static/EE_4.6.png)
-
-## Effective Annual Interest Rates
-
-Nominal rates are converted into effective annual rates via the equation:
-𝒊<sub>𝒂</sub> = (𝟏 + 𝒓/𝒎)<sup>𝒎</sup> − 𝟏
-
-𝒊<sub>𝒂</sub> = (𝟏 + 𝒊)<sup>𝒎</sup> − 𝟏
-
-where 
-- i<sub>a</sub> = effective annual interest rate
-- i = effective rate for one compounding period
-- m = number of times that interest is compounded per year
-  - Example: For a nominal interest rate of 12% per year, determine the nominal and effective rates per year for (a) quarterly, and (b) monthly compounding
-  - Solution:
-
-(a)
-
-Nominal r / year = 12% per year
-
-Nominal r / quarter = 12/4 = 3.0% per quarter
-
-Effective i / year = (1 + 0.03)<sup>4</sup> − 1 = 12.55% per year
-
-
-
-    
-(b) 
-
-Nominal r /month = 12/12 = 1.0% per month
-
-Effective i / year = (1 + 0.01)<sup>12</sup> − 1 = 12.68% per year
-
-
-# Continuous Compounding
-- The number of compounding periods depends on the number of subdivisions.
-- A nominal interest rate of 12%/year compounded:
-  - m = 1: yearly (equals 12% effective yearly)
-  - m = 2: semi-annually (equals 12.360% effective yearly)
-  - m = 4: quarterly (equals 12.551% effective yearly)
-  - m = 52: weekly (equals 12.734% effective yearly)
-  - m = 365: daily (equals 12.747% effective yearly)
-  - m = 525600: hourly (equals 12.749% effective yearly)
-- Note: we are approaching a limit!
-- For infinite compounding periods (continuously compounded):
-  - 𝑖<sub>-𝑎</sub>=(𝑒<sup>𝑟</sup>) − 1
+### Rate of Return: Problem 1
+- With an initial investment of $6549.32 in a new machine, you will provide your company with $4000 more incoming dollars over the next four years. However, over those four years, the maintenance of the machine will cost $800. Also, in Year 2 a refit of the machine will cost $5,100.
   
-- To find compound amount and present worth for continuous compounding and a single payment, we write:
-- Compound amount F = P(ern) = P[F/P, r, n]
-- Present worth P = F(e−rn) = F[P/F, r, n]
-- Square brackets around the factors denote continuous compounding.
+- What is the rate of return?
 
-## Equivalence and Sustainability
-- The formulas and methods we use give reasonable results when applied to time spans of less than a century, but can be misleading when applied to longer time periods
-- Many of the problems humanity currently faces require us to plan on a time scale of centuries or longer
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Solution</summary>
+  
+0 = –6549.32 + 4000(P/A, i, 4) – 800(P/A, i, 4) – 5100(P/F, i, 2)
+
+i = 6%/year
+
+</details>
+
+A typical plot for borrowed money:
+- Viewpoint of the borrower:
+![plot of NPW](../static/EE_8_1_1.png)
+
+The **IRR** is located where the plot crosses the **NPW = 0** point.
+
+A typical plot for invested money:
+- Viewpoint of the investor:
+![plot of NPW](../static/EE_8_1_2.png)
+
+The **IRR** is located where the plot crosses the **NPW = 0** point.
+
+# Interest Rates When There Are Fees or Discounts
+- The internal rate of return is affected by fees or discounts.
+- Example:
+  - An electronics retailer offers a 2% interest rate on purchases. However, they charge a financing fee of $200.00 to provide the service.
+    - The fee increases the true internal interest rate of the purchase.
+
+![incremental ROR Evaluation](../static/EE_8_2.png)
+
+Incremental Analysis
+• In rate of return analysis, two or more alternatives are compared
+using the incremental rate of return (IRR).
+• The project increment is ordered by:
+• Higher initial cost project – Lower initial cost project = Increment
+• The new cash flow created from the cash flow increments is
+evaluated.
+• The IRR of the new cash flow is determined.
+14
+Incremental Analysis, cont’d
+• The decision is then based on the MARR:
+• If IRR >= MARR choose the higher initial cost alternative.
+➢ This indicates that the additional cost is justified.
+• If IRR < MARR choose the lower initial cost alternative.
+➢ This indicates that the additional cost is NOT justified.
+• The opposite is true if the viewpoint is from the
+borrowing perspective instead of the investment
+perspective.
+15
+
+
 
 </details>
 
