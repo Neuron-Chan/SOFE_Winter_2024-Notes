@@ -489,8 +489,9 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 
 # Cash Flow Calculations: Problem
 - A university student looking for new tires has located the following alternatives:
-|Tire Life (warranty)|Price/Tire|
-|--|--|
+
+| Tire Life (warranty) | Price/Tire |
+|-|-|
 |12 Months|$30.95|
 |24 Months|$44.95|
 |36 Months|$53.95|
