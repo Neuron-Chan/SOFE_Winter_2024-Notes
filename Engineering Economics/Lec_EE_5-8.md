@@ -553,6 +553,7 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 
 - Alternatives B and C are replaced at the end of their useful lives with identical replacements. Using annual cash flow analysis find the most attractive alternative.
 
+---
 
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Solution</summary>
@@ -569,6 +570,8 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 **Choose Alternative C.**
 
 </details>
+
+---
 
 ![example3](../static/EE_7_3.png)
 
@@ -610,24 +613,25 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 ![example4](../static/EE_7_4.png)
 
 # Types of Mortgages Available
-• “Conventional”:
-• For 80% or less of the appraised value of the property, and as such
-they require the purchaser to make a down payment of at least 20%.
-• “High-ratio” mortgages:
-• Higher than 80% and usually require an outside agency such as the
-CMHC (Central Mortgage and Housing Corporation) to insure the
-mortgage.
-• Some others:
-• Open, variable rate, ARM (adjustable rate mortgage), capped rate,
-closed, convertible rate, second, reverse, and CHIP mortgage.
-Mortgage Interest Rate
+- “Conventional”:
+  - For 80% or less of the appraised value of the property, and as such they require the purchaser to make a down payment of at least 20%.
+
+- “High-ratio” mortgages:
+  - Higher than 80% and usually require an outside agency such as the CMHC (Central Mortgage and Housing Corporation) to insure the mortgage.
+  
+- Some others:
+  - Open, variable rate, ARM (adjustable rate mortgage), capped rate, closed, convertible rate, second, reverse, and CHIP mortgage.
+
+# Mortgage Interest Rate
+
 Interest rate is expressed as:
-• % compounded semi-annually, not in advance.
-⮚ An old English term when ledgers were kept by hand
-⮚ Nominal rate mortgage at 6% is actually 3% semi-annually
-⮚ To determine actual effective monthly rate for this example
-• (1+i)6 = 1.03
-• In this case: i = 0.49%/month
+
+- % compounded semi-annually, not in advance.
+  - An old English term when ledgers were kept by hand
+  - Nominal rate mortgage at 6% is actually 3% semi-annually
+  - To determine actual effective monthly rate for this example
+- (1+i)6 = 1.03
+- In this case: i = 0.49%/month
 
 # Equity
 - The value remaining in a property after all mortgage and loans registered against the title are subtracted from its value.
