@@ -534,6 +534,25 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 - When n = ∞, A = Pi, therefore:
   - EUAC<sub>infinite analysis period</sub> = Pi + Any other annual costs
 
+- The difference in annual cost between a long life and an infinite life is normally small, unless an unusually low interest rate is used.
+  - Example: $5.5 Million cost at 6%/year
+    - Infinite Life: EUAC = 5.5(0.06) = $330,000
+    - Long Life (85 years): EUAC = 5.5(A/P, 6%, 85) = $332,000
+  - Difference in time is large (85 compared to infinity) but the EUAC is small.
+
+# Annual Cash Flow Analysis: Problem
+- The following data are available for three different alternatives:
+
+
+|  | Alternative A | Alternative B | Alternative C |
+|-|-|-|-|
+|Initial Cost|$1000|$1500|$2000|
+|Uniform Annual Benefits|$200|$276.20|$654.80|
+|Useful Life in Years|--|20|5|
+|Interest Rate|15%|15%|15%|
+
+- Alternatives B and C are replaced at the end of their useful lives with identical replacements. Using annual cash flow analysis find the most attractive alternative.
+
 
 </details>
 
