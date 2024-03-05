@@ -461,7 +461,7 @@ A municipal contractor has agreed to construct an electric power plant and to de
 - When there is a salvage value at the end of the life of an asset, it is represented as a one-time cash flow benefit at the end of the asset’s life (i.e., it lowers the equivalent uniform annual cost).
 - Example: Salvage value (S) of asset with a four-year life
 
-![diagram](../static/EE_7_2.png)   
+![diagram](../static/EE_7_2_1.png)
 
 When there is an initial cost (P) followed by a salvage value (S) the equivalent uniform annual worth (EUAC) can be computed by:
 - EUAC = P(A/P, i, n) – S(A/F, i, n)
@@ -472,112 +472,34 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 
 - Known as "capital recovery cost"
 
-## Balance Sheet
+- Direct relationship between present worth cost and equivalent uniform cost:
+  - EUAC = PWCost(A/P, i, n)
+- Expenditure of money increases EUAC, whereas receipt of money decreases EUAC.
+- For irregular cash disbursements over the analysis period it is convenient to convert them to a present worth cost first, rather than use the above equation.
+- For arithmetic gradient the factor that can be used is: (A/G, i, n)
 
-![balance sheet](../static/EE_3_1.png)
+![example2](../static/EE_7_2_2.png)
+![example2](../static/EE_7_2_3.png)
 
-- Assets: Owned by the firm and have monetary value
-- Liabilities: Dollar claims against the firm
-  - Short-term (current): Due within one year
-  - Long-term: Longer due dates (mortgages, bonds, loans, etc.)
-- Equity (or net worth): represents funding from the firm and its owners (the shareholders)
-  - At any point in time the difference between the total worth minus what is owed
-- Fundamental accounting equation:
-  - Assets = Liabilities + Equity
- 
-### Accounting
 
-- For Engineered Industries
-  - Total assets are $13,815,000
-  - Total current and long-term liabilities are $2,180,000 and $1,200,000, respectively
-  - Total equity is $10,435,000
+# Annual Cash Flow Analysis
+- When comparing alternatives, we can always ignore any cash flows common to each alternative.
+- So if two strategies both yield the same benefits, we can simply choose the one with the lower equivalent annual costs.
+- Conversely, if two strategies have the same costs, we will choose the one with the greater equivalent annual benefits.
 
-- Fundamental accounting equation:
-  - Assets = Liabilities + Equity
-  - $13,815,000 = $3,380,000 + $10,435,000
+# Cash Flow Calculations: Problem
+- A university student looking for new tires has located the following alternatives:
+|Tire Life (warranty)|Price/Tire|
+|:--:|:--:|
+|12 Months|$30.95|
+|24 Months|$44.95|
+|36 Months|$53.95|
+|48 Months|$59.95|
 
-- Working Capital
-  - Working capital = Current assets – Current liabilities
-  - For Engineered Industries, there would be $8,770,000 − $2,180,000 = $6,590,000 available in working capital
+- If she figures that money is worth 12%, which tires should she choose?
 
-- Financial Ratios Derived from Balance Sheet Data
-  - Firm’s health can be evaluated through ratios of quantities on the balance sheet
-  - Current ratio = Current assets/Current liabilities
-    - Shows the ability of a firm to cover current liabilities
-    - Historically, firms have aimed to be at or above a ratio of 2.0
-      - The current ratio is above 2 **(8,770,000/2,180,000 = 4.02)**
 
-  - Acid-test ratio (or quick ratio) = Quick assets/Total current liabilities
-    - With ~90 days
-    - Shows the ability of a firm to pay debt quickly
-    - Current inventories are excluded from quick assets due to the time required to sell them
-    - Above 1
-      - The acid-test ratio is well above 1 **[(1,940,000 + 950,000 + 4,100,000)/2,180,000 = 3.21]**
 
-## Income statement
-
-![income statement](../static/EE_3_2.png)
-
-- Also known as the profit and loss statement
-- Summarizes the firm’s revenues and expenses over a period of time (month, quarter, year, etc.)
-- Used to evaluate revenue and expenses that occur in the interval between consecutive balance sheet statements
-- The income statement reports the firm’s net income (profit) or loss by subtracting expenses from revenues
-- Revenues − Expenses = Net profit (Loss)
-- If revenues minus expenses is positive, there has been a profit; if it is negative, a loss has occurred
-
-### Accounting
-
-- For Engineered Industries
-- Total revenues = $18,350,000
-- Total expenses = $17,230,000
-- **Net income = Revenues - Expenses**
-  = $18,350,000 - $17,230,000
-  = $1,120,000 before taxes
-($730,000 after taxes)
-
-- Financial Ratios Derived from Balance Sheet Data
-- **Net Profit Ratio = Net profit/Net sales revenue**
-  - Indicates cost efficiency of operations and firm’s ability to convert sales into profits
-  - Net sales revenue equals sales minus returns and allowances
-    - For Engineered Industries, the net profit ratio is **730,000/18,030,000 = 0.040 = 4.0%**
-      
-- **Interest Coverage Ratio = Total Income/Interest Payments**
-  - Indicates how much revenue must drop to affect the firm’s ability to finance its debt
-  - It should be at least 3.0 for industrial firms
-  - Total income is total revenues minus all expenses except interest payments
-    - Engineered Industries has an interest coverage ratio of **(18,350,000 − 17,110,000)/120,000 = 10.3**
-
-- Linking the Balance Sheet, Income Statement, and Capital Transactions
-  - There are many links between the balance sheet, income statement, and cash flows that make up business transactions
-  - For engineering economic analysis, the following links are the most important:
-    - Overall profit or loss (income statement) and the starting and ending equity (balance sheets)
-    - Acquisition of capital assets
-    - Depreciation of capital assets
-
-- Linking the Balance Sheet, Income Statement, and Capital Transactions, cont’d
-  - The overall profit or loss during the year (shown on the income statement) is reflected in the change in retained earnings (RE) between the balance sheets at the beginning and end of the year
-  - To find the change in retained earnings (RE), one must also subtract any dividends distributed to the owners and add the value of any new capital stock sold
-  - Change in Retained Earnings (RE):
-    - **RE<sub>end</sub> = RE<sub>beg</sub> + Net Income(or Loss) + New Stock – Dividends**
-
-![example](../static/EE_3_3.png)
-
-- Cost accounting: Used to develop product costs, determine the mix of labour, materials, and other costs in a production setting, and to evaluate outsourcing and subcontracting possibilities
-
-![traditional cost accounting](../static/EE_3_4.png)
-
-- **Direct and Indirect Costs**
-  - Costs incurred to produce a product or service are traditionally classified as either direct or indirect (overhead)
-  - **Direct costs**: Activities directly associated with the final product or service produced (e.g., materials, labour, etc.)
-  - **Indirect costs**: Costs not easily linked directly to individual products or services (e.g., machine depreciation, management/sales/administration costs, etc.)
-
-## Indirect Cost Allocation
-- Indirect costs are sometimes allocated across projects through “absorption costing”
-- Allocating overhead costs based on factors (burden vehicle), such as:
-1. number of direct-labour costs each project has
-2. direct-labour hours
-3. direct-material cost
-4. total direct cost
 
 ## Other Problems to Watch For
 - Centralized accounting systems have often been accused by project managers of being too slow or “untimely”
