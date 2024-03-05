@@ -716,25 +716,82 @@ The **IRR** is located where the plot crosses the **NPW = 0** point.
 
 ![incremental ROR Evaluation](../static/EE_8_2.png)
 
-Incremental Analysis
-• In rate of return analysis, two or more alternatives are compared
-using the incremental rate of return (IRR).
-• The project increment is ordered by:
-• Higher initial cost project – Lower initial cost project = Increment
-• The new cash flow created from the cash flow increments is
-evaluated.
-• The IRR of the new cash flow is determined.
-14
-Incremental Analysis, cont’d
-• The decision is then based on the MARR:
-• If IRR >= MARR choose the higher initial cost alternative.
-➢ This indicates that the additional cost is justified.
-• If IRR < MARR choose the lower initial cost alternative.
-➢ This indicates that the additional cost is NOT justified.
-• The opposite is true if the viewpoint is from the
-borrowing perspective instead of the investment
-perspective.
-15
+# Incremental Analysis
+- In rate of return analysis, two or more alternatives are compared using the **incremental rate of return (ΔIRR).**
+- The project increment is ordered by:
+  - Higher initial cost project – Lower initial cost project = Increment
+- The new cash flow created from the cash flow increments is evaluated.
+  - The ΔIRR of the new cash flow is determined.
+
+- The decision is then based on the MARR:
+  - If **ΔIRR >= MARR** choose the higher initial cost alternative.
+    - This indicates that the additional cost is justified.
+  - If **ΔIRR < MARR** choose the lower initial cost alternative.
+    - This indicates that the additional cost is NOT justified.
+
+- The opposite is true if the viewpoint is from the borrowing perspective instead of the investment perspective.
+
+![Calculation of Incremental CF](../static/EE_8_3.png)
+![ROR Evaluation of two alternatives](../static/EE_8_4.png)
+
+# IRR Caution
+- Internal rate of return can be deceiving.
+- Comparing projects strictly on the IRR of each project can provide incorrect results and disagree with present worth or annual worth analysis.
+- This is why we use the ΔIRR.
+  - The objective is to maximize the “return” NOT the “rate of return.”
+- Note: Projects can include the “do-nothing” alternative if the selection of an alternative is not “required.”
+
+# IRR Algorithm
+- Calculate the rate of return for each alternative, and **discard any for which IRR < MARR.**
+- Arrange the remaining alternatives in ascending order of first cost.
+- The alternative with lowest first cost is your current champion.
+- Calculate the incremental IRR of upgrading from the current champion to the alternative with next-lowest first cost.
+- If the incremental IRR > MARR, upgrade; otherwise, stick with the current champion.
+- Repeat steps 4 and 5 until you run out of alternatives.
+
+# Analysis Period
+- In rate of return analysis, the analysis period needs to be the same as we are examining the increments between alternatives.
+- A common multiple of the alternative service lives may be used assuming identical replacement.
+
+## Sensitivity Analysis
+- It can often happen in engineering problems that we need to make tentative conclusions about a project while one or more important parameters remain undetermined.
+- We can compute how much an estimate can change and the effect on a particular decision.
+- This is **"sensitivity analysis."**
+- It is often possible to construct a graph showing what performance we would expect for a range of plausible values of the undetermined parameter(s).
+- In order to select projects based on incremental rate of return, we needed to know the MARR.
+- If we don’t know the MARR, we can still obtain a basis for decision by plotting the project’s net present worth as a function of the unknown MARR.
+- The general method involves the following steps:
+  - Write down an expression for the PW or EUAC of each alternative, with the unknown MARR as a free parameter.
+  - Plot PW (or EUAC) versus MARR for each alternative on the same graph.
+  - Note which alternative gives the maximum PW (or minimum EUAC) at each value of MARR, and the crossover points between alternatives.
+
+![Sensitivity Analysis](../static/EE_8_4_1.png)
+
+![Sensitivity Analysis](../static/EE_8_4_2.png)
+
+# Modified Internal Rate of Return (MIRR)
+- The IRR is determined by the cash flows of a given project and solving for the roots of the resulting equation.
+- This makes the assumption that:
+  - Positive cash flows can be reinvested at the IRR rate which is not necessarily true.
+- External interest rates are used to establish a MIRR.
+- **The MIRR is a measure of the attractiveness of the cash flows,** but it is also a function of the two external rates of return.
+- Use of external rates:
+  - Investing rate (einv) is used for positive cash flows.
+  - Financing rate (efin) is used for negative cash flows.
+  - The positive cash flows are moved to the end of the project’s time  period using (F/P, einv, n).
+  - The negative cash flows are moved to the beginning of the project’s time period using (P/F, efin, n).
+    - Then: 0 = (1 + MIRR)n (PW) + FW
+
+## Modified ROR Approach (MIRR)
+Four step Procedure:
+
+- Determine PW in _**year 0**_ of all negative CF at i<sub>fin</sub>
+- Determine FW in year n of all positive CF at i<sub>i</sub>
+- Calculate EROR = i’ by FW = PW(F/P,i’,n)
+- If i’ ≥ MARR, project is economically justified
+
+
+![EROR using MIRR Method](../static/EE_8_5.png)
 
 
 
