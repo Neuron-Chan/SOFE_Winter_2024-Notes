@@ -554,6 +554,108 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 - Alternatives B and C are replaced at the end of their useful lives with identical replacements. Using annual cash flow analysis find the most attractive alternative.
 
 
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Solution</summary>
+  
+**Alternative A**
+- EUAB – EUAC = 200 – 1000(0.15) = $50
+
+**Alternative B**
+- EUAB – EUAC = 276.2 – 1500(A/P, 15%, 20) = 276.2 – 1500(0.1598) = $36.5
+
+**Alternative C**
+- EUAB – EUAC = 654.8 – 2000(A/P, 15%, 5) = 654.8 – 2000(0.2983) = $58.2
+
+**Choose Alternative C.**
+
+</details>
+
+![example3](../static/EE_7_3.png)
+
+# Some Other Analysis Period
+- The analysis period in a particular problem may be something other than the ones described so far.
+- It may be equal to the life of the shorter-life alternative, the longer-life alternative, or something entirely different.
+- One must carefully examine **the consequences** of each alternative throughout the analysis period and, in addition, see what differences there might be in salvage values, and so forth, at the end of the analysis period.
+
+# Mortgages in Canada
+- Although technically a mortgage is a legal document, most people use the word to mean a long-term amortized loan that is used for buying real property such as a house or land.
+- If the mortgage payments are not made, the lender can take the property and sell it to recover the outstanding debt.
+
+- A mortgage document:
+  - Outlines the terms and conditions for repaying the money borrowed: the amount borrowed, the interest rate, the first and last payment dates, the amortization period, and the date the balance is due (the renewal date or term).
+  - Prepayment options and penalties may also be included.
+
+- Amortization:
+  - Length of time it takes to pay off the mortgage assuming:
+    - Payments are made on time with no additional payments
+    - Interest rate doesn’t change
+
+- Amortization periods are typically between 5 years and 40 years (The norm is 20 or 25 years)
+
+- Terms
+  - The amortization of a mortgage is often made up of smaller periods called "terms" and a term is the period in which the interest rate "term" is fixed.
+- At the end of the term, the mortgage can be renewed for a another term at the current interest rate.
+
+## Building an Amortization Schedule
+
+- An amortization schedule lists the following for each payment period:
+  - Loan payment
+  - Interest paid
+  - Principal paid
+  - Remaining balance
+- For each period _the interest paid_ equals the interest rate times the balance remaining from the period before.
+- Then, the principal payment equals the payment minus the interest paid.
+- Finally, this _principal payment_ is applied to the balance remaining from the preceding period to calculate the _new remaining balance._
+
+![example4](../static/EE_7_4.png)
+
+# Types of Mortgages Available
+• “Conventional”:
+• For 80% or less of the appraised value of the property, and as such
+they require the purchaser to make a down payment of at least 20%.
+• “High-ratio” mortgages:
+• Higher than 80% and usually require an outside agency such as the
+CMHC (Central Mortgage and Housing Corporation) to insure the
+mortgage.
+• Some others:
+• Open, variable rate, ARM (adjustable rate mortgage), capped rate,
+closed, convertible rate, second, reverse, and CHIP mortgage.
+Mortgage Interest Rate
+Interest rate is expressed as:
+• % compounded semi-annually, not in advance.
+⮚ An old English term when ledgers were kept by hand
+⮚ Nominal rate mortgage at 6% is actually 3% semi-annually
+⮚ To determine actual effective monthly rate for this example
+• (1+i)6 = 1.03
+• In this case: i = 0.49%/month
+
+# Equity
+- The value remaining in a property after all mortgage and loans registered against the title are subtracted from its value.
+
+- For example:
+- Appraised value        $210,000
+- minus mortgage        -$150,000
+- minus second mortgage  -$25,000
+- equals equity           $35,000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
 
 ---
