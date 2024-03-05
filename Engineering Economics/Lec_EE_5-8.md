@@ -436,27 +436,7 @@ A municipal contractor has agreed to construct an electric power plant and to de
 - Future worth analysis is a more natural way of thinking about certain types of problems.
   - E.g., if we are setting aside money to provide ourselves with a pension on retirement, we’re interested in how much money we’ll have when we retire. We don’t care what that amount of money would be worth now, since we’re not going to be spending it now.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![example6](../static/EE_6_7.png)
 </details>
 
 ---
@@ -464,26 +444,33 @@ A municipal contractor has agreed to construct an electric power plant and to de
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 7 | Annual Cash Flow Analysis</summary>
 
-# The Role of Accounting
-- Engineering economy focuses on the financial aspects of projects, whereas accounting focuses on the financial aspects of firms
-- Three functions within businesses:
-    1) Engineering economics: Analyzes economic impact of alternatives and projects over their life cycles
-    2) Accounting: Determines the dollar impact of past decisions, reports on the economic viability of a unit or firm, and evaluates potential funding sources
-    3) Management: Allocates available investment funds to projects, evaluates unit and firm performance, allocates resources, and selects and directs personnel
+# Learning Objectives
+- Define equivalent uniform annual cost (EUAC)
+- Resolve any series of cash flows into its annual cash flow equivalent
+- Use annual costs to compare alternatives with equal, common multiple, or continuous lives, or over some fixed study period
  
-## Accounting for Business Transactions
-- A business transaction involves two parties and the exchange of dollars (or the promise of dollars) for a product or service
-  - Accounting functions:
-    - Records, analyzes, and reports on transactions
-    - Summarizes and analyzes financial data
-    - Provides data for general accounting and cost accounting
+# Annual Cash Flow Calculations
+- The objective is to compare alternatives based on annual cash flows.
+- This requires converting present values and one-time values on the timeline to equivalent uniform annual values.
+  - Using annual worth factors: F
+    - For example: A = P(A/P, i%, 4)
+![diagram](../static/EE_7_1_1.png)   
+![example1](../static/EE_7_1_2.png)
 
-# Primary Accounting Statements
-- Balance sheet:
-  - A firm’s financial condition at a specific time
-  - Lists a firm’s assets, liabilities, and equity
-- Income statement:
-  - A firm’s performance over a period of time
+# Treatment of Salvage Value
+- When there is a salvage value at the end of the life of an asset, it is represented as a one-time cash flow benefit at the end of the asset’s life (i.e., it lowers the equivalent uniform annual cost).
+- Example: Salvage value (S) of asset with a four-year life
+
+![diagram](../static/EE_7_2.png)   
+
+When there is an initial cost (P) followed by a salvage value (S) the equivalent uniform annual worth (EUAC) can be computed by:
+- EUAC = P(A/P, i, n) – S(A/F, i, n)
+**OR**
+- EUAC = (P – S)(A/F, i, n) + Pi
+**OR**
+- EUAC = (P – S)(A/P, i, n) + Si
+
+- Known as "capital recovery cost"
 
 ## Balance Sheet
 
@@ -604,7 +591,7 @@ A municipal contractor has agreed to construct an electric power plant and to de
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 8 | TBD</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 8 | Rate of Return Analysis</summary>
 
 # Computing Cash Flows
 - We describe the benefits and costs as receipts (cash flowing in) and disbursements (cash flowing out) at different points in time
