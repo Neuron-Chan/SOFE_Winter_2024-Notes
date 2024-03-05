@@ -499,6 +499,8 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
 
 - If she figures that money is worth 12%, which tires should she choose?
 
+---
+
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Solution</summary>
   
@@ -507,15 +509,31 @@ When there is an initial cost (P) followed by a salvage value (S) the equivalent
   - EUAC (36 month tire) = $53.95 (A/P, 12%, 3) = $22.46
   - EUAC (48 month tire) = $59.95 (A/P, 12%, 4) = $19.74
 
+**Choose the 48 Month Tire to reduce annual costs.**
+
 </details>
 
+---
 
-## Other Problems to Watch For
-- Centralized accounting systems have often been accused by project managers of being too slow or “untimely”
-- If an organization establishes numerous files and systems so that stakeholders have the timely data they need, the level of accuracy in one or all systems may be low
-  - Analysts making cost estimates will have to consider other internal data sources.
-- Inventory or land valued too low because its based on acquisition cost
-- Capital equipment being valued too high or too low depending on the depreciation methods and company policy
+# Analysis Period
+- Alternatives have equal lives.
+  - If the lives are equal, the analysis period is based on the same lifetime.
+    
+- Alternatives have unequal lives.
+  - If the lives are unequal, the analysis period is based on alternate lifetimes.
+    - No LCM is required as in present worth analysis.
+    - **Multiples of service life are equivalent to one service life with annual worth analysis—therefore, it doesn’t matter!**
+   
+
+## Infinite Analysis Period
+- Since multiples of finite service lives are equivalent to one service life, an infinite analysis of finite service lives yield:
+  - EUAC<sub>infinite analysis period</sub> = EUAC<sub>for limited life _n_</sub>
+- However, when an alternative with an infinite life is evaluated over an infinite analysis period:
+  - EUAC<sub>infinite analysis period</sub> = P(A/P, i, ∞) + Any other annual costs
+
+- When n = ∞, A = Pi, therefore:
+  - EUAC<sub>infinite analysis period</sub> = Pi + Any other annual costs
+
 
 </details>
 
