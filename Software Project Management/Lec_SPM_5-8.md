@@ -659,10 +659,52 @@ Float = Latest finish (LF) - Earliest start (ES) - Duration
 - 'the chance of exposure to the adverse consequences of future events' - PRINCE2
 - 'an uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives' - PM-BOK
 
-- Risks relate to possible future problems, not current ones
+- Risks relate to **possible future** problems, not current ones
 - They involve a possible cause and its effect(s) e.g. developer leaves > task delayed
 
+Note that good risk management may identify situations where an unexpected future event might present an opportunity to be exploited e.g. a task being less difficult than expected.
 
+![step wise](../static/SPM_7_1.png)
+![categories of risk](../static/SPM_7_2.png)
+
+- **Actors**
+  - Relate to all those involved in the project including both developers, users and managers e.g. a risk could be that high staff turnover leads to information of importance to the project being lost.
+
+- **Technology**
+  - Both that used to implement the project and that embedded in the project deliverables – risk could be that the technologies selected are not in fact appropriate.
+
+- **Structure**
+  - This includes management procedures. Risk here is that a group who needs to carry out a particular project task are not informed of this need because they are not part of the project communication network.
+
+- **Tasks**
+  - The work to be carried out. A typical risk is that the amount of effort needed to carry out the task is underestimated.
+
+# A framework for dealing with risk
+- The planning for risk includes these steps:
+  1. Risk identification – what risks might there be?
+  2. Risk analysis and prioritization – which are the most serious risks?
+  3. Risk planning – what are we going to do about them?
+  4. Risk monitoring – what is the current state of the risk?
+
+## 1 - Risk identification
+- Approaches to identifying risks include:
+  - Use of checklists – usually based on the experience of past projects
+  - Brainstorming – getting knowledgeable stakeholders together to pool concerns
+  - Causal mapping – identifying possible chains of cause and effect
+
+## Boehm’s top 10 development risks
+| Risk | Risk reduction techniques |
+|-|-|
+| Personnel shortfalls | Staffing with top talent; job matching; teambuilding; training and career development; early scheduling of key personnel |
+| Unrealistic time and cost estimates | Multiple estimation techniques; design to cost; incremental development; recording and analysis of past projects; standardization of methods |
+| Developing the wrong software functions | Improved software evaluation; formal specification methods; user surveys; prototyping; early user manuals |
+| Developing the wrong user interface | Prototyping; task analysis; user involvement |
+| Gold plating | Requirements scrubbing, prototyping, design to cost |
+| Late changes to requirements | Change control, incremental development |
+| Shortfalls in externally supplied components | Benchmarking, inspections, formal specifications, contractual agreements, quality controls |
+| Shortfalls in externally performed tasks | Quality assurance procedures, competitive design etc. |
+| Real time performance problems | Simulation, prototyping, tuning |
+| Development technically too difficult | Technical analysis, cost-benefit analysis, prototyping, training |
 
 
 
