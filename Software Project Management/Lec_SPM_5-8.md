@@ -717,6 +717,7 @@ _Ideally_
 - Crudely analogous to the amount needed for an insurance premium
 
 ### Risk probability: qualitative descriptors
+
 | _Probability level_ | _Range_ |
 |-|-|
 | High | Greater than 50% chance of happening |
@@ -725,6 +726,52 @@ _Ideally_
 | Low | Less than 10% chance of happening |
 
 Managers would be happier identifying an approximate range rather than a precise probability.
+
+### Qualitative descriptors of impact on cost and associated range values
+
+| _Probability level_ | _Range_ |
+|-|-|
+| High | Greater than 30% above budgeted expenditure |
+| Significant | 20 to 29% above budgeted expenditure |
+| Moderate | 10 to 19% above budgeted expenditure |
+| Low | Within 10% of budgeted expenditure. |
+
+The problem with the qualitative approach is how do you combine the judgements about probability and impact – you can’t multiply them together.
+
+![example](../static/SPM_7_3.png)
+![probability impact matrix](../static/SPM_7_4.png)
+
+## 3 - Risk Planning
+- Risks can be dealt with by:
+  - Risk acceptance
+    - The cost of avoiding the risk may be greater than the actual cost of the damage that might be inflicted.
+    - The tactic of allowing some risk that is not too costly to manage.
+  - Risk avoidance
+    - Avoid the environment in which the risk occurs
+    - Example: buying an OTS (Off-The-shelf) application would avoid a lot of the risks associated with software development e.g. poor effort estimation. 
+  - Risk reduction
+    - The risk is accepted but actions are taken to reduce its likelihood.
+    - Example: Prototypes ought to reduce the risk of incorrect requirements.  
+  - Risk transfer
+    - The risk is transferred to another person or organization.
+    - Example: The risk of effort estimation can be transferred by negotiating a fixed price contract with an outside software supplier.
+  - Risk mitigation/contingency measures
+    - We try to reduce the impact if the risk does occur
+    - Example: taking backups to allow rapid recovery in the case of data corruption 
+ 
+# Risk Reduction Leverage
+- An insurance company might reduce the fire insurance premium from $2k to $1k on condition that a fire alarm is installed. The insured costumer would save $1k a year by investing $500 so it would be worth doing.
+- Not every risk reduction action is cost-effective. This is why sometimes we accept the risk.
+- If “risk exposure” value can be calculated as a financial value, the cost-effectiveness of a risk reduction action can be assessed by calculating the Rick Reduction Leverage.
+- We estimate RE before and after risk reduction.
+- Risk Reduction Leverage
+  - = (RE<sub>before</sub> - RE<sub>after</sub>)/ (cost of risk reduction)
+- RE<sub>before</sub> is risk exposure before risk reduction e.g. 1% chance of a fire causing $200k damage
+- RE<sub>after</sub> is risk exposure after risk reduction e.g. fire alarm costing $500 reduces probability of fire damage to 0.5%
+- RRL = (1% of $200k)-(0.5% of $200k)/$500 = (0.01*200k)-(0.005*200k)/500=2
+- RRL > 1.00 therefore worth doing
+
+
 
 
 
