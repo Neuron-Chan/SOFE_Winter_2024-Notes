@@ -642,74 +642,25 @@ Float = Latest finish (LF) - Earliest start (ES) - Duration
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 7 | TBD</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 7 | Risk Management</summary>
 
-# 'Step Wise' - aspirations
+# Outline
+- Definition of ‘risk’ and ‘risk management’
+- Some ways of categorizing risk
+- Risk management
+  - Risk identification – what are the risks to a project?
+  - Risk analysis – which ones are really serious?
+  - Risk planning – what shall we do?
+  - Risk monitoring – has the planning worked?
+- We will also look at PERT risk and critical chains
+  - PERT: Program Evaluation Review Technique
 
-- Practicality
-  - tries to answer the question ‘what do I do now?’
-- Scalability
-  - useful for small project as well as large
-- Range of application
-- Accepted techniques
-  - e.g. borrowed from PRINCE etc.
-  - (PRINCE: Project in Controlled Environment)
+# Some definitions of risk
+- 'the chance of exposure to the adverse consequences of future events' - PRINCE2
+- 'an uncertain event or condition that, if it occurs, has a positive or negative effect on a project’s objectives' - PM-BOK
 
-![step wise diagram](../static/SPM_3_1.png)
-
-
-# Project scenario 
-- Brightmouth College currently has payroll processing carried out by a service company
-- This is very expensive and does not allow detailed analysis of personnel data to be carried out
-- Decision made to bring payroll ‘in-house’ by acquiring an ‘off-the-shelf’ application
-- The use of the off-the-shelf system will require a new, internal, payroll office to be setup
-- There will be a need to develop some software ‘add-ons’: one will take payroll data and combine it with time-table data to calculate the staff costs for each course run in the college
-- The project manager is Brigette.
-
-# Step 1: Establish project scope and objectives
-
-- 1.1 Identify objectives and measures of effectiveness
-  - 'how do we know if we have succeeded?'
-- 1.2 Establish a project authority
-  - 'who is the boss?'
-- 1.3 Identify all stakeholders in the project and their interests
-  - 'who will be affected/involved in the project?'
-- 1.4 Modify objectives in the light of stakeholder analysis
-  - 'do we need to do things to win over stakeholders?' Why?
-- 1.5 Establish methods of communication with all parties
-  - 'how do we keep in contact?'
-
-## Scenario review
-- Project authority
-  - Brigette finds she has **two different clients** for the new system: the **finance department** and the **personnel** (HR) office. A vice principal agrees to be official client, and monthly meetings are chaired by the VP and attended by Brigette and the heads of finance and personnel
-  - These meetings would also help overcome communication barriers
-
-- Stakeholders
-  - For example, personnel office (HR) would supply details of new staff, leavers and changes (e.g. promotions)
-  - To motivate co-operation, Brigette might ensure new payroll system produces reports that are useful to personnel staff
-
-# Step 2: Establish project infrastructure
-- 2.1. Establish link between project and any strategic plan (such as enterprise architecture)
-  - 'why did they want the project?'
-- 2.2. Identify installation standards and procedures
-  - 'what standards do we have to follow?'
-- 2.3. Identify project team organization
-  - 'where do I fit in?'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Risks relate to possible future problems, not current ones
+- They involve a possible cause and its effect(s) e.g. developer leaves > task delayed
 
 
 
@@ -720,7 +671,7 @@ Float = Latest finish (LF) - Earliest start (ES) - Duration
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 8 | TBD</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 8 | Resource Allocation (Under Construction)</summary>
 
 # Building versus buying software
 
