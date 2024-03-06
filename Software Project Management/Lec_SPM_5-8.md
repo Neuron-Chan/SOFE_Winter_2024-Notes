@@ -771,11 +771,52 @@ The problem with the qualitative approach is how do you combine the judgements a
 - RRL = (1% of $200k)-(0.5% of $200k)/$500 = (0.01*200k)-(0.005*200k)/500=2
 - RRL > 1.00 therefore worth doing
 
+## Evaluating risk to schedule
+- It is not always possible to assess a risk with financial value
+- In these circumstances, we use effort as a replacement for financial loss.
+- We use PERT to evaluate the effects of uncertainty
+
+# PERT
+- In project management, Project Evaluation Review Technique or PERT is used to identify the time it takes to finish a particular task or activity.
+
+## Using PERT to evaluate the effects of uncertainty
+- Three estimates are produced for each activity:
+  - Optimistic time (a): the shortest time that could be realistically be expected to complete the task.
+  - Most likely time (m): the time we would expect the task to take normally
+  - Pessimistic (b): worst possible time (only 1% chance of being worse, say)
+  - **Expected time: t<sub>e</sub> = (a + 4m +b) / 6**
+  - **Activity standard deviation: S = (b-a)/6**
+
+## Likelihood of Meeting targets
+- Calculate the standard deviation of each project event
+- Calculate the z values for each event that has a target date
+- Z is equivalent to the number of standard deviation between the task’ expected time and target time.
+- Convert z values to probabilities.
+
+![chain of activities](../static/SPM_7_5_1.png)
+![chain of activities](../static/SPM_7_5_2.png)
+
+What would be the expected duration of the chain A + B + C?
+- Answer: 12.66 + 10.33 + 25.66 = 48.65
 
 
+What would be the standard deviation for A + B+ C?
+- Answer: √ (1<sup>2</sup> + 1<sup>2</sup> + 3<sup>2</sup>) = 3.32
 
+## Assessing the likelihood of meeting a target
+- Say the target for completing A+B+C is 52 days (T=52)
+- Calculate the z value:
+  - z = (T – te)/s
+  - In this example z = (52-48.33)/3.32 = 1.01
+  - Look up in table of z values – see next overhead
 
+![graph of z values](../static/SPM_7_6_1.png)
+![graph of z values](../static/SPM_7_6_2.png)
 
+# Advantage of PERT
+- PERT focuses attention on the uncertainty of forecasting
+- Can be used to calculate the STD for each activity and rank them according to degree of risk.
+- Using the expected times and standard deviation for forward passes, we can for any activity estimate the probability of meeting any set target.
 
 </details>
 
