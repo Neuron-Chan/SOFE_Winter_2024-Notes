@@ -693,7 +693,7 @@ Note that good risk management may identify situations where an unexpected futur
   - Causal mapping – identifying possible chains of cause and effect
 
 ## Boehm’s top 10 development risks
-| Risk | Risk reduction techniques |
+| _Risk_ | _Risk reduction techniques_ |
 |-|-|
 | Personnel shortfalls | Staffing with top talent; job matching; teambuilding; training and career development; early scheduling of key personnel |
 | Unrealistic time and cost estimates | Multiple estimation techniques; design to cost; incremental development; recording and analysis of past projects; standardization of methods |
@@ -705,6 +705,28 @@ Note that good risk management may identify situations where an unexpected futur
 | Shortfalls in externally performed tasks | Quality assurance procedures, competitive design etc. |
 | Real time performance problems | Simulation, prototyping, tuning |
 | Development technically too difficult | Technical analysis, cost-benefit analysis, prototyping, training |
+
+## 2 - Risk Analysis and Prioritization
+- Risk Exposure (RE)
+  - = (potential damage) x (probability of occurrence)
+
+_Ideally_
+- **Potential damage**: a money value e.g. a flood would cause $0.5 millions of damage
+- **Probability** 0.00 (absolutely no chance) to 1.00 (absolutely certain) e.g. 0.01 (one in hundred chance)
+- RE = $0.5m x 0.01 = $5,000
+- Crudely analogous to the amount needed for an insurance premium
+
+### Risk probability: qualitative descriptors
+| _Probability level_ | _Range_ |
+|-|-|
+| High | Greater than 50% chance of happening |
+| Significant | 30-50% chance of happening |
+| Moderate | 10-29% chance of happening |
+| Low | Less than 10% chance of happening |
+
+Managers would be happier identifying an approximate range rather than a precise probability.
+
+
 
 
 
