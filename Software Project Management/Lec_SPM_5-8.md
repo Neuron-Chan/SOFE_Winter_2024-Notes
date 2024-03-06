@@ -637,7 +637,7 @@ Float = Latest finish (LF) - Earliest start (ES) - Duration
 
 
 
-
+</details>
 
 ---
 
