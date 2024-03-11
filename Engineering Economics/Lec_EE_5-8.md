@@ -282,11 +282,11 @@ Cash flow diagrams are:
 - Continuous Compounding Sinking Fund
 [𝐴/𝐹, 𝑟, 𝑛] = (𝑒<sup>𝑟</sup> − 1)/(𝑒<sup>𝑟𝑛</sup> − 1)
 - Continuous Compounding Capital Recovery
-[𝐴/𝑃, 𝑟, 𝑛] = 𝑒<sup>𝑟𝑛</sup>*(𝑒<sup>𝑟</sup> − 1)/(𝑒<sup>𝑟𝑛</sup> − 1)
+[𝐴/𝑃, 𝑟, 𝑛] = (𝑒<sup>𝑟𝑛</sup> * (𝑒<sup>𝑟</sup> − 1))/(𝑒<sup>𝑟𝑛</sup> − 1)
 - Continuous Compounding Series Compound Amount
 [𝐹/𝐴, 𝑟, 𝑛] = (𝑒<sup>𝑟𝑛</sup> − 1)/(𝑒<sup>𝑟</sup> − 1)
 - Continuous Compounding Series Present Worth
-[𝑃/𝐴, 𝑟, 𝑛] = (𝑒<sup>𝑟𝑛</sup> − 1)/𝑒<sup>𝑟𝑛</sup>*(𝑒<sup>𝑟</sup> − 1)
+[𝑃/𝐴, 𝑟, 𝑛] = (𝑒<sup>𝑟𝑛</sup> − 1)/(𝑒<sup>𝑟𝑛</sup> * (𝑒<sup>𝑟</sup> − 1))
 
 </details>
 
