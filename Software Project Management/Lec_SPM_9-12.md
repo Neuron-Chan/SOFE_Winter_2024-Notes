@@ -220,7 +220,48 @@ We might focus more on monitoring certain types of activity e.g.
 <details>
   <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 10 | Contract Management</summary>
 
- Coming soon!
+# Objective
+-  Understand the advantages and disadvantages of using goods and services brought from outside the organization
+- Distinguish among the different types of contracts
+- Follow the stages needed to negotiate a contract.
+- Plan the evaluation of a proposed or a product.
+
+# Acquiring software from external supplier
+This could be:
+- a bespoke system - created specially for the customer
+- off-the-shelf - bought ‘as is’
+- customized off-the-shelf (COTS) - a core system is customized to meet needs of a particular customer
+
+## Types of contract
+- Fixed price contracts
+- Time and materials contracts
+- Fixed price per delivered unit
+
+- Note difference between goods and services
+- Often license to use software is bought rather than the software itself
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 </details>
 
