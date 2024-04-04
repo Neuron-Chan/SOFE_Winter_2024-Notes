@@ -188,24 +188,58 @@ We might focus more on monitoring certain types of activity e.g.
   - Work overtime
   - Re-allocate staff from less pressing work
   - Buy in more staff
+- Reconsider activity dependencies
+  - allowing activities to overlap often increases the risk of quality shortfalls
+  - Overlap the activities so that the start of one activity does not have to wait for completion of another
+  - Split activities
 
+# Exception planning
+- Some changes could affect
+  - Users
+  - The business case (e.g. costs increase reducing the potential profits of delivered software product)
+- These changes could be to
+  - Delivery date
+  - Scope
+  - Cost
+- In these cases an exception report is needed
 
+## First stage
+- Write an exception report for sponsors (perhaps through project board)
+  - Explaining problems
+  - Setting out options for resolution
 
-
-
-
-
-
-
+## Second stage
+- Sponsor selects an option ( or identifies another option)
+- Project manager produces an exception plan implementing selected option
+- Exception plan is reviewed and accepted/rejected by sponsors/Project Board
 
 </details>
 
 ---
 
 <details>
-  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 10 | TBD</summary>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 10 | Contract Management</summary>
 
  Coming soon!
  
 </details>
 
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 11 | Managing People in Software Environments</summary>
+
+ Coming soon!
+ 
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Lecture 12 | Working in Teams</summary>
+
+ Coming soon!
+ 
+</details>
+
+---
