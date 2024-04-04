@@ -164,10 +164,30 @@ SV = EV / PV
 
 CV = EV / AC
 
+# Prioritizing monitoring
+We might focus more on monitoring certain types of activity e.g.
+- Critical path activities
+  - by definition if these are late then the project as a whole will be delayed
+- Activities with no free float – if delayed later dependent activities are delayed
+  - A project with no free float will delay following dependent activities, although the project end date may not be directly threatened.
+- Activities with less than a specified float
+  - projects when being executed can be very dynamic: some activities will take longer than estimated others less; this could lead to the critical shifting. Activities with small floats are the most likely to find themselves turned into activities on the critical path if their floats get eroded.
+- High risk activities
+  - If the standard deviation for an activity is large, this indicates that there is a lot of uncertainty about how long it will actually take.
+- Activities using critical resources
+  - some resources may only be available for a limited period and if the activities that need the resource are delayed the resource could become unavailable.
 
+  ## Getting back on track: options
+- Renegotiate the deadline
+  - One way of doing this is to divide the deliverables into ‘tranches’ (see Lecture/Chapter 3), delivering the ones most valuable to the client on or before the deadline, but delaying less valuable ones.
 
-
-
+**If not possible then**:
+- Try to shorten critical path
+- The idea is to try to get things done more quickly by adding more staff. Some activities lend themselves to this more readily than others – it is often quite difficult to do this with software development. It also increases costs.
+- For example:
+  - Work overtime
+  - Re-allocate staff from less pressing work
+  - Buy in more staff
 
 
 
